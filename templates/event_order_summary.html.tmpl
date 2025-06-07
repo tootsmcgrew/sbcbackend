@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{.Event}} Order Summary</title>
+  <link rel="stylesheet" href="/static/css/custom.css">
+  <link rel="stylesheet" href="/static/css/simple.css">
+</head>
+<body>
+  <div class="container">
+    <h1>{{formatDisplayName .Event}} {{currentYear}}</h1>
+    
+    <table class="summary-table">
+      <tr>
+        <th colspan="2">Registration Details</th>
+      </tr>
+      <tr>
+        <td>Parent/Guardian:</td>
+        <td>{{.FullName}}</td>
+      </tr>
+      <tr>
+        <td>Email:</td>
+        <td>{{.Email}}</td>
+      </tr>
+      <tr>
+        <td>School:</td>
+        <td>{{.School}}</td>
+      </tr>
+      {{if .FoodOrderID}}
+      <tr>
+        <td>Order ID:</td>
+        <td><strong>{{.FoodOrderID}}</strong></td>
+      </tr>
+      {{end}}
+    </table>
+
+    <div class="students-block">
+      <h3>Registered Students ({{.StudentCount}})</h3>
+      <ul class="list">
+        {{range .Students}}
+          <li>{{.Name}} - Grade {{.Grade}}</li>
+        {{end}}
+      </ul>
+    </div>
+
+    {{if .EventItemsDisplay}}
+    <div class="students-block">
+      <h3>Selected Options</h3>
+      
+      {{/* Group items by student and shared */}}
+      {{$hasPerStudentItems := false}}
+      {{$hasSharedItems := false}}
+      
+      {{range .EventItemsDisplay}}
+        {{if .IsShared}}
+          {{$hasSharedItems = true}}
+        {{else}}
+          {{$hasPerStudentItems = true}}
+        {{end}}
+      {{end}}
+      
+      {{if $hasPerStudentItems}}
+        <h4>Per-Student Options:</h4>
+        <table class="summary-table">
+          {{range .EventItemsDisplay}}
+            {{if not .IsShared}}
+            <tr>
+              <td>{{.StudentName}} - {{.ItemLabel}}</td>
+              <td>{{formatCurrency .TotalPrice}}</td>
+            </tr>
+            {{end}}
+          {{end}}
+        </table>
+      {{end}}
+      
+      {{if $hasSharedItems}}
+        <h4>Additional Options:</h4>
+        <table class="summary-table">
+          {{range .EventItemsDisplay}}
+            {{if .IsShared}}
+            <tr>
+              <td>{{.ItemLabel}} {{if gt .Quantity 1}}(×{{.Quantity}}){{end}}</td>
+              <td>{{formatCurrency .TotalPrice}}</td>
+            </tr>
+            {{end}}
+          {{end}}
+        </table>
+      {{end}}
+    </div>
+    {{end}}
+
+    {{if .CoverFees}}
+    <div class="students-block">
+      <table class="summary-table">
+        <tr>
+          <td>Subtotal:</td>
+          <td>{{formatCurrency (sub .CalculatedAmount .ProcessingFee)}}</td>
+        </tr>
+        <tr>
+          <td>Processing Fee:</td>
+          <td>{{formatCurrency .ProcessingFee}}</td>
+        </tr>
+      </table>
+    </div>
+    {{end}}
+
+    <div class="grand-total">
+      Total Amount: {{formatCurrency .CalculatedAmount}}
+    </div>
+
+    <p class="center">Click the button below to complete your payment with PayPal.</p>
+    
+    <div id="paypal-button-container"></div>
+    
+    <!-- Hidden fields for payment.js -->
+    <input type="hidden" id="form-id" value="{{.FormID}}">
+  </div>
+
+  <script src="https://{{if eq (getenv "PAYPAL_MODE") "live"}}www.paypal.com{{else}}www.sandbox.paypal.com{{end}}/sdk/js?client-id={{getenv "PAYPAL_CLIENT_ID"}}&currency=USD&disable-funding=paylater&buyer-country=US"></script>
+  <script src="/static/js/payment.js"></script>
+</body>
+</html>

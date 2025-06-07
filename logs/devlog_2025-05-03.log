@@ -1,0 +1,349 @@
+2025/05/03 17:36:58 [INFO] 2025-05-03 17:36:58 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-03.log
+2025/05/03 17:36:58 [INFO] 2025-05-03 17:36:58 CDT main.go:50 - Environment and paths loaded. Logger ready.
+2025/05/03 17:36:58 [INFO] 2025-05-03 17:36:58 CDT config.go:186 - Using PayPal Sandbox environment
+2025/05/03 17:36:58 [INFO] 2025-05-03 17:36:58 CDT main.go:61 - Pending payments preloaded successfully.
+2025/05/03 17:36:58 [INFO] 2025-05-03 17:36:58 CDT config.go:58 - Running in development environment
+2025/05/03 17:36:58 [INFO] 2025-05-03 17:36:58 CDT main.go:133 - Starting server on 0.0.0.0:5051
+2025/05/03 17:37:29 [INFO] 2025-05-03 17:37:29 CDT main.go:141 - Shutdown signal received
+2025/05/03 17:37:29 [INFO] 2025-05-03 17:37:29 CDT main.go:151 - Server shut down gracefully
+2025/05/03 17:37:29 [INFO] 2025-05-03 17:37:29 CDT main.go:155 - Shutdown signal received
+2025/05/03 17:37:29 [INFO] 2025-05-03 17:37:29 CDT main.go:156 - Waiting for active connections to finish...
+2025/05/03 17:37:29 [INFO] 2025-05-03 17:37:29 CDT main.go:158 - All connections closed. Total requests handled: 0
+2025/05/03 17:37:29 [INFO] 2025-05-03 17:37:29 CDT main.go:159 - Server shut down gracefully
+2025/05/03 17:41:54 [INFO] 2025-05-03 17:41:54 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-03.log
+2025/05/03 17:41:54 [INFO] 2025-05-03 17:41:54 CDT main.go:50 - Environment and paths loaded. Logger ready.
+2025/05/03 17:41:54 [INFO] 2025-05-03 17:41:54 CDT config.go:186 - Using PayPal Sandbox environment
+2025/05/03 17:41:54 [INFO] 2025-05-03 17:41:54 CDT main.go:61 - Pending payments preloaded successfully.
+2025/05/03 17:41:54 [INFO] 2025-05-03 17:41:54 CDT config.go:58 - Running in development environment
+2025/05/03 17:41:54 [INFO] 2025-05-03 17:41:54 CDT main.go:133 - Starting server on 0.0.0.0:5051
+2025/05/03 17:41:57 [INFO] 2025-05-03 17:41:57 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/03 17:41:57 [INFO] 2025-05-03 17:41:57 CDT main.go:187 - GET /api/csrf-token took 289.161µs
+2025/05/03 17:43:03 [INFO] 2025-05-03 17:43:03 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/05/03 17:43:03 [INFO] 2025-05-03 17:43:03 CDT form.go:76 - Form values received: map[csrf_token:[opLwzEERsX2yNJxjdXFj5bT4YCSgxeHfZ7ly0mWmccg=] describe:[at-home-teacher] email:[ralph@authors.net] form_type:[membership] full_name:[Ralph Ellison] hidden_field:[] interests:[volunteering board-service] membership_status:[returning] school:[south-euless] student_1_grade:[1] student_1_name:[Teagan Ellison] student_2_grade:[K] student_2_name:[Pinto Ellison] student_3_grade:[5] student_3_name:[Dream Ellison] student_count:[3]]
+2025/05/03 17:43:03 [INFO] 2025-05-03 17:43:03 CDT form.go:55 - Stat update: total_submissions = 1
+2025/05/03 17:43:03 [INFO] 2025-05-03 17:43:03 CDT data.go:131 - Form saved successfully: booster/data/memberships/2025/membership-2025-05-03_17-43-03-NL-YVg.json
+2025/05/03 17:43:03 [INFO] 2025-05-03 17:43:03 CDT form.go:148 - Form membership-2025-05-03_17-43-03-NL-YVg accepted and saved successfully
+2025/05/03 17:43:03 [INFO] 2025-05-03 17:43:03 CDT form.go:55 - Stat update: successful_submissions = 1
+2025/05/03 17:43:03 [INFO] 2025-05-03 17:43:03 CDT form.go:271 - Form submitted: type=membership, formID=membership-2025-05-03_17-43-03-NL-YVg, ip=127.0.0.1, time=2025-05-03 17:43:03
+2025/05/03 17:43:03 [INFO] 2025-05-03 17:43:03 CDT main.go:187 - POST /api/submit-form took 1.687313ms
+2025/05/03 17:43:22 [INFO] 2025-05-03 17:43:22 CDT logger.go:122 - HTTP POST /save-payment-data from 127.0.0.1
+2025/05/03 17:43:22 [INFO] 2025-05-03 17:43:22 CDT payment.go:652 - Processing payment form: membership-2025-05-03_17-43-03-NL-YVg
+2025/05/03 17:43:22 [INFO] 2025-05-03 17:43:22 CDT payment.go:693 - Saving payment data to: ./booster/data/memberships/2025/membership-2025-05-03_17-43-03-NL-YVg.json
+2025/05/03 17:43:22 [INFO] 2025-05-03 17:43:22 CDT payment.go:733 - Base membership 'Premium Membership' = $50.00
+2025/05/03 17:43:22 [INFO] 2025-05-03 17:43:22 CDT payment.go:737 - Addon 'T-Shirt' = $15.00
+2025/05/03 17:43:22 [INFO] 2025-05-03 17:43:22 CDT payment.go:742 - Donation = $3.00
+2025/05/03 17:43:22 [INFO] 2025-05-03 17:43:22 CDT payment.go:750 - Covering processing fees: +$1.85
+2025/05/03 17:43:22 [INFO] 2025-05-03 17:43:22 CDT payment.go:754 - Calculated total amount for membership-2025-05-03_17-43-03-NL-YVg: $69.85
+2025/05/03 17:43:22 [INFO] 2025-05-03 17:43:22 CDT payment.go:764 - Generated access token for membership-2025-05-03_17-43-03-NL-YVg: dMgDlhyeb8N1-Rr9ivTdhg==
+2025/05/03 17:43:22 [INFO] 2025-05-03 17:43:22 CDT data.go:370 - Backup written to booster/data/backup/membership-2025-05-03_17-43-03-NL-YVg.json.bak
+2025/05/03 17:43:22 [INFO] 2025-05-03 17:43:22 CDT data.go:380 - Successfully wrote file ./booster/data/memberships/2025/membership-2025-05-03_17-43-03-NL-YVg.json
+2025/05/03 17:43:22 [INFO] 2025-05-03 17:43:22 CDT payment.go:791 - [SavePaymentDataHandler] Successfully processed form membership-2025-05-03_17-43-03-NL-YVg
+2025/05/03 17:43:22 [INFO] 2025-05-03 17:43:22 CDT main.go:187 - POST /api/save-payment-data took 3.488808ms
+2025/05/03 17:43:22 [INFO] 2025-05-03 17:43:22 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/03 17:43:22 [INFO] 2025-05-03 17:43:22 CDT payment.go:940 - Successfully verified access token for formID membership-2025-05-03_17-43-03-NL-YVg
+2025/05/03 17:43:22 [INFO] 2025-05-03 17:43:22 CDT main.go:187 - GET /api/order-details took 612.579µs
+2025/05/03 17:43:29 [INFO] 2025-05-03 17:43:29 CDT payment.go:190 - Requesting PayPal access token
+2025/05/03 17:43:30 [INFO] 2025-05-03 17:43:30 CDT payment.go:232 - Successfully obtained PayPal access token (app_id: APP-80W284485P519543T, expires in 32400 seconds)
+2025/05/03 17:43:30 [INFO] 2025-05-03 17:43:30 CDT payment.go:295 - Creating PayPal order
+2025/05/03 17:43:31 [INFO] 2025-05-03 17:43:31 CDT payment.go:317 - Successfully created PayPal order
+2025/05/03 17:43:31 [INFO] 2025-05-03 17:43:31 CDT data.go:370 - Backup written to booster/data/backup/membership-2025-05-03_17-43-03-NL-YVg.json.bak
+2025/05/03 17:43:31 [INFO] 2025-05-03 17:43:31 CDT data.go:380 - Successfully wrote file ./booster/data/memberships/2025/membership-2025-05-03_17-43-03-NL-YVg.json
+2025/05/03 17:43:31 [INFO] 2025-05-03 17:43:31 CDT payment.go:437 - PayPal order 5EL62393HM910181J successfully created and stored for formID membership-2025-05-03_17-43-03-NL-YVg
+2025/05/03 17:43:31 [INFO] 2025-05-03 17:43:31 CDT main.go:187 - POST /api/create-order took 1.99422589s
+2025/05/03 17:44:26 [INFO] 2025-05-03 17:44:26 CDT logger.go:122 - HTTP POST /capture-order from 127.0.0.1
+2025/05/03 17:44:26 [INFO] 2025-05-03 17:44:26 CDT payment.go:461 - Capture request received for OrderID: 5EL62393HM910181J, FormID: membership-2025-05-03_17-43-03-NL-YVg
+2025/05/03 17:44:26 [INFO] 2025-05-03 17:44:26 CDT payment.go:473 - Checking form file at path: ./booster/data/memberships/2025/membership-2025-05-03_17-43-03-NL-YVg.json
+2025/05/03 17:44:26 [INFO] 2025-05-03 17:44:26 CDT payment.go:190 - Requesting PayPal access token
+2025/05/03 17:44:26 [INFO] 2025-05-03 17:44:26 CDT payment.go:232 - Successfully obtained PayPal access token (app_id: APP-80W284485P519543T, expires in 32344 seconds)
+2025/05/03 17:44:26 [INFO] 2025-05-03 17:44:26 CDT payment.go:503 - Sending capture request to PayPal: https://api.sandbox.paypal.com/v2/checkout/orders/5EL62393HM910181J/capture
+2025/05/03 17:44:28 [INFO] 2025-05-03 17:44:28 CDT payment.go:535 - Capture response for OrderID 5EL62393HM910181J: {"id":"5EL62393HM910181J","status":"COMPLETED","payment_source":{"paypal":{"email_address":"sb-e5ssw36384283@personal.example.com","account_id":"RD37TRTBVLK7L","account_status":"VERIFIED","name":{"given_name":"John","surname":"Doe"},"address":{"country_code":"US"}}},"purchase_units":[{"reference_id":"default","shipping":{"name":{"full_name":"John Doe"},"address":{"address_line_1":"1 Main St","admin_area_2":"San Jose","admin_area_1":"CA","postal_code":"95131","country_code":"US"}},"payments":{"captures":[{"id":"2S606130PS944594V","status":"COMPLETED","amount":{"currency_code":"USD","value":"69.85"},"final_capture":true,"seller_protection":{"status":"ELIGIBLE","dispute_categories":["ITEM_NOT_RECEIVED","UNAUTHORIZED_TRANSACTION"]},"seller_receivable_breakdown":{"gross_amount":{"currency_code":"USD","value":"69.85"},"paypal_fee":{"currency_code":"USD","value":"2.93"},"net_amount":{"currency_code":"USD","value":"66.92"}},"invoice_id":"membership-2025-05-03_17-43-03-NL-YVg","links":[{"href":"https://api.sandbox.paypal.com/v2/payments/captures/2S606130PS944594V","rel":"self","method":"GET"},{"href":"https://api.sandbox.paypal.com/v2/payments/captures/2S606130PS944594V/refund","rel":"refund","method":"POST"},{"href":"https://api.sandbox.paypal.com/v2/checkout/orders/5EL62393HM910181J","rel":"up","method":"GET"}],"create_time":"2025-05-03T22:44:27Z","update_time":"2025-05-03T22:44:27Z"}]}}],"payer":{"name":{"given_name":"John","surname":"Doe"},"email_address":"sb-e5ssw36384283@personal.example.com","payer_id":"RD37TRTBVLK7L","address":{"country_code":"US"}},"links":[{"href":"https://api.sandbox.paypal.com/v2/checkout/orders/5EL62393HM910181J","rel":"self","method":"GET"}]}
+2025/05/03 17:44:28 [INFO] 2025-05-03 17:44:28 CDT payment.go:540 - Attempting to update form file with capture data: ./booster/data/memberships/2025/membership-2025-05-03_17-43-03-NL-YVg.json
+2025/05/03 17:44:28 [INFO] 2025-05-03 17:44:28 CDT data.go:370 - Backup written to booster/data/backup/membership-2025-05-03_17-43-03-NL-YVg.json.bak
+2025/05/03 17:44:28 [INFO] 2025-05-03 17:44:28 CDT data.go:380 - Successfully wrote file ./booster/data/memberships/2025/membership-2025-05-03_17-43-03-NL-YVg.json
+2025/05/03 17:44:28 [INFO] 2025-05-03 17:44:28 CDT payment.go:565 - Successfully updated form file with capture details
+2025/05/03 17:44:28 [INFO] 2025-05-03 17:44:28 CDT main.go:187 - POST /api/capture-order took 2.0412151s
+2025/05/03 17:44:30 [INFO] 2025-05-03 17:44:30 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/03 17:44:30 [INFO] 2025-05-03 17:44:30 CDT payment.go:940 - Successfully verified access token for formID membership-2025-05-03_17-43-03-NL-YVg
+2025/05/03 17:44:30 [INFO] 2025-05-03 17:44:30 CDT main.go:187 - GET /api/order-details took 670.446µs
+2025/05/03 17:46:54 [INFO] 2025-05-03 17:46:54 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 17:51:54 [INFO] 2025-05-03 17:51:54 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 17:53:37 [INFO] 2025-05-03 17:53:37 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/03 17:53:37 [INFO] 2025-05-03 17:53:37 CDT main.go:187 - GET /api/csrf-token took 474.636µs
+2025/05/03 17:54:24 [INFO] 2025-05-03 17:54:24 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/05/03 17:54:24 [INFO] 2025-05-03 17:54:24 CDT form.go:76 - Form values received: map[csrf_token:[5KPZFo8Qqnc7793w+Lhtk7Wv8/dUFWAgLbmwHCYV1bk=] describe:[at-home-teacher] email:[skater@usa.com] form_type:[membership] full_name:[Brian Boitano] hidden_field:[] interests:[volunteering] membership_status:[first-time] school:[lakewood] student_1_grade:[K] student_1_name:[Lindsay Boitano] student_2_grade:[5] student_2_name:[William Jones LaRue] student_count:[2]]
+2025/05/03 17:54:24 [INFO] 2025-05-03 17:54:24 CDT form.go:55 - Stat update: total_submissions = 2
+2025/05/03 17:54:24 [INFO] 2025-05-03 17:54:24 CDT data.go:131 - Form saved successfully: booster/data/memberships/2025/membership-2025-05-03_17-54-24-wqLveQ.json
+2025/05/03 17:54:24 [INFO] 2025-05-03 17:54:24 CDT form.go:148 - Form membership-2025-05-03_17-54-24-wqLveQ accepted and saved successfully
+2025/05/03 17:54:24 [INFO] 2025-05-03 17:54:24 CDT form.go:55 - Stat update: successful_submissions = 2
+2025/05/03 17:54:24 [INFO] 2025-05-03 17:54:24 CDT form.go:271 - Form submitted: type=membership, formID=membership-2025-05-03_17-54-24-wqLveQ, ip=127.0.0.1, time=2025-05-03 17:54:24
+2025/05/03 17:54:24 [INFO] 2025-05-03 17:54:24 CDT main.go:187 - POST /api/submit-form took 2.403482ms
+2025/05/03 17:56:54 [INFO] 2025-05-03 17:56:54 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 18:01:54 [INFO] 2025-05-03 18:01:54 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 18:04:02 [INFO] 2025-05-03 18:04:02 CDT logger.go:122 - HTTP POST /save-payment-data from 127.0.0.1
+2025/05/03 18:04:02 [INFO] 2025-05-03 18:04:02 CDT payment.go:652 - Processing payment form: membership-2025-05-03_17-54-24-wqLveQ
+2025/05/03 18:04:02 [INFO] 2025-05-03 18:04:02 CDT payment.go:693 - Saving payment data to: ./booster/data/memberships/2025/membership-2025-05-03_17-54-24-wqLveQ.json
+2025/05/03 18:04:02 [INFO] 2025-05-03 18:04:02 CDT payment.go:733 - Base membership 'Premium Membership' = $50.00
+2025/05/03 18:04:02 [INFO] 2025-05-03 18:04:02 CDT payment.go:737 - Addon 'T-Shirt' = $15.00
+2025/05/03 18:04:02 [INFO] 2025-05-03 18:04:02 CDT payment.go:742 - Donation = $6.00
+2025/05/03 18:04:02 [INFO] 2025-05-03 18:04:02 CDT payment.go:750 - Covering processing fees: +$1.91
+2025/05/03 18:04:02 [INFO] 2025-05-03 18:04:02 CDT payment.go:754 - Calculated total amount for membership-2025-05-03_17-54-24-wqLveQ: $72.91
+2025/05/03 18:04:02 [INFO] 2025-05-03 18:04:02 CDT payment.go:764 - Generated access token for membership-2025-05-03_17-54-24-wqLveQ: zTAk07gD6py8f_5HZCWzMw==
+2025/05/03 18:04:02 [INFO] 2025-05-03 18:04:02 CDT data.go:370 - Backup written to booster/data/backup/membership-2025-05-03_17-54-24-wqLveQ.json.bak
+2025/05/03 18:04:02 [INFO] 2025-05-03 18:04:02 CDT data.go:380 - Successfully wrote file ./booster/data/memberships/2025/membership-2025-05-03_17-54-24-wqLveQ.json
+2025/05/03 18:04:02 [INFO] 2025-05-03 18:04:02 CDT payment.go:791 - [SavePaymentDataHandler] Successfully processed form membership-2025-05-03_17-54-24-wqLveQ
+2025/05/03 18:04:02 [INFO] 2025-05-03 18:04:02 CDT main.go:187 - POST /api/save-payment-data took 4.248238ms
+2025/05/03 18:04:02 [INFO] 2025-05-03 18:04:02 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/03 18:04:02 [INFO] 2025-05-03 18:04:02 CDT payment.go:940 - Successfully verified access token for formID membership-2025-05-03_17-54-24-wqLveQ
+2025/05/03 18:04:02 [INFO] 2025-05-03 18:04:02 CDT main.go:187 - GET /api/order-details took 453.385µs
+2025/05/03 18:06:08 [INFO] 2025-05-03 18:06:08 CDT payment.go:190 - Requesting PayPal access token
+2025/05/03 18:06:09 [INFO] 2025-05-03 18:06:09 CDT payment.go:232 - Successfully obtained PayPal access token (app_id: APP-80W284485P519543T, expires in 32400 seconds)
+2025/05/03 18:06:09 [INFO] 2025-05-03 18:06:09 CDT payment.go:295 - Creating PayPal order
+2025/05/03 18:06:10 [INFO] 2025-05-03 18:06:10 CDT payment.go:317 - Successfully created PayPal order
+2025/05/03 18:06:10 [INFO] 2025-05-03 18:06:10 CDT data.go:370 - Backup written to booster/data/backup/membership-2025-05-03_17-54-24-wqLveQ.json.bak
+2025/05/03 18:06:10 [INFO] 2025-05-03 18:06:10 CDT data.go:380 - Successfully wrote file ./booster/data/memberships/2025/membership-2025-05-03_17-54-24-wqLveQ.json
+2025/05/03 18:06:10 [INFO] 2025-05-03 18:06:10 CDT payment.go:437 - PayPal order 5AN21494FM9466425 successfully created and stored for formID membership-2025-05-03_17-54-24-wqLveQ
+2025/05/03 18:06:10 [INFO] 2025-05-03 18:06:10 CDT main.go:187 - POST /api/create-order took 2.219393753s
+2025/05/03 18:06:52 [INFO] 2025-05-03 18:06:52 CDT logger.go:122 - HTTP POST /capture-order from 127.0.0.1
+2025/05/03 18:06:52 [INFO] 2025-05-03 18:06:52 CDT payment.go:461 - Capture request received for OrderID: 5AN21494FM9466425, FormID: membership-2025-05-03_17-54-24-wqLveQ
+2025/05/03 18:06:52 [INFO] 2025-05-03 18:06:52 CDT payment.go:473 - Checking form file at path: ./booster/data/memberships/2025/membership-2025-05-03_17-54-24-wqLveQ.json
+2025/05/03 18:06:52 [INFO] 2025-05-03 18:06:52 CDT payment.go:190 - Requesting PayPal access token
+2025/05/03 18:06:52 [INFO] 2025-05-03 18:06:52 CDT payment.go:232 - Successfully obtained PayPal access token (app_id: APP-80W284485P519543T, expires in 32357 seconds)
+2025/05/03 18:06:52 [INFO] 2025-05-03 18:06:52 CDT payment.go:503 - Sending capture request to PayPal: https://api.sandbox.paypal.com/v2/checkout/orders/5AN21494FM9466425/capture
+2025/05/03 18:06:54 [INFO] 2025-05-03 18:06:54 CDT payment.go:535 - Capture response for OrderID 5AN21494FM9466425: {"id":"5AN21494FM9466425","status":"COMPLETED","payment_source":{"paypal":{"email_address":"sb-e5ssw36384283@personal.example.com","account_id":"RD37TRTBVLK7L","account_status":"VERIFIED","name":{"given_name":"John","surname":"Doe"},"address":{"country_code":"US"}}},"purchase_units":[{"reference_id":"default","shipping":{"name":{"full_name":"John Doe"},"address":{"address_line_1":"1 Main St","admin_area_2":"San Jose","admin_area_1":"CA","postal_code":"95131","country_code":"US"}},"payments":{"captures":[{"id":"7LF89329HU386562T","status":"COMPLETED","amount":{"currency_code":"USD","value":"72.91"},"final_capture":true,"seller_protection":{"status":"ELIGIBLE","dispute_categories":["ITEM_NOT_RECEIVED","UNAUTHORIZED_TRANSACTION"]},"seller_receivable_breakdown":{"gross_amount":{"currency_code":"USD","value":"72.91"},"paypal_fee":{"currency_code":"USD","value":"3.03"},"net_amount":{"currency_code":"USD","value":"69.88"}},"invoice_id":"membership-2025-05-03_17-54-24-wqLveQ","links":[{"href":"https://api.sandbox.paypal.com/v2/payments/captures/7LF89329HU386562T","rel":"self","method":"GET"},{"href":"https://api.sandbox.paypal.com/v2/payments/captures/7LF89329HU386562T/refund","rel":"refund","method":"POST"},{"href":"https://api.sandbox.paypal.com/v2/checkout/orders/5AN21494FM9466425","rel":"up","method":"GET"}],"create_time":"2025-05-03T23:06:53Z","update_time":"2025-05-03T23:06:53Z"}]}}],"payer":{"name":{"given_name":"John","surname":"Doe"},"email_address":"sb-e5ssw36384283@personal.example.com","payer_id":"RD37TRTBVLK7L","address":{"country_code":"US"}},"links":[{"href":"https://api.sandbox.paypal.com/v2/checkout/orders/5AN21494FM9466425","rel":"self","method":"GET"}]}
+2025/05/03 18:06:54 [INFO] 2025-05-03 18:06:54 CDT payment.go:540 - Attempting to update form file with capture data: ./booster/data/memberships/2025/membership-2025-05-03_17-54-24-wqLveQ.json
+2025/05/03 18:06:54 [INFO] 2025-05-03 18:06:54 CDT data.go:370 - Backup written to booster/data/backup/membership-2025-05-03_17-54-24-wqLveQ.json.bak
+2025/05/03 18:06:54 [INFO] 2025-05-03 18:06:54 CDT data.go:380 - Successfully wrote file ./booster/data/memberships/2025/membership-2025-05-03_17-54-24-wqLveQ.json
+2025/05/03 18:06:54 [INFO] 2025-05-03 18:06:54 CDT payment.go:565 - Successfully updated form file with capture details
+2025/05/03 18:06:54 [INFO] 2025-05-03 18:06:54 CDT main.go:187 - POST /api/capture-order took 2.144265156s
+2025/05/03 18:06:54 [INFO] 2025-05-03 18:06:54 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 18:06:57 [INFO] 2025-05-03 18:06:57 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/03 18:06:57 [INFO] 2025-05-03 18:06:57 CDT payment.go:940 - Successfully verified access token for formID membership-2025-05-03_17-54-24-wqLveQ
+2025/05/03 18:06:57 [INFO] 2025-05-03 18:06:57 CDT main.go:187 - GET /api/order-details took 698.198µs
+2025/05/03 19:36:14 [INFO] 2025-05-03 19:36:14 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 19:41:14 [INFO] 2025-05-03 19:41:14 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 20:01:30 [INFO] 2025-05-03 20:01:30 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 20:12:09 [INFO] 2025-05-03 20:12:09 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 20:32:05 [INFO] 2025-05-03 20:32:05 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 20:54:10 [INFO] 2025-05-03 20:54:10 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 21:12:20 [INFO] 2025-05-03 21:12:20 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 21:34:47 [INFO] 2025-05-03 21:34:47 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 21:55:19 [INFO] 2025-05-03 21:55:19 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 22:07:08 [INFO] 2025-05-03 22:07:08 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 22:12:09 [INFO] 2025-05-03 22:12:09 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 22:12:09 [INFO] 2025-05-03 22:12:09 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/03 22:12:09 [INFO] 2025-05-03 22:12:09 CDT main.go:187 - GET /api/csrf-token took 375.286µs
+2025/05/03 22:12:57 [INFO] 2025-05-03 22:12:57 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/05/03 22:12:57 [INFO] 2025-05-03 22:12:57 CDT form.go:76 - Form values received: map[csrf_token:[nj0RK44yIhcnNz4X/UpMVYfbkDmw0T7rLpET6vYVwPk=] describe:[at-home-teacher] email:[warren@hebisd.net] form_type:[membership] full_name:[Thoughts Warren] hidden_field:[] interests:[volunteering] membership_status:[first-time] school:[north-euless] student_1_grade:[5] student_1_name:[William Thoughts] student_count:[1]]
+2025/05/03 22:12:57 [INFO] 2025-05-03 22:12:57 CDT form.go:55 - Stat update: total_submissions = 3
+2025/05/03 22:12:57 [INFO] 2025-05-03 22:12:57 CDT data.go:131 - Form saved successfully: booster/data/memberships/2025/membership-2025-05-03_22-12-57-3iDgMg.json
+2025/05/03 22:12:57 [INFO] 2025-05-03 22:12:57 CDT form.go:148 - Form membership-2025-05-03_22-12-57-3iDgMg accepted and saved successfully
+2025/05/03 22:12:57 [INFO] 2025-05-03 22:12:57 CDT form.go:55 - Stat update: successful_submissions = 3
+2025/05/03 22:12:57 [INFO] 2025-05-03 22:12:57 CDT form.go:271 - Form submitted: type=membership, formID=membership-2025-05-03_22-12-57-3iDgMg, ip=127.0.0.1, time=2025-05-03 22:12:57
+2025/05/03 22:12:57 [INFO] 2025-05-03 22:12:57 CDT main.go:187 - POST /api/submit-form took 4.550306ms
+2025/05/03 22:13:18 [INFO] 2025-05-03 22:13:18 CDT logger.go:122 - HTTP POST /save-payment-data from 127.0.0.1
+2025/05/03 22:13:18 [INFO] 2025-05-03 22:13:18 CDT payment.go:652 - Processing payment form: membership-2025-05-03_22-12-57-3iDgMg
+2025/05/03 22:13:18 [INFO] 2025-05-03 22:13:18 CDT payment.go:693 - Saving payment data to: ./booster/data/memberships/2025/membership-2025-05-03_22-12-57-3iDgMg.json
+2025/05/03 22:13:18 [INFO] 2025-05-03 22:13:18 CDT payment.go:733 - Base membership 'Basic Membership' = $25.00
+2025/05/03 22:13:18 [INFO] 2025-05-03 22:13:18 CDT payment.go:737 - Addon 'Sticker Pack' = $5.00
+2025/05/03 22:13:18 [INFO] 2025-05-03 22:13:18 CDT payment.go:742 - Donation = $25.00
+2025/05/03 22:13:18 [INFO] 2025-05-03 22:13:18 CDT payment.go:750 - Covering processing fees: +$1.59
+2025/05/03 22:13:18 [INFO] 2025-05-03 22:13:18 CDT payment.go:754 - Calculated total amount for membership-2025-05-03_22-12-57-3iDgMg: $56.59
+2025/05/03 22:13:18 [INFO] 2025-05-03 22:13:18 CDT payment.go:764 - Generated access token for membership-2025-05-03_22-12-57-3iDgMg: hdXl9LVJ0wxYrfa8sxhO5Q==
+2025/05/03 22:13:18 [INFO] 2025-05-03 22:13:18 CDT data.go:370 - Backup written to booster/data/backup/membership-2025-05-03_22-12-57-3iDgMg.json.bak
+2025/05/03 22:13:18 [INFO] 2025-05-03 22:13:18 CDT data.go:380 - Successfully wrote file ./booster/data/memberships/2025/membership-2025-05-03_22-12-57-3iDgMg.json
+2025/05/03 22:13:18 [INFO] 2025-05-03 22:13:18 CDT payment.go:791 - [SavePaymentDataHandler] Successfully processed form membership-2025-05-03_22-12-57-3iDgMg
+2025/05/03 22:13:18 [INFO] 2025-05-03 22:13:18 CDT main.go:187 - POST /api/save-payment-data took 4.269875ms
+2025/05/03 22:13:19 [INFO] 2025-05-03 22:13:19 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/03 22:13:19 [INFO] 2025-05-03 22:13:19 CDT payment.go:940 - Successfully verified access token for formID membership-2025-05-03_22-12-57-3iDgMg
+2025/05/03 22:13:19 [INFO] 2025-05-03 22:13:19 CDT main.go:187 - GET /api/order-details took 521.458µs
+2025/05/03 22:13:36 [INFO] 2025-05-03 22:13:36 CDT payment.go:190 - Requesting PayPal access token
+2025/05/03 22:13:36 [INFO] 2025-05-03 22:13:36 CDT payment.go:232 - Successfully obtained PayPal access token (app_id: APP-80W284485P519543T, expires in 32400 seconds)
+2025/05/03 22:13:36 [INFO] 2025-05-03 22:13:36 CDT payment.go:295 - Creating PayPal order
+2025/05/03 22:13:37 [INFO] 2025-05-03 22:13:37 CDT payment.go:317 - Successfully created PayPal order
+2025/05/03 22:13:37 [INFO] 2025-05-03 22:13:37 CDT data.go:370 - Backup written to booster/data/backup/membership-2025-05-03_22-12-57-3iDgMg.json.bak
+2025/05/03 22:13:37 [INFO] 2025-05-03 22:13:37 CDT data.go:380 - Successfully wrote file ./booster/data/memberships/2025/membership-2025-05-03_22-12-57-3iDgMg.json
+2025/05/03 22:13:37 [INFO] 2025-05-03 22:13:37 CDT payment.go:437 - PayPal order 2GX18667DY646151S successfully created and stored for formID membership-2025-05-03_22-12-57-3iDgMg
+2025/05/03 22:13:37 [INFO] 2025-05-03 22:13:37 CDT main.go:187 - POST /api/create-order took 1.613784795s
+2025/05/03 22:14:05 [INFO] 2025-05-03 22:14:05 CDT logger.go:122 - HTTP POST /capture-order from 127.0.0.1
+2025/05/03 22:14:05 [INFO] 2025-05-03 22:14:05 CDT payment.go:461 - Capture request received for OrderID: 2GX18667DY646151S, FormID: membership-2025-05-03_22-12-57-3iDgMg
+2025/05/03 22:14:05 [INFO] 2025-05-03 22:14:05 CDT payment.go:473 - Checking form file at path: ./booster/data/memberships/2025/membership-2025-05-03_22-12-57-3iDgMg.json
+2025/05/03 22:14:05 [INFO] 2025-05-03 22:14:05 CDT payment.go:190 - Requesting PayPal access token
+2025/05/03 22:14:06 [INFO] 2025-05-03 22:14:06 CDT payment.go:232 - Successfully obtained PayPal access token (app_id: APP-80W284485P519543T, expires in 32370 seconds)
+2025/05/03 22:14:06 [INFO] 2025-05-03 22:14:06 CDT payment.go:503 - Sending capture request to PayPal: https://api.sandbox.paypal.com/v2/checkout/orders/2GX18667DY646151S/capture
+2025/05/03 22:14:07 [INFO] 2025-05-03 22:14:07 CDT payment.go:535 - Capture response for OrderID 2GX18667DY646151S: {"id":"2GX18667DY646151S","status":"COMPLETED","payment_source":{"paypal":{"email_address":"sb-e5ssw36384283@personal.example.com","account_id":"RD37TRTBVLK7L","account_status":"VERIFIED","name":{"given_name":"John","surname":"Doe"},"address":{"country_code":"US"}}},"purchase_units":[{"reference_id":"default","shipping":{"name":{"full_name":"John Doe"},"address":{"address_line_1":"1 Main St","admin_area_2":"San Jose","admin_area_1":"CA","postal_code":"95131","country_code":"US"}},"payments":{"captures":[{"id":"12386001YW777472H","status":"COMPLETED","amount":{"currency_code":"USD","value":"56.59"},"final_capture":true,"seller_protection":{"status":"ELIGIBLE","dispute_categories":["ITEM_NOT_RECEIVED","UNAUTHORIZED_TRANSACTION"]},"seller_receivable_breakdown":{"gross_amount":{"currency_code":"USD","value":"56.59"},"paypal_fee":{"currency_code":"USD","value":"2.46"},"net_amount":{"currency_code":"USD","value":"54.13"}},"invoice_id":"membership-2025-05-03_22-12-57-3iDgMg","links":[{"href":"https://api.sandbox.paypal.com/v2/payments/captures/12386001YW777472H","rel":"self","method":"GET"},{"href":"https://api.sandbox.paypal.com/v2/payments/captures/12386001YW777472H/refund","rel":"refund","method":"POST"},{"href":"https://api.sandbox.paypal.com/v2/checkout/orders/2GX18667DY646151S","rel":"up","method":"GET"}],"create_time":"2025-05-04T03:14:06Z","update_time":"2025-05-04T03:14:06Z"}]}}],"payer":{"name":{"given_name":"John","surname":"Doe"},"email_address":"sb-e5ssw36384283@personal.example.com","payer_id":"RD37TRTBVLK7L","address":{"country_code":"US"}},"links":[{"href":"https://api.sandbox.paypal.com/v2/checkout/orders/2GX18667DY646151S","rel":"self","method":"GET"}]}
+2025/05/03 22:14:07 [INFO] 2025-05-03 22:14:07 CDT payment.go:540 - Attempting to update form file with capture data: ./booster/data/memberships/2025/membership-2025-05-03_22-12-57-3iDgMg.json
+2025/05/03 22:14:07 [INFO] 2025-05-03 22:14:07 CDT data.go:370 - Backup written to booster/data/backup/membership-2025-05-03_22-12-57-3iDgMg.json.bak
+2025/05/03 22:14:07 [INFO] 2025-05-03 22:14:07 CDT data.go:380 - Successfully wrote file ./booster/data/memberships/2025/membership-2025-05-03_22-12-57-3iDgMg.json
+2025/05/03 22:14:07 [INFO] 2025-05-03 22:14:07 CDT payment.go:565 - Successfully updated form file with capture details
+2025/05/03 22:14:07 [INFO] 2025-05-03 22:14:07 CDT main.go:187 - POST /api/capture-order took 1.45377882s
+2025/05/03 22:14:08 [INFO] 2025-05-03 22:14:08 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/03 22:14:08 [INFO] 2025-05-03 22:14:08 CDT payment.go:940 - Successfully verified access token for formID membership-2025-05-03_22-12-57-3iDgMg
+2025/05/03 22:14:08 [INFO] 2025-05-03 22:14:08 CDT main.go:187 - GET /api/order-details took 862.5µs
+2025/05/03 22:17:09 [INFO] 2025-05-03 22:17:09 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 22:22:09 [INFO] 2025-05-03 22:22:09 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 22:27:09 [INFO] 2025-05-03 22:27:09 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 22:32:09 [INFO] 2025-05-03 22:32:09 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 22:37:09 [INFO] 2025-05-03 22:37:09 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 22:39:08 [INFO] 2025-05-03 22:39:08 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/03 22:39:08 [INFO] 2025-05-03 22:39:08 CDT main.go:187 - GET /api/csrf-token took 381.638µs
+2025/05/03 22:39:54 [INFO] 2025-05-03 22:39:54 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/05/03 22:39:54 [INFO] 2025-05-03 22:39:54 CDT form.go:76 - Form values received: map[csrf_token:[lrtvlhi+bThtprxF8NCaH3YU5haRzjq/4Ni+0u7p86Q=] describe:[supporter] email:[greg@usda.gov] form_type:[membership] full_name:[Gregory Schmitt] hidden_field:[] membership_status:[first-time] school:[spring-garden] student_1_grade:[2] student_1_name:[Fox Thomas] student_2_grade:[5] student_2_name:[Sylvia Mae Thomas] student_count:[2]]
+2025/05/03 22:39:54 [INFO] 2025-05-03 22:39:54 CDT form.go:55 - Stat update: total_submissions = 4
+2025/05/03 22:39:54 [INFO] 2025-05-03 22:39:54 CDT data.go:131 - Form saved successfully: booster/data/memberships/2025/membership-2025-05-03_22-39-54-5k7K0w.json
+2025/05/03 22:39:54 [INFO] 2025-05-03 22:39:54 CDT form.go:148 - Form membership-2025-05-03_22-39-54-5k7K0w accepted and saved successfully
+2025/05/03 22:39:54 [INFO] 2025-05-03 22:39:54 CDT form.go:55 - Stat update: successful_submissions = 4
+2025/05/03 22:39:54 [INFO] 2025-05-03 22:39:54 CDT form.go:271 - Form submitted: type=membership, formID=membership-2025-05-03_22-39-54-5k7K0w, ip=127.0.0.1, time=2025-05-03 22:39:54
+2025/05/03 22:39:54 [INFO] 2025-05-03 22:39:54 CDT main.go:187 - POST /api/submit-form took 1.623069ms
+2025/05/03 22:40:14 [INFO] 2025-05-03 22:40:14 CDT logger.go:122 - HTTP POST /save-payment-data from 127.0.0.1
+2025/05/03 22:40:14 [INFO] 2025-05-03 22:40:14 CDT payment.go:652 - Processing payment form: membership-2025-05-03_22-39-54-5k7K0w
+2025/05/03 22:40:14 [INFO] 2025-05-03 22:40:14 CDT payment.go:693 - Saving payment data to: ./booster/data/memberships/2025/membership-2025-05-03_22-39-54-5k7K0w.json
+2025/05/03 22:40:14 [INFO] 2025-05-03 22:40:14 CDT payment.go:733 - Base membership 'Basic Membership' = $25.00
+2025/05/03 22:40:14 [INFO] 2025-05-03 22:40:14 CDT payment.go:742 - Donation = $10.00
+2025/05/03 22:40:14 [INFO] 2025-05-03 22:40:14 CDT payment.go:750 - Covering processing fees: +$1.19
+2025/05/03 22:40:14 [INFO] 2025-05-03 22:40:14 CDT payment.go:754 - Calculated total amount for membership-2025-05-03_22-39-54-5k7K0w: $36.19
+2025/05/03 22:40:14 [INFO] 2025-05-03 22:40:14 CDT payment.go:764 - Generated access token for membership-2025-05-03_22-39-54-5k7K0w: W2AK8ZHikN2XDZrLdsBS1w==
+2025/05/03 22:40:14 [INFO] 2025-05-03 22:40:14 CDT data.go:370 - Backup written to booster/data/backup/membership-2025-05-03_22-39-54-5k7K0w.json.bak
+2025/05/03 22:40:14 [INFO] 2025-05-03 22:40:14 CDT data.go:380 - Successfully wrote file ./booster/data/memberships/2025/membership-2025-05-03_22-39-54-5k7K0w.json
+2025/05/03 22:40:14 [INFO] 2025-05-03 22:40:14 CDT payment.go:791 - [SavePaymentDataHandler] Successfully processed form membership-2025-05-03_22-39-54-5k7K0w
+2025/05/03 22:40:14 [INFO] 2025-05-03 22:40:14 CDT main.go:187 - POST /api/save-payment-data took 3.538086ms
+2025/05/03 22:40:14 [INFO] 2025-05-03 22:40:14 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/03 22:40:14 [INFO] 2025-05-03 22:40:14 CDT payment.go:940 - Successfully verified access token for formID membership-2025-05-03_22-39-54-5k7K0w
+2025/05/03 22:40:14 [INFO] 2025-05-03 22:40:14 CDT main.go:187 - GET /api/order-details took 6.354207ms
+2025/05/03 22:40:17 [INFO] 2025-05-03 22:40:17 CDT payment.go:190 - Requesting PayPal access token
+2025/05/03 22:40:18 [INFO] 2025-05-03 22:40:18 CDT payment.go:232 - Successfully obtained PayPal access token (app_id: APP-80W284485P519543T, expires in 30798 seconds)
+2025/05/03 22:40:18 [INFO] 2025-05-03 22:40:18 CDT payment.go:295 - Creating PayPal order
+2025/05/03 22:40:19 [INFO] 2025-05-03 22:40:19 CDT payment.go:317 - Successfully created PayPal order
+2025/05/03 22:40:19 [INFO] 2025-05-03 22:40:19 CDT data.go:370 - Backup written to booster/data/backup/membership-2025-05-03_22-39-54-5k7K0w.json.bak
+2025/05/03 22:40:19 [INFO] 2025-05-03 22:40:19 CDT data.go:380 - Successfully wrote file ./booster/data/memberships/2025/membership-2025-05-03_22-39-54-5k7K0w.json
+2025/05/03 22:40:19 [INFO] 2025-05-03 22:40:19 CDT payment.go:437 - PayPal order 4YF91432K2552302J successfully created and stored for formID membership-2025-05-03_22-39-54-5k7K0w
+2025/05/03 22:40:19 [INFO] 2025-05-03 22:40:19 CDT main.go:187 - POST /api/create-order took 1.533290891s
+2025/05/03 22:40:42 [INFO] 2025-05-03 22:40:42 CDT logger.go:122 - HTTP POST /capture-order from 127.0.0.1
+2025/05/03 22:40:42 [INFO] 2025-05-03 22:40:42 CDT payment.go:461 - Capture request received for OrderID: 4YF91432K2552302J, FormID: membership-2025-05-03_22-39-54-5k7K0w
+2025/05/03 22:40:42 [INFO] 2025-05-03 22:40:42 CDT payment.go:473 - Checking form file at path: ./booster/data/memberships/2025/membership-2025-05-03_22-39-54-5k7K0w.json
+2025/05/03 22:40:42 [INFO] 2025-05-03 22:40:42 CDT payment.go:190 - Requesting PayPal access token
+2025/05/03 22:40:42 [INFO] 2025-05-03 22:40:42 CDT payment.go:232 - Successfully obtained PayPal access token (app_id: APP-80W284485P519543T, expires in 30774 seconds)
+2025/05/03 22:40:42 [INFO] 2025-05-03 22:40:42 CDT payment.go:503 - Sending capture request to PayPal: https://api.sandbox.paypal.com/v2/checkout/orders/4YF91432K2552302J/capture
+2025/05/03 22:40:43 [INFO] 2025-05-03 22:40:43 CDT payment.go:535 - Capture response for OrderID 4YF91432K2552302J: {"id":"4YF91432K2552302J","status":"COMPLETED","payment_source":{"paypal":{"email_address":"sb-e5ssw36384283@personal.example.com","account_id":"RD37TRTBVLK7L","account_status":"VERIFIED","name":{"given_name":"John","surname":"Doe"},"address":{"country_code":"US"}}},"purchase_units":[{"reference_id":"default","shipping":{"name":{"full_name":"John Doe"},"address":{"address_line_1":"1 Main St","admin_area_2":"San Jose","admin_area_1":"CA","postal_code":"95131","country_code":"US"}},"payments":{"captures":[{"id":"7AS73994RV595564H","status":"COMPLETED","amount":{"currency_code":"USD","value":"36.19"},"final_capture":true,"seller_protection":{"status":"ELIGIBLE","dispute_categories":["ITEM_NOT_RECEIVED","UNAUTHORIZED_TRANSACTION"]},"seller_receivable_breakdown":{"gross_amount":{"currency_code":"USD","value":"36.19"},"paypal_fee":{"currency_code":"USD","value":"1.75"},"net_amount":{"currency_code":"USD","value":"34.44"}},"invoice_id":"membership-2025-05-03_22-39-54-5k7K0w","links":[{"href":"https://api.sandbox.paypal.com/v2/payments/captures/7AS73994RV595564H","rel":"self","method":"GET"},{"href":"https://api.sandbox.paypal.com/v2/payments/captures/7AS73994RV595564H/refund","rel":"refund","method":"POST"},{"href":"https://api.sandbox.paypal.com/v2/checkout/orders/4YF91432K2552302J","rel":"up","method":"GET"}],"create_time":"2025-05-04T03:40:42Z","update_time":"2025-05-04T03:40:42Z"}]}}],"payer":{"name":{"given_name":"John","surname":"Doe"},"email_address":"sb-e5ssw36384283@personal.example.com","payer_id":"RD37TRTBVLK7L","address":{"country_code":"US"}},"links":[{"href":"https://api.sandbox.paypal.com/v2/checkout/orders/4YF91432K2552302J","rel":"self","method":"GET"}]}
+2025/05/03 22:40:43 [INFO] 2025-05-03 22:40:43 CDT payment.go:540 - Attempting to update form file with capture data: ./booster/data/memberships/2025/membership-2025-05-03_22-39-54-5k7K0w.json
+2025/05/03 22:40:43 [INFO] 2025-05-03 22:40:43 CDT data.go:370 - Backup written to booster/data/backup/membership-2025-05-03_22-39-54-5k7K0w.json.bak
+2025/05/03 22:40:43 [INFO] 2025-05-03 22:40:43 CDT data.go:380 - Successfully wrote file ./booster/data/memberships/2025/membership-2025-05-03_22-39-54-5k7K0w.json
+2025/05/03 22:40:43 [INFO] 2025-05-03 22:40:43 CDT payment.go:565 - Successfully updated form file with capture details
+2025/05/03 22:40:43 [INFO] 2025-05-03 22:40:43 CDT main.go:187 - POST /api/capture-order took 1.547778839s
+2025/05/03 22:42:09 [INFO] 2025-05-03 22:42:09 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 22:45:48 [INFO] 2025-05-03 22:45:48 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/03 22:45:48 [INFO] 2025-05-03 22:45:48 CDT payment.go:940 - Successfully verified access token for formID membership-2025-05-03_22-39-54-5k7K0w
+2025/05/03 22:45:48 [INFO] 2025-05-03 22:45:48 CDT main.go:187 - GET /api/order-details took 2.072067ms
+2025/05/03 22:46:07 [INFO] 2025-05-03 22:46:07 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/03 22:46:07 [INFO] 2025-05-03 22:46:07 CDT main.go:187 - GET /api/csrf-token took 184.517µs
+2025/05/03 22:47:09 [INFO] 2025-05-03 22:47:09 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 22:47:10 [INFO] 2025-05-03 22:47:10 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/05/03 22:47:10 [INFO] 2025-05-03 22:47:10 CDT form.go:76 - Form values received: map[csrf_token:[rwHu69L4UGGkr5sqlW6x0KqYAUlgiloTWZNBaEFQcWM=] describe:[other] email:[tim@yardwork.net] form_type:[membership] full_name:[Timothy Gaines Evans] hidden_field:[] interests:[assisting-teacher] membership_status:[first-time] school:[lakewood] student_1_grade:[K] student_1_name:[Gaines Expression] student_2_grade:[2] student_2_name:[Timothy Expression] student_3_grade:[6] student_3_name:[Yardwork Coolness] student_count:[3]]
+2025/05/03 22:47:10 [INFO] 2025-05-03 22:47:10 CDT form.go:55 - Stat update: total_submissions = 5
+2025/05/03 22:47:10 [INFO] 2025-05-03 22:47:10 CDT data.go:131 - Form saved successfully: booster/data/memberships/2025/membership-2025-05-03_22-47-10-Spsykw.json
+2025/05/03 22:47:10 [INFO] 2025-05-03 22:47:10 CDT form.go:148 - Form membership-2025-05-03_22-47-10-Spsykw accepted and saved successfully
+2025/05/03 22:47:10 [INFO] 2025-05-03 22:47:10 CDT form.go:55 - Stat update: successful_submissions = 5
+2025/05/03 22:47:10 [INFO] 2025-05-03 22:47:10 CDT form.go:271 - Form submitted: type=membership, formID=membership-2025-05-03_22-47-10-Spsykw, ip=127.0.0.1, time=2025-05-03 22:47:10
+2025/05/03 22:47:10 [INFO] 2025-05-03 22:47:10 CDT main.go:187 - POST /api/submit-form took 1.121344ms
+2025/05/03 22:47:23 [INFO] 2025-05-03 22:47:23 CDT logger.go:122 - HTTP POST /save-payment-data from 127.0.0.1
+2025/05/03 22:47:23 [INFO] 2025-05-03 22:47:23 CDT payment.go:652 - Processing payment form: membership-2025-05-03_22-47-10-Spsykw
+2025/05/03 22:47:23 [INFO] 2025-05-03 22:47:23 CDT payment.go:693 - Saving payment data to: ./booster/data/memberships/2025/membership-2025-05-03_22-47-10-Spsykw.json
+2025/05/03 22:47:23 [INFO] 2025-05-03 22:47:23 CDT payment.go:733 - Base membership 'Premium Membership' = $50.00
+2025/05/03 22:47:23 [INFO] 2025-05-03 22:47:23 CDT payment.go:737 - Addon 'Sticker Pack' = $5.00
+2025/05/03 22:47:23 [INFO] 2025-05-03 22:47:23 CDT payment.go:742 - Donation = $5.00
+2025/05/03 22:47:23 [INFO] 2025-05-03 22:47:23 CDT payment.go:750 - Covering processing fees: +$1.69
+2025/05/03 22:47:23 [INFO] 2025-05-03 22:47:23 CDT payment.go:754 - Calculated total amount for membership-2025-05-03_22-47-10-Spsykw: $61.69
+2025/05/03 22:47:23 [INFO] 2025-05-03 22:47:23 CDT payment.go:764 - Generated access token for membership-2025-05-03_22-47-10-Spsykw: 8C_5edFQ6IJz3sjYa_y2OQ==
+2025/05/03 22:47:23 [INFO] 2025-05-03 22:47:23 CDT data.go:370 - Backup written to booster/data/backup/membership-2025-05-03_22-47-10-Spsykw.json.bak
+2025/05/03 22:47:23 [INFO] 2025-05-03 22:47:23 CDT data.go:380 - Successfully wrote file ./booster/data/memberships/2025/membership-2025-05-03_22-47-10-Spsykw.json
+2025/05/03 22:47:23 [INFO] 2025-05-03 22:47:23 CDT payment.go:791 - [SavePaymentDataHandler] Successfully processed form membership-2025-05-03_22-47-10-Spsykw
+2025/05/03 22:47:23 [INFO] 2025-05-03 22:47:23 CDT main.go:187 - POST /api/save-payment-data took 3.207743ms
+2025/05/03 22:47:23 [INFO] 2025-05-03 22:47:23 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/03 22:47:23 [INFO] 2025-05-03 22:47:23 CDT payment.go:940 - Successfully verified access token for formID membership-2025-05-03_22-47-10-Spsykw
+2025/05/03 22:47:23 [INFO] 2025-05-03 22:47:23 CDT main.go:187 - GET /api/order-details took 448.965µs
+2025/05/03 22:47:26 [INFO] 2025-05-03 22:47:26 CDT payment.go:190 - Requesting PayPal access token
+2025/05/03 22:47:28 [INFO] 2025-05-03 22:47:28 CDT payment.go:232 - Successfully obtained PayPal access token (app_id: APP-80W284485P519543T, expires in 30369 seconds)
+2025/05/03 22:47:28 [INFO] 2025-05-03 22:47:28 CDT payment.go:295 - Creating PayPal order
+2025/05/03 22:47:29 [INFO] 2025-05-03 22:47:29 CDT payment.go:317 - Successfully created PayPal order
+2025/05/03 22:47:29 [INFO] 2025-05-03 22:47:29 CDT data.go:370 - Backup written to booster/data/backup/membership-2025-05-03_22-47-10-Spsykw.json.bak
+2025/05/03 22:47:29 [INFO] 2025-05-03 22:47:29 CDT data.go:380 - Successfully wrote file ./booster/data/memberships/2025/membership-2025-05-03_22-47-10-Spsykw.json
+2025/05/03 22:47:29 [INFO] 2025-05-03 22:47:29 CDT payment.go:437 - PayPal order 8EB00291J25013444 successfully created and stored for formID membership-2025-05-03_22-47-10-Spsykw
+2025/05/03 22:47:29 [INFO] 2025-05-03 22:47:29 CDT main.go:187 - POST /api/create-order took 3.208152865s
+2025/05/03 22:47:37 [INFO] 2025-05-03 22:47:37 CDT logger.go:122 - HTTP POST /capture-order from 127.0.0.1
+2025/05/03 22:47:37 [INFO] 2025-05-03 22:47:37 CDT payment.go:461 - Capture request received for OrderID: 8EB00291J25013444, FormID: membership-2025-05-03_22-47-10-Spsykw
+2025/05/03 22:47:37 [INFO] 2025-05-03 22:47:37 CDT payment.go:473 - Checking form file at path: ./booster/data/memberships/2025/membership-2025-05-03_22-47-10-Spsykw.json
+2025/05/03 22:47:37 [INFO] 2025-05-03 22:47:37 CDT payment.go:190 - Requesting PayPal access token
+2025/05/03 22:47:37 [INFO] 2025-05-03 22:47:37 CDT payment.go:232 - Successfully obtained PayPal access token (app_id: APP-80W284485P519543T, expires in 30358 seconds)
+2025/05/03 22:47:37 [INFO] 2025-05-03 22:47:37 CDT payment.go:503 - Sending capture request to PayPal: https://api.sandbox.paypal.com/v2/checkout/orders/8EB00291J25013444/capture
+2025/05/03 22:47:39 [INFO] 2025-05-03 22:47:39 CDT payment.go:535 - Capture response for OrderID 8EB00291J25013444: {"id":"8EB00291J25013444","status":"COMPLETED","payment_source":{"paypal":{"email_address":"sb-e5ssw36384283@personal.example.com","account_id":"RD37TRTBVLK7L","account_status":"VERIFIED","name":{"given_name":"John","surname":"Doe"},"address":{"country_code":"US"}}},"purchase_units":[{"reference_id":"default","shipping":{"name":{"full_name":"John Doe"},"address":{"address_line_1":"1 Main St","admin_area_2":"San Jose","admin_area_1":"CA","postal_code":"95131","country_code":"US"}},"payments":{"captures":[{"id":"29A89503LS981962F","status":"COMPLETED","amount":{"currency_code":"USD","value":"61.69"},"final_capture":true,"seller_protection":{"status":"ELIGIBLE","dispute_categories":["ITEM_NOT_RECEIVED","UNAUTHORIZED_TRANSACTION"]},"seller_receivable_breakdown":{"gross_amount":{"currency_code":"USD","value":"61.69"},"paypal_fee":{"currency_code":"USD","value":"2.64"},"net_amount":{"currency_code":"USD","value":"59.05"}},"invoice_id":"membership-2025-05-03_22-47-10-Spsykw","links":[{"href":"https://api.sandbox.paypal.com/v2/payments/captures/29A89503LS981962F","rel":"self","method":"GET"},{"href":"https://api.sandbox.paypal.com/v2/payments/captures/29A89503LS981962F/refund","rel":"refund","method":"POST"},{"href":"https://api.sandbox.paypal.com/v2/checkout/orders/8EB00291J25013444","rel":"up","method":"GET"}],"create_time":"2025-05-04T03:47:38Z","update_time":"2025-05-04T03:47:38Z"}]}}],"payer":{"name":{"given_name":"John","surname":"Doe"},"email_address":"sb-e5ssw36384283@personal.example.com","payer_id":"RD37TRTBVLK7L","address":{"country_code":"US"}},"links":[{"href":"https://api.sandbox.paypal.com/v2/checkout/orders/8EB00291J25013444","rel":"self","method":"GET"}]}
+2025/05/03 22:47:39 [INFO] 2025-05-03 22:47:39 CDT payment.go:540 - Attempting to update form file with capture data: ./booster/data/memberships/2025/membership-2025-05-03_22-47-10-Spsykw.json
+2025/05/03 22:47:39 [INFO] 2025-05-03 22:47:39 CDT data.go:370 - Backup written to booster/data/backup/membership-2025-05-03_22-47-10-Spsykw.json.bak
+2025/05/03 22:47:39 [INFO] 2025-05-03 22:47:39 CDT data.go:380 - Successfully wrote file ./booster/data/memberships/2025/membership-2025-05-03_22-47-10-Spsykw.json
+2025/05/03 22:47:39 [INFO] 2025-05-03 22:47:39 CDT payment.go:565 - Successfully updated form file with capture details
+2025/05/03 22:47:39 [INFO] 2025-05-03 22:47:39 CDT main.go:187 - POST /api/capture-order took 1.528063278s
+2025/05/03 22:47:40 [INFO] 2025-05-03 22:47:40 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/03 22:47:40 [INFO] 2025-05-03 22:47:40 CDT payment.go:940 - Successfully verified access token for formID membership-2025-05-03_22-47-10-Spsykw
+2025/05/03 22:47:40 [INFO] 2025-05-03 22:47:40 CDT main.go:187 - GET /api/order-details took 7.066924ms
+2025/05/03 22:49:56 [INFO] 2025-05-03 22:49:56 CDT logger.go:122 - HTTP GET /memberships from 127.0.0.1
+2025/05/03 22:49:56 [INFO] 2025-05-03 22:49:56 CDT main.go:187 - GET /api/memberships took 3.765417ms
+2025/05/03 22:50:38 [INFO] 2025-05-03 22:50:38 CDT logger.go:122 - HTTP GET /memberships from 127.0.0.1
+2025/05/03 22:50:38 [INFO] 2025-05-03 22:50:38 CDT main.go:187 - GET /api/memberships took 1.917857ms
+2025/05/03 22:52:09 [INFO] 2025-05-03 22:52:09 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 22:57:09 [INFO] 2025-05-03 22:57:09 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 22:57:33 [INFO] 2025-05-03 22:57:33 CDT logger.go:122 - HTTP GET /memberships from 127.0.0.1
+2025/05/03 22:57:33 [INFO] 2025-05-03 22:57:33 CDT main.go:187 - GET /api/memberships took 3.282573ms
+2025/05/03 23:02:09 [INFO] 2025-05-03 23:02:09 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 23:03:39 [INFO] 2025-05-03 23:03:39 CDT logger.go:122 - HTTP GET /memberships from 127.0.0.1
+2025/05/03 23:03:39 [INFO] 2025-05-03 23:03:39 CDT main.go:187 - GET /api/memberships took 8.966898ms
+2025/05/03 23:06:07 [INFO] 2025-05-03 23:06:07 CDT logger.go:122 - HTTP GET /memberships from 127.0.0.1
+2025/05/03 23:06:07 [INFO] 2025-05-03 23:06:07 CDT main.go:187 - GET /api/memberships took 6.244557ms
+2025/05/03 23:06:58 [INFO] 2025-05-03 23:06:58 CDT logger.go:122 - HTTP GET /memberships from 127.0.0.1
+2025/05/03 23:06:58 [INFO] 2025-05-03 23:06:58 CDT main.go:187 - GET /api/memberships took 1.38942ms
+2025/05/03 23:07:09 [INFO] 2025-05-03 23:07:09 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 23:08:02 [INFO] 2025-05-03 23:08:02 CDT logger.go:122 - HTTP GET /memberships from 127.0.0.1
+2025/05/03 23:08:02 [INFO] 2025-05-03 23:08:02 CDT main.go:187 - GET /api/memberships took 3.973784ms
+2025/05/03 23:10:44 [INFO] 2025-05-03 23:10:44 CDT logger.go:122 - HTTP GET /memberships from 127.0.0.1
+2025/05/03 23:10:44 [INFO] 2025-05-03 23:10:44 CDT main.go:187 - GET /api/memberships took 1.958725ms
+2025/05/03 23:12:09 [INFO] 2025-05-03 23:12:09 CDT security.go:93 - CSRF token cleanup completed
+2025/05/03 23:46:15 [INFO] 2025-05-03 23:46:15 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 00:08:40 [INFO] 2025-05-04 00:08:40 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 00:29:23 [INFO] 2025-05-04 00:29:23 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 00:46:55 [INFO] 2025-05-04 00:46:55 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 01:08:15 [INFO] 2025-05-04 01:08:15 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 01:32:56 [INFO] 2025-05-04 01:32:56 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 01:46:12 [INFO] 2025-05-04 01:46:12 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 02:07:40 [INFO] 2025-05-04 02:07:40 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 02:12:41 [INFO] 2025-05-04 02:12:41 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 02:34:44 [INFO] 2025-05-04 02:34:44 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 02:50:59 [INFO] 2025-05-04 02:50:59 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 03:12:50 [INFO] 2025-05-04 03:12:50 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 03:35:53 [INFO] 2025-05-04 03:35:53 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 03:50:27 [INFO] 2025-05-04 03:50:27 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 04:10:34 [INFO] 2025-05-04 04:10:34 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 04:32:52 [INFO] 2025-05-04 04:32:52 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 04:50:41 [INFO] 2025-05-04 04:50:41 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 05:10:36 [INFO] 2025-05-04 05:10:36 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 05:31:40 [INFO] 2025-05-04 05:31:40 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 05:49:59 [INFO] 2025-05-04 05:49:59 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 06:04:08 [INFO] 2025-05-04 06:04:08 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 06:16:02 [INFO] 2025-05-04 06:16:02 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 06:37:21 [INFO] 2025-05-04 06:37:21 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 06:42:21 [INFO] 2025-05-04 06:42:21 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 06:47:21 [INFO] 2025-05-04 06:47:21 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 06:52:21 [INFO] 2025-05-04 06:52:21 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 06:57:21 [INFO] 2025-05-04 06:57:21 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 07:02:21 [INFO] 2025-05-04 07:02:21 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 07:07:21 [INFO] 2025-05-04 07:07:21 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 07:12:21 [INFO] 2025-05-04 07:12:21 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 07:17:21 [INFO] 2025-05-04 07:17:21 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 07:22:21 [INFO] 2025-05-04 07:22:21 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 07:27:21 [INFO] 2025-05-04 07:27:21 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 07:32:21 [INFO] 2025-05-04 07:32:21 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 07:37:21 [INFO] 2025-05-04 07:37:21 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 07:42:21 [INFO] 2025-05-04 07:42:21 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 07:47:21 [INFO] 2025-05-04 07:47:21 CDT security.go:93 - CSRF token cleanup completed
+2025/05/04 07:50:05 [INFO] 2025-05-04 07:50:05 CDT main.go:141 - Shutdown signal received
+2025/05/04 07:50:05 [INFO] 2025-05-04 07:50:05 CDT main.go:151 - Server shut down gracefully
+2025/05/04 07:50:05 [INFO] 2025-05-04 07:50:05 CDT main.go:155 - Shutdown signal received
+2025/05/04 07:50:05 [INFO] 2025-05-04 07:50:05 CDT main.go:156 - Waiting for active connections to finish...
+2025/05/04 07:50:05 [INFO] 2025-05-04 07:50:05 CDT main.go:158 - All connections closed. Total requests handled: 43
+2025/05/04 07:50:05 [INFO] 2025-05-04 07:50:05 CDT main.go:159 - Server shut down gracefully

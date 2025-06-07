@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Membership Info {{ .Year }}</title>
+  <link rel="stylesheet" href="/static/css/info.css">
+</head>
+{{ define "SummaryList" }}
+<section class="summary-section">
+  <h4>{{ .Title }}</h4>
+  <table>
+    <thead>
+      <tr><th>Label</th><th>Count</th></tr>
+    </thead>
+    <tbody>
+      {{ range $key, $value := .Map }}
+      <tr><td>{{ formatDisplayName $key }}</td><td>{{ $value }}</td></tr>
+      {{ end }}
+    </tbody>
+  </table>
+</section>
+{{ end }}
+<body>
+  <header>
+    <img src="/static/images/logolong.webp" alt="Organization Logo">
+    <h1>Membership Info for {{ .Year }}</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Membership Submissions</h2>
+      <figure>
+        <table>
+      <thead>
+        <tr>
+          <th>Submission Date</th>
+          <th>Full Name</th>
+          <th>School</th>
+          <th>Email</th>
+          <th>Students</th>
+          <th>Membership</th>
+          <th>Status</th>
+          <th>Amount</th>
+          <th>PayPal Email</th>
+          <th>PayPal Order#</th>
+          <th>PayPal Fee</th>
+          <th>PayPal Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ range .Entries }}
+        <tr>
+          <td>{{ formatDate .SubmissionDate }}</td>
+          <td>
+            {{if $.AdminToken}}
+            <a href="/api/success?formID={{ .FormID }}&adminToken={{ $.AdminToken }}" target="_blank">{{ .FullName }}</a>
+            {{else}}
+            {{ .FullName }}
+            {{end}}
+          </td>
+          <td>{{ formatDisplayName .School }}</td>
+          <td><a href="mailto:{{ .Email }}">{{ .Email }}</a></td>
+          <td>{{ joinStudentNames . }}</td>
+          <td>{{ .Membership }}</td>
+          <td>{{ formatDisplayName .MembershipStatus }}</td>
+          <td>{{ formatCurrency .CalculatedAmount }}</td>
+          <td>
+            {{ if and .PayPalEmail (ne .PayPalEmail "") }}
+            {{ .PayPalEmail }}
+            {{ else }}
+            <span style="color: #999;">No payment</span>
+            {{ end }}
+          </td>
+          <td>
+            {{ if and .PayPalOrderID (ne .PayPalOrderID "") }}
+            <a href="https://www.sandbox.paypal.com/activities/payment/{{ .PayPalOrderID }}" target="_blank" rel="noopener" title="View PayPal order details">
+              {{ .PayPalOrderID }}
+            </a>
+            {{ else }}
+            <span style="color: #999;">No payment</span>
+            {{ end }}
+          </td>
+          <td>
+            {{ if gt .PayPalFee 0.01 }}
+            {{ formatCurrency .PayPalFee }}
+            {{ else }}
+            <span style="color: #999;">—</span>
+            {{ end }}
+          </td>
+          <td>
+            {{if eq .PayPalStatus "COMPLETED"}}
+            <span class="status-completed">✓ Paid</span>
+            {{else}}
+            <span class="status-pending">Pending</span>
+            {{end}}
+          </td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+    </figure>
+    </section>
+  
+  <section>
+    <h2>Totals & Financial Summary</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Total Submissions</th>
+          <th>Total Students</th>
+          <th>Avg Per Submission</th>
+          <th>Total Amount</th>
+          <th>PayPal Fees</th>
+          <th>Extra Donations</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ .Summary.TotalSubmissions }}</td>
+          <td>{{ .Summary.StudentSummary.TotalStudents }}</td>
+          <td>{{ printf "%.2f" .Summary.StudentSummary.AverageStudentsPerSubmission }}</td>
+          <td>{{ formatCurrency .Summary.FinancialSummary.TotalAmount }}</td>
+          <td>{{ formatCurrency .Summary.FinancialSummary.TotalPayPalFees }}</td>
+          <td>{{ formatCurrency .Summary.FinancialSummary.TotalDonation }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  
+  {{ template "SummaryList" (dict "Title" "Membership Status" "Map" .Summary.MembershipStatusCounts) }}
+  {{ template "SummaryList" (dict "Title" "Supporter Type (Describe)" "Map" .Summary.DescribeCounts) }}
+  {{ template "SummaryList" (dict "Title" "Membership Level" "Map" .Summary.MembershipLevelCounts) }}
+  {{ template "SummaryList" (dict "Title" "Schools" "Map" .Summary.SchoolCounts) }}
+  {{ template "SummaryList" (dict "Title" "Interests" "Map" .Summary.InterestsCounts) }}
+  
+  <h2>Volunteer Interest by School</h2>
+  <p>To be sent to each teacher FYI. Or better yet, to their campus rep.</p>
+  {{ if .InterestBySchool }}
+  <figure>
+  <table>
+    <thead>
+      <tr>
+        <th>School</th>
+        <th>Interest</th>
+        <th>Count</th>
+        <th>Names</th>
+        <th>Emails</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ range .InterestBySchool }}
+      <tr>
+        <td>{{ formatDisplayName .School }}</td>
+        <td>{{ formatDisplayName .Interest }}</td>
+        <td>{{ .Count }}</td>
+        <td>
+          {{ range $i, $p := .People }}
+          {{ if $i }}<br>{{ end }}
+          {{ $p.FullName }}
+          {{ end }}
+        </td>
+        <td>
+          {{ range $i, $p := .People }}
+          {{ if $i }}<br>{{ end }}
+          <a href="mailto:{{ $p.Email }}">{{ $p.Email }}</a>
+          {{ end }}
+        </td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+  </figure>
+  <button id="download-interest-by-school">Download Interest by School CSV</button>
+  {{ else }}
+  <p>No volunteer interests recorded.</p>
+  {{ end }}
+
+  <section>
+    <h2>Add-On Purchases</h2>
+    <p>To be distributed to the respective school's instructor.</p>
+    {{ if .Extras.AddOnPurchases }}
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>School</th>
+          <th>Item</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ range .Extras.AddOnPurchases }}
+        <tr>
+          <td>{{ .FullName }}</td>
+          <td>{{ formatDisplayName .School }}</td>
+          <td>{{ .Item }}</td>
+          <td>{{ .Date }}</td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+    {{ else }}
+    <p>No add-on purchases recorded.</p>
+    {{ end }}
+  </section>
+  
+  <section>
+    <h2>Event Fees</h2>
+    <p>Supporters who have paid additional fees.</p>
+    {{ if .SortedFeePurchases }}
+    <table>
+      <thead>
+        <tr>
+          <th>Supporter Name</th>
+          <th>School</th>
+          <th>Student Names</th>
+          <th>Fee Name</th>
+          <th>Quantity</th>
+          <th>Amount Paid</th>
+          <th>PayPal Order ID</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ range .SortedFeePurchases }}
+        <tr>
+          <td>{{ .FullName }}</td>
+          <td>{{ formatDisplayName .School }}</td>
+          <td>{{ .StudentNames }}</td>
+          <td>{{ .FeeName }}</td>
+          <td>{{ .Quantity }}</td>
+          <td>{{ formatCurrency .AmountPaid }}</td>
+          <td>
+            {{ if and .PayPalCaptureID (ne .PayPalCaptureID "") }}
+            {{ if .PayPalCaptureURL }}
+            <a href="{{ .PayPalCaptureURL }}" target="_blank" rel="noopener" title="View PayPal capture details">
+              {{ .PayPalCaptureID }}
+            </a>
+            {{ else }}
+            {{ .PayPalCaptureID }}
+            {{ end }}
+            {{ else }}
+            <span style="color: #999;">No payment</span>
+            {{ end }}
+          </td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+    <button id="download-fee-purchases">Download Fee Purchases CSV</button>
+    {{ else }}
+    <p>No fee purchases recorded.</p>
+    {{ end }}
+  </section>
+
+  {{if .EventEntries}}
+  <section>
+    <h2>Event Registrations</h2>
+    
+    <div class="summary-box">
+      <h3>Event Summary</h3>
+      <ul>
+        <li>Total Events: {{.EventSummary.TotalEvents}}</li>
+        <li>Total Students: {{.EventSummary.TotalStudents}}</li>
+        <li>Total Revenue: {{formatCurrency .EventSummary.TotalRevenue}}</li>
+        <li>Completed Orders: {{.EventSummary.CompletedOrders}}</li>
+        <li>Pending Orders: {{.EventSummary.PendingOrders}}</li>
+      </ul>
+    </div>
+    
+    <figure>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Event</th>
+            <th>Parent Name</th>
+            <th>School</th>
+            <th>Students</th>
+            <th>Food Order ID</th>
+            <th>Amount</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{range .EventEntries}}
+          <tr>
+            <td>{{formatDate .SubmissionDate}}</td>
+            <td>{{formatDisplayName .Event}}</td>
+            <td>
+              {{if $.AdminToken}}
+              <a href="/api/success?formID={{.FormID}}&adminToken={{$.AdminToken}}" target="_blank">{{.FullName}}</a>
+              {{else}}
+              {{.FullName}}
+              {{end}}
+            </td>
+            <td>{{formatDisplayName .School}}</td>
+            <td>{{.StudentCount}}</td>
+            <td>
+              {{if .OrderPageURL}}
+              <a href="{{.OrderPageURL}}" target="_blank">{{.FoodOrderID}}</a>
+              {{else}}
+              {{if .FoodOrderID}}
+              {{.FoodOrderID}}
+              {{else}}
+              -
+              {{end}}
+              {{end}}
+            </td>
+            <td>{{formatCurrency .CalculatedAmount}}</td>
+            <td>
+              {{if eq .PayPalStatus "COMPLETED"}}
+              <span class="status-completed">✓ Paid</span>
+              {{else}}
+              <span class="status-pending">Pending</span>
+              {{end}}
+            </td>
+          </tr>
+          {{end}}
+        </tbody>
+      </table>
+    </figure>
+  </section>
+  <section>
+    <h2>Processing Info</h2>
+    <p>
+      <strong>Last Updated:</strong> {{ formatDate .LastUpdated }}<br>
+      <strong>Processing Time:</strong> {{ .ProcessingDuration }}<br>
+      <strong>Total Entries:</strong> {{ len .Entries }}
+    </p>
+  </section>
+  <script src="/static/js/info.js"></script>
+  </main>
+</body>
+</html>
+{{ end }}

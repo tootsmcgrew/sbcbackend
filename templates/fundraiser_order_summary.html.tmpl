@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fundraiser Donation Summary</title>
+  <link rel="stylesheet" href="/static/css/payment.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Fundraiser Donation Summary</h1>
+    
+    <!-- Hidden form ID for payment processing -->
+    <input type="hidden" id="form-id" value="{{.FormID}}">
+    
+    <table class="summary-table">
+      <tr>
+        <th>Donor Information</th>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Full Name:</th>
+        <td>{{.FullName}}</td>
+      </tr>
+      <tr>
+        <th>Email:</th>
+        <td>{{.Email}}</td>
+      </tr>
+      <tr>
+        <th>School:</th>
+        <td>{{.School}}</td>
+      </tr>
+      <tr>
+        <th>Status:</th>
+        <td>{{.DonorStatus}}</td>
+      </tr>
+      <tr>
+        <th>Description:</th>
+        <td>{{.Describe}}</td>
+      </tr>
+    </table>
+
+    <table class="summary-table">
+      <tr>
+        <th>Student Donations</th>
+        <td></td>
+      </tr>
+      {{range $index, $donation := .DonationItems}}
+      <tr>
+        <th>{{$donation.StudentName}}:</th>
+        <td>{{formatCurrency $donation.Amount}}</td>
+      </tr>
+      {{end}}
+      
+      {{if .Students}}
+      <tr>
+        <th>Student Details:</th>
+        <td>
+          <div class="students-block">
+            <ul class="list">
+            {{range .Students}}
+              <li>{{.Name}} ({{.Grade}})</li>
+            {{end}}
+            </ul>
+          </div>
+        </td>
+      </tr>
+      {{end}}
+      
+      <tr class="grand-total">
+        <th>Donation Subtotal:</th>
+        <td>{{formatCurrency .TotalAmount}}</td>
+      </tr>
+      
+      {{if .CoverFees}}
+      <tr>
+        <th>Processing Fees (2% + $0.49):</th>
+        <td>{{formatCurrency .ProcessingFee}}</td>
+      </tr>
+      {{end}}
+      
+      <tr class="grand-total">
+        <th>Total Amount:</th>
+        <td>{{formatCurrency .CalculatedAmount}}</td>
+      </tr>
+    </table>
+
+    <div class="center">
+      <p><strong>Practice-a-Thon Fundraiser</strong></p>
+      <p>Your donation helps support our outstanding Suzuki Strings program and rewards students for their diligent practice!</p>
+      
+      {{if .CoverFees}}
+      <p><em>Thank you for covering the processing fees!</em></p>
+      {{end}}
+    </div>
+
+    <!-- PayPal Button Container -->
+    <div id="paypal-button-container"></div>
+    
+    <div class="center">
+      <p><small>The HEBISD Suzuki Booster Club is recognized as a tax-exempt public charity under Section 501(c)(3) of the Internal Revenue Code.</small></p>
+    </div>
+  </div>
+
+  <!-- PayPal SDK - Use your existing configuration -->
+  <script src="https://www.sandbox.paypal.com/sdk/js?client-id=AVBD9yQpv7y0liIHQLb9Y0UReYn9jhyAThREXKjiePLbDh-2cY9l_yoXaoXuHbUKmkKj6FooWeiuo0LC&currency=USD&disable-funding=paylater&buyer-country=US"></script>
+  
+  <!-- Use existing payment.js - it should work with fundraiser formIDs -->
+  <script src="/static/js/payment.js"></script>
+</body>
+</html>

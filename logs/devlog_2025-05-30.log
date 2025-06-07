@@ -1,0 +1,39 @@
+2025/05/30 07:06:48 [INFO] 2025-05-30 07:06:48 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-30.log
+2025/05/30 07:06:48 [INFO] 2025-05-30 07:06:48 CDT main.go:54 - Environment and paths loaded. Logger ready.
+2025/05/30 07:06:48 [INFO] 2025-05-30 07:06:48 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/30 07:06:48 [INFO] 2025-05-30 07:06:48 CDT config.go:61 - Running in development environment
+2025/05/30 07:06:48 [INFO] 2025-05-30 07:06:48 CDT main.go:155 - Starting server on 0.0.0.0:5051
+2025/05/30 07:06:51 [INFO] 2025-05-30 07:06:51 CDT main.go:163 - Shutdown signal received
+2025/05/30 07:06:51 [INFO] 2025-05-30 07:06:51 CDT main.go:173 - Server shut down gracefully
+2025/05/30 07:06:51 [INFO] 2025-05-30 07:06:51 CDT main.go:177 - Shutdown signal received
+2025/05/30 07:06:51 [INFO] 2025-05-30 07:06:51 CDT main.go:178 - Waiting for active connections to finish...
+2025/05/30 07:06:51 [INFO] 2025-05-30 07:06:51 CDT main.go:180 - All connections closed. Total requests handled: 0
+2025/05/30 07:06:51 [INFO] 2025-05-30 07:06:51 CDT main.go:181 - Server shut down gracefully
+2025/05/30 17:03:47 [INFO] 2025-05-30 17:03:47 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-30.log
+2025/05/30 17:03:47 [INFO] 2025-05-30 17:03:47 CDT main.go:54 - Environment and paths loaded. Logger ready.
+2025/05/30 17:03:47 [INFO] 2025-05-30 17:03:47 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/30 17:03:47 [INFO] 2025-05-30 17:03:47 CDT config.go:61 - Running in development environment
+2025/05/30 17:03:47 [INFO] 2025-05-30 17:03:47 CDT main.go:155 - Starting server on 0.0.0.0:5051
+2025/05/30 17:03:50 [INFO] 2025-05-30 17:03:50 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/30 17:03:50 [INFO] 2025-05-30 17:03:50 CDT main.go:209 - GET /api/csrf-token took 347.584µs
+2025/05/30 17:15:49 [INFO] 2025-05-30 17:15:49 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/30 17:15:49 [INFO] 2025-05-30 17:15:49 CDT main.go:209 - GET /api/csrf-token took 5.323153ms
+2025/05/30 17:16:19 [INFO] 2025-05-30 17:16:19 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/05/30 17:16:19 [INFO] 2025-05-30 17:16:19 CDT form.go:86 - Form values received: map[csrf_token:[DEm/hxH9Q6v8V0xW7IVZ+T5rqnvaygkp5KlawVwpReU=] email:[toots@mcgrew.net] event:[spring-festival] form_type:[event] full_name:[Toots McGrew] hidden_field:[] school:[river-trails] student_1_grade:[K] student_1_name:[Roger McGuinn] student_2_grade:[4] student_2_name:[Twitter McGrew] student_count:[2]]
+2025/05/30 17:16:19 [INFO] 2025-05-30 17:16:19 CDT form.go:58 - Stat update: total_submissions = 1
+2025/05/30 17:16:19 [ERROR] 2025-05-30 17:16:19 CDT logger.go:127 - HTTP 500 error for POST /submit-form from 127.0.0.1: failed to insert event submission: SQL logic error: table event_submissions has no column named food_choices_json (1)
+2025/05/30 17:16:19 [INFO] 2025-05-30 17:16:19 CDT main.go:209 - POST /api/submit-form took 1.235254ms
+2025/05/30 17:33:47 [INFO] 2025-05-30 17:33:47 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/30 18:03:47 [INFO] 2025-05-30 18:03:47 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/30 20:35:50 [INFO] 2025-05-30 20:35:50 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/30 22:34:33 [INFO] 2025-05-30 22:34:33 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/31 00:36:29 [INFO] 2025-05-31 00:36:29 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/31 02:18:37 [INFO] 2025-05-31 02:18:37 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/31 04:18:06 [INFO] 2025-05-31 04:18:06 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/31 06:05:27 [INFO] 2025-05-31 06:05:27 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/31 06:30:49 [INFO] 2025-05-31 06:30:49 CDT main.go:163 - Shutdown signal received
+2025/05/31 06:30:49 [INFO] 2025-05-31 06:30:49 CDT main.go:173 - Server shut down gracefully
+2025/05/31 06:30:49 [INFO] 2025-05-31 06:30:49 CDT main.go:177 - Shutdown signal received
+2025/05/31 06:30:49 [INFO] 2025-05-31 06:30:49 CDT main.go:178 - Waiting for active connections to finish...
+2025/05/31 06:30:49 [INFO] 2025-05-31 06:30:49 CDT main.go:180 - All connections closed. Total requests handled: 3
+2025/05/31 06:30:49 [INFO] 2025-05-31 06:30:49 CDT main.go:181 - Server shut down gracefully

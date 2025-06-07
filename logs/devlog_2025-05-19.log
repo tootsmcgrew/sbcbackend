@@ -1,0 +1,161 @@
+2025/05/19 06:24:41 [INFO] 2025-05-19 06:24:41 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-19.log
+2025/05/19 06:24:41 [INFO] 2025-05-19 06:24:41 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/19 06:24:41 [INFO] 2025-05-19 06:24:41 CDT config.go:186 - Using PayPal Sandbox environment
+2025/05/19 06:24:41 [INFO] 2025-05-19 06:24:41 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/19 06:24:41 [INFO] 2025-05-19 06:24:41 CDT config.go:58 - Running in development environment
+2025/05/19 06:24:41 [INFO] 2025-05-19 06:24:41 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/19 06:26:41 [INFO] 2025-05-19 06:26:41 CDT membership_aggregator.go:37 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/19 06:27:45 [INFO] 2025-05-19 06:27:45 CDT main.go:144 - Shutdown signal received
+2025/05/19 06:27:45 [INFO] 2025-05-19 06:27:45 CDT main.go:154 - Server shut down gracefully
+2025/05/19 06:27:45 [INFO] 2025-05-19 06:27:45 CDT main.go:158 - Shutdown signal received
+2025/05/19 06:27:45 [INFO] 2025-05-19 06:27:45 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/19 06:27:45 [INFO] 2025-05-19 06:27:45 CDT main.go:161 - All connections closed. Total requests handled: 0
+2025/05/19 06:27:45 [INFO] 2025-05-19 06:27:45 CDT main.go:162 - Server shut down gracefully
+2025/05/19 10:22:52 [INFO] 2025-05-19 10:22:52 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-19.log
+2025/05/19 10:22:52 [INFO] 2025-05-19 10:22:52 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/19 10:22:52 [INFO] 2025-05-19 10:22:52 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/19 10:22:52 [INFO] 2025-05-19 10:22:52 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/19 10:22:52 [INFO] 2025-05-19 10:22:52 CDT config.go:61 - Running in development environment
+2025/05/19 10:22:52 [INFO] 2025-05-19 10:22:52 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/19 10:22:52 [INFO] 2025-05-19 10:22:52 CDT membership_aggregator.go:65 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/19 10:23:24 [INFO] 2025-05-19 10:23:24 CDT main.go:144 - Shutdown signal received
+2025/05/19 10:23:24 [INFO] 2025-05-19 10:23:24 CDT main.go:154 - Server shut down gracefully
+2025/05/19 10:23:24 [INFO] 2025-05-19 10:23:24 CDT main.go:158 - Shutdown signal received
+2025/05/19 10:23:24 [INFO] 2025-05-19 10:23:24 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/19 10:23:24 [INFO] 2025-05-19 10:23:24 CDT main.go:161 - All connections closed. Total requests handled: 0
+2025/05/19 10:23:24 [INFO] 2025-05-19 10:23:24 CDT main.go:162 - Server shut down gracefully
+2025/05/19 10:24:43 [INFO] 2025-05-19 10:24:43 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-19.log
+2025/05/19 10:24:43 [INFO] 2025-05-19 10:24:43 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/19 10:24:43 [INFO] 2025-05-19 10:24:43 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/19 10:24:43 [INFO] 2025-05-19 10:24:43 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/19 10:24:43 [INFO] 2025-05-19 10:24:43 CDT config.go:61 - Running in development environment
+2025/05/19 10:24:43 [INFO] 2025-05-19 10:24:43 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/19 10:30:39 [INFO] 2025-05-19 10:30:39 CDT main.go:144 - Shutdown signal received
+2025/05/19 10:30:39 [INFO] 2025-05-19 10:30:39 CDT main.go:154 - Server shut down gracefully
+2025/05/19 10:30:39 [INFO] 2025-05-19 10:30:39 CDT main.go:158 - Shutdown signal received
+2025/05/19 10:30:39 [INFO] 2025-05-19 10:30:39 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/19 10:30:39 [INFO] 2025-05-19 10:30:39 CDT main.go:161 - All connections closed. Total requests handled: 0
+2025/05/19 10:30:39 [INFO] 2025-05-19 10:30:39 CDT main.go:162 - Server shut down gracefully
+2025/05/19 10:45:10 [INFO] 2025-05-19 10:45:10 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-19.log
+2025/05/19 10:45:10 [INFO] 2025-05-19 10:45:10 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/19 10:45:10 [INFO] 2025-05-19 10:45:10 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/19 10:45:10 [INFO] 2025-05-19 10:45:10 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/19 10:45:10 [INFO] 2025-05-19 10:45:10 CDT config.go:61 - Running in development environment
+2025/05/19 10:45:10 [INFO] 2025-05-19 10:45:10 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/19 10:45:39 [INFO] 2025-05-19 10:45:39 CDT main.go:144 - Shutdown signal received
+2025/05/19 10:45:39 [INFO] 2025-05-19 10:45:39 CDT main.go:154 - Server shut down gracefully
+2025/05/19 10:45:39 [INFO] 2025-05-19 10:45:39 CDT main.go:158 - Shutdown signal received
+2025/05/19 10:45:39 [INFO] 2025-05-19 10:45:39 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/19 10:45:39 [INFO] 2025-05-19 10:45:39 CDT main.go:161 - All connections closed. Total requests handled: 0
+2025/05/19 10:45:39 [INFO] 2025-05-19 10:45:39 CDT main.go:162 - Server shut down gracefully
+2025/05/19 10:45:50 [INFO] 2025-05-19 10:45:50 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-19.log
+2025/05/19 10:45:50 [INFO] 2025-05-19 10:45:50 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/19 10:45:50 [INFO] 2025-05-19 10:45:50 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/19 10:45:50 [INFO] 2025-05-19 10:45:50 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/19 10:45:50 [INFO] 2025-05-19 10:45:50 CDT config.go:61 - Running in development environment
+2025/05/19 10:45:50 [INFO] 2025-05-19 10:45:50 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/19 10:45:50 [INFO] 2025-05-19 10:45:50 CDT membership_aggregator.go:151 - Wrote 11 membership entries to booster/data/memberships/2025/membership_2025.json
+2025/05/19 10:45:50 [INFO] 2025-05-19 10:45:50 CDT membership_aggregator.go:57 - Membership aggregation updated (11 entries)
+2025/05/19 10:46:50 [INFO] 2025-05-19 10:46:50 CDT membership_aggregator.go:151 - Wrote 11 membership entries to booster/data/memberships/2025/membership_2025.json
+2025/05/19 10:47:50 [INFO] 2025-05-19 10:47:50 CDT membership_aggregator.go:151 - Wrote 11 membership entries to booster/data/memberships/2025/membership_2025.json
+2025/05/19 10:48:50 [INFO] 2025-05-19 10:48:50 CDT membership_aggregator.go:151 - Wrote 11 membership entries to booster/data/memberships/2025/membership_2025.json
+2025/05/19 10:49:50 [INFO] 2025-05-19 10:49:50 CDT membership_aggregator.go:151 - Wrote 11 membership entries to booster/data/memberships/2025/membership_2025.json
+2025/05/19 10:50:50 [INFO] 2025-05-19 10:50:50 CDT membership_aggregator.go:151 - Wrote 11 membership entries to booster/data/memberships/2025/membership_2025.json
+2025/05/19 10:50:58 [INFO] 2025-05-19 10:50:58 CDT main.go:144 - Shutdown signal received
+2025/05/19 10:50:58 [INFO] 2025-05-19 10:50:58 CDT main.go:154 - Server shut down gracefully
+2025/05/19 10:50:58 [INFO] 2025-05-19 10:50:58 CDT main.go:158 - Shutdown signal received
+2025/05/19 10:50:58 [INFO] 2025-05-19 10:50:58 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/19 10:50:58 [INFO] 2025-05-19 10:50:58 CDT main.go:161 - All connections closed. Total requests handled: 0
+2025/05/19 10:50:58 [INFO] 2025-05-19 10:50:58 CDT main.go:162 - Server shut down gracefully
+2025/05/19 10:51:23 [INFO] 2025-05-19 10:51:23 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-19.log
+2025/05/19 10:51:23 [INFO] 2025-05-19 10:51:23 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/19 10:51:23 [INFO] 2025-05-19 10:51:23 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/19 10:51:23 [INFO] 2025-05-19 10:51:23 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/19 10:51:23 [INFO] 2025-05-19 10:51:23 CDT config.go:61 - Running in development environment
+2025/05/19 10:51:23 [INFO] 2025-05-19 10:51:23 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/19 10:51:23 [INFO] 2025-05-19 10:51:23 CDT membership_aggregator.go:68 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/19 10:53:21 [INFO] 2025-05-19 10:53:21 CDT main.go:144 - Shutdown signal received
+2025/05/19 10:53:21 [INFO] 2025-05-19 10:53:21 CDT main.go:154 - Server shut down gracefully
+2025/05/19 10:53:21 [INFO] 2025-05-19 10:53:21 CDT main.go:158 - Shutdown signal received
+2025/05/19 10:53:21 [INFO] 2025-05-19 10:53:21 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/19 10:53:21 [INFO] 2025-05-19 10:53:21 CDT main.go:161 - All connections closed. Total requests handled: 0
+2025/05/19 10:53:21 [INFO] 2025-05-19 10:53:21 CDT main.go:162 - Server shut down gracefully
+2025/05/19 10:53:29 [INFO] 2025-05-19 10:53:29 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-19.log
+2025/05/19 10:53:29 [INFO] 2025-05-19 10:53:29 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/19 10:53:29 [INFO] 2025-05-19 10:53:29 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/19 10:53:29 [INFO] 2025-05-19 10:53:29 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/19 10:53:29 [INFO] 2025-05-19 10:53:29 CDT config.go:61 - Running in development environment
+2025/05/19 10:53:29 [INFO] 2025-05-19 10:53:29 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/19 10:53:43 [INFO] 2025-05-19 10:53:43 CDT main.go:144 - Shutdown signal received
+2025/05/19 10:53:43 [INFO] 2025-05-19 10:53:43 CDT main.go:154 - Server shut down gracefully
+2025/05/19 10:53:43 [INFO] 2025-05-19 10:53:43 CDT main.go:158 - Shutdown signal received
+2025/05/19 10:53:43 [INFO] 2025-05-19 10:53:43 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/19 10:53:43 [INFO] 2025-05-19 10:53:43 CDT main.go:161 - All connections closed. Total requests handled: 0
+2025/05/19 10:53:43 [INFO] 2025-05-19 10:53:43 CDT main.go:162 - Server shut down gracefully
+2025/05/19 10:54:11 [INFO] 2025-05-19 10:54:11 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-19.log
+2025/05/19 10:54:11 [INFO] 2025-05-19 10:54:11 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/19 10:54:11 [INFO] 2025-05-19 10:54:11 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/19 10:54:11 [INFO] 2025-05-19 10:54:11 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/19 10:54:11 [INFO] 2025-05-19 10:54:11 CDT config.go:61 - Running in development environment
+2025/05/19 10:54:11 [INFO] 2025-05-19 10:54:11 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/19 10:54:11 [INFO] 2025-05-19 10:54:11 CDT membership_aggregator.go:151 - Wrote 11 membership entries to booster/data/memberships/2025/membership_2025.json
+2025/05/19 10:54:11 [INFO] 2025-05-19 10:54:11 CDT membership_aggregator.go:57 - Membership aggregation updated (11 entries)
+2025/05/19 10:54:32 [INFO] 2025-05-19 10:54:32 CDT main.go:144 - Shutdown signal received
+2025/05/19 10:54:32 [INFO] 2025-05-19 10:54:32 CDT main.go:154 - Server shut down gracefully
+2025/05/19 10:54:32 [INFO] 2025-05-19 10:54:32 CDT main.go:158 - Shutdown signal received
+2025/05/19 10:54:32 [INFO] 2025-05-19 10:54:32 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/19 10:54:32 [INFO] 2025-05-19 10:54:32 CDT main.go:161 - All connections closed. Total requests handled: 0
+2025/05/19 10:54:32 [INFO] 2025-05-19 10:54:32 CDT main.go:162 - Server shut down gracefully
+2025/05/19 21:24:58 [INFO] 2025-05-19 21:24:58 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-19.log
+2025/05/19 21:24:58 [INFO] 2025-05-19 21:24:58 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/19 21:24:58 [INFO] 2025-05-19 21:24:58 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/19 21:24:58 [INFO] 2025-05-19 21:24:58 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/19 21:24:58 [INFO] 2025-05-19 21:24:58 CDT config.go:61 - Running in development environment
+2025/05/19 21:24:58 [INFO] 2025-05-19 21:24:58 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/19 21:24:58 [INFO] 2025-05-19 21:24:58 CDT membership_aggregator.go:151 - Wrote 11 membership entries to booster/data/memberships/2025/membership_2025.json
+2025/05/19 21:24:58 [INFO] 2025-05-19 21:24:58 CDT membership_aggregator.go:57 - Membership aggregation updated (11 entries)
+2025/05/19 21:25:07 [INFO] 2025-05-19 21:25:07 CDT main.go:144 - Shutdown signal received
+2025/05/19 21:25:07 [INFO] 2025-05-19 21:25:07 CDT main.go:154 - Server shut down gracefully
+2025/05/19 21:25:07 [INFO] 2025-05-19 21:25:07 CDT main.go:158 - Shutdown signal received
+2025/05/19 21:25:07 [INFO] 2025-05-19 21:25:07 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/19 21:25:07 [INFO] 2025-05-19 21:25:07 CDT main.go:161 - All connections closed. Total requests handled: 0
+2025/05/19 21:25:07 [INFO] 2025-05-19 21:25:07 CDT main.go:162 - Server shut down gracefully
+2025/05/19 21:25:11 [INFO] 2025-05-19 21:25:11 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-19.log
+2025/05/19 21:25:11 [INFO] 2025-05-19 21:25:11 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/19 21:25:11 [INFO] 2025-05-19 21:25:11 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/19 21:25:11 [INFO] 2025-05-19 21:25:11 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/19 21:25:11 [INFO] 2025-05-19 21:25:11 CDT config.go:61 - Running in development environment
+2025/05/19 21:25:11 [INFO] 2025-05-19 21:25:11 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/19 21:25:11 [INFO] 2025-05-19 21:25:11 CDT membership_aggregator.go:151 - Wrote 11 membership entries to booster/data/memberships/2025/membership_2025.json
+2025/05/19 21:25:11 [INFO] 2025-05-19 21:25:11 CDT membership_aggregator.go:57 - Membership aggregation updated (11 entries)
+2025/05/19 21:25:17 [INFO] 2025-05-19 21:25:17 CDT main.go:144 - Shutdown signal received
+2025/05/19 21:25:17 [INFO] 2025-05-19 21:25:17 CDT main.go:154 - Server shut down gracefully
+2025/05/19 21:25:17 [INFO] 2025-05-19 21:25:17 CDT main.go:158 - Shutdown signal received
+2025/05/19 21:25:17 [INFO] 2025-05-19 21:25:17 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/19 21:25:17 [INFO] 2025-05-19 21:25:17 CDT main.go:161 - All connections closed. Total requests handled: 0
+2025/05/19 21:25:17 [INFO] 2025-05-19 21:25:17 CDT main.go:162 - Server shut down gracefully
+2025/05/19 21:32:31 [INFO] 2025-05-19 21:32:31 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-19.log
+2025/05/19 21:32:31 [INFO] 2025-05-19 21:32:31 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/19 21:32:31 [INFO] 2025-05-19 21:32:31 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/19 21:32:31 [INFO] 2025-05-19 21:32:31 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/19 21:32:31 [INFO] 2025-05-19 21:32:31 CDT config.go:61 - Running in development environment
+2025/05/19 21:32:31 [INFO] 2025-05-19 21:32:31 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/19 21:37:27 [INFO] 2025-05-19 21:37:27 CDT main.go:144 - Shutdown signal received
+2025/05/19 21:37:27 [INFO] 2025-05-19 21:37:27 CDT main.go:154 - Server shut down gracefully
+2025/05/19 21:37:27 [INFO] 2025-05-19 21:37:27 CDT main.go:158 - Shutdown signal received
+2025/05/19 21:37:27 [INFO] 2025-05-19 21:37:27 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/19 21:37:27 [INFO] 2025-05-19 21:37:27 CDT main.go:161 - All connections closed. Total requests handled: 0
+2025/05/19 21:37:27 [INFO] 2025-05-19 21:37:27 CDT main.go:162 - Server shut down gracefully
+2025/05/19 21:37:30 [INFO] 2025-05-19 21:37:30 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-19.log
+2025/05/19 21:37:30 [INFO] 2025-05-19 21:37:30 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/19 21:37:30 [INFO] 2025-05-19 21:37:30 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/19 21:37:30 [INFO] 2025-05-19 21:37:30 CDT payment.go:191 - Successfully preloaded 0 pending payments.
+2025/05/19 21:37:30 [INFO] 2025-05-19 21:37:30 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/19 21:37:30 [INFO] 2025-05-19 21:37:30 CDT config.go:61 - Running in development environment
+2025/05/19 21:37:30 [INFO] 2025-05-19 21:37:30 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/19 21:48:21 [INFO] 2025-05-19 21:48:21 CDT main.go:144 - Shutdown signal received
+2025/05/19 21:48:21 [INFO] 2025-05-19 21:48:21 CDT main.go:154 - Server shut down gracefully
+2025/05/19 21:48:21 [INFO] 2025-05-19 21:48:21 CDT main.go:158 - Shutdown signal received
+2025/05/19 21:48:21 [INFO] 2025-05-19 21:48:21 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/19 21:48:21 [INFO] 2025-05-19 21:48:21 CDT main.go:161 - All connections closed. Total requests handled: 0
+2025/05/19 21:48:21 [INFO] 2025-05-19 21:48:21 CDT main.go:162 - Server shut down gracefully

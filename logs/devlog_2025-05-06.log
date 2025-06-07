@@ -1,0 +1,611 @@
+2025/05/06 22:30:12 [INFO] 2025-05-06 22:30:12 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-06.log
+2025/05/06 22:30:12 [INFO] 2025-05-06 22:30:12 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/06 22:30:12 [INFO] 2025-05-06 22:30:12 CDT config.go:186 - Using PayPal Sandbox environment
+2025/05/06 22:30:12 [INFO] 2025-05-06 22:30:12 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/06 22:30:12 [INFO] 2025-05-06 22:30:12 CDT config.go:58 - Running in development environment
+2025/05/06 22:30:12 [INFO] 2025-05-06 22:30:12 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/06 22:30:12 [INFO] 2025-05-06 22:30:12 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:30:29 [INFO] 2025-05-06 22:30:29 CDT logger.go:122 - HTTP GET /memberships from 127.0.0.1
+2025/05/06 22:30:29 [INFO] 2025-05-06 22:30:29 CDT main.go:190 - GET /api/memberships took 2.368279ms
+2025/05/06 22:31:12 [INFO] 2025-05-06 22:31:12 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:31:42 [INFO] 2025-05-06 22:31:42 CDT logger.go:122 - HTTP GET /memberships from 127.0.0.1
+2025/05/06 22:31:42 [INFO] 2025-05-06 22:31:42 CDT main.go:190 - GET /api/memberships took 6.524231ms
+2025/05/06 22:32:12 [INFO] 2025-05-06 22:32:12 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:33:12 [INFO] 2025-05-06 22:33:12 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:34:12 [INFO] 2025-05-06 22:34:12 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:35:12 [INFO] 2025-05-06 22:35:12 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:36:12 [INFO] 2025-05-06 22:36:12 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:36:43 [INFO] 2025-05-06 22:36:43 CDT main.go:144 - Shutdown signal received
+2025/05/06 22:36:43 [INFO] 2025-05-06 22:36:43 CDT main.go:154 - Server shut down gracefully
+2025/05/06 22:36:43 [INFO] 2025-05-06 22:36:43 CDT main.go:158 - Shutdown signal received
+2025/05/06 22:36:43 [INFO] 2025-05-06 22:36:43 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/06 22:36:43 [INFO] 2025-05-06 22:36:43 CDT main.go:161 - All connections closed. Total requests handled: 2
+2025/05/06 22:36:43 [INFO] 2025-05-06 22:36:43 CDT main.go:162 - Server shut down gracefully
+2025/05/06 22:36:45 [INFO] 2025-05-06 22:36:45 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-06.log
+2025/05/06 22:36:45 [INFO] 2025-05-06 22:36:45 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/06 22:36:45 [INFO] 2025-05-06 22:36:45 CDT config.go:186 - Using PayPal Sandbox environment
+2025/05/06 22:36:45 [INFO] 2025-05-06 22:36:45 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/06 22:36:45 [INFO] 2025-05-06 22:36:45 CDT config.go:58 - Running in development environment
+2025/05/06 22:36:45 [INFO] 2025-05-06 22:36:45 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/06 22:36:45 [INFO] 2025-05-06 22:36:45 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:37:35 [INFO] 2025-05-06 22:37:35 CDT main.go:144 - Shutdown signal received
+2025/05/06 22:37:35 [INFO] 2025-05-06 22:37:35 CDT main.go:154 - Server shut down gracefully
+2025/05/06 22:37:35 [INFO] 2025-05-06 22:37:35 CDT main.go:158 - Shutdown signal received
+2025/05/06 22:37:35 [INFO] 2025-05-06 22:37:35 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/06 22:37:35 [INFO] 2025-05-06 22:37:35 CDT main.go:161 - All connections closed. Total requests handled: 0
+2025/05/06 22:37:35 [INFO] 2025-05-06 22:37:35 CDT main.go:162 - Server shut down gracefully
+2025/05/06 22:38:53 [INFO] 2025-05-06 22:38:53 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-06.log
+2025/05/06 22:38:53 [INFO] 2025-05-06 22:38:53 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/06 22:38:53 [INFO] 2025-05-06 22:38:53 CDT config.go:186 - Using PayPal Sandbox environment
+2025/05/06 22:38:53 [INFO] 2025-05-06 22:38:53 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/06 22:38:53 [INFO] 2025-05-06 22:38:53 CDT config.go:58 - Running in development environment
+2025/05/06 22:38:53 [INFO] 2025-05-06 22:38:53 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/06 22:38:53 [INFO] 2025-05-06 22:38:53 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:39:53 [INFO] 2025-05-06 22:39:53 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:40:53 [INFO] 2025-05-06 22:40:53 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:41:00 [INFO] 2025-05-06 22:41:00 CDT main.go:144 - Shutdown signal received
+2025/05/06 22:41:00 [INFO] 2025-05-06 22:41:00 CDT main.go:154 - Server shut down gracefully
+2025/05/06 22:41:00 [INFO] 2025-05-06 22:41:00 CDT main.go:158 - Shutdown signal received
+2025/05/06 22:41:00 [INFO] 2025-05-06 22:41:00 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/06 22:41:00 [INFO] 2025-05-06 22:41:00 CDT main.go:161 - All connections closed. Total requests handled: 0
+2025/05/06 22:41:00 [INFO] 2025-05-06 22:41:00 CDT main.go:162 - Server shut down gracefully
+2025/05/06 22:41:42 [INFO] 2025-05-06 22:41:42 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-06.log
+2025/05/06 22:41:42 [INFO] 2025-05-06 22:41:42 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/06 22:41:42 [INFO] 2025-05-06 22:41:42 CDT config.go:186 - Using PayPal Sandbox environment
+2025/05/06 22:41:42 [INFO] 2025-05-06 22:41:42 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/06 22:41:42 [INFO] 2025-05-06 22:41:42 CDT config.go:58 - Running in development environment
+2025/05/06 22:41:42 [INFO] 2025-05-06 22:41:42 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/06 22:41:42 [INFO] 2025-05-06 22:41:42 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:42:42 [INFO] 2025-05-06 22:42:42 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:43:42 [INFO] 2025-05-06 22:43:42 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:44:42 [INFO] 2025-05-06 22:44:42 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:45:42 [INFO] 2025-05-06 22:45:42 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:46:10 [INFO] 2025-05-06 22:46:10 CDT main.go:144 - Shutdown signal received
+2025/05/06 22:46:10 [INFO] 2025-05-06 22:46:10 CDT main.go:154 - Server shut down gracefully
+2025/05/06 22:46:10 [INFO] 2025-05-06 22:46:10 CDT main.go:158 - Shutdown signal received
+2025/05/06 22:46:10 [INFO] 2025-05-06 22:46:10 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/06 22:46:10 [INFO] 2025-05-06 22:46:10 CDT main.go:161 - All connections closed. Total requests handled: 0
+2025/05/06 22:46:10 [INFO] 2025-05-06 22:46:10 CDT main.go:162 - Server shut down gracefully
+2025/05/06 22:46:12 [INFO] 2025-05-06 22:46:12 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-06.log
+2025/05/06 22:46:12 [INFO] 2025-05-06 22:46:12 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/06 22:46:12 [INFO] 2025-05-06 22:46:12 CDT config.go:186 - Using PayPal Sandbox environment
+2025/05/06 22:46:12 [INFO] 2025-05-06 22:46:12 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/06 22:46:12 [INFO] 2025-05-06 22:46:12 CDT config.go:58 - Running in development environment
+2025/05/06 22:46:12 [INFO] 2025-05-06 22:46:12 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/06 22:46:12 [INFO] 2025-05-06 22:46:12 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:46:28 [INFO] 2025-05-06 22:46:28 CDT info.go:19 - Loading template from templates/info.tmpl
+2025/05/06 22:46:28 [INFO] 2025-05-06 22:46:28 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/05/06 22:46:28 [INFO] 2025-05-06 22:46:28 CDT info.go:34 - Using data file: booster/data/memberships/2025/membership_2025.json
+2025/05/06 22:46:28 [INFO] 2025-05-06 22:46:28 CDT info.go:35 - Entries loaded: 5
+2025/05/06 22:46:28 [ERROR] 2025-05-06 22:46:28 CDT info.go:93 - Template error: template: info.tmpl:35: function "joinStudentNames" not defined
+2025/05/06 22:46:28 [INFO] 2025-05-06 22:46:28 CDT main.go:190 - GET /info took 2.144629ms
+2025/05/06 22:47:12 [INFO] 2025-05-06 22:47:12 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:48:12 [INFO] 2025-05-06 22:48:12 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:49:12 [INFO] 2025-05-06 22:49:12 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:50:12 [INFO] 2025-05-06 22:50:12 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:51:12 [INFO] 2025-05-06 22:51:12 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:51:18 [INFO] 2025-05-06 22:51:18 CDT main.go:144 - Shutdown signal received
+2025/05/06 22:51:18 [INFO] 2025-05-06 22:51:18 CDT main.go:154 - Server shut down gracefully
+2025/05/06 22:51:18 [INFO] 2025-05-06 22:51:18 CDT main.go:158 - Shutdown signal received
+2025/05/06 22:51:18 [INFO] 2025-05-06 22:51:18 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/06 22:51:18 [INFO] 2025-05-06 22:51:18 CDT main.go:161 - All connections closed. Total requests handled: 1
+2025/05/06 22:51:18 [INFO] 2025-05-06 22:51:18 CDT main.go:162 - Server shut down gracefully
+2025/05/06 22:51:20 [INFO] 2025-05-06 22:51:20 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-06.log
+2025/05/06 22:51:20 [INFO] 2025-05-06 22:51:20 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/06 22:51:20 [INFO] 2025-05-06 22:51:20 CDT config.go:186 - Using PayPal Sandbox environment
+2025/05/06 22:51:20 [INFO] 2025-05-06 22:51:20 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/06 22:51:20 [INFO] 2025-05-06 22:51:20 CDT config.go:58 - Running in development environment
+2025/05/06 22:51:20 [INFO] 2025-05-06 22:51:20 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/06 22:51:20 [INFO] 2025-05-06 22:51:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:51:45 [INFO] 2025-05-06 22:51:45 CDT info.go:19 - Loading template from templates/info.tmpl
+2025/05/06 22:51:45 [INFO] 2025-05-06 22:51:45 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/05/06 22:51:45 [INFO] 2025-05-06 22:51:45 CDT info.go:34 - Using data file: booster/data/memberships/2025/membership_2025.json
+2025/05/06 22:51:45 [INFO] 2025-05-06 22:51:45 CDT info.go:35 - Entries loaded: 5
+2025/05/06 22:51:45 [INFO] 2025-05-06 22:51:45 CDT main.go:190 - GET /info took 2.111344ms
+2025/05/06 22:52:20 [INFO] 2025-05-06 22:52:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:53:20 [INFO] 2025-05-06 22:53:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:54:07 [INFO] 2025-05-06 22:54:07 CDT logger.go:122 - HTTP GET /memberships from 127.0.0.1
+2025/05/06 22:54:07 [INFO] 2025-05-06 22:54:07 CDT main.go:190 - GET /api/memberships took 30.231531ms
+2025/05/06 22:54:20 [INFO] 2025-05-06 22:54:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:55:20 [INFO] 2025-05-06 22:55:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:56:20 [INFO] 2025-05-06 22:56:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:57:20 [INFO] 2025-05-06 22:57:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:58:20 [INFO] 2025-05-06 22:58:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:59:20 [INFO] 2025-05-06 22:59:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 22:59:43 [INFO] 2025-05-06 22:59:43 CDT info.go:19 - Loading template from templates/info.tmpl
+2025/05/06 22:59:43 [INFO] 2025-05-06 22:59:43 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/05/06 22:59:43 [INFO] 2025-05-06 22:59:43 CDT info.go:34 - Using data file: booster/data/memberships/2025/membership_2025.json
+2025/05/06 22:59:43 [INFO] 2025-05-06 22:59:43 CDT info.go:35 - Entries loaded: 5
+2025/05/06 22:59:43 [INFO] 2025-05-06 22:59:43 CDT main.go:190 - GET /info took 2.411855ms
+2025/05/06 23:00:20 [INFO] 2025-05-06 23:00:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:01:20 [INFO] 2025-05-06 23:01:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:02:20 [INFO] 2025-05-06 23:02:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:02:38 [INFO] 2025-05-06 23:02:38 CDT info.go:19 - Loading template from templates/info.tmpl
+2025/05/06 23:02:38 [INFO] 2025-05-06 23:02:38 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/05/06 23:02:38 [INFO] 2025-05-06 23:02:38 CDT info.go:34 - Using data file: booster/data/memberships/2025/membership_2025.json
+2025/05/06 23:02:38 [INFO] 2025-05-06 23:02:38 CDT info.go:35 - Entries loaded: 5
+2025/05/06 23:02:38 [INFO] 2025-05-06 23:02:38 CDT main.go:190 - GET /info took 2.434154ms
+2025/05/06 23:03:20 [INFO] 2025-05-06 23:03:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:04:20 [INFO] 2025-05-06 23:04:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:05:20 [INFO] 2025-05-06 23:05:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:06:20 [INFO] 2025-05-06 23:06:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:07:17 [INFO] 2025-05-06 23:07:17 CDT info.go:19 - Loading template from templates/info.tmpl
+2025/05/06 23:07:17 [INFO] 2025-05-06 23:07:17 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/05/06 23:07:17 [INFO] 2025-05-06 23:07:17 CDT info.go:34 - Using data file: booster/data/memberships/2025/membership_2025.json
+2025/05/06 23:07:17 [INFO] 2025-05-06 23:07:17 CDT info.go:35 - Entries loaded: 5
+2025/05/06 23:07:17 [INFO] 2025-05-06 23:07:17 CDT main.go:190 - GET /info took 2.520055ms
+2025/05/06 23:07:20 [INFO] 2025-05-06 23:07:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:08:20 [INFO] 2025-05-06 23:08:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:08:41 [INFO] 2025-05-06 23:08:41 CDT info.go:19 - Loading template from templates/info.tmpl
+2025/05/06 23:08:41 [INFO] 2025-05-06 23:08:41 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/05/06 23:08:41 [INFO] 2025-05-06 23:08:41 CDT info.go:34 - Using data file: booster/data/memberships/2025/membership_2025.json
+2025/05/06 23:08:41 [INFO] 2025-05-06 23:08:41 CDT info.go:35 - Entries loaded: 5
+2025/05/06 23:08:41 [INFO] 2025-05-06 23:08:41 CDT main.go:190 - GET /info took 2.447768ms
+2025/05/06 23:09:20 [INFO] 2025-05-06 23:09:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:10:20 [INFO] 2025-05-06 23:10:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:11:20 [INFO] 2025-05-06 23:11:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:11:21 [INFO] 2025-05-06 23:11:21 CDT info.go:19 - Loading template from templates/info.tmpl
+2025/05/06 23:11:21 [INFO] 2025-05-06 23:11:21 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/05/06 23:11:21 [INFO] 2025-05-06 23:11:21 CDT info.go:34 - Using data file: booster/data/memberships/2025/membership_2025.json
+2025/05/06 23:11:21 [INFO] 2025-05-06 23:11:21 CDT info.go:35 - Entries loaded: 5
+2025/05/06 23:11:21 [INFO] 2025-05-06 23:11:21 CDT main.go:190 - GET /info took 2.911773ms
+2025/05/06 23:12:20 [INFO] 2025-05-06 23:12:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:13:20 [INFO] 2025-05-06 23:13:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:14:20 [INFO] 2025-05-06 23:14:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:15:20 [INFO] 2025-05-06 23:15:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:16:20 [INFO] 2025-05-06 23:16:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:17:20 [INFO] 2025-05-06 23:17:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:18:20 [INFO] 2025-05-06 23:18:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:19:20 [INFO] 2025-05-06 23:19:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:20:20 [INFO] 2025-05-06 23:20:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:21:20 [INFO] 2025-05-06 23:21:20 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/06 23:21:20 [INFO] 2025-05-06 23:21:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:22:20 [INFO] 2025-05-06 23:22:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:23:20 [INFO] 2025-05-06 23:23:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:24:20 [INFO] 2025-05-06 23:24:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:24:58 [INFO] 2025-05-06 23:24:58 CDT main.go:144 - Shutdown signal received
+2025/05/06 23:24:58 [INFO] 2025-05-06 23:24:58 CDT main.go:154 - Server shut down gracefully
+2025/05/06 23:24:58 [INFO] 2025-05-06 23:24:58 CDT main.go:158 - Shutdown signal received
+2025/05/06 23:24:58 [INFO] 2025-05-06 23:24:58 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/06 23:24:58 [INFO] 2025-05-06 23:24:58 CDT main.go:161 - All connections closed. Total requests handled: 7
+2025/05/06 23:24:58 [INFO] 2025-05-06 23:24:58 CDT main.go:162 - Server shut down gracefully
+2025/05/06 23:25:15 [INFO] 2025-05-06 23:25:15 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-06.log
+2025/05/06 23:25:15 [INFO] 2025-05-06 23:25:15 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/06 23:25:15 [INFO] 2025-05-06 23:25:15 CDT config.go:186 - Using PayPal Sandbox environment
+2025/05/06 23:25:15 [INFO] 2025-05-06 23:25:15 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/06 23:25:15 [INFO] 2025-05-06 23:25:15 CDT config.go:58 - Running in development environment
+2025/05/06 23:25:15 [INFO] 2025-05-06 23:25:15 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/06 23:25:15 [INFO] 2025-05-06 23:25:15 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:25:27 [INFO] 2025-05-06 23:25:27 CDT info.go:20 - Loading template from templates/info.tmpl
+2025/05/06 23:25:27 [INFO] 2025-05-06 23:25:27 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/05/06 23:25:27 [INFO] 2025-05-06 23:25:27 CDT info.go:35 - Using data file: booster/data/memberships/2025/membership_2025.json
+2025/05/06 23:25:27 [INFO] 2025-05-06 23:25:27 CDT info.go:36 - Entries loaded: 5
+2025/05/06 23:25:27 [INFO] 2025-05-06 23:25:27 CDT main.go:190 - GET /info took 3.520186ms
+2025/05/06 23:26:12 [INFO] 2025-05-06 23:26:12 CDT info.go:20 - Loading template from templates/info.tmpl
+2025/05/06 23:26:12 [INFO] 2025-05-06 23:26:12 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/05/06 23:26:12 [INFO] 2025-05-06 23:26:12 CDT info.go:35 - Using data file: booster/data/memberships/2025/membership_2025.json
+2025/05/06 23:26:12 [INFO] 2025-05-06 23:26:12 CDT info.go:36 - Entries loaded: 5
+2025/05/06 23:26:12 [INFO] 2025-05-06 23:26:12 CDT main.go:190 - GET /info took 2.718873ms
+2025/05/06 23:26:15 [INFO] 2025-05-06 23:26:15 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:27:15 [INFO] 2025-05-06 23:27:15 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:28:15 [INFO] 2025-05-06 23:28:15 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:29:15 [INFO] 2025-05-06 23:29:15 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:30:15 [INFO] 2025-05-06 23:30:15 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:31:15 [INFO] 2025-05-06 23:31:15 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:32:15 [INFO] 2025-05-06 23:32:15 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:33:15 [INFO] 2025-05-06 23:33:15 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:34:15 [INFO] 2025-05-06 23:34:15 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:35:15 [INFO] 2025-05-06 23:35:15 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:35:36 [INFO] 2025-05-06 23:35:36 CDT main.go:144 - Shutdown signal received
+2025/05/06 23:35:36 [INFO] 2025-05-06 23:35:36 CDT main.go:154 - Server shut down gracefully
+2025/05/06 23:35:36 [INFO] 2025-05-06 23:35:36 CDT main.go:158 - Shutdown signal received
+2025/05/06 23:35:36 [INFO] 2025-05-06 23:35:36 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/06 23:35:36 [INFO] 2025-05-06 23:35:36 CDT main.go:161 - All connections closed. Total requests handled: 2
+2025/05/06 23:35:36 [INFO] 2025-05-06 23:35:36 CDT main.go:162 - Server shut down gracefully
+2025/05/06 23:35:39 [INFO] 2025-05-06 23:35:39 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-06.log
+2025/05/06 23:35:39 [INFO] 2025-05-06 23:35:39 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/06 23:35:39 [INFO] 2025-05-06 23:35:39 CDT config.go:186 - Using PayPal Sandbox environment
+2025/05/06 23:35:39 [INFO] 2025-05-06 23:35:39 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/06 23:35:39 [INFO] 2025-05-06 23:35:39 CDT config.go:58 - Running in development environment
+2025/05/06 23:35:39 [INFO] 2025-05-06 23:35:39 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/06 23:35:39 [INFO] 2025-05-06 23:35:39 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:35:49 [INFO] 2025-05-06 23:35:49 CDT info.go:20 - Loading template from templates/info.tmpl
+2025/05/06 23:35:49 [INFO] 2025-05-06 23:35:49 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/05/06 23:35:49 [INFO] 2025-05-06 23:35:49 CDT info.go:35 - Using data file: booster/data/memberships/2025/membership_2025.json
+2025/05/06 23:35:49 [INFO] 2025-05-06 23:35:49 CDT info.go:36 - Entries loaded: 5
+2025/05/06 23:35:49 [INFO] 2025-05-06 23:35:49 CDT main.go:190 - GET /info took 3.650708ms
+2025/05/06 23:36:39 [INFO] 2025-05-06 23:36:39 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/06 23:37:21 [INFO] 2025-05-06 23:37:21 CDT info.go:20 - Loading template from templates/info.tmpl
+2025/05/06 23:37:21 [INFO] 2025-05-06 23:37:21 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/05/06 23:37:21 [INFO] 2025-05-06 23:37:21 CDT info.go:35 - Using data file: booster/data/memberships/2025/membership_2025.json
+2025/05/06 23:37:21 [INFO] 2025-05-06 23:37:21 CDT info.go:36 - Entries loaded: 5
+2025/05/06 23:37:21 [INFO] 2025-05-06 23:37:21 CDT main.go:190 - GET /info took 2.76165ms
+2025/05/06 23:37:39 [INFO] 2025-05-06 23:37:39 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 00:08:34 [INFO] 2025-05-07 00:08:34 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 00:15:13 [INFO] 2025-05-07 00:15:13 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 00:16:13 [INFO] 2025-05-07 00:16:13 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 00:32:31 [INFO] 2025-05-07 00:32:31 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 00:33:31 [INFO] 2025-05-07 00:33:31 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 00:34:31 [INFO] 2025-05-07 00:34:31 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 00:51:48 [INFO] 2025-05-07 00:51:48 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 00:52:47 [INFO] 2025-05-07 00:52:47 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 00:53:47 [INFO] 2025-05-07 00:53:47 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 00:54:47 [INFO] 2025-05-07 00:54:47 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 00:55:47 [INFO] 2025-05-07 00:55:47 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 00:56:47 [INFO] 2025-05-07 00:56:47 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 01:13:49 [INFO] 2025-05-07 01:13:49 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 01:14:49 [INFO] 2025-05-07 01:14:49 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 01:15:49 [INFO] 2025-05-07 01:15:49 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 01:16:49 [INFO] 2025-05-07 01:16:49 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 01:17:49 [INFO] 2025-05-07 01:17:49 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 01:33:53 [INFO] 2025-05-07 01:33:53 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 01:34:53 [INFO] 2025-05-07 01:34:53 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 01:35:53 [INFO] 2025-05-07 01:35:53 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 01:36:53 [INFO] 2025-05-07 01:36:53 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 01:37:53 [INFO] 2025-05-07 01:37:53 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 01:38:53 [INFO] 2025-05-07 01:38:53 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 01:57:02 [INFO] 2025-05-07 01:57:02 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 01:58:02 [INFO] 2025-05-07 01:58:02 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 01:59:02 [INFO] 2025-05-07 01:59:02 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 02:00:02 [INFO] 2025-05-07 02:00:02 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 02:01:02 [INFO] 2025-05-07 02:01:02 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/07 02:01:02 [INFO] 2025-05-07 02:01:02 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 02:17:02 [INFO] 2025-05-07 02:17:02 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 02:18:02 [INFO] 2025-05-07 02:18:02 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 02:19:02 [INFO] 2025-05-07 02:19:02 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 02:20:02 [INFO] 2025-05-07 02:20:02 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 02:21:02 [INFO] 2025-05-07 02:21:02 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 02:38:12 [INFO] 2025-05-07 02:38:12 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 02:39:12 [INFO] 2025-05-07 02:39:12 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 02:40:12 [INFO] 2025-05-07 02:40:12 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 02:41:12 [INFO] 2025-05-07 02:41:12 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 02:42:12 [INFO] 2025-05-07 02:42:12 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 03:00:14 [INFO] 2025-05-07 03:00:14 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 03:01:14 [INFO] 2025-05-07 03:01:14 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 03:02:14 [INFO] 2025-05-07 03:02:14 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 03:03:14 [INFO] 2025-05-07 03:03:14 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 03:04:14 [INFO] 2025-05-07 03:04:14 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 03:17:21 [INFO] 2025-05-07 03:17:21 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 03:18:20 [INFO] 2025-05-07 03:18:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 03:19:20 [INFO] 2025-05-07 03:19:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 03:20:20 [INFO] 2025-05-07 03:20:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 03:21:20 [INFO] 2025-05-07 03:21:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 03:22:20 [INFO] 2025-05-07 03:22:20 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 03:39:40 [INFO] 2025-05-07 03:39:40 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 03:40:40 [INFO] 2025-05-07 03:40:40 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 03:41:40 [INFO] 2025-05-07 03:41:40 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 03:42:40 [INFO] 2025-05-07 03:42:40 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 03:43:40 [INFO] 2025-05-07 03:43:40 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 04:00:45 [INFO] 2025-05-07 04:00:45 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 04:01:45 [INFO] 2025-05-07 04:01:45 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 04:02:45 [INFO] 2025-05-07 04:02:45 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 04:18:33 [INFO] 2025-05-07 04:18:33 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/07 04:18:33 [INFO] 2025-05-07 04:18:33 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 04:19:33 [INFO] 2025-05-07 04:19:33 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 04:20:33 [INFO] 2025-05-07 04:20:33 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 04:21:33 [INFO] 2025-05-07 04:21:33 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 04:22:33 [INFO] 2025-05-07 04:22:33 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 04:39:06 [INFO] 2025-05-07 04:39:06 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 04:40:06 [INFO] 2025-05-07 04:40:06 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 04:41:06 [INFO] 2025-05-07 04:41:06 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 04:42:06 [INFO] 2025-05-07 04:42:06 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 04:43:06 [INFO] 2025-05-07 04:43:06 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 04:59:49 [INFO] 2025-05-07 04:59:49 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 05:00:49 [INFO] 2025-05-07 05:00:49 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 05:01:49 [INFO] 2025-05-07 05:01:49 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 05:02:49 [INFO] 2025-05-07 05:02:49 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 05:03:49 [INFO] 2025-05-07 05:03:49 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 05:18:53 [INFO] 2025-05-07 05:18:53 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 05:19:53 [INFO] 2025-05-07 05:19:53 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 05:20:53 [INFO] 2025-05-07 05:20:53 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 05:21:53 [INFO] 2025-05-07 05:21:53 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 05:22:53 [INFO] 2025-05-07 05:22:53 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 05:23:53 [INFO] 2025-05-07 05:23:53 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 05:40:41 [INFO] 2025-05-07 05:40:41 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 05:41:41 [INFO] 2025-05-07 05:41:41 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 05:42:41 [INFO] 2025-05-07 05:42:41 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 05:43:41 [INFO] 2025-05-07 05:43:41 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 05:44:41 [INFO] 2025-05-07 05:44:41 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:00:36 [INFO] 2025-05-07 06:00:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:01:36 [INFO] 2025-05-07 06:01:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:02:36 [INFO] 2025-05-07 06:02:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:03:36 [INFO] 2025-05-07 06:03:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:04:36 [INFO] 2025-05-07 06:04:36 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/07 06:04:36 [INFO] 2025-05-07 06:04:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:05:36 [INFO] 2025-05-07 06:05:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:06:36 [INFO] 2025-05-07 06:06:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:07:36 [INFO] 2025-05-07 06:07:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:07:37 [INFO] 2025-05-07 06:07:37 CDT info.go:20 - Loading template from templates/info.tmpl
+2025/05/07 06:07:37 [INFO] 2025-05-07 06:07:37 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/05/07 06:07:37 [INFO] 2025-05-07 06:07:37 CDT info.go:35 - Using data file: booster/data/memberships/2025/membership_2025.json
+2025/05/07 06:07:37 [INFO] 2025-05-07 06:07:37 CDT info.go:36 - Entries loaded: 5
+2025/05/07 06:07:37 [INFO] 2025-05-07 06:07:37 CDT main.go:190 - GET /info took 2.900763ms
+2025/05/07 06:08:36 [INFO] 2025-05-07 06:08:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:09:36 [INFO] 2025-05-07 06:09:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:10:36 [INFO] 2025-05-07 06:10:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:11:36 [INFO] 2025-05-07 06:11:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:12:36 [INFO] 2025-05-07 06:12:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:13:36 [INFO] 2025-05-07 06:13:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:14:36 [INFO] 2025-05-07 06:14:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:15:36 [INFO] 2025-05-07 06:15:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:16:36 [INFO] 2025-05-07 06:16:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:17:36 [INFO] 2025-05-07 06:17:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:18:36 [INFO] 2025-05-07 06:18:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:19:36 [INFO] 2025-05-07 06:19:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:20:36 [INFO] 2025-05-07 06:20:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:21:36 [INFO] 2025-05-07 06:21:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:22:36 [INFO] 2025-05-07 06:22:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:23:36 [INFO] 2025-05-07 06:23:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:24:36 [INFO] 2025-05-07 06:24:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:25:36 [INFO] 2025-05-07 06:25:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:26:36 [INFO] 2025-05-07 06:26:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:27:36 [INFO] 2025-05-07 06:27:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:28:36 [INFO] 2025-05-07 06:28:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:29:36 [INFO] 2025-05-07 06:29:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:30:36 [INFO] 2025-05-07 06:30:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:31:36 [INFO] 2025-05-07 06:31:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:32:36 [INFO] 2025-05-07 06:32:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 06:45:15 [INFO] 2025-05-07 06:45:15 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 07:02:50 [INFO] 2025-05-07 07:02:50 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/07 07:02:50 [INFO] 2025-05-07 07:02:50 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 07:19:11 [INFO] 2025-05-07 07:19:11 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 07:20:11 [INFO] 2025-05-07 07:20:11 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 07:21:11 [INFO] 2025-05-07 07:21:11 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 07:22:11 [INFO] 2025-05-07 07:22:11 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 07:23:11 [INFO] 2025-05-07 07:23:11 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 07:24:11 [INFO] 2025-05-07 07:24:11 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 07:41:16 [INFO] 2025-05-07 07:41:16 CDT main.go:219 - 404 not found: /onvif/device_service
+2025/05/07 07:41:16 [INFO] 2025-05-07 07:41:16 CDT main.go:190 - POST /onvif/device_service took 1.796656ms
+2025/05/07 07:41:27 [INFO] 2025-05-07 07:41:27 CDT main.go:219 - 404 not found: /
+2025/05/07 07:41:27 [INFO] 2025-05-07 07:41:27 CDT main.go:190 - GET / took 205.618µs
+2025/05/07 07:41:27 [INFO] 2025-05-07 07:41:27 CDT main.go:190 - GET /${${::-j}n${::-d}i:${env:TEST:-d}ns://192.168.1.254:53007/IGRuGpBjGhWoaihBnRJnpjBTxCKjViaD} took 888.634µs
+2025/05/07 07:41:37 [INFO] 2025-05-07 07:41:37 CDT main.go:219 - 404 not found: /
+2025/05/07 07:41:37 [INFO] 2025-05-07 07:41:37 CDT main.go:190 - POST / took 153.029µs
+2025/05/07 07:41:44 [INFO] 2025-05-07 07:41:44 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 07:42:44 [INFO] 2025-05-07 07:42:44 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 07:43:44 [INFO] 2025-05-07 07:43:44 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 07:44:44 [INFO] 2025-05-07 07:44:44 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 07:45:44 [INFO] 2025-05-07 07:45:44 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 08:16:39 [INFO] 2025-05-07 08:16:39 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 08:32:57 [INFO] 2025-05-07 08:32:57 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 08:33:57 [INFO] 2025-05-07 08:33:57 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 08:34:57 [INFO] 2025-05-07 08:34:57 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 08:35:57 [INFO] 2025-05-07 08:35:57 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 08:36:57 [INFO] 2025-05-07 08:36:57 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 08:54:16 [INFO] 2025-05-07 08:54:16 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 08:55:16 [INFO] 2025-05-07 08:55:16 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 08:56:16 [INFO] 2025-05-07 08:56:16 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 08:57:16 [INFO] 2025-05-07 08:57:16 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 08:58:16 [INFO] 2025-05-07 08:58:16 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 08:59:16 [INFO] 2025-05-07 08:59:16 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 09:03:34 [INFO] 2025-05-07 09:03:34 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 09:25:57 [INFO] 2025-05-07 09:25:57 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 09:34:39 [INFO] 2025-05-07 09:34:39 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 09:52:12 [INFO] 2025-05-07 09:52:12 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 09:53:12 [INFO] 2025-05-07 09:53:12 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 09:54:12 [INFO] 2025-05-07 09:54:12 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 09:55:12 [INFO] 2025-05-07 09:55:12 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/07 09:55:12 [INFO] 2025-05-07 09:55:12 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 09:56:12 [INFO] 2025-05-07 09:56:12 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 10:14:09 [INFO] 2025-05-07 10:14:09 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 10:15:09 [INFO] 2025-05-07 10:15:09 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 10:16:09 [INFO] 2025-05-07 10:16:09 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 10:17:09 [INFO] 2025-05-07 10:17:09 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 10:18:09 [INFO] 2025-05-07 10:18:09 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 10:19:09 [INFO] 2025-05-07 10:19:09 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 10:37:53 [INFO] 2025-05-07 10:37:53 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 10:38:53 [INFO] 2025-05-07 10:38:53 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 10:39:53 [INFO] 2025-05-07 10:39:53 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 10:40:53 [INFO] 2025-05-07 10:40:53 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 10:41:53 [INFO] 2025-05-07 10:41:53 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:00:36 [INFO] 2025-05-07 11:00:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:01:36 [INFO] 2025-05-07 11:01:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:02:36 [INFO] 2025-05-07 11:02:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:03:36 [INFO] 2025-05-07 11:03:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:04:36 [INFO] 2025-05-07 11:04:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:07:38 [INFO] 2025-05-07 11:07:38 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:08:36 [INFO] 2025-05-07 11:08:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:09:36 [INFO] 2025-05-07 11:09:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:10:36 [INFO] 2025-05-07 11:10:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:11:36 [INFO] 2025-05-07 11:11:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:12:36 [INFO] 2025-05-07 11:12:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:13:36 [INFO] 2025-05-07 11:13:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:14:36 [INFO] 2025-05-07 11:14:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:15:36 [INFO] 2025-05-07 11:15:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:16:36 [INFO] 2025-05-07 11:16:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:17:36 [INFO] 2025-05-07 11:17:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:18:36 [INFO] 2025-05-07 11:18:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:19:36 [INFO] 2025-05-07 11:19:36 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/07 11:19:36 [INFO] 2025-05-07 11:19:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:20:36 [INFO] 2025-05-07 11:20:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:21:36 [INFO] 2025-05-07 11:21:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:22:36 [INFO] 2025-05-07 11:22:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:23:36 [INFO] 2025-05-07 11:23:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:24:36 [INFO] 2025-05-07 11:24:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:25:36 [INFO] 2025-05-07 11:25:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:26:36 [INFO] 2025-05-07 11:26:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:27:36 [INFO] 2025-05-07 11:27:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:28:36 [INFO] 2025-05-07 11:28:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:29:36 [INFO] 2025-05-07 11:29:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:30:36 [INFO] 2025-05-07 11:30:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:31:36 [INFO] 2025-05-07 11:31:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:32:36 [INFO] 2025-05-07 11:32:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:33:36 [INFO] 2025-05-07 11:33:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:34:36 [INFO] 2025-05-07 11:34:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:35:36 [INFO] 2025-05-07 11:35:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:36:36 [INFO] 2025-05-07 11:36:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:37:36 [INFO] 2025-05-07 11:37:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:38:36 [INFO] 2025-05-07 11:38:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:39:36 [INFO] 2025-05-07 11:39:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:40:36 [INFO] 2025-05-07 11:40:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:41:36 [INFO] 2025-05-07 11:41:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:42:36 [INFO] 2025-05-07 11:42:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:43:36 [INFO] 2025-05-07 11:43:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:44:36 [INFO] 2025-05-07 11:44:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:45:36 [INFO] 2025-05-07 11:45:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:46:36 [INFO] 2025-05-07 11:46:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:47:36 [INFO] 2025-05-07 11:47:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:48:36 [INFO] 2025-05-07 11:48:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:49:36 [INFO] 2025-05-07 11:49:36 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/07 11:49:36 [INFO] 2025-05-07 11:49:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:50:36 [INFO] 2025-05-07 11:50:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:51:36 [INFO] 2025-05-07 11:51:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:52:36 [INFO] 2025-05-07 11:52:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:53:36 [INFO] 2025-05-07 11:53:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:54:36 [INFO] 2025-05-07 11:54:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:55:36 [INFO] 2025-05-07 11:55:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:56:36 [INFO] 2025-05-07 11:56:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:57:36 [INFO] 2025-05-07 11:57:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:58:06 [INFO] 2025-05-07 11:58:06 CDT info.go:20 - Loading template from templates/info.tmpl
+2025/05/07 11:58:06 [INFO] 2025-05-07 11:58:06 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/05/07 11:58:06 [INFO] 2025-05-07 11:58:06 CDT info.go:35 - Using data file: booster/data/memberships/2025/membership_2025.json
+2025/05/07 11:58:06 [INFO] 2025-05-07 11:58:06 CDT info.go:36 - Entries loaded: 5
+2025/05/07 11:58:06 [INFO] 2025-05-07 11:58:06 CDT main.go:190 - GET /info took 3.913188ms
+2025/05/07 11:58:36 [INFO] 2025-05-07 11:58:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 11:59:36 [INFO] 2025-05-07 11:59:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:00:36 [INFO] 2025-05-07 12:00:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:01:36 [INFO] 2025-05-07 12:01:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:02:36 [INFO] 2025-05-07 12:02:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:03:36 [INFO] 2025-05-07 12:03:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:04:36 [INFO] 2025-05-07 12:04:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:05:36 [INFO] 2025-05-07 12:05:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:06:36 [INFO] 2025-05-07 12:06:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:07:36 [INFO] 2025-05-07 12:07:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:08:36 [INFO] 2025-05-07 12:08:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:09:36 [INFO] 2025-05-07 12:09:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:10:36 [INFO] 2025-05-07 12:10:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:11:36 [INFO] 2025-05-07 12:11:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:12:36 [INFO] 2025-05-07 12:12:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:13:36 [INFO] 2025-05-07 12:13:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:14:36 [INFO] 2025-05-07 12:14:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:15:36 [INFO] 2025-05-07 12:15:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:16:36 [INFO] 2025-05-07 12:16:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:17:36 [INFO] 2025-05-07 12:17:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:18:36 [INFO] 2025-05-07 12:18:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:19:36 [INFO] 2025-05-07 12:19:36 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/07 12:19:36 [INFO] 2025-05-07 12:19:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:20:36 [INFO] 2025-05-07 12:20:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:21:36 [INFO] 2025-05-07 12:21:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:22:36 [INFO] 2025-05-07 12:22:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:23:36 [INFO] 2025-05-07 12:23:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:24:36 [INFO] 2025-05-07 12:24:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:25:36 [INFO] 2025-05-07 12:25:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:26:36 [INFO] 2025-05-07 12:26:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:27:36 [INFO] 2025-05-07 12:27:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:28:36 [INFO] 2025-05-07 12:28:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:29:36 [INFO] 2025-05-07 12:29:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:30:36 [INFO] 2025-05-07 12:30:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:31:36 [INFO] 2025-05-07 12:31:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:32:36 [INFO] 2025-05-07 12:32:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:33:36 [INFO] 2025-05-07 12:33:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:34:36 [INFO] 2025-05-07 12:34:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:35:36 [INFO] 2025-05-07 12:35:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:36:36 [INFO] 2025-05-07 12:36:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:37:36 [INFO] 2025-05-07 12:37:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:38:36 [INFO] 2025-05-07 12:38:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:39:36 [INFO] 2025-05-07 12:39:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:40:36 [INFO] 2025-05-07 12:40:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:41:36 [INFO] 2025-05-07 12:41:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:42:36 [INFO] 2025-05-07 12:42:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:43:36 [INFO] 2025-05-07 12:43:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:44:36 [INFO] 2025-05-07 12:44:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:45:36 [INFO] 2025-05-07 12:45:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:46:36 [INFO] 2025-05-07 12:46:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:47:20 [INFO] 2025-05-07 12:47:20 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/07 12:47:20 [INFO] 2025-05-07 12:47:20 CDT main.go:190 - GET /api/csrf-token took 50.297929ms
+2025/05/07 12:47:36 [INFO] 2025-05-07 12:47:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:48:36 [INFO] 2025-05-07 12:48:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:49:36 [INFO] 2025-05-07 12:49:36 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/07 12:49:36 [INFO] 2025-05-07 12:49:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:50:36 [INFO] 2025-05-07 12:50:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:51:36 [INFO] 2025-05-07 12:51:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:52:36 [INFO] 2025-05-07 12:52:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:53:36 [INFO] 2025-05-07 12:53:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:54:36 [INFO] 2025-05-07 12:54:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:55:13 [INFO] 2025-05-07 12:55:13 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/07 12:55:13 [INFO] 2025-05-07 12:55:13 CDT main.go:190 - GET /api/csrf-token took 173.68µs
+2025/05/07 12:55:36 [INFO] 2025-05-07 12:55:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:56:36 [INFO] 2025-05-07 12:56:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:57:36 [INFO] 2025-05-07 12:57:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:58:36 [INFO] 2025-05-07 12:58:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 12:59:36 [INFO] 2025-05-07 12:59:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:00:36 [INFO] 2025-05-07 13:00:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:01:36 [INFO] 2025-05-07 13:01:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:02:36 [INFO] 2025-05-07 13:02:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:03:36 [INFO] 2025-05-07 13:03:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:04:36 [INFO] 2025-05-07 13:04:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:05:36 [INFO] 2025-05-07 13:05:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:06:36 [INFO] 2025-05-07 13:06:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:07:36 [INFO] 2025-05-07 13:07:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:08:36 [INFO] 2025-05-07 13:08:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:08:54 [INFO] 2025-05-07 13:08:54 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/07 13:08:54 [INFO] 2025-05-07 13:08:54 CDT main.go:190 - GET /api/csrf-token took 204.457µs
+2025/05/07 13:09:20 [INFO] 2025-05-07 13:09:20 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/07 13:09:20 [INFO] 2025-05-07 13:09:20 CDT main.go:190 - GET /api/csrf-token took 667.884µs
+2025/05/07 13:09:36 [INFO] 2025-05-07 13:09:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:10:20 [INFO] 2025-05-07 13:10:20 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/07 13:10:20 [INFO] 2025-05-07 13:10:20 CDT main.go:190 - GET /api/csrf-token took 237.463µs
+2025/05/07 13:10:36 [INFO] 2025-05-07 13:10:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:11:36 [INFO] 2025-05-07 13:11:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:12:11 [INFO] 2025-05-07 13:12:11 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/07 13:12:11 [INFO] 2025-05-07 13:12:11 CDT main.go:190 - GET /api/csrf-token took 442.463µs
+2025/05/07 13:12:36 [INFO] 2025-05-07 13:12:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:13:14 [INFO] 2025-05-07 13:13:14 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/07 13:13:14 [INFO] 2025-05-07 13:13:14 CDT main.go:190 - GET /api/csrf-token took 165.823µs
+2025/05/07 13:13:36 [INFO] 2025-05-07 13:13:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:14:36 [INFO] 2025-05-07 13:14:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:15:36 [INFO] 2025-05-07 13:15:36 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:16:37 [INFO] 2025-05-07 13:16:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:17:37 [INFO] 2025-05-07 13:17:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:18:37 [INFO] 2025-05-07 13:18:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:19:37 [INFO] 2025-05-07 13:19:37 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/07 13:19:37 [INFO] 2025-05-07 13:19:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:20:37 [INFO] 2025-05-07 13:20:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:21:37 [INFO] 2025-05-07 13:21:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:22:37 [INFO] 2025-05-07 13:22:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:23:37 [INFO] 2025-05-07 13:23:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:24:37 [INFO] 2025-05-07 13:24:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:25:37 [INFO] 2025-05-07 13:25:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:26:37 [INFO] 2025-05-07 13:26:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:27:37 [INFO] 2025-05-07 13:27:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:28:37 [INFO] 2025-05-07 13:28:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:29:37 [INFO] 2025-05-07 13:29:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:30:37 [INFO] 2025-05-07 13:30:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:31:22 [INFO] 2025-05-07 13:31:22 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/07 13:31:22 [INFO] 2025-05-07 13:31:22 CDT main.go:190 - GET /api/csrf-token took 426.556µs
+2025/05/07 13:31:37 [INFO] 2025-05-07 13:31:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:32:37 [INFO] 2025-05-07 13:32:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:32:59 [INFO] 2025-05-07 13:32:59 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/07 13:32:59 [INFO] 2025-05-07 13:32:59 CDT main.go:190 - GET /api/csrf-token took 237.585µs
+2025/05/07 13:33:37 [INFO] 2025-05-07 13:33:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:33:40 [INFO] 2025-05-07 13:33:40 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/07 13:33:40 [INFO] 2025-05-07 13:33:40 CDT main.go:190 - GET /api/csrf-token took 199.202µs
+2025/05/07 13:34:24 [INFO] 2025-05-07 13:34:24 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/07 13:34:24 [INFO] 2025-05-07 13:34:24 CDT main.go:190 - GET /api/csrf-token took 353.972µs
+2025/05/07 13:34:37 [INFO] 2025-05-07 13:34:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:35:23 [INFO] 2025-05-07 13:35:23 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/07 13:35:23 [INFO] 2025-05-07 13:35:23 CDT main.go:190 - GET /api/csrf-token took 155.917µs
+2025/05/07 13:35:37 [INFO] 2025-05-07 13:35:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:36:16 [INFO] 2025-05-07 13:36:16 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/07 13:36:16 [INFO] 2025-05-07 13:36:16 CDT main.go:190 - GET /api/csrf-token took 621.612µs
+2025/05/07 13:36:37 [INFO] 2025-05-07 13:36:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:37:37 [INFO] 2025-05-07 13:37:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:38:37 [INFO] 2025-05-07 13:38:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:39:37 [INFO] 2025-05-07 13:39:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:40:37 [INFO] 2025-05-07 13:40:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:41:37 [INFO] 2025-05-07 13:41:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:42:37 [INFO] 2025-05-07 13:42:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:43:37 [INFO] 2025-05-07 13:43:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:44:37 [INFO] 2025-05-07 13:44:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:45:37 [INFO] 2025-05-07 13:45:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:46:37 [INFO] 2025-05-07 13:46:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:47:37 [INFO] 2025-05-07 13:47:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:48:37 [INFO] 2025-05-07 13:48:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:49:37 [INFO] 2025-05-07 13:49:37 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/07 13:49:37 [INFO] 2025-05-07 13:49:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:50:37 [INFO] 2025-05-07 13:50:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:51:37 [INFO] 2025-05-07 13:51:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:52:37 [INFO] 2025-05-07 13:52:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:53:37 [INFO] 2025-05-07 13:53:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:54:37 [INFO] 2025-05-07 13:54:37 CDT membership_aggregator.go:25 - Membership aggregation completed
+2025/05/07 13:55:37 [INFO] 2025-05-07 13:55:37 CDT membership_aggregator.go:25 - Membership aggregation completed

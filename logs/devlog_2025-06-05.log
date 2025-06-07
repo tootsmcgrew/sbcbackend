@@ -1,0 +1,113 @@
+2025/06/05 14:59:03 [INFO] 2025-06-05 14:59:03 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-05.log
+2025/06/05 14:59:03 [INFO] 2025-06-05 14:59:03 CDT main.go:59 - Environment and paths loaded. Logger ready.
+2025/06/05 14:59:03 [INFO] 2025-06-05 14:59:03 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/05 14:59:03 [INFO] 2025-06-05 14:59:03 CDT config.go:61 - Running in development environment
+2025/06/05 14:59:03 [INFO] 2025-06-05 14:59:03 CDT main.go:90 - Loading unified inventory from: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/05 14:59:03 [INFO] 2025-06-05 14:59:03 CDT inventory.go:61 - Loading inventory from unified file: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/05 14:59:03 [INFO] 2025-06-05 14:59:03 CDT inventory.go:77 - Successfully loaded unified inventory: 3 memberships, 4 products, 3 fees, 2 events
+2025/06/05 14:59:03 [INFO] 2025-06-05 14:59:03 CDT main.go:121 - Inventory service initialized with 103.124µs cache
+2025/06/05 14:59:03 [INFO] 2025-06-05 14:59:03 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/05 14:59:03 [INFO] 2025-06-05 14:59:03 CDT main.go:207 - Starting server on 0.0.0.0:5051
+2025/06/05 14:59:03 [INFO] 2025-06-05 14:59:03 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-06 02:00:00 (in 11h0m56.913056s)
+2025/06/05 14:59:17 [INFO] 2025-06-05 14:59:17 CDT main.go:215 - Shutdown signal received
+2025/06/05 14:59:17 [INFO] 2025-06-05 14:59:17 CDT main.go:225 - Server shut down gracefully
+2025/06/05 14:59:17 [INFO] 2025-06-05 14:59:17 CDT main.go:229 - Shutdown signal received
+2025/06/05 14:59:17 [INFO] 2025-06-05 14:59:17 CDT main.go:230 - Waiting for active connections to finish...
+2025/06/05 14:59:17 [INFO] 2025-06-05 14:59:17 CDT main.go:232 - All connections closed. Total requests handled: 0
+2025/06/05 14:59:17 [INFO] 2025-06-05 14:59:17 CDT main.go:233 - Server shut down gracefully
+2025/06/05 23:13:38 [INFO] 2025-06-05 23:13:38 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-05.log
+2025/06/05 23:13:38 [INFO] 2025-06-05 23:13:38 CDT main.go:59 - Environment and paths loaded. Logger ready.
+2025/06/05 23:13:38 [INFO] 2025-06-05 23:13:38 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/05 23:13:38 [INFO] 2025-06-05 23:13:38 CDT config.go:61 - Running in development environment
+2025/06/05 23:13:38 [INFO] 2025-06-05 23:13:38 CDT main.go:90 - Loading unified inventory from: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/05 23:13:38 [INFO] 2025-06-05 23:13:38 CDT inventory.go:61 - Loading inventory from unified file: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/05 23:13:38 [INFO] 2025-06-05 23:13:38 CDT inventory.go:77 - Successfully loaded unified inventory: 3 memberships, 4 products, 3 fees, 2 events
+2025/06/05 23:13:38 [INFO] 2025-06-05 23:13:38 CDT main.go:121 - Inventory service initialized with 61.718µs cache
+2025/06/05 23:13:38 [INFO] 2025-06-05 23:13:38 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/05 23:13:38 [INFO] 2025-06-05 23:13:38 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-06 02:00:00 (in 2h46m21.263731s)
+2025/06/05 23:13:38 [INFO] 2025-06-05 23:13:38 CDT main.go:216 - Starting server on 0.0.0.0:5051
+2025/06/05 23:13:52 [INFO] 2025-06-05 23:13:52 CDT main.go:224 - Shutdown signal received
+2025/06/05 23:13:52 [INFO] 2025-06-05 23:13:52 CDT main.go:234 - Server shut down gracefully
+2025/06/05 23:13:52 [INFO] 2025-06-05 23:13:52 CDT main.go:238 - Shutdown signal received
+2025/06/05 23:13:52 [INFO] 2025-06-05 23:13:52 CDT main.go:239 - Waiting for active connections to finish...
+2025/06/05 23:13:52 [INFO] 2025-06-05 23:13:52 CDT main.go:241 - All connections closed. Total requests handled: 0
+2025/06/05 23:13:52 [INFO] 2025-06-05 23:13:52 CDT main.go:242 - Server shut down gracefully
+2025/06/05 23:21:45 [INFO] 2025-06-05 23:21:45 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-05.log
+2025/06/05 23:21:45 [INFO] 2025-06-05 23:21:45 CDT main.go:59 - Environment and paths loaded. Logger ready.
+2025/06/05 23:21:45 [INFO] 2025-06-05 23:21:45 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/05 23:21:45 [INFO] 2025-06-05 23:21:45 CDT config.go:61 - Running in development environment
+2025/06/05 23:21:45 [INFO] 2025-06-05 23:21:45 CDT main.go:90 - Loading unified inventory from: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/05 23:21:45 [INFO] 2025-06-05 23:21:45 CDT inventory.go:61 - Loading inventory from unified file: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/05 23:21:45 [INFO] 2025-06-05 23:21:45 CDT inventory.go:77 - Successfully loaded unified inventory: 3 memberships, 4 products, 3 fees, 2 events
+2025/06/05 23:21:45 [INFO] 2025-06-05 23:21:45 CDT main.go:121 - Inventory service initialized with 44.008µs cache
+2025/06/05 23:21:45 [INFO] 2025-06-05 23:21:45 CDT main.go:216 - Starting server on 0.0.0.0:5051
+2025/06/05 23:21:45 [INFO] 2025-06-05 23:21:45 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/05 23:21:45 [INFO] 2025-06-05 23:21:45 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-06 02:00:00 (in 2h38m14.948883s)
+2025/06/05 23:21:49 [INFO] 2025-06-05 23:21:49 CDT main.go:224 - Shutdown signal received
+2025/06/05 23:21:49 [INFO] 2025-06-05 23:21:49 CDT main.go:234 - Server shut down gracefully
+2025/06/05 23:21:49 [INFO] 2025-06-05 23:21:49 CDT main.go:238 - Shutdown signal received
+2025/06/05 23:21:49 [INFO] 2025-06-05 23:21:49 CDT main.go:239 - Waiting for active connections to finish...
+2025/06/05 23:21:49 [INFO] 2025-06-05 23:21:49 CDT main.go:241 - All connections closed. Total requests handled: 0
+2025/06/05 23:21:49 [INFO] 2025-06-05 23:21:49 CDT main.go:242 - Server shut down gracefully
+2025/06/05 23:38:55 [INFO] 2025-06-05 23:38:55 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-05.log
+2025/06/05 23:38:55 [INFO] 2025-06-05 23:38:55 CDT main.go:59 - Environment and paths loaded. Logger ready.
+2025/06/05 23:38:55 [INFO] 2025-06-05 23:38:55 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/05 23:38:55 [INFO] 2025-06-05 23:38:55 CDT config.go:61 - Running in development environment
+2025/06/05 23:38:55 [INFO] 2025-06-05 23:38:55 CDT main.go:90 - Loading unified inventory from: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/05 23:38:55 [INFO] 2025-06-05 23:38:55 CDT inventory.go:61 - Loading inventory from unified file: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/05 23:38:55 [INFO] 2025-06-05 23:38:55 CDT inventory.go:77 - Successfully loaded unified inventory: 3 memberships, 4 products, 3 fees, 2 events
+2025/06/05 23:38:55 [INFO] 2025-06-05 23:38:55 CDT main.go:121 - Inventory service initialized with 60.393µs cache
+2025/06/05 23:38:55 [INFO] 2025-06-05 23:38:55 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/05 23:38:55 [INFO] 2025-06-05 23:38:55 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-06 02:00:00 (in 2h21m4.818664s)
+2025/06/05 23:38:55 [INFO] 2025-06-05 23:38:55 CDT main.go:216 - Starting server on 0.0.0.0:5051
+2025/06/05 23:40:15 [INFO] 2025-06-05 23:40:15 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/05 23:40:15 [INFO] 2025-06-05 23:40:15 CDT main.go:270 - GET /api/csrf-token took 1.352133ms
+2025/06/05 23:41:11 [INFO] 2025-06-05 23:41:11 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/06/05 23:41:11 [INFO] 2025-06-05 23:41:11 CDT form.go:84 - Form values received: map[csrf_token:[TnsGDHR8o/tXwLeQ2SIdvEH4Xd/nky2s7G8dBq7CnBk=] describe:[at-home-teacher] email:[test@example.com] form_type:[membership] full_name:[Test User] membership_status:[first-time] school:[bellaire] student_1_grade:[3] student_1_name:[Test Student] student_count:[1]]
+2025/06/05 23:41:11 [INFO] 2025-06-05 23:41:11 CDT form.go:56 - Stat update: total_submissions = 1
+2025/06/05 23:41:11 [INFO] 2025-06-05 23:41:11 CDT form.go:180 - Form membership-2025-06-05_23-41-11-84FrnA accepted and saved successfully
+2025/06/05 23:41:11 [INFO] 2025-06-05 23:41:11 CDT form.go:56 - Stat update: successful_submissions = 1
+2025/06/05 23:41:11 [INFO] 2025-06-05 23:41:11 CDT form.go:291 - Form submitted: type=membership, formID=membership-2025-06-05_23-41-11-84FrnA, ip=127.0.0.1, time=2025-06-05 23:41:11
+2025/06/05 23:41:11 [INFO] 2025-06-05 23:41:11 CDT main.go:270 - POST /api/submit-form took 6.032553ms
+2025/06/05 23:44:18 [INFO] 2025-06-05 23:44:18 CDT middleware.go:78 - API request started%!(EXTRA map[string]interface {}=map[client_ip:127.0.0.1 method:POST path:/order-details request_id:8e46e8c35c2375c3 user_agent:curl/8.7.1])
+2025/06/05 23:44:18 [INFO] 2025-06-05 23:44:18 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/05 23:44:18 [WARN] 2025-06-05 23:44:18 CDT membership.go:344 - Could not load membership prices: reading file: open /home/public/static/memberships.json: no such file or directory
+2025/06/05 23:44:18 [WARN] 2025-06-05 23:44:18 CDT membership.go:350 - Could not load product prices: reading file: open /home/public/static/products.json: no such file or directory
+2025/06/05 23:44:18 [WARN] 2025-06-05 23:44:18 CDT membership.go:356 - Could not load fee prices: reading file: open /home/public/static/fees.json: no such file or directory
+2025/06/05 23:44:18 [INFO] 2025-06-05 23:44:18 CDT membership.go:113 - Membership order details accessed for form membership-2025-06-05_23-41-11-84FrnA
+2025/06/05 23:44:18 [INFO] 2025-06-05 23:44:18 CDT middleware.go:92 - API request completed%!(EXTRA map[string]interface {}=map[processing_ms:323 processing_time:323.608784ms request_id:8e46e8c35c2375c3 status_code:200])
+2025/06/05 23:44:18 [INFO] 2025-06-05 23:44:18 CDT main.go:270 - POST /api/order-details took 323.731894ms
+2025/06/05 23:45:16 [INFO] 2025-06-05 23:45:16 CDT middleware.go:78 - API request started%!(EXTRA map[string]interface {}=map[client_ip:127.0.0.1 method:POST path:/order-details request_id:fb1f57dd723e7b1b user_agent:curl/8.7.1])
+2025/06/05 23:45:16 [INFO] 2025-06-05 23:45:16 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/05 23:45:16 [WARN] 2025-06-05 23:45:16 CDT membership.go:344 - Could not load membership prices: reading file: open /home/public/static/memberships.json: no such file or directory
+2025/06/05 23:45:16 [WARN] 2025-06-05 23:45:16 CDT membership.go:350 - Could not load product prices: reading file: open /home/public/static/products.json: no such file or directory
+2025/06/05 23:45:17 [WARN] 2025-06-05 23:45:17 CDT membership.go:356 - Could not load fee prices: reading file: open /home/public/static/fees.json: no such file or directory
+2025/06/05 23:45:17 [INFO] 2025-06-05 23:45:17 CDT membership.go:113 - Membership order details accessed for form membership-2025-06-05_23-41-11-84FrnA
+2025/06/05 23:45:17 [ERROR] 2025-06-05 23:45:17 CDT membership.go:121 - Failed to render membership order summary template: template: event_order_summary.html.tmpl:6:11: executing "event_order_summary.html.tmpl" at <.Event>: can't evaluate field Event in type struct { FormID string; FormType string; FullName string; FirstName string; LastName string; Email string; School string; StudentCount int; Students []data.Student; Membership string; MembershipStatus string; Describe string; Addons []string; Fees map[string]int; Donation float64; MembershipItemsDisplay []order.MembershipItemDisplay; CalculatedAmount float64; CoverFees bool; ProcessingFee float64; SubmittedAt *time.Time; TotalFromSelections float64 }
+2025/06/05 23:45:17 [INFO] 2025-06-05 23:45:17 CDT middleware.go:92 - API request completed%!(EXTRA map[string]interface {}=map[processing_ms:300 processing_time:300.407073ms request_id:fb1f57dd723e7b1b status_code:500])
+2025/06/05 23:45:17 [INFO] 2025-06-05 23:45:17 CDT main.go:270 - POST /api/order-details took 300.554376ms
+2025/06/05 23:45:55 [INFO] 2025-06-05 23:45:55 CDT middleware.go:78 - API request started%!(EXTRA map[string]interface {}=map[client_ip:127.0.0.1 method:POST path:/success request_id:7eb8978af742c038 user_agent:curl/8.7.1])
+2025/06/05 23:45:55 [INFO] 2025-06-05 23:45:55 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/06/05 23:45:55 [INFO] 2025-06-05 23:45:55 CDT membership.go:324 - User success page accessed for form membership-2025-06-05_23-41-11-84FrnA (token age: 4m43.424043717s)
+2025/06/05 23:45:55 [INFO] 2025-06-05 23:45:55 CDT middleware.go:92 - API request completed%!(EXTRA map[string]interface {}=map[processing_ms:2 processing_time:2.059997ms request_id:7eb8978af742c038 status_code:200])
+2025/06/05 23:45:55 [INFO] 2025-06-05 23:45:55 CDT main.go:270 - POST /api/success took 2.164581ms
+2025/06/05 23:46:58 [INFO] 2025-06-05 23:46:58 CDT middleware.go:78 - API request started%!(EXTRA map[string]interface {}=map[client_ip:127.0.0.1 method:POST path:/order-details request_id:2fe94828f4ef5229 user_agent:curl/8.7.1])
+2025/06/05 23:46:58 [INFO] 2025-06-05 23:46:58 CDT middleware.go:92 - API request completed%!(EXTRA map[string]interface {}=map[processing_ms:0 processing_time:310.276µs request_id:2fe94828f4ef5229 status_code:401])
+2025/06/05 23:46:58 [INFO] 2025-06-05 23:46:58 CDT main.go:270 - POST /api/order-details took 523.6µs
+2025/06/05 23:47:16 [INFO] 2025-06-05 23:47:16 CDT middleware.go:78 - API request started%!(EXTRA map[string]interface {}=map[client_ip:127.0.0.1 method:POST path:/order-details request_id:ee10445563e369dc user_agent:curl/8.7.1])
+2025/06/05 23:47:16 [INFO] 2025-06-05 23:47:16 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/05 23:47:16 [INFO] 2025-06-05 23:47:16 CDT middleware.go:92 - API request completed%!(EXTRA map[string]interface {}=map[processing_ms:0 processing_time:400.575µs request_id:ee10445563e369dc status_code:400])
+2025/06/05 23:47:16 [INFO] 2025-06-05 23:47:16 CDT main.go:270 - POST /api/order-details took 664.793µs
+2025/06/05 23:47:42 [INFO] 2025-06-05 23:47:42 CDT middleware.go:78 - API request started%!(EXTRA map[string]interface {}=map[client_ip:127.0.0.1 method:GET path:/order-details request_id:d9cfc80e6380c1ce user_agent:curl/8.7.1])
+2025/06/05 23:47:42 [INFO] 2025-06-05 23:47:42 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/05 23:47:42 [INFO] 2025-06-05 23:47:42 CDT middleware.go:92 - API request completed%!(EXTRA map[string]interface {}=map[processing_ms:0 processing_time:218.426µs request_id:d9cfc80e6380c1ce status_code:405])
+2025/06/05 23:47:42 [INFO] 2025-06-05 23:47:42 CDT main.go:270 - GET /api/order-details took 347.021µs
+2025/06/05 23:48:27 [INFO] 2025-06-05 23:48:27 CDT middleware.go:78 - API request started%!(EXTRA map[string]interface {}=map[client_ip:127.0.0.1 method:POST path:/order-details request_id:291a78ff233bc4a6 user_agent:curl/8.7.1])
+2025/06/05 23:48:27 [INFO] 2025-06-05 23:48:27 CDT middleware.go:92 - API request completed%!(EXTRA map[string]interface {}=map[processing_ms:0 processing_time:219.465µs request_id:291a78ff233bc4a6 status_code:401])
+2025/06/05 23:48:27 [INFO] 2025-06-05 23:48:27 CDT main.go:270 - POST /api/order-details took 417.167µs
+2025/06/06 00:14:33 [INFO] 2025-06-06 00:14:33 CDT main.go:224 - Shutdown signal received
+2025/06/06 00:14:33 [INFO] 2025-06-06 00:14:33 CDT main.go:234 - Server shut down gracefully
+2025/06/06 00:14:33 [INFO] 2025-06-06 00:14:33 CDT main.go:238 - Shutdown signal received
+2025/06/06 00:14:33 [INFO] 2025-06-06 00:14:33 CDT main.go:239 - Waiting for active connections to finish...
+2025/06/06 00:14:33 [INFO] 2025-06-06 00:14:33 CDT main.go:241 - All connections closed. Total requests handled: 9
+2025/06/06 00:14:33 [INFO] 2025-06-06 00:14:33 CDT main.go:242 - Server shut down gracefully

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{if .IsAdminView}}[ADMIN] {{end}}Donation {{if .IsCompleted}}Successful{{else}}Details{{end}} - Receipt {{.FormID}}</title>
+    <link rel="stylesheet" href="/static/css/success.css">
+</head>
+<body>
+    {{if .IsAdminView}}
+    <div class="admin-header">
+        <h3>🔒 ADMIN VIEW - Internal Use Only</h3>
+    </div>
+    {{end}}
+
+    <div class="header {{if .IsCompleted}}completed{{else}}pending{{end}}">
+        <img src="/static/images/logolong.webp" alt="HEB Suzuki Strings Logo">
+        <div class="success-icon">{{if .IsCompleted}}✅{{else}}⏳{{end}}</div>
+        <h1>{{if .IsCompleted}}Donation Successful!{{else}}Donation Details{{end}}</h1>
+        <p>{{if not .IsAdminView}}Thank you, {{.FirstName}}!{{else}}Order for {{.FirstName}}{{end}}</p>
+        <div class="receipt-id">Receipt: {{.FormID}}</div>
+        <div class="status-badge {{if .IsCompleted}}status-completed{{else}}status-pending{{end}}">
+            Status: {{.PayPalStatus}}
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Donor Information</h2>
+        <table class="summary-table">
+            <tr><th>Name:</th><td>{{.FullName}}</td></tr>
+            <tr><th>Email:</th><td>{{.Email}}</td></tr>
+            <tr><th>School:</th><td>{{.School}}</td></tr>
+            <tr><th>Status:</th><td>{{.DonorStatus}}</td></tr>
+            <tr><th>Description:</th><td>{{.Describe}}</td></tr>
+            {{if .Students}}
+            <tr>
+                <th>Students:</th>
+                <td>
+                    <ul>
+                        {{range .Students}}
+                            <li>{{.Name}} ({{.Grade}})</li>
+                        {{end}}
+                    </ul>
+                </td>
+            </tr>
+            {{end}}
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Donation Details</h2>
+        <table class="summary-table">
+            {{range .DonationItems}}
+            <tr>
+                <th>{{.StudentName}}:</th>
+                <td>{{formatCurrency .Amount}}</td>
+            </tr>
+            {{end}}
+            <tr class="grand-total"><th>Subtotal:</th><td>{{formatCurrency .TotalAmount}}</td></tr>
+            {{if .CoverFees}}
+            <tr>
+                <th>Processing Fees (2% + $0.49):</th>
+                <td>{{formatCurrency .ProcessingFee}}</td>
+            </tr>
+            {{end}}
+            <tr class="grand-total"><th>Total Paid:</th><td>{{formatCurrency .CalculatedAmount}}</td></tr>
+        </table>
+        {{if .CoverFees}}
+        <p class="center"><em>Thank you for covering the processing fees!</em></p>
+        {{end}}
+    </div>
+
+    {{if .IsCompleted}}
+    <div class="section">
+        <h2>Payment Information</h2>
+        <div class="details-grid">
+            <div class="detail-group">
+                <h3>Transaction Details</h3>
+                <div class="detail-item">
+                    <div class="detail-label">Status:</div>
+                    <div class="detail-value">✅ Completed</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Transaction ID:</div>
+                    <div class="detail-value">{{.PayPalOrderID}}</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Payment Time:</div>
+                    <div class="detail-value">{{if .SubmittedAt}}{{formatDateTime .SubmittedAt}}{{end}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{end}}
+
+    {{if .IsAdminView}}
+    <div class="section">
+        <h2>Admin Information</h2>
+        <div class="details-grid">
+            <div class="detail-group">
+                <h3>Email Status</h3>
+                <div class="detail-item">
+                    <div class="detail-label">Confirmation Email:</div>
+                    <div class="detail-value">
+                        {{if .ConfirmationSent}}
+                            ✅ Sent {{if .ConfirmationSentAt}}at {{.ConfirmationSentAt.Format "3:04 PM"}}{{end}}
+                        {{else}}
+                            ❌ Not sent
+                        {{end}}
+                    </div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Admin Notification:</div>
+                    <div class="detail-value">
+                        {{if .AdminNotified}}
+                            ✅ Sent {{if .AdminNotifiedAt}}at {{.AdminNotifiedAt.Format "3:04 PM"}}{{end}}
+                        {{else}}
+                            ❌ Not sent
+                        {{end}}
+                    </div>
+                </div>
+            </div>
+            <div class="detail-group">
+                <h3>Internal Data</h3>
+                <div class="detail-item">
+                    <div class="detail-label">Form ID:</div>
+                    <div class="detail-value">{{.FormID}}</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Submission Date:</div>
+                    <div class="detail-value">{{if .SubmissionDate}}{{formatDateTime .SubmissionDate}}{{end}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{else}}
+    <div class="{{if .ConfirmationSent}}email-sent{{else}}email-pending{{end}}">
+        <strong>📧 Email Confirmation:</strong>
+        {{if .ConfirmationSent}}
+            Sent {{if .ConfirmationSentAt}}at {{.ConfirmationSentAt.Format "3:04 PM"}}{{end}}
+        {{else}}
+            Being sent to {{.Email}} (check your inbox in a few minutes)
+        {{end}}
+    </div>
+
+    <div class="actions">
+        <a href="#" onclick="window.print(); return false;" class="btn btn-secondary">Print Receipt</a>
+        <a href="/" class="btn">Return Home</a>
+    </div>
+    {{end}}
+
+    <div style="margin-top: 40px; padding: 20px; background: #f1f3f4; border-radius: 6px; font-size: 0.9em; color: #666;">
+        <p><strong>Important:</strong> {{if not .IsAdminView}}Save this page or print it for your records. This receipt confirms your Practice-a-Thon donation.{{else}}This is an admin view with full order details and internal status information.{{end}}</p>
+        <p><strong>Tax Info:</strong> The HEBISD Suzuki Booster Club is a 501(c)(3) public charity. Your donation may be tax deductible.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,540 @@
+2025/05/28 06:35:46 [INFO] 2025-05-28 06:35:46 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-28.log
+2025/05/28 06:35:46 [INFO] 2025-05-28 06:35:46 CDT main.go:53 - Environment and paths loaded. Logger ready.
+2025/05/28 06:35:46 [INFO] 2025-05-28 06:35:46 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/28 06:35:46 [INFO] 2025-05-28 06:35:46 CDT config.go:61 - Running in development environment
+2025/05/28 06:35:46 [INFO] 2025-05-28 06:35:46 CDT main.go:154 - Starting server on 0.0.0.0:5051
+2025/05/28 06:36:27 [INFO] 2025-05-28 06:36:27 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/28 06:36:27 [INFO] 2025-05-28 06:36:27 CDT main.go:208 - GET /api/csrf-token took 310.928µs
+2025/05/28 06:40:00 [INFO] 2025-05-28 06:40:00 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/05/28 06:40:00 [INFO] 2025-05-28 06:40:00 CDT form.go:85 - Form values received: map[cover_fees:[on] csrf_token:[Kl8+1m/O8YgtxwguR1zeiotOAyrCnnD9Aee7pzlBy9s=] describe:[supporter] donor_status:[first-time] email:[pauly@roger.com] form_type:[fundraiser] full_name:[Pauly Shore] hidden_field:[] school:[south-euless] student_1_amount:[25.50] student_1_grade:[5] student_1_name:[SM Clark] student_2_amount:[15.75] student_2_grade:[3] student_2_name:[Fox Clark] student_3_amount:[225.50] student_3_grade:[K] student_3_name:[Lawson Clark Thune] student_count:[3]]
+2025/05/28 06:40:00 [INFO] 2025-05-28 06:40:00 CDT form.go:57 - Stat update: total_submissions = 1
+2025/05/28 06:40:00 [INFO] 2025-05-28 06:40:00 CDT data.go:347 - Fundraiser payment data processed for fundraiser-2025-05-28_06-40-00-WOofGw: Total=266.75, Final=272.58
+2025/05/28 06:40:00 [INFO] 2025-05-28 06:40:00 CDT form.go:660 - Fundraiser form fundraiser-2025-05-28_06-40-00-WOofGw processed successfully for pauly@roger.com (Total: $272.58)
+2025/05/28 06:40:00 [INFO] 2025-05-28 06:40:00 CDT form.go:178 - Form fundraiser-2025-05-28_06-40-00-WOofGw accepted and saved successfully
+2025/05/28 06:40:00 [INFO] 2025-05-28 06:40:00 CDT form.go:57 - Stat update: successful_submissions = 1
+2025/05/28 06:40:00 [INFO] 2025-05-28 06:40:00 CDT form.go:382 - Form submitted: type=fundraiser, formID=fundraiser-2025-05-28_06-40-00-WOofGw, ip=127.0.0.1, time=2025-05-28 06:40:00
+2025/05/28 06:40:00 [INFO] 2025-05-28 06:40:00 CDT main.go:208 - POST /api/submit-form took 3.712216ms
+2025/05/28 06:40:02 [INFO] 2025-05-28 06:40:02 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/05/28 06:40:02 [INFO] 2025-05-28 06:40:02 CDT payment.go:1025 - Fundraiser order details accessed for form fundraiser-2025-05-28_06-40-00-WOofGw
+2025/05/28 06:40:02 [INFO] 2025-05-28 06:40:02 CDT main.go:208 - POST /api/order-details took 3.937459ms
+2025/05/28 06:40:32 [INFO] 2025-05-28 06:40:32 CDT main.go:208 - POST /api/create-order took 1.517934ms
+2025/05/28 06:43:47 [INFO] 2025-05-28 06:43:47 CDT main.go:162 - Shutdown signal received
+2025/05/28 06:43:47 [INFO] 2025-05-28 06:43:47 CDT main.go:172 - Server shut down gracefully
+2025/05/28 06:43:47 [INFO] 2025-05-28 06:43:47 CDT main.go:176 - Shutdown signal received
+2025/05/28 06:43:47 [INFO] 2025-05-28 06:43:47 CDT main.go:177 - Waiting for active connections to finish...
+2025/05/28 06:43:47 [INFO] 2025-05-28 06:43:47 CDT main.go:179 - All connections closed. Total requests handled: 4
+2025/05/28 06:43:47 [INFO] 2025-05-28 06:43:47 CDT main.go:180 - Server shut down gracefully
+2025/05/28 06:43:50 [INFO] 2025-05-28 06:43:50 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-28.log
+2025/05/28 06:43:50 [INFO] 2025-05-28 06:43:50 CDT main.go:53 - Environment and paths loaded. Logger ready.
+2025/05/28 06:43:50 [INFO] 2025-05-28 06:43:50 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/28 06:43:50 [INFO] 2025-05-28 06:43:50 CDT config.go:61 - Running in development environment
+2025/05/28 06:43:50 [INFO] 2025-05-28 06:43:50 CDT main.go:154 - Starting server on 0.0.0.0:5051
+2025/05/28 06:43:58 [INFO] 2025-05-28 06:43:58 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/05/28 06:43:58 [INFO] 2025-05-28 06:43:58 CDT payment.go:1025 - Fundraiser order details accessed for form fundraiser-2025-05-28_06-40-00-WOofGw
+2025/05/28 06:43:58 [INFO] 2025-05-28 06:43:58 CDT main.go:208 - POST /api/order-details took 2.007896ms
+2025/05/28 06:44:11 [INFO] 2025-05-28 06:44:11 CDT main.go:208 - POST /api/create-order took 483.445µs
+2025/05/28 07:11:07 [INFO] 2025-05-28 07:11:07 CDT main.go:162 - Shutdown signal received
+2025/05/28 07:11:07 [INFO] 2025-05-28 07:11:07 CDT main.go:172 - Server shut down gracefully
+2025/05/28 07:11:07 [INFO] 2025-05-28 07:11:07 CDT main.go:176 - Shutdown signal received
+2025/05/28 07:11:07 [INFO] 2025-05-28 07:11:07 CDT main.go:177 - Waiting for active connections to finish...
+2025/05/28 07:11:07 [INFO] 2025-05-28 07:11:07 CDT main.go:179 - All connections closed. Total requests handled: 2
+2025/05/28 07:11:07 [INFO] 2025-05-28 07:11:07 CDT main.go:180 - Server shut down gracefully
+2025/05/28 07:43:20 [INFO] 2025-05-28 07:43:20 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-28.log
+2025/05/28 07:43:20 [INFO] 2025-05-28 07:43:20 CDT main.go:53 - Environment and paths loaded. Logger ready.
+2025/05/28 07:43:20 [INFO] 2025-05-28 07:43:20 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/28 07:43:20 [INFO] 2025-05-28 07:43:20 CDT config.go:61 - Running in development environment
+2025/05/28 07:43:20 [INFO] 2025-05-28 07:43:20 CDT main.go:154 - Starting server on 0.0.0.0:5051
+2025/05/28 07:43:32 [INFO] 2025-05-28 07:43:32 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/28 07:43:32 [INFO] 2025-05-28 07:43:32 CDT main.go:208 - GET /api/csrf-token took 2.387404ms
+2025/05/28 07:44:56 [INFO] 2025-05-28 07:44:56 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/05/28 07:44:56 [INFO] 2025-05-28 07:44:56 CDT form.go:85 - Form values received: map[cover_fees:[on] csrf_token:[LRuFylIL1V/+y02YK/TFYlO1yAavrFFDhU28zMJntHo=] describe:[family] donor_status:[returning] email:[genius@math.com] form_type:[fundraiser] full_name:[Genius Level] hidden_field:[] school:[spring-garden] student_1_amount:[5] student_1_grade:[K] student_1_name:[Frank Level] student_2_amount:[258] student_2_grade:[2] student_2_name:[Yule Level] student_3_amount:[780.34] student_3_grade:[5] student_3_name:[Peter Level] student_count:[3]]
+2025/05/28 07:44:56 [INFO] 2025-05-28 07:44:56 CDT form.go:57 - Stat update: total_submissions = 1
+2025/05/28 07:44:56 [INFO] 2025-05-28 07:44:56 CDT data.go:347 - Fundraiser payment data processed for fundraiser-2025-05-28_07-44-56-9YKr0A: Total=1043.34, Final=1064.70
+2025/05/28 07:44:56 [INFO] 2025-05-28 07:44:56 CDT form.go:660 - Fundraiser form fundraiser-2025-05-28_07-44-56-9YKr0A processed successfully for genius@math.com (Total: $1064.70)
+2025/05/28 07:44:56 [INFO] 2025-05-28 07:44:56 CDT form.go:178 - Form fundraiser-2025-05-28_07-44-56-9YKr0A accepted and saved successfully
+2025/05/28 07:44:56 [INFO] 2025-05-28 07:44:56 CDT form.go:57 - Stat update: successful_submissions = 1
+2025/05/28 07:44:56 [INFO] 2025-05-28 07:44:56 CDT form.go:382 - Form submitted: type=fundraiser, formID=fundraiser-2025-05-28_07-44-56-9YKr0A, ip=127.0.0.1, time=2025-05-28 07:44:56
+2025/05/28 07:44:56 [INFO] 2025-05-28 07:44:56 CDT main.go:208 - POST /api/submit-form took 4.343945ms
+2025/05/28 07:44:58 [INFO] 2025-05-28 07:44:58 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/05/28 07:44:58 [INFO] 2025-05-28 07:44:58 CDT payment.go:1025 - Fundraiser order details accessed for form fundraiser-2025-05-28_07-44-56-9YKr0A
+2025/05/28 07:44:58 [INFO] 2025-05-28 07:44:58 CDT main.go:208 - POST /api/order-details took 1.314688ms
+2025/05/28 07:45:28 [INFO] 2025-05-28 07:45:28 CDT payment.go:403 - Creating PayPal order for fundraiser-2025-05-28_07-44-56-9YKr0A (fundraiser): 1064.70
+2025/05/28 07:45:28 [INFO] 2025-05-28 07:45:28 CDT payment.go:190 - Requesting new PayPal access token
+2025/05/28 07:45:29 [INFO] 2025-05-28 07:45:29 CDT payment.go:223 - Fetched and cached new PayPal access token (expires at 2025-05-28 16:44:28.07072 -0500 CDT m=+32467.721750676)
+2025/05/28 07:45:29 [INFO] 2025-05-28 07:45:29 CDT payment.go:283 - Creating PayPal order
+2025/05/28 07:45:29 [INFO] 2025-05-28 07:45:29 CDT payment.go:305 - Successfully created PayPal order
+2025/05/28 07:45:29 [INFO] 2025-05-28 07:45:29 CDT payment.go:447 - Looking up fundraiser with formID: fundraiser-2025-05-28_07-44-56-9YKr0A
+2025/05/28 07:45:29 [INFO] 2025-05-28 07:45:29 CDT payment.go:454 - Found fundraiser, checking token. Expected: MTc0ODQzNjI5NjpMcW5oMGNOMzRmdWNkemY5bnpaWWk5ZXAzZEpNanVwTg==, Got: MTc0ODQzNjI5NjpMcW5oMGNOMzRmdWNkemY5bnpaWWk5ZXAzZEpNanVwTg==
+2025/05/28 07:45:29 [INFO] 2025-05-28 07:45:29 CDT payment.go:462 - PayPal order 9VE717119V746932K created and stored for fundraiser-2025-05-28_07-44-56-9YKr0A (fundraiser)
+2025/05/28 07:45:29 [INFO] 2025-05-28 07:45:29 CDT main.go:208 - POST /api/create-order took 1.496067913s
+2025/05/28 07:46:16 [INFO] 2025-05-28 07:46:16 CDT logger.go:122 - HTTP POST /capture-order from 127.0.0.1
+2025/05/28 07:46:16 [INFO] 2025-05-28 07:46:16 CDT payment.go:162 - Using cached PayPal access token (expires at 2025-05-28 16:44:28.07072 -0500 CDT m=+32467.721750676)
+2025/05/28 07:46:18 [INFO] 2025-05-28 07:46:18 CDT payment.go:611 - PayPal order 9VE717119V746932K captured successfully for fundraiser-2025-05-28_07-44-56-9YKr0A (fundraiser)
+2025/05/28 07:46:18 [INFO] 2025-05-28 07:46:18 CDT main.go:208 - POST /api/capture-order took 1.303918691s
+2025/05/28 07:46:18 [INFO] 2025-05-28 07:46:18 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/05/28 07:46:18 [ERROR] 2025-05-28 07:46:18 CDT payment.go:1128 - GetMembershipByID failed for fundraiser-2025-05-28_07-44-56-9YKr0A: failed to scan membership: sql: no rows in result set
+2025/05/28 07:46:18 [INFO] 2025-05-28 07:46:18 CDT main.go:237 - 404 not found: /api/success
+2025/05/28 07:46:18 [INFO] 2025-05-28 07:46:18 CDT main.go:208 - POST /api/success took 1.39762ms
+2025/05/28 16:20:41 [INFO] 2025-05-28 16:20:41 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-28.log
+2025/05/28 16:20:41 [INFO] 2025-05-28 16:20:41 CDT main.go:54 - Environment and paths loaded. Logger ready.
+2025/05/28 16:20:41 [INFO] 2025-05-28 16:20:41 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/28 16:20:41 [INFO] 2025-05-28 16:20:41 CDT config.go:61 - Running in development environment
+2025/05/28 16:20:41 [INFO] 2025-05-28 16:20:41 CDT main.go:155 - Starting server on 0.0.0.0:5051
+2025/05/28 16:50:41 [INFO] 2025-05-28 16:50:41 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/28 17:08:01 [INFO] 2025-05-28 17:08:01 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/28 17:08:01 [INFO] 2025-05-28 17:08:01 CDT main.go:209 - GET /api/csrf-token took 1.376138ms
+2025/05/28 17:10:01 [INFO] 2025-05-28 17:10:01 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/05/28 17:10:01 [INFO] 2025-05-28 17:10:01 CDT form.go:85 - Form values received: map[cover_fees:[on] csrf_token:[IpE61z0vvpH/JDjc9UmvsiusTJv/1yzJ1pGs0bjflFQ=] describe:[family] donor_status:[first-time] email:[crookshanks@potter.com] form_type:[fundraiser] full_name:[Crookshanks McGrew] hidden_field:[] school:[south-euless] student_1_amount:[50] student_1_grade:[5] student_1_name:[SM Crookshanks] student_2_amount:[25] student_2_grade:[2] student_2_name:[FX Crookshanks] student_3_amount:[290] student_3_grade:[K] student_3_name:[LW Crookshanks] student_count:[3]]
+2025/05/28 17:10:01 [INFO] 2025-05-28 17:10:01 CDT form.go:57 - Stat update: total_submissions = 1
+2025/05/28 17:10:01 [INFO] 2025-05-28 17:10:01 CDT data.go:347 - Fundraiser payment data processed for fundraiser-2025-05-28_17-10-01-Pv262g: Total=365.00, Final=372.79
+2025/05/28 17:10:01 [INFO] 2025-05-28 17:10:01 CDT form.go:660 - Fundraiser form fundraiser-2025-05-28_17-10-01-Pv262g processed successfully for crookshanks@potter.com (Total: $372.79)
+2025/05/28 17:10:01 [INFO] 2025-05-28 17:10:01 CDT form.go:178 - Form fundraiser-2025-05-28_17-10-01-Pv262g accepted and saved successfully
+2025/05/28 17:10:01 [INFO] 2025-05-28 17:10:01 CDT form.go:57 - Stat update: successful_submissions = 1
+2025/05/28 17:10:01 [INFO] 2025-05-28 17:10:01 CDT form.go:382 - Form submitted: type=fundraiser, formID=fundraiser-2025-05-28_17-10-01-Pv262g, ip=127.0.0.1, time=2025-05-28 17:10:01
+2025/05/28 17:10:01 [INFO] 2025-05-28 17:10:01 CDT main.go:209 - POST /api/submit-form took 18.839288ms
+2025/05/28 17:10:03 [INFO] 2025-05-28 17:10:03 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/05/28 17:10:03 [INFO] 2025-05-28 17:10:03 CDT order.go:307 - Fundraiser order details accessed for form fundraiser-2025-05-28_17-10-01-Pv262g
+2025/05/28 17:10:03 [INFO] 2025-05-28 17:10:03 CDT main.go:209 - POST /api/order-details took 16.786818ms
+2025/05/28 17:10:46 [INFO] 2025-05-28 17:10:46 CDT payment.go:346 - Creating PayPal order for fundraiser-2025-05-28_17-10-01-Pv262g (fundraiser): 372.79
+2025/05/28 17:10:46 [INFO] 2025-05-28 17:10:46 CDT payment.go:133 - Requesting new PayPal access token
+2025/05/28 17:10:47 [INFO] 2025-05-28 17:10:47 CDT payment.go:166 - Fetched and cached new PayPal access token (expires at 2025-05-29 02:09:47.079746 -0500 CDT m=+35345.411673284)
+2025/05/28 17:10:47 [INFO] 2025-05-28 17:10:47 CDT payment.go:226 - Creating PayPal order
+2025/05/28 17:10:47 [INFO] 2025-05-28 17:10:47 CDT payment.go:248 - Successfully created PayPal order
+2025/05/28 17:10:47 [INFO] 2025-05-28 17:10:47 CDT payment.go:390 - Looking up fundraiser with formID: fundraiser-2025-05-28_17-10-01-Pv262g
+2025/05/28 17:10:47 [INFO] 2025-05-28 17:10:47 CDT payment.go:397 - Found fundraiser, checking token. Expected: MTc0ODQ3MDIwMTpCYVZGQmdWLXBLTHdFbkxaeDRVdVdiNkJlYmhRalRoZg==, Got: MTc0ODQ3MDIwMTpCYVZGQmdWLXBLTHdFbkxaeDRVdVdiNkJlYmhRalRoZg==
+2025/05/28 17:10:47 [INFO] 2025-05-28 17:10:47 CDT payment.go:405 - PayPal order 6CS25316LG2040733 created and stored for fundraiser-2025-05-28_17-10-01-Pv262g (fundraiser)
+2025/05/28 17:10:47 [INFO] 2025-05-28 17:10:47 CDT main.go:209 - POST /api/create-order took 1.33506181s
+2025/05/28 17:11:08 [INFO] 2025-05-28 17:11:08 CDT logger.go:122 - HTTP POST /capture-order from 127.0.0.1
+2025/05/28 17:11:08 [INFO] 2025-05-28 17:11:08 CDT payment.go:105 - Using cached PayPal access token (expires at 2025-05-29 02:09:47.079746 -0500 CDT m=+35345.411673284)
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT payment.go:554 - PayPal order 6CS25316LG2040733 captured successfully for fundraiser-2025-05-28_17-10-01-Pv262g (fundraiser)
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT main.go:209 - POST /api/capture-order took 1.437748687s
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:226 - Sending fundraiser confirmation email to crookshanks@potter.com for form fundraiser-2025-05-28_17-10-01-Pv262g
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:249 - 📧 ========== MOCK EMAIL ==========
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:250 - 📬 To: crookshanks@potter.com
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:251 - 📮 From: noreply@yourdomain.org
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:252 - 📄 Subject: Fundraiser Donation Confirmation
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:253 - 📝 Body:
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:254 - ---
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    Dear Crookshanks,
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    Thank you for your Practice-a-thon donation to the HEBISD Suzuki Booster Club for 2025!
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    **Donation Details:**
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    - Name: Crookshanks McGrew
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    - Email: crookshanks@potter.com
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    - School: south-euless
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    - Status: first-time
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    - Students:
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -      • SM Crookshanks (5)
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -      • FX Crookshanks (2)
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -      • LW Crookshanks (K)
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    - Donations:
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -      • SM Crookshanks: $50.00
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -      • FX Crookshanks: $25.00
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -      • LW Crookshanks: $290.00
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    **Total Amount:** $365.00
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    You generously covered the transaction fees—thank you!
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    **Payment ID:** 
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    **Submitted:** May 28, 2025 at 5:11 PM
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    If you have any questions, please contact us.
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    Best regards,
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    The Booster Club Team
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:262 - ---
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:263 - ✅ Mock email logged successfully
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:264 - 📧 ==============================
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:233 - Fundraiser confirmation email sent successfully to crookshanks@potter.com
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:249 - 📧 ========== MOCK EMAIL ==========
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:250 - 📬 To: admin@yourdomain.org
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:251 - 📮 From: alerts@yourdomain.org
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:252 - 📄 Subject: New Fundraiser Donation: Crookshanks McGrew - south-euless
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:253 - 📝 Body:
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:254 - ---
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    New fundraiser donation received:
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    Form ID: fundraiser-2025-05-28_17-10-01-Pv262g
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    Name: Crookshanks McGrew
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    Email: crookshanks@potter.com
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    School: south-euless
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    Status: first-time
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    Amount: $365.00
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    Payment ID: 
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    Submitted: May 28, 2025 at 5:11 PM
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    Students:
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -      • SM Crookshanks (5)
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -      • FX Crookshanks (2)
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -      • LW Crookshanks (K)
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    Dashboard: https://yourdomain.com/info?year=2025
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:259 -    
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:262 - ---
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:263 - ✅ Mock email logged successfully
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT email.go:264 - 📧 ==============================
+2025/05/28 17:11:10 [INFO] 2025-05-28 17:11:10 CDT main.go:209 - POST /api/success took 10.386828ms
+2025/05/28 17:19:50 [INFO] 2025-05-28 17:19:50 CDT main.go:163 - Shutdown signal received
+2025/05/28 17:19:50 [INFO] 2025-05-28 17:19:50 CDT main.go:173 - Server shut down gracefully
+2025/05/28 17:19:50 [INFO] 2025-05-28 17:19:50 CDT main.go:177 - Shutdown signal received
+2025/05/28 17:19:50 [INFO] 2025-05-28 17:19:50 CDT main.go:178 - Waiting for active connections to finish...
+2025/05/28 17:19:50 [INFO] 2025-05-28 17:19:50 CDT main.go:180 - All connections closed. Total requests handled: 6
+2025/05/28 17:19:50 [INFO] 2025-05-28 17:19:50 CDT main.go:181 - Server shut down gracefully
+2025/05/28 17:30:54 [INFO] 2025-05-28 17:30:54 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-28.log
+2025/05/28 17:30:54 [INFO] 2025-05-28 17:30:54 CDT main.go:54 - Environment and paths loaded. Logger ready.
+2025/05/28 17:30:54 [INFO] 2025-05-28 17:30:54 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/28 17:30:54 [INFO] 2025-05-28 17:30:54 CDT config.go:61 - Running in development environment
+2025/05/28 17:30:54 [INFO] 2025-05-28 17:30:54 CDT main.go:155 - Starting server on 0.0.0.0:5051
+2025/05/28 17:31:52 [INFO] 2025-05-28 17:31:52 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/28 17:31:52 [INFO] 2025-05-28 17:31:52 CDT main.go:209 - GET /api/csrf-token took 598.47µs
+2025/05/28 17:40:50 [INFO] 2025-05-28 17:40:50 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/05/28 17:40:50 [INFO] 2025-05-28 17:40:50 CDT form.go:85 - Form values received: map[csrf_token:[WrU9zBni5L5RcuFe61FXAUICWKZNHCQ/1WVV6WSAwLg=] describe:[family] donor_status:[first-time] email:[hubert@powellfam.net] form_type:[fundraiser] full_name:[Hubert Powell] hidden_field:[] school:[lakewood] student_1_amount:[35] student_1_grade:[1] student_1_name:[Geneva Buttons] student_2_amount:[20] student_2_grade:[4] student_2_name:[Adam Buttons] student_3_amount:[3] student_3_grade:[4] student_3_name:[Roger Buttons] student_count:[3]]
+2025/05/28 17:40:50 [INFO] 2025-05-28 17:40:50 CDT form.go:57 - Stat update: total_submissions = 1
+2025/05/28 17:40:50 [INFO] 2025-05-28 17:40:50 CDT data.go:347 - Fundraiser payment data processed for fundraiser-2025-05-28_17-40-50-TOeziA: Total=58.00, Final=58.00
+2025/05/28 17:40:50 [INFO] 2025-05-28 17:40:50 CDT form.go:660 - Fundraiser form fundraiser-2025-05-28_17-40-50-TOeziA processed successfully for hubert@powellfam.net (Total: $58.00)
+2025/05/28 17:40:50 [INFO] 2025-05-28 17:40:50 CDT form.go:178 - Form fundraiser-2025-05-28_17-40-50-TOeziA accepted and saved successfully
+2025/05/28 17:40:50 [INFO] 2025-05-28 17:40:50 CDT form.go:57 - Stat update: successful_submissions = 1
+2025/05/28 17:40:50 [INFO] 2025-05-28 17:40:50 CDT form.go:382 - Form submitted: type=fundraiser, formID=fundraiser-2025-05-28_17-40-50-TOeziA, ip=127.0.0.1, time=2025-05-28 17:40:50
+2025/05/28 17:40:50 [INFO] 2025-05-28 17:40:50 CDT main.go:209 - POST /api/submit-form took 5.206914ms
+2025/05/28 17:40:52 [INFO] 2025-05-28 17:40:52 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/05/28 17:40:52 [INFO] 2025-05-28 17:40:52 CDT order.go:324 - Fundraiser order details accessed for form fundraiser-2025-05-28_17-40-50-TOeziA
+2025/05/28 17:40:52 [INFO] 2025-05-28 17:40:52 CDT main.go:209 - POST /api/order-details took 2.027999ms
+2025/05/28 17:41:07 [INFO] 2025-05-28 17:41:07 CDT payment.go:346 - Creating PayPal order for fundraiser-2025-05-28_17-40-50-TOeziA (fundraiser): 58.00
+2025/05/28 17:41:07 [INFO] 2025-05-28 17:41:07 CDT payment.go:133 - Requesting new PayPal access token
+2025/05/28 17:41:07 [INFO] 2025-05-28 17:41:07 CDT payment.go:166 - Fetched and cached new PayPal access token (expires at 2025-05-29 02:09:46.847058 -0500 CDT m=+31132.429671746)
+2025/05/28 17:41:07 [INFO] 2025-05-28 17:41:07 CDT payment.go:226 - Creating PayPal order
+2025/05/28 17:41:08 [INFO] 2025-05-28 17:41:08 CDT payment.go:248 - Successfully created PayPal order
+2025/05/28 17:41:08 [INFO] 2025-05-28 17:41:08 CDT payment.go:390 - Looking up fundraiser with formID: fundraiser-2025-05-28_17-40-50-TOeziA
+2025/05/28 17:41:08 [INFO] 2025-05-28 17:41:08 CDT payment.go:397 - Found fundraiser, checking token. Expected: MTc0ODQ3MjA1MDpwRWlrYUNHTjlZOHhWSjRqVVJRbWVSRXV0bVdYR08tWA==, Got: MTc0ODQ3MjA1MDpwRWlrYUNHTjlZOHhWSjRqVVJRbWVSRXV0bVdYR08tWA==
+2025/05/28 17:41:08 [INFO] 2025-05-28 17:41:08 CDT payment.go:405 - PayPal order 4W664920ET8184350 created and stored for fundraiser-2025-05-28_17-40-50-TOeziA (fundraiser)
+2025/05/28 17:41:08 [INFO] 2025-05-28 17:41:08 CDT main.go:209 - POST /api/create-order took 1.46351071s
+2025/05/28 17:41:24 [INFO] 2025-05-28 17:41:24 CDT logger.go:122 - HTTP POST /capture-order from 127.0.0.1
+2025/05/28 17:41:24 [INFO] 2025-05-28 17:41:24 CDT payment.go:105 - Using cached PayPal access token (expires at 2025-05-29 02:09:46.847058 -0500 CDT m=+31132.429671746)
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT payment.go:554 - PayPal order 4W664920ET8184350 captured successfully for fundraiser-2025-05-28_17-40-50-TOeziA (fundraiser)
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT main.go:209 - POST /api/capture-order took 1.346943095s
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:226 - Sending fundraiser confirmation email to hubert@powellfam.net for form fundraiser-2025-05-28_17-40-50-TOeziA
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:249 - 📧 ========== MOCK EMAIL ==========
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:250 - 📬 To: hubert@powellfam.net
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:251 - 📮 From: noreply@yourdomain.org
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:252 - 📄 Subject: Fundraiser Donation Confirmation
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:253 - 📝 Body:
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:254 - ---
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    Dear Hubert,
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    Thank you for your Practice-a-thon donation to the HEBISD Suzuki Booster Club for 2025!
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    **Donation Details:**
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    - Name: Hubert Powell
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    - Email: hubert@powellfam.net
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    - School: lakewood
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    - Status: first-time
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    - Students:
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -      • Geneva Buttons (1)
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -      • Adam Buttons (4)
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -      • Roger Buttons (4)
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    - Donations:
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -      • Geneva Buttons: $35.00
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -      • Adam Buttons: $20.00
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -      • Roger Buttons: $3.00
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    **Total Amount:** $58.00
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    **Payment ID:** 
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    **Submitted:** May 28, 2025 at 5:41 PM
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    If you have any questions, please contact us.
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    Best regards,
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    The Booster Club Team
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:262 - ---
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:263 - ✅ Mock email logged successfully
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:264 - 📧 ==============================
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:233 - Fundraiser confirmation email sent successfully to hubert@powellfam.net
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:249 - 📧 ========== MOCK EMAIL ==========
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:250 - 📬 To: admin@yourdomain.org
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:251 - 📮 From: alerts@yourdomain.org
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:252 - 📄 Subject: New Fundraiser Donation: Hubert Powell - lakewood
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:253 - 📝 Body:
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:254 - ---
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    New fundraiser donation received:
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    Form ID: fundraiser-2025-05-28_17-40-50-TOeziA
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    Name: Hubert Powell
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    Email: hubert@powellfam.net
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    School: lakewood
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    Status: first-time
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    Amount: $58.00
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    Payment ID: 
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    Submitted: May 28, 2025 at 5:41 PM
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    Students:
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -      • Geneva Buttons (1)
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -      • Adam Buttons (4)
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -      • Roger Buttons (4)
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    Dashboard: https://yourdomain.com/info?year=2025
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:259 -    
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:262 - ---
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:263 - ✅ Mock email logged successfully
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT email.go:264 - 📧 ==============================
+2025/05/28 17:41:25 [ERROR] 2025-05-28 17:41:25 CDT order.go:655 - Failed to render fundraiser success template: template: fundraiser_success.html.tmpl:137:21: executing "fundraiser_success.html.tmpl" at <.ConfirmationSent>: can't evaluate field ConfirmationSent in type struct { FormID string; FullName string; FirstName string; LastName string; Email string; School string; Describe string; DonorStatus string; StudentCount int; Students []data.Student; DonationItems []data.StudentDonation; TotalAmount float64; CalculatedAmount float64; CoverFees bool; ProcessingFee float64; SubmittedAt *time.Time; PayPalOrderID string; PayPalStatus string; IsCompleted bool; IsAdminView bool; Year int }
+2025/05/28 17:41:25 [INFO] 2025-05-28 17:41:25 CDT main.go:209 - POST /api/success took 10.60367ms
+2025/05/28 17:44:43 [INFO] 2025-05-28 17:44:43 CDT main.go:163 - Shutdown signal received
+2025/05/28 17:44:43 [INFO] 2025-05-28 17:44:43 CDT main.go:173 - Server shut down gracefully
+2025/05/28 17:44:43 [INFO] 2025-05-28 17:44:43 CDT main.go:177 - Shutdown signal received
+2025/05/28 17:44:43 [INFO] 2025-05-28 17:44:43 CDT main.go:178 - Waiting for active connections to finish...
+2025/05/28 17:44:43 [INFO] 2025-05-28 17:44:43 CDT main.go:180 - All connections closed. Total requests handled: 6
+2025/05/28 17:44:43 [INFO] 2025-05-28 17:44:43 CDT main.go:181 - Server shut down gracefully
+2025/05/28 17:44:47 [INFO] 2025-05-28 17:44:47 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-28.log
+2025/05/28 17:44:47 [INFO] 2025-05-28 17:44:47 CDT main.go:54 - Environment and paths loaded. Logger ready.
+2025/05/28 17:44:47 [INFO] 2025-05-28 17:44:47 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/28 17:44:47 [INFO] 2025-05-28 17:44:47 CDT config.go:61 - Running in development environment
+2025/05/28 17:44:47 [INFO] 2025-05-28 17:44:47 CDT main.go:155 - Starting server on 0.0.0.0:5051
+2025/05/28 18:14:47 [INFO] 2025-05-28 18:14:47 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/28 20:28:20 [INFO] 2025-05-28 20:28:20 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/28 22:06:11 [INFO] 2025-05-28 22:06:11 CDT main.go:163 - Shutdown signal received
+2025/05/28 22:06:11 [INFO] 2025-05-28 22:06:11 CDT main.go:173 - Server shut down gracefully
+2025/05/28 22:06:11 [INFO] 2025-05-28 22:06:11 CDT main.go:177 - Shutdown signal received
+2025/05/28 22:06:11 [INFO] 2025-05-28 22:06:11 CDT main.go:178 - Waiting for active connections to finish...
+2025/05/28 22:06:11 [INFO] 2025-05-28 22:06:11 CDT main.go:180 - All connections closed. Total requests handled: 0
+2025/05/28 22:06:11 [INFO] 2025-05-28 22:06:11 CDT main.go:181 - Server shut down gracefully
+2025/05/28 22:06:24 [INFO] 2025-05-28 22:06:24 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-28.log
+2025/05/28 22:06:24 [INFO] 2025-05-28 22:06:24 CDT main.go:54 - Environment and paths loaded. Logger ready.
+2025/05/28 22:06:24 [INFO] 2025-05-28 22:06:24 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/28 22:06:24 [INFO] 2025-05-28 22:06:24 CDT config.go:61 - Running in development environment
+2025/05/28 22:06:24 [INFO] 2025-05-28 22:06:24 CDT main.go:155 - Starting server on 0.0.0.0:5051
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:226 - Sending fundraiser confirmation email to hubert@powellfam.net for form fundraiser-2025-05-28_17-40-50-TOeziA
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:249 - 📧 ========== MOCK EMAIL ==========
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:250 - 📬 To: hubert@powellfam.net
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:251 - 📮 From: noreply@yourdomain.org
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:252 - 📄 Subject: Fundraiser Donation Confirmation
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:253 - 📝 Body:
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:254 - ---
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    Dear Hubert,
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    Thank you for your Practice-a-thon donation to the HEBISD Suzuki Booster Club for 2025!
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    **Donation Details:**
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    - Name: Hubert Powell
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    - Email: hubert@powellfam.net
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    - School: lakewood
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    - Status: first-time
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    - Students:
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -      • Geneva Buttons (1)
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -      • Adam Buttons (4)
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -      • Roger Buttons (4)
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    - Donations:
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -      • Geneva Buttons: $35.00
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -      • Adam Buttons: $20.00
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -      • Roger Buttons: $3.00
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    **Total Amount:** $58.00
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    **Payment ID:** 
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    **Submitted:** May 28, 2025 at 5:41 PM
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    If you have any questions, please contact us.
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    Best regards,
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    The Booster Club Team
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:262 - ---
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:263 - ✅ Mock email logged successfully
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:264 - 📧 ==============================
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:233 - Fundraiser confirmation email sent successfully to hubert@powellfam.net
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:249 - 📧 ========== MOCK EMAIL ==========
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:250 - 📬 To: admin@yourdomain.org
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:251 - 📮 From: alerts@yourdomain.org
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:252 - 📄 Subject: New Fundraiser Donation: Hubert Powell - lakewood
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:253 - 📝 Body:
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:254 - ---
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    New fundraiser donation received:
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    Form ID: fundraiser-2025-05-28_17-40-50-TOeziA
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    Name: Hubert Powell
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    Email: hubert@powellfam.net
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    School: lakewood
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    Status: first-time
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    Amount: $58.00
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    Payment ID: 
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    Submitted: May 28, 2025 at 5:41 PM
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    Students:
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -      • Geneva Buttons (1)
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -      • Adam Buttons (4)
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -      • Roger Buttons (4)
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    Dashboard: https://yourdomain.com/info?year=2025
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:259 -    
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:262 - ---
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:263 - ✅ Mock email logged successfully
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT email.go:264 - 📧 ==============================
+2025/05/28 22:06:34 [INFO] 2025-05-28 22:06:34 CDT main.go:209 - POST /api/success took 6.457522ms
+2025/05/28 22:09:57 [INFO] 2025-05-28 22:09:57 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/05/28 22:09:57 [INFO] 2025-05-28 22:09:57 CDT email.go:226 - Sending fundraiser confirmation email to hubert@powellfam.net for form fundraiser-2025-05-28_17-40-50-TOeziA
+2025/05/28 22:09:57 [INFO] 2025-05-28 22:09:57 CDT email.go:249 - 📧 ========== MOCK EMAIL ==========
+2025/05/28 22:09:57 [INFO] 2025-05-28 22:09:57 CDT email.go:250 - 📬 To: hubert@powellfam.net
+2025/05/28 22:09:57 [INFO] 2025-05-28 22:09:57 CDT email.go:251 - 📮 From: noreply@yourdomain.org
+2025/05/28 22:09:57 [INFO] 2025-05-28 22:09:57 CDT email.go:252 - 📄 Subject: Fundraiser Donation Confirmation
+2025/05/28 22:09:57 [INFO] 2025-05-28 22:09:57 CDT email.go:253 - 📝 Body:
+2025/05/28 22:09:57 [INFO] 2025-05-28 22:09:57 CDT email.go:254 - ---
+2025/05/28 22:09:57 [INFO] 2025-05-28 22:09:57 CDT email.go:259 -    Dear Hubert,
+2025/05/28 22:09:57 [INFO] 2025-05-28 22:09:57 CDT email.go:259 -    
+2025/05/28 22:09:57 [INFO] 2025-05-28 22:09:57 CDT email.go:259 -    Thank you for your Practice-a-thon donation to the HEBISD Suzuki Booster Club for 2025!
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    **Donation Details:**
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    - Name: Hubert Powell
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    - Email: hubert@powellfam.net
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    - School: lakewood
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    - Status: first-time
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    - Students:
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -      • Geneva Buttons (1)
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -      • Adam Buttons (4)
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -      • Roger Buttons (4)
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    - Donations:
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -      • Geneva Buttons: $35.00
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -      • Adam Buttons: $20.00
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -      • Roger Buttons: $3.00
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    **Total Amount:** $58.00
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    **Payment ID:** 
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    **Submitted:** May 28, 2025 at 5:41 PM
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    If you have any questions, please contact us.
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    Best regards,
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    The Booster Club Team
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:262 - ---
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:263 - ✅ Mock email logged successfully
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:264 - 📧 ==============================
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:233 - Fundraiser confirmation email sent successfully to hubert@powellfam.net
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:249 - 📧 ========== MOCK EMAIL ==========
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:250 - 📬 To: admin@yourdomain.org
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:251 - 📮 From: alerts@yourdomain.org
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:252 - 📄 Subject: New Fundraiser Donation: Hubert Powell - lakewood
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:253 - 📝 Body:
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:254 - ---
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    New fundraiser donation received:
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    Form ID: fundraiser-2025-05-28_17-40-50-TOeziA
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    Name: Hubert Powell
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    Email: hubert@powellfam.net
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    School: lakewood
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    Status: first-time
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    Amount: $58.00
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    Payment ID: 
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    Submitted: May 28, 2025 at 5:41 PM
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    Students:
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -      • Geneva Buttons (1)
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -      • Adam Buttons (4)
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -      • Roger Buttons (4)
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    Dashboard: https://yourdomain.com/info?year=2025
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:259 -    
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:262 - ---
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:263 - ✅ Mock email logged successfully
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT email.go:264 - 📧 ==============================
+2025/05/28 22:10:04 [INFO] 2025-05-28 22:10:04 CDT main.go:209 - POST /api/success took 6.597758975s
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:226 - Sending fundraiser confirmation email to hubert@powellfam.net for form fundraiser-2025-05-28_17-40-50-TOeziA
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:249 - 📧 ========== MOCK EMAIL ==========
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:250 - 📬 To: hubert@powellfam.net
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:251 - 📮 From: noreply@yourdomain.org
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:252 - 📄 Subject: Fundraiser Donation Confirmation
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:253 - 📝 Body:
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:254 - ---
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    Dear Hubert,
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    Thank you for your Practice-a-thon donation to the HEBISD Suzuki Booster Club for 2025!
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    **Donation Details:**
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    - Name: Hubert Powell
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    - Email: hubert@powellfam.net
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    - School: lakewood
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    - Status: first-time
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    - Students:
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -      • Geneva Buttons (1)
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -      • Adam Buttons (4)
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -      • Roger Buttons (4)
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    - Donations:
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -      • Geneva Buttons: $35.00
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -      • Adam Buttons: $20.00
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -      • Roger Buttons: $3.00
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    **Total Amount:** $58.00
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    **Payment ID:** 
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    **Submitted:** May 28, 2025 at 5:41 PM
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    If you have any questions, please contact us.
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    Best regards,
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    The Booster Club Team
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:262 - ---
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:263 - ✅ Mock email logged successfully
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:264 - 📧 ==============================
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:233 - Fundraiser confirmation email sent successfully to hubert@powellfam.net
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:249 - 📧 ========== MOCK EMAIL ==========
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:250 - 📬 To: admin@yourdomain.org
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:251 - 📮 From: alerts@yourdomain.org
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:252 - 📄 Subject: New Fundraiser Donation: Hubert Powell - lakewood
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:253 - 📝 Body:
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:254 - ---
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    New fundraiser donation received:
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    Form ID: fundraiser-2025-05-28_17-40-50-TOeziA
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    Name: Hubert Powell
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    Email: hubert@powellfam.net
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    School: lakewood
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    Status: first-time
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    Amount: $58.00
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    Payment ID: 
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    Submitted: May 28, 2025 at 5:41 PM
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    Students:
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -      • Geneva Buttons (1)
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -      • Adam Buttons (4)
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -      • Roger Buttons (4)
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    Dashboard: https://yourdomain.com/info?year=2025
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:259 -    
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:262 - ---
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:263 - ✅ Mock email logged successfully
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT email.go:264 - 📧 ==============================
+2025/05/28 22:11:42 [INFO] 2025-05-28 22:11:42 CDT main.go:209 - POST /api/success took 9.46533ms
+2025/05/28 22:36:24 [INFO] 2025-05-28 22:36:24 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/29 01:00:52 [INFO] 2025-05-29 01:00:52 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/29 02:46:20 [INFO] 2025-05-29 02:46:20 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/29 04:53:31 [INFO] 2025-05-29 04:53:31 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/29 06:31:24 [INFO] 2025-05-29 06:31:24 CDT main.go:163 - Shutdown signal received
+2025/05/29 06:31:24 [INFO] 2025-05-29 06:31:24 CDT main.go:173 - Server shut down gracefully
+2025/05/29 06:31:24 [INFO] 2025-05-29 06:31:24 CDT main.go:177 - Shutdown signal received
+2025/05/29 06:31:24 [INFO] 2025-05-29 06:31:24 CDT main.go:178 - Waiting for active connections to finish...
+2025/05/29 06:31:24 [INFO] 2025-05-29 06:31:24 CDT main.go:180 - All connections closed. Total requests handled: 3
+2025/05/29 06:31:24 [INFO] 2025-05-29 06:31:24 CDT main.go:181 - Server shut down gracefully

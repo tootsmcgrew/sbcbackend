@@ -1,0 +1,210 @@
+2025/06/04 06:44:15 [INFO] 2025-06-04 06:44:15 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-04.log
+2025/06/04 06:44:15 [INFO] 2025-06-04 06:44:15 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/04 06:44:15 [INFO] 2025-06-04 06:44:15 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/04 06:44:15 [INFO] 2025-06-04 06:44:15 CDT config.go:61 - Running in development environment
+2025/06/04 06:44:15 [INFO] 2025-06-04 06:44:15 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/04 06:44:15 [INFO] 2025-06-04 06:44:15 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-05 02:00:00 (in 19h15m44.436259s)
+2025/06/04 06:44:15 [INFO] 2025-06-04 06:44:15 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/04 06:48:23 [INFO] 2025-06-04 06:48:23 CDT main.go:166 - Shutdown signal received
+2025/06/04 06:48:23 [INFO] 2025-06-04 06:48:23 CDT main.go:176 - Server shut down gracefully
+2025/06/04 06:48:23 [INFO] 2025-06-04 06:48:23 CDT main.go:180 - Shutdown signal received
+2025/06/04 06:48:23 [INFO] 2025-06-04 06:48:23 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/04 06:48:23 [INFO] 2025-06-04 06:48:23 CDT main.go:183 - All connections closed. Total requests handled: 0
+2025/06/04 06:48:23 [INFO] 2025-06-04 06:48:23 CDT main.go:184 - Server shut down gracefully
+2025/06/04 07:35:35 [INFO] 2025-06-04 07:35:35 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-04.log
+2025/06/04 07:35:35 [INFO] 2025-06-04 07:35:35 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/04 07:35:35 [INFO] 2025-06-04 07:35:35 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/04 07:35:35 [INFO] 2025-06-04 07:35:35 CDT config.go:61 - Running in development environment
+2025/06/04 07:35:35 [INFO] 2025-06-04 07:35:35 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/04 07:35:35 [INFO] 2025-06-04 07:35:35 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-05 02:00:00 (in 18h24m24.48289s)
+2025/06/04 07:35:35 [INFO] 2025-06-04 07:35:35 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/04 07:35:40 [INFO] 2025-06-04 07:35:40 CDT main.go:166 - Shutdown signal received
+2025/06/04 07:35:40 [INFO] 2025-06-04 07:35:40 CDT main.go:176 - Server shut down gracefully
+2025/06/04 07:35:40 [INFO] 2025-06-04 07:35:40 CDT main.go:180 - Shutdown signal received
+2025/06/04 07:35:40 [INFO] 2025-06-04 07:35:40 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/04 07:35:40 [INFO] 2025-06-04 07:35:40 CDT main.go:183 - All connections closed. Total requests handled: 0
+2025/06/04 07:35:40 [INFO] 2025-06-04 07:35:40 CDT main.go:184 - Server shut down gracefully
+2025/06/04 22:13:08 [INFO] 2025-06-04 22:13:08 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-04.log
+2025/06/04 22:13:08 [INFO] 2025-06-04 22:13:08 CDT main.go:59 - Environment and paths loaded. Logger ready.
+2025/06/04 22:13:08 [INFO] 2025-06-04 22:13:08 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/04 22:13:08 [INFO] 2025-06-04 22:13:08 CDT config.go:61 - Running in development environment
+2025/06/04 22:13:08 [INFO] 2025-06-04 22:13:08 CDT main.go:90 - Loading unified inventory from: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/04 22:13:08 [INFO] 2025-06-04 22:13:08 CDT inventory.go:61 - Loading inventory from unified file: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/04 22:13:08 [FATAL] 2025-06-04 22:13:08 CDT main.go:93 - Failed to load unified inventory: failed to read inventory file: open /Users/adam/Sites/hebstrings.org/static/inventory.json: no such file or directory
+2025/06/04 22:13:44 [INFO] 2025-06-04 22:13:44 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-04.log
+2025/06/04 22:13:44 [INFO] 2025-06-04 22:13:44 CDT main.go:59 - Environment and paths loaded. Logger ready.
+2025/06/04 22:13:44 [INFO] 2025-06-04 22:13:44 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/04 22:13:44 [INFO] 2025-06-04 22:13:44 CDT config.go:61 - Running in development environment
+2025/06/04 22:13:44 [INFO] 2025-06-04 22:13:44 CDT main.go:90 - Loading unified inventory from: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/04 22:13:44 [INFO] 2025-06-04 22:13:44 CDT inventory.go:61 - Loading inventory from unified file: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/04 22:13:44 [INFO] 2025-06-04 22:13:44 CDT inventory.go:77 - Successfully loaded unified inventory: 3 memberships, 4 products, 3 fees, 2 events
+2025/06/04 22:13:44 [INFO] 2025-06-04 22:13:44 CDT main.go:121 - Inventory service initialized with 40.41µs cache
+2025/06/04 22:13:44 [INFO] 2025-06-04 22:13:44 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/04 22:13:44 [INFO] 2025-06-04 22:13:44 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-05 02:00:00 (in 3h46m15.330215s)
+2025/06/04 22:13:44 [INFO] 2025-06-04 22:13:44 CDT main.go:207 - Starting server on 0.0.0.0:5051
+2025/06/04 22:43:44 [INFO] 2025-06-04 22:43:44 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/04 23:00:10 [INFO] 2025-06-04 23:00:10 CDT main.go:215 - Shutdown signal received
+2025/06/04 23:00:10 [INFO] 2025-06-04 23:00:10 CDT main.go:225 - Server shut down gracefully
+2025/06/04 23:00:10 [INFO] 2025-06-04 23:00:10 CDT main.go:229 - Shutdown signal received
+2025/06/04 23:00:10 [INFO] 2025-06-04 23:00:10 CDT main.go:230 - Waiting for active connections to finish...
+2025/06/04 23:00:10 [INFO] 2025-06-04 23:00:10 CDT main.go:232 - All connections closed. Total requests handled: 0
+2025/06/04 23:00:10 [INFO] 2025-06-04 23:00:10 CDT main.go:233 - Server shut down gracefully
+2025/06/04 23:00:30 [INFO] 2025-06-04 23:00:30 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-04.log
+2025/06/04 23:00:30 [INFO] 2025-06-04 23:00:30 CDT main.go:59 - Environment and paths loaded. Logger ready.
+2025/06/04 23:00:30 [INFO] 2025-06-04 23:00:30 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/04 23:00:30 [INFO] 2025-06-04 23:00:30 CDT config.go:61 - Running in development environment
+2025/06/04 23:00:30 [INFO] 2025-06-04 23:00:30 CDT main.go:90 - Loading unified inventory from: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/04 23:00:30 [INFO] 2025-06-04 23:00:30 CDT inventory.go:61 - Loading inventory from unified file: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/04 23:00:30 [INFO] 2025-06-04 23:00:30 CDT inventory.go:77 - Successfully loaded unified inventory: 3 memberships, 4 products, 3 fees, 2 events
+2025/06/04 23:00:30 [INFO] 2025-06-04 23:00:30 CDT main.go:121 - Inventory service initialized with 56.097µs cache
+2025/06/04 23:00:30 [INFO] 2025-06-04 23:00:30 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/04 23:00:30 [INFO] 2025-06-04 23:00:30 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-05 02:00:00 (in 2h59m29.802379s)
+2025/06/04 23:00:30 [INFO] 2025-06-04 23:00:30 CDT main.go:207 - Starting server on 0.0.0.0:5051
+2025/06/04 23:01:03 [INFO] 2025-06-04 23:01:03 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/04 23:01:03 [INFO] 2025-06-04 23:01:03 CDT main.go:261 - GET /api/csrf-token took 1.230168ms
+2025/06/04 23:02:08 [INFO] 2025-06-04 23:02:08 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/06/04 23:02:08 [INFO] 2025-06-04 23:02:08 CDT form.go:84 - Form values received: map[csrf_token:[Vhn88rBdPEoE9SePq8GaxNSunt7syLZjJTecJeTeMZY=] describe:[supporter] email:[gene@startrek.edu] form_type:[membership] full_name:[Gene Roddenbury] hidden_field:[] interests:[assisting-teacher] membership_status:[first-time] school:[south-euless] student_1_grade:[1] student_1_name:[Hurley Roddenbury] student_2_grade:[K] student_2_name:[Hinton Roddenbury] student_count:[2]]
+2025/06/04 23:02:08 [INFO] 2025-06-04 23:02:08 CDT form.go:56 - Stat update: total_submissions = 1
+2025/06/04 23:02:08 [INFO] 2025-06-04 23:02:08 CDT form.go:180 - Form membership-2025-06-04_23-02-08-cwjaqw accepted and saved successfully
+2025/06/04 23:02:08 [INFO] 2025-06-04 23:02:08 CDT form.go:56 - Stat update: successful_submissions = 1
+2025/06/04 23:02:08 [INFO] 2025-06-04 23:02:08 CDT form.go:291 - Form submitted: type=membership, formID=membership-2025-06-04_23-02-08-cwjaqw, ip=127.0.0.1, time=2025-06-04 23:02:08
+2025/06/04 23:02:08 [INFO] 2025-06-04 23:02:08 CDT main.go:261 - POST /api/submit-form took 6.139889ms
+2025/06/04 23:02:11 [INFO] 2025-06-04 23:02:11 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/04 23:02:11 [INFO] 2025-06-04 23:02:11 CDT main.go:261 - GET /api/csrf-token took 134.21µs
+2025/06/04 23:05:29 [INFO] 2025-06-04 23:05:29 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/06/04 23:05:29 [INFO] 2025-06-04 23:05:29 CDT form.go:84 - Form values received: map[csrf_token:[HhFMJdrIH3K3/XjJvTZzODiZSqUhfKERQ5CmEZoCb70=] describe:[supporter] email:[gene@startrek.edu] form_type:[membership] full_name:[Gene Roddenbury] hidden_field:[] interests:[assisting-teacher] membership_status:[first-time] school:[south-euless] student_1_grade:[1] student_1_name:[Hurley Roddenbury] student_2_grade:[K] student_2_name:[Hinton Roddenbury] student_count:[2]]
+2025/06/04 23:05:29 [INFO] 2025-06-04 23:05:29 CDT form.go:56 - Stat update: total_submissions = 2
+2025/06/04 23:05:29 [INFO] 2025-06-04 23:05:29 CDT form.go:180 - Form membership-2025-06-04_23-05-29-dyc__Q accepted and saved successfully
+2025/06/04 23:05:29 [INFO] 2025-06-04 23:05:29 CDT form.go:56 - Stat update: successful_submissions = 2
+2025/06/04 23:05:29 [INFO] 2025-06-04 23:05:29 CDT form.go:291 - Form submitted: type=membership, formID=membership-2025-06-04_23-05-29-dyc__Q, ip=127.0.0.1, time=2025-06-04 23:05:29
+2025/06/04 23:05:29 [INFO] 2025-06-04 23:05:29 CDT main.go:261 - POST /api/submit-form took 3.159791ms
+2025/06/04 23:05:42 [INFO] 2025-06-04 23:05:42 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/04 23:05:42 [INFO] 2025-06-04 23:05:42 CDT main.go:261 - GET /api/csrf-token took 549.434µs
+2025/06/04 23:16:08 [INFO] 2025-06-04 23:16:08 CDT main.go:215 - Shutdown signal received
+2025/06/04 23:16:08 [INFO] 2025-06-04 23:16:08 CDT main.go:225 - Server shut down gracefully
+2025/06/04 23:16:08 [INFO] 2025-06-04 23:16:08 CDT main.go:229 - Shutdown signal received
+2025/06/04 23:16:08 [INFO] 2025-06-04 23:16:08 CDT main.go:230 - Waiting for active connections to finish...
+2025/06/04 23:16:08 [INFO] 2025-06-04 23:16:08 CDT main.go:232 - All connections closed. Total requests handled: 5
+2025/06/04 23:16:08 [INFO] 2025-06-04 23:16:08 CDT main.go:233 - Server shut down gracefully
+2025/06/04 23:16:15 [INFO] 2025-06-04 23:16:15 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-04.log
+2025/06/04 23:16:15 [INFO] 2025-06-04 23:16:15 CDT main.go:59 - Environment and paths loaded. Logger ready.
+2025/06/04 23:16:15 [INFO] 2025-06-04 23:16:15 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/04 23:16:15 [INFO] 2025-06-04 23:16:15 CDT config.go:61 - Running in development environment
+2025/06/04 23:16:15 [INFO] 2025-06-04 23:16:15 CDT main.go:90 - Loading unified inventory from: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/04 23:16:15 [INFO] 2025-06-04 23:16:15 CDT inventory.go:61 - Loading inventory from unified file: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/04 23:16:15 [INFO] 2025-06-04 23:16:15 CDT inventory.go:77 - Successfully loaded unified inventory: 3 memberships, 4 products, 3 fees, 2 events
+2025/06/04 23:16:15 [INFO] 2025-06-04 23:16:15 CDT main.go:121 - Inventory service initialized with 69.095µs cache
+2025/06/04 23:16:15 [INFO] 2025-06-04 23:16:15 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/04 23:16:15 [INFO] 2025-06-04 23:16:15 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-05 02:00:00 (in 2h43m44.153511s)
+2025/06/04 23:16:15 [INFO] 2025-06-04 23:16:15 CDT main.go:207 - Starting server on 0.0.0.0:5051
+2025/06/04 23:18:28 [INFO] 2025-06-04 23:18:28 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/04 23:18:28 [INFO] 2025-06-04 23:18:28 CDT main.go:261 - GET /api/csrf-token took 1.230876ms
+2025/06/04 23:19:13 [INFO] 2025-06-04 23:19:13 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/06/04 23:19:13 [INFO] 2025-06-04 23:19:13 CDT form.go:84 - Form values received: map[csrf_token:[h/o4Fo+iVpiM/+zhydnXWdCeZ17wgL9xr7EpW/GLQdU=] describe:[supporter] email:[gene@startrek.net] form_type:[membership] full_name:[Gene Roddenberry] hidden_field:[] interests:[volunteering] membership_status:[first-time] school:[hurst-hills-fish] student_1_grade:[1] student_1_name:[Hinton Roddenberry] student_2_grade:[4] student_2_name:[Paul Roddenberry] student_count:[2]]
+2025/06/04 23:19:13 [INFO] 2025-06-04 23:19:13 CDT form.go:56 - Stat update: total_submissions = 1
+2025/06/04 23:19:13 [INFO] 2025-06-04 23:19:13 CDT form.go:180 - Form membership-2025-06-04_23-19-13-HnafRg accepted and saved successfully
+2025/06/04 23:19:13 [INFO] 2025-06-04 23:19:13 CDT form.go:56 - Stat update: successful_submissions = 1
+2025/06/04 23:19:13 [INFO] 2025-06-04 23:19:13 CDT form.go:291 - Form submitted: type=membership, formID=membership-2025-06-04_23-19-13-HnafRg, ip=127.0.0.1, time=2025-06-04 23:19:13
+2025/06/04 23:19:13 [INFO] 2025-06-04 23:19:13 CDT main.go:261 - POST /api/submit-form took 4.994078ms
+2025/06/04 23:19:22 [INFO] 2025-06-04 23:19:22 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/04 23:19:22 [INFO] 2025-06-04 23:19:22 CDT main.go:261 - GET /api/csrf-token took 188.438µs
+2025/06/04 23:21:26 [INFO] 2025-06-04 23:21:26 CDT main.go:215 - Shutdown signal received
+2025/06/04 23:21:26 [INFO] 2025-06-04 23:21:26 CDT main.go:225 - Server shut down gracefully
+2025/06/04 23:21:26 [INFO] 2025-06-04 23:21:26 CDT main.go:229 - Shutdown signal received
+2025/06/04 23:21:26 [INFO] 2025-06-04 23:21:26 CDT main.go:230 - Waiting for active connections to finish...
+2025/06/04 23:21:26 [INFO] 2025-06-04 23:21:26 CDT main.go:232 - All connections closed. Total requests handled: 3
+2025/06/04 23:21:26 [INFO] 2025-06-04 23:21:26 CDT main.go:233 - Server shut down gracefully
+2025/06/04 23:21:38 [INFO] 2025-06-04 23:21:38 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-04.log
+2025/06/04 23:21:38 [INFO] 2025-06-04 23:21:38 CDT main.go:59 - Environment and paths loaded. Logger ready.
+2025/06/04 23:21:38 [INFO] 2025-06-04 23:21:38 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/04 23:21:38 [INFO] 2025-06-04 23:21:38 CDT config.go:61 - Running in development environment
+2025/06/04 23:21:38 [INFO] 2025-06-04 23:21:38 CDT main.go:90 - Loading unified inventory from: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/04 23:21:38 [INFO] 2025-06-04 23:21:38 CDT inventory.go:61 - Loading inventory from unified file: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/04 23:21:38 [INFO] 2025-06-04 23:21:38 CDT inventory.go:77 - Successfully loaded unified inventory: 3 memberships, 4 products, 3 fees, 2 events
+2025/06/04 23:21:38 [INFO] 2025-06-04 23:21:38 CDT main.go:121 - Inventory service initialized with 44.426µs cache
+2025/06/04 23:21:38 [INFO] 2025-06-04 23:21:38 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/04 23:21:38 [INFO] 2025-06-04 23:21:38 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-05 02:00:00 (in 2h38m21.347909s)
+2025/06/04 23:21:38 [INFO] 2025-06-04 23:21:38 CDT main.go:207 - Starting server on 0.0.0.0:5051
+2025/06/04 23:21:41 [INFO] 2025-06-04 23:21:41 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/04 23:21:41 [INFO] 2025-06-04 23:21:41 CDT main.go:261 - GET /api/csrf-token took 191.629µs
+2025/06/04 23:22:31 [INFO] 2025-06-04 23:22:31 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/06/04 23:22:31 [INFO] 2025-06-04 23:22:31 CDT form.go:84 - Form values received: map[csrf_token:[g0p+fs5TSNYeX2F5PMAFDqzfmF5OfPBAWwPiQSDHOjM=] describe:[supporter] email:[gene@startrek.net] form_type:[membership] full_name:[Gene Roddenberry] hidden_field:[] interests:[volunteering] membership_status:[returning] school:[south-euless] student_1_grade:[3] student_1_name:[Paul Roddenberry] student_2_grade:[1] student_2_name:[Hinton Roddenberry] student_count:[2]]
+2025/06/04 23:22:31 [INFO] 2025-06-04 23:22:31 CDT form.go:56 - Stat update: total_submissions = 1
+2025/06/04 23:22:31 [INFO] 2025-06-04 23:22:31 CDT form.go:180 - Form membership-2025-06-04_23-22-31-36LNFQ accepted and saved successfully
+2025/06/04 23:22:31 [INFO] 2025-06-04 23:22:31 CDT form.go:56 - Stat update: successful_submissions = 1
+2025/06/04 23:22:31 [INFO] 2025-06-04 23:22:31 CDT form.go:291 - Form submitted: type=membership, formID=membership-2025-06-04_23-22-31-36LNFQ, ip=127.0.0.1, time=2025-06-04 23:22:31
+2025/06/04 23:22:31 [INFO] 2025-06-04 23:22:31 CDT main.go:261 - POST /api/submit-form took 5.744343ms
+2025/06/04 23:25:22 [INFO] 2025-06-04 23:25:22 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/04 23:25:22 [INFO] 2025-06-04 23:25:22 CDT main.go:261 - GET /api/csrf-token took 720.255µs
+2025/06/04 23:26:12 [INFO] 2025-06-04 23:26:12 CDT logger.go:122 - HTTP POST /save-payment-data from 127.0.0.1
+2025/06/04 23:26:12 [INFO] 2025-06-04 23:26:12 CDT main.go:261 - POST /api/save-payment-data took 1.140784ms
+2025/06/04 23:30:19 [INFO] 2025-06-04 23:30:19 CDT main.go:215 - Shutdown signal received
+2025/06/04 23:30:19 [INFO] 2025-06-04 23:30:19 CDT main.go:225 - Server shut down gracefully
+2025/06/04 23:30:19 [INFO] 2025-06-04 23:30:19 CDT main.go:229 - Shutdown signal received
+2025/06/04 23:30:19 [INFO] 2025-06-04 23:30:19 CDT main.go:230 - Waiting for active connections to finish...
+2025/06/04 23:30:19 [INFO] 2025-06-04 23:30:19 CDT main.go:232 - All connections closed. Total requests handled: 4
+2025/06/04 23:30:19 [INFO] 2025-06-04 23:30:19 CDT main.go:233 - Server shut down gracefully
+2025/06/04 23:30:43 [INFO] 2025-06-04 23:30:43 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-04.log
+2025/06/04 23:30:43 [INFO] 2025-06-04 23:30:43 CDT main.go:59 - Environment and paths loaded. Logger ready.
+2025/06/04 23:30:43 [INFO] 2025-06-04 23:30:43 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/04 23:30:43 [INFO] 2025-06-04 23:30:43 CDT config.go:61 - Running in development environment
+2025/06/04 23:30:43 [INFO] 2025-06-04 23:30:43 CDT main.go:90 - Loading unified inventory from: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/04 23:30:43 [INFO] 2025-06-04 23:30:43 CDT inventory.go:61 - Loading inventory from unified file: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/04 23:30:43 [INFO] 2025-06-04 23:30:43 CDT inventory.go:77 - Successfully loaded unified inventory: 3 memberships, 4 products, 3 fees, 2 events
+2025/06/04 23:30:43 [INFO] 2025-06-04 23:30:43 CDT main.go:121 - Inventory service initialized with 93.19µs cache
+2025/06/04 23:30:43 [INFO] 2025-06-04 23:30:43 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/04 23:30:43 [INFO] 2025-06-04 23:30:43 CDT main.go:207 - Starting server on 0.0.0.0:5051
+2025/06/04 23:30:43 [INFO] 2025-06-04 23:30:43 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-05 02:00:00 (in 2h29m16.342157s)
+2025/06/04 23:31:56 [INFO] 2025-06-04 23:31:56 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/04 23:31:56 [INFO] 2025-06-04 23:31:56 CDT main.go:261 - GET /api/csrf-token took 1.790969ms
+2025/06/04 23:32:44 [INFO] 2025-06-04 23:32:44 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/06/04 23:32:44 [INFO] 2025-06-04 23:32:44 CDT form.go:84 - Form values received: map[csrf_token:[hiaKYB7Om7fFKP6Uhq0kQayrThL/t8lshA5KzEcG0VE=] describe:[supporter] email:[gene@startrek.net] form_type:[membership] full_name:[Gene Roddenberry] hidden_field:[] interests:[volunteering] membership_status:[first-time] school:[wilshire-fish] student_1_grade:[1] student_1_name:[Hinton Roddenberry] student_2_grade:[5] student_2_name:[Romney Roddenberry] student_count:[2]]
+2025/06/04 23:32:44 [INFO] 2025-06-04 23:32:44 CDT form.go:56 - Stat update: total_submissions = 1
+2025/06/04 23:32:44 [ERROR] 2025-06-04 23:32:44 CDT logger.go:127 - HTTP 500 error for POST /submit-form from 127.0.0.1: failed to insert membership submission: database is locked (5) (SQLITE_BUSY)
+2025/06/04 23:32:44 [INFO] 2025-06-04 23:32:44 CDT main.go:261 - POST /api/submit-form took 2.505273ms
+2025/06/04 23:32:49 [INFO] 2025-06-04 23:32:49 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/04 23:32:49 [INFO] 2025-06-04 23:32:49 CDT main.go:261 - GET /api/csrf-token took 265.444µs
+2025/06/04 23:33:01 [INFO] 2025-06-04 23:33:01 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/06/04 23:33:01 [INFO] 2025-06-04 23:33:01 CDT form.go:84 - Form values received: map[csrf_token:[Ua+4P+ez4yopwJyjGiybFT6C0Ktq65rnZ1fxwfTw+u4=] describe:[supporter] email:[gene@startrek.net] form_type:[membership] full_name:[Gene Roddenberry] hidden_field:[] interests:[volunteering] membership_status:[first-time] school:[wilshire-fish] student_1_grade:[1] student_1_name:[Hinton Roddenberry] student_2_grade:[5] student_2_name:[Romney Roddenberry] student_count:[2]]
+2025/06/04 23:33:01 [INFO] 2025-06-04 23:33:01 CDT form.go:56 - Stat update: total_submissions = 2
+2025/06/04 23:33:01 [ERROR] 2025-06-04 23:33:01 CDT logger.go:127 - HTTP 429 error for POST /submit-form from 127.0.0.1: rate limit exceeded for 127.0.0.1
+2025/06/04 23:33:01 [INFO] 2025-06-04 23:33:01 CDT form.go:56 - Stat update: rate_limit_blocks = 1
+2025/06/04 23:33:01 [INFO] 2025-06-04 23:33:01 CDT main.go:261 - POST /api/submit-form took 742.701µs
+2025/06/04 23:33:07 [INFO] 2025-06-04 23:33:07 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/04 23:33:07 [INFO] 2025-06-04 23:33:07 CDT main.go:261 - GET /api/csrf-token took 272.176µs
+2025/06/04 23:33:41 [INFO] 2025-06-04 23:33:41 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/04 23:33:41 [INFO] 2025-06-04 23:33:41 CDT main.go:261 - GET /api/csrf-token took 665.825µs
+2025/06/04 23:34:28 [INFO] 2025-06-04 23:34:28 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/06/04 23:34:28 [INFO] 2025-06-04 23:34:28 CDT form.go:84 - Form values received: map[csrf_token:[Y2fgVxZnlHmS9DzaNpPGjjYUm+L3I1bDIGDobFlKT1o=] describe:[supporter] email:[gene@startrek.net] form_type:[membership] full_name:[Gene Roddenberry] hidden_field:[] interests:[volunteering] membership_status:[first-time] school:[spring-garden] student_1_grade:[3] student_1_name:[Romney Roddenberry ] student_2_grade:[6] student_2_name:[Hinton Roddenberry] student_count:[2]]
+2025/06/04 23:34:28 [INFO] 2025-06-04 23:34:28 CDT form.go:56 - Stat update: total_submissions = 3
+2025/06/04 23:34:28 [INFO] 2025-06-04 23:34:28 CDT form.go:180 - Form membership-2025-06-04_23-34-28-Pj8oWw accepted and saved successfully
+2025/06/04 23:34:28 [INFO] 2025-06-04 23:34:28 CDT form.go:56 - Stat update: successful_submissions = 1
+2025/06/04 23:34:28 [INFO] 2025-06-04 23:34:28 CDT form.go:291 - Form submitted: type=membership, formID=membership-2025-06-04_23-34-28-Pj8oWw, ip=127.0.0.1, time=2025-06-04 23:34:28
+2025/06/04 23:34:28 [INFO] 2025-06-04 23:34:28 CDT main.go:261 - POST /api/submit-form took 2.990892ms
+2025/06/04 23:35:02 [INFO] 2025-06-04 23:35:02 CDT logger.go:122 - HTTP POST /save-payment-data from 127.0.0.1
+2025/06/04 23:35:02 [INFO] 2025-06-04 23:35:02 CDT payment.go:674 - Membership payment processed for membership-2025-06-04_23-34-28-Pj8oWw: Total=$35.17
+2025/06/04 23:35:02 [INFO] 2025-06-04 23:35:02 CDT main.go:261 - POST /api/save-payment-data took 2.682758ms
+2025/06/05 01:59:02 [INFO] 2025-06-05 01:59:02 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/05 03:59:26 [INFO] 2025-06-05 03:59:26 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/05 05:49:54 [INFO] 2025-06-05 05:49:54 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/05 06:19:54 [INFO] 2025-06-05 06:19:54 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/05 07:20:19 [INFO] 2025-06-05 07:20:19 CDT cleanup.go:44 - Starting daily cleanup of abandoned form submissions
+2025/06/05 07:20:19 [INFO] 2025-06-05 07:20:19 CDT cleanup.go:47 - Cleaning records older than 48h0m0s (before 2025-06-03 07:20:19)
+2025/06/05 07:20:19 [ERROR] 2025-06-05 07:20:19 CDT cleanup.go:55 - Failed to cleanup membership submissions: SQL logic error: near "LIMIT": syntax error (1)
+2025/06/05 07:20:19 [ERROR] 2025-06-05 07:20:19 CDT cleanup.go:66 - Failed to cleanup event submissions: SQL logic error: near "LIMIT": syntax error (1)
+2025/06/05 07:20:19 [ERROR] 2025-06-05 07:20:19 CDT cleanup.go:77 - Failed to cleanup fundraiser submissions: SQL logic error: near "LIMIT": syntax error (1)
+2025/06/05 07:20:19 [INFO] 2025-06-05 07:20:19 CDT cleanup.go:86 - Cleanup completed - no abandoned records found
+2025/06/05 07:20:19 [INFO] 2025-06-05 07:20:19 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-06 02:00:00 (in 18h39m40.046289s)
+2025/06/05 07:21:03 [INFO] 2025-06-05 07:21:03 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/05 09:22:33 [INFO] 2025-06-05 09:22:33 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/05 10:21:11 [INFO] 2025-06-05 10:21:11 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/05 10:51:12 [INFO] 2025-06-05 10:51:12 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/05 11:21:12 [INFO] 2025-06-05 11:21:12 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/05 11:51:12 [INFO] 2025-06-05 11:51:12 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/05 14:30:18 [INFO] 2025-06-05 14:30:18 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/05 14:58:56 [INFO] 2025-06-05 14:58:56 CDT main.go:215 - Shutdown signal received
+2025/06/05 14:58:56 [INFO] 2025-06-05 14:58:56 CDT main.go:225 - Server shut down gracefully
+2025/06/05 14:58:56 [INFO] 2025-06-05 14:58:56 CDT main.go:229 - Shutdown signal received
+2025/06/05 14:58:56 [INFO] 2025-06-05 14:58:56 CDT main.go:230 - Waiting for active connections to finish...
+2025/06/05 14:58:56 [INFO] 2025-06-05 14:58:56 CDT main.go:232 - All connections closed. Total requests handled: 8
+2025/06/05 14:58:56 [INFO] 2025-06-05 14:58:56 CDT main.go:233 - Server shut down gracefully

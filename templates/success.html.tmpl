@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{if .IsAdminView}}[ADMIN] {{end}}Payment {{if .IsCompleted}}Successful{{else}}Details{{end}} - Receipt {{.FormattedID}}</title>
+    <link rel="stylesheet" href="/static/css/success.css">
+</head>
+<body>
+    {{if .IsAdminView}}
+    <div class="admin-header">
+        <h3>🔒 ADMIN VIEW - Internal Use Only</h3>
+    </div>
+    {{end}}
+
+    <div class="header {{if .IsCompleted}}completed{{else}}pending{{end}}">
+      <img src="/static/images/logolong.webp" alt="Organization Logo">
+        <div class="success-icon">{{if .IsCompleted}}✅{{else}}⏳{{end}}</div>
+        <h1>{{if .IsCompleted}}Payment Successful!{{else}}Payment Details{{end}}</h1>
+        <p>{{if not .IsAdminView}}Thank you, {{.FirstName}}!{{else}}Order for {{.FirstName}}{{end}}</p>
+        <div class="receipt-id">Receipt: {{.FormattedID}}</div>
+        <div class="status-badge {{if .IsCompleted}}status-completed{{else}}status-pending{{end}}">
+            Status: {{.PayPalStatus}}
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Order Summary</h2>
+        <div class="details-grid">
+            <div class="detail-group">
+                <h3>Supporter Information</h3>
+                <div class="detail-item">
+                    <div class="detail-label">Name:</div>
+                    <div class="detail-value">{{.FullName}}</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Email:</div>
+                    <div class="detail-value">{{.Email}}</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">School:</div>
+                    <div class="detail-value">{{.School}}</div>
+                </div>
+                {{if .MembershipStatus}}
+                <div class="detail-item">
+                    <div class="detail-label">Status:</div>
+                    <div class="detail-value">{{.MembershipStatus}}</div>
+                </div>
+                {{end}}
+                {{if .Describe}}
+                <div class="detail-item">
+                    <div class="detail-label">Role:</div>
+                    <div class="detail-value">{{.Describe}}</div>
+                </div>
+                {{end}}
+                <div class="detail-item">
+                    <div class="detail-label">Students ({{.StudentCount}}):</div>
+                    <div class="detail-value">{{.StudentList}}</div>
+                </div>
+            </div>
+            
+            <div class="detail-group">
+                <h3>Purchase Details</h3>
+                <div class="detail-item">
+                    <div class="detail-label">Membership:</div>
+                    <div class="detail-value">{{.Membership}}</div>
+                </div>
+                {{if ne .AddonsList "None"}}
+                <div class="detail-item">
+                    <div class="detail-label">Add-ons:</div>
+                    <div class="detail-value">{{.AddonsList}}</div>
+                </div>
+                {{end}}
+                {{if ne .FeesList "None"}}
+                <div class="detail-item">
+                    <div class="detail-label">Event Fees:</div>
+                    <div class="detail-value">{{.FeesList}}</div>
+                </div>
+                {{end}}
+                {{if .Donation }}
+                <div class="detail-item">
+                    <div class="detail-label">Donation:</div>
+                    <div class="detail-value amount">${{printf "%.2f" .Donation}}</div>
+                </div>
+                {{end}}
+                {{if .CoverFees}}
+                <div class="detail-item">
+                    <div class="detail-label">Processing Fees:</div>
+                    <div class="detail-value">Covered by customer</div>
+                </div>
+                {{end}}
+                <div class="detail-item">
+                    <div class="detail-label">Total Paid:</div>
+                    <div class="detail-value amount">${{printf "%.2f" .CalculatedAmount}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{if .IsCompleted}}
+    <div class="section">
+        <h2>Payment Information</h2>
+        <div class="details-grid">
+            <div class="detail-group">
+                <h3>Transaction Details</h3>
+                <div class="detail-item">
+                    <div class="detail-label">Status:</div>
+                    <div class="detail-value">✅ Completed</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Transaction ID:</div>
+                    <div class="detail-value">{{.PayPalOrderID}}</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Processing Time:</div>
+                    <div class="detail-value">{{.ProcessingTime}}</div>
+                </div>
+            </div>
+            
+            {{if .PayPalFee}}
+            <div class="detail-group">
+                <h3>Fee Breakdown</h3>
+                <div class="detail-item">
+                    <div class="detail-label">Amount Paid:</div>
+                    <div class="detail-value">${{printf "%.2f" .CalculatedAmount}}</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">PayPal Fee:</div>
+                    <div class="detail-value">${{printf "%.2f" .PayPalFee}}</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Net Received:</div>
+                    <div class="detail-value amount">${{printf "%.2f" .NetAmount}}</div>
+                </div>
+            </div>
+            {{end}}
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Timeline</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <span class="timeline-label">Form Submitted</span>
+                <span class="timeline-time">{{.SubmissionDate.Format "Jan 2, 3:04 PM"}}</span>
+            </div>
+            {{if .OrderCreatedAt}}
+            <div class="timeline-item">
+                <span class="timeline-label">Payment Started</span>
+                <span class="timeline-time">{{.OrderCreatedAt.Format "Jan 2, 3:04 PM"}}</span>
+            </div>
+            {{end}}
+            {{if .SubmittedAt}}
+            <div class="timeline-item">
+                <span class="timeline-label">Payment Completed</span>
+                <span class="timeline-time">{{.SubmittedAt.Format "Jan 2, 3:04 PM"}}</span>
+            </div>
+            {{end}}
+        </div>
+    </div>
+    {{end}}
+
+    {{if .IsAdminView}}
+    <div class="section">
+        <h2>Admin Information</h2>
+        <div class="details-grid">
+            <div class="detail-group">
+                <h3>Email Status</h3>
+                <div class="detail-item">
+                    <div class="detail-label">Confirmation Email:</div>
+                    <div class="detail-value">
+                        {{if .ConfirmationSent}}
+                            ✅ Sent {{if .ConfirmationSentAt}}at {{.ConfirmationSentAt.Format "3:04 PM"}}{{end}}
+                        {{else}}
+                            ❌ Not sent
+                        {{end}}
+                    </div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Admin Notification:</div>
+                    <div class="detail-value">
+                        {{if .AdminNotified}}
+                            ✅ Sent {{if .AdminNotifiedAt}}at {{.AdminNotifiedAt.Format "3:04 PM"}}{{end}}
+                        {{else}}
+                            ❌ Not sent
+                        {{end}}
+                    </div>
+                </div>
+            </div>
+            <div class="detail-group">
+                <h3>Internal Data</h3>
+                <div class="detail-item">
+                    <div class="detail-label">Form ID:</div>
+                    <div class="detail-value">{{.FormID}}</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Submission Date:</div>
+                    <div class="detail-value">{{.SubmissionDate.Format "Jan 2, 2006 3:04 PM MST"}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{else}}
+    <div class="{{if .ConfirmationSent}}email-sent{{else}}email-pending{{end}}">
+        <strong>📧 Email Confirmation:</strong>
+        {{if .ConfirmationSent}}
+            Sent {{if .ConfirmationSentAt}}at {{.ConfirmationSentAt.Format "3:04 PM"}}{{end}}
+        {{else}}
+            Being sent to {{.Email}} (check your inbox in a few minutes)
+        {{end}}
+    </div>
+
+    <div class="actions">
+        <a href="#" onclick="window.print(); return false;" class="btn btn-secondary">Print Receipt</a>
+        <a href="/" class="btn">Return Home</a>
+    </div>
+    {{end}}
+
+    <div style="margin-top: 40px; padding: 20px; background: #f1f3f4; border-radius: 6px; font-size: 0.9em; color: #666;">
+        <p><strong>Important:</strong> {{if not .IsAdminView}}Save this page or print it for your records. This receipt shows your {{.Year}} membership payment.{{else}}This is an admin view with full order details and internal status information.{{end}}</p>
+        {{if .Donation }}
+        <p><strong>Tax Information:</strong> Your donation of ${{printf "%.2f" .Donation}} may be tax deductible.</p>
+        {{end}}
+    </div>
+</body>
+</html>

@@ -1,0 +1,176 @@
+2025/05/21 10:03:42 [INFO] 2025-05-21 10:03:42 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-21.log
+2025/05/21 10:03:42 [INFO] 2025-05-21 10:03:42 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/21 10:03:42 [INFO] 2025-05-21 10:03:42 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/21 10:03:42 [INFO] 2025-05-21 10:03:42 CDT config.go:61 - Running in development environment
+2025/05/21 10:03:42 [INFO] 2025-05-21 10:03:42 CDT main.go:143 - Starting server on 0.0.0.0:5051
+2025/05/21 10:06:16 [INFO] 2025-05-21 10:06:16 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/21 10:06:16 [INFO] 2025-05-21 10:06:16 CDT main.go:197 - GET /api/csrf-token took 347.459µs
+2025/05/21 10:07:09 [INFO] 2025-05-21 10:07:09 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/05/21 10:07:09 [INFO] 2025-05-21 10:07:09 CDT form.go:85 - Form values received: map[csrf_token:[E/rYpjmqyMzYZkKAHi7PBcib0wTXzkUEwXgbbwVB5Gk=] describe:[other] email:[harry@cbs.com] form_type:[membership] full_name:[Harry Smith Jones] hidden_field:[] interests:[assisting-teacher] membership_status:[first-time] school:[viridian] student_1_grade:[K] student_1_name:[ingrid smith] student_2_grade:[3] student_2_name:[Jorie Smith] student_3_grade:[3] student_3_name:[yuletide SMITH] student_count:[3]]
+2025/05/21 10:07:09 [INFO] 2025-05-21 10:07:09 CDT form.go:57 - Stat update: total_submissions = 1
+2025/05/21 10:07:09 [INFO] 2025-05-21 10:07:09 CDT form.go:175 - Form membership-2025-05-21_10-07-09-yBVzJg accepted and saved successfully
+2025/05/21 10:07:09 [INFO] 2025-05-21 10:07:09 CDT form.go:57 - Stat update: successful_submissions = 1
+2025/05/21 10:07:09 [INFO] 2025-05-21 10:07:09 CDT form.go:305 - Form submitted: type=membership, formID=membership-2025-05-21_10-07-09-yBVzJg, ip=127.0.0.1, time=2025-05-21 10:07:09
+2025/05/21 10:07:09 [INFO] 2025-05-21 10:07:09 CDT main.go:197 - POST /api/submit-form took 3.661611ms
+2025/05/21 10:07:10 [INFO] 2025-05-21 10:07:10 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/21 10:07:10 [INFO] 2025-05-21 10:07:10 CDT main.go:197 - GET /api/order-details took 1.11236ms
+2025/05/21 10:33:42 [INFO] 2025-05-21 10:33:42 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/21 10:41:41 [INFO] 2025-05-21 10:41:41 CDT info.go:17 - Loading template from templates/info.tmpl
+2025/05/21 10:41:41 [INFO] 2025-05-21 10:41:41 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/05/21 10:41:41 [INFO] 2025-05-21 10:41:41 CDT main.go:197 - GET /info took 9.88661ms
+2025/05/21 11:33:38 [INFO] 2025-05-21 11:33:38 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/21 11:58:05 [INFO] 2025-05-21 11:58:05 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/21 11:58:05 [INFO] 2025-05-21 11:58:05 CDT main.go:197 - GET /api/order-details took 4.38474ms
+2025/05/21 12:03:42 [INFO] 2025-05-21 12:03:42 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/21 12:06:02 [INFO] 2025-05-21 12:06:02 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/21 12:06:02 [INFO] 2025-05-21 12:06:02 CDT main.go:197 - GET /api/order-details took 3.015012ms
+2025/05/21 12:06:30 [INFO] 2025-05-21 12:06:30 CDT logger.go:122 - HTTP POST /save-payment-data from 127.0.0.1
+2025/05/21 12:06:30 [INFO] 2025-05-21 12:06:30 CDT main.go:197 - POST /api/save-payment-data took 2.71822ms
+2025/05/21 12:21:22 [INFO] 2025-05-21 12:21:22 CDT main.go:151 - Shutdown signal received
+2025/05/21 12:21:22 [INFO] 2025-05-21 12:21:22 CDT main.go:161 - Server shut down gracefully
+2025/05/21 12:21:22 [INFO] 2025-05-21 12:21:22 CDT main.go:165 - Shutdown signal received
+2025/05/21 12:21:22 [INFO] 2025-05-21 12:21:22 CDT main.go:166 - Waiting for active connections to finish...
+2025/05/21 12:21:22 [INFO] 2025-05-21 12:21:22 CDT main.go:168 - All connections closed. Total requests handled: 7
+2025/05/21 12:21:22 [INFO] 2025-05-21 12:21:22 CDT main.go:169 - Server shut down gracefully
+2025/05/21 12:21:27 [INFO] 2025-05-21 12:21:27 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-21.log
+2025/05/21 12:21:27 [INFO] 2025-05-21 12:21:27 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/21 12:21:27 [INFO] 2025-05-21 12:21:27 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/21 12:21:27 [INFO] 2025-05-21 12:21:27 CDT config.go:61 - Running in development environment
+2025/05/21 12:21:27 [INFO] 2025-05-21 12:21:27 CDT main.go:143 - Starting server on 0.0.0.0:5051
+2025/05/21 12:34:07 [INFO] 2025-05-21 12:34:07 CDT main.go:151 - Shutdown signal received
+2025/05/21 12:34:07 [INFO] 2025-05-21 12:34:07 CDT main.go:161 - Server shut down gracefully
+2025/05/21 12:34:07 [INFO] 2025-05-21 12:34:07 CDT main.go:165 - Shutdown signal received
+2025/05/21 12:34:07 [INFO] 2025-05-21 12:34:07 CDT main.go:166 - Waiting for active connections to finish...
+2025/05/21 12:34:07 [INFO] 2025-05-21 12:34:07 CDT main.go:168 - All connections closed. Total requests handled: 0
+2025/05/21 12:34:07 [INFO] 2025-05-21 12:34:07 CDT main.go:169 - Server shut down gracefully
+2025/05/21 12:34:11 [INFO] 2025-05-21 12:34:11 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-21.log
+2025/05/21 12:34:11 [INFO] 2025-05-21 12:34:11 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/21 12:34:11 [INFO] 2025-05-21 12:34:11 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/21 12:34:11 [INFO] 2025-05-21 12:34:11 CDT config.go:61 - Running in development environment
+2025/05/21 12:34:11 [INFO] 2025-05-21 12:34:11 CDT main.go:143 - Starting server on 0.0.0.0:5051
+2025/05/21 12:34:24 [INFO] 2025-05-21 12:34:24 CDT logger.go:122 - HTTP POST /save-payment-data from 127.0.0.1
+2025/05/21 12:34:24 [INFO] 2025-05-21 12:34:24 CDT main.go:197 - POST /api/save-payment-data took 5.253533ms
+2025/05/21 12:34:25 [INFO] 2025-05-21 12:34:25 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/21 12:34:25 [INFO] 2025-05-21 12:34:25 CDT main.go:197 - GET /api/order-details took 624.763µs
+2025/05/21 12:43:50 [INFO] 2025-05-21 12:43:50 CDT main.go:151 - Shutdown signal received
+2025/05/21 12:43:50 [INFO] 2025-05-21 12:43:50 CDT main.go:161 - Server shut down gracefully
+2025/05/21 12:43:50 [INFO] 2025-05-21 12:43:50 CDT main.go:165 - Shutdown signal received
+2025/05/21 12:43:50 [INFO] 2025-05-21 12:43:50 CDT main.go:166 - Waiting for active connections to finish...
+2025/05/21 12:43:50 [INFO] 2025-05-21 12:43:50 CDT main.go:168 - All connections closed. Total requests handled: 2
+2025/05/21 12:43:50 [INFO] 2025-05-21 12:43:50 CDT main.go:169 - Server shut down gracefully
+2025/05/21 12:43:56 [INFO] 2025-05-21 12:43:56 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-21.log
+2025/05/21 12:43:56 [INFO] 2025-05-21 12:43:56 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/21 12:43:56 [INFO] 2025-05-21 12:43:56 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/21 12:43:56 [INFO] 2025-05-21 12:43:56 CDT config.go:61 - Running in development environment
+2025/05/21 12:43:56 [INFO] 2025-05-21 12:43:56 CDT main.go:143 - Starting server on 0.0.0.0:5051
+2025/05/21 12:44:02 [INFO] 2025-05-21 12:44:02 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/21 12:44:02 [INFO] 2025-05-21 12:44:02 CDT main.go:197 - GET /api/order-details took 2.241529ms
+2025/05/21 12:44:19 [INFO] 2025-05-21 12:44:19 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/21 12:44:19 [INFO] 2025-05-21 12:44:19 CDT main.go:197 - GET /api/csrf-token took 509.61µs
+2025/05/21 12:45:03 [INFO] 2025-05-21 12:45:03 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/05/21 12:45:03 [INFO] 2025-05-21 12:45:03 CDT form.go:85 - Form values received: map[csrf_token:[juUyvOfzb1Ol74dbxSyXB+TUZLI07DQZ2ibdHLo+eik=] describe:[at-home-teacher] email:[ace@tooterville.net] form_type:[membership] full_name:[Ace McSquelch] hidden_field:[] interests:[volunteering] membership_status:[returning] school:[bellaire] student_1_grade:[3] student_1_name:[Wolf McSquelch] student_2_grade:[3] student_2_name:[Peter McSquelch Jones Harris] student_count:[2]]
+2025/05/21 12:45:03 [INFO] 2025-05-21 12:45:03 CDT form.go:57 - Stat update: total_submissions = 1
+2025/05/21 12:45:03 [INFO] 2025-05-21 12:45:03 CDT form.go:175 - Form membership-2025-05-21_12-45-03-KE8r9w accepted and saved successfully
+2025/05/21 12:45:03 [INFO] 2025-05-21 12:45:03 CDT form.go:57 - Stat update: successful_submissions = 1
+2025/05/21 12:45:03 [INFO] 2025-05-21 12:45:03 CDT form.go:305 - Form submitted: type=membership, formID=membership-2025-05-21_12-45-03-KE8r9w, ip=127.0.0.1, time=2025-05-21 12:45:03
+2025/05/21 12:45:03 [INFO] 2025-05-21 12:45:03 CDT main.go:197 - POST /api/submit-form took 10.295798ms
+2025/05/21 12:45:03 [INFO] 2025-05-21 12:45:03 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/21 12:45:03 [INFO] 2025-05-21 12:45:03 CDT main.go:197 - GET /api/order-details took 743.877µs
+2025/05/21 12:46:15 [INFO] 2025-05-21 12:46:15 CDT logger.go:122 - HTTP POST /save-payment-data from 127.0.0.1
+2025/05/21 12:46:15 [INFO] 2025-05-21 12:46:15 CDT main.go:197 - POST /api/save-payment-data took 3.074396ms
+2025/05/21 12:46:15 [INFO] 2025-05-21 12:46:15 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/21 12:46:15 [INFO] 2025-05-21 12:46:15 CDT main.go:197 - GET /api/order-details took 909.4µs
+2025/05/21 12:47:07 [INFO] 2025-05-21 12:47:07 CDT main.go:197 - POST /api/create-order took 203.625µs
+2025/05/21 13:13:56 [INFO] 2025-05-21 13:13:56 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/21 13:43:56 [INFO] 2025-05-21 13:43:56 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/21 14:43:52 [INFO] 2025-05-21 14:43:52 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/21 15:13:52 [INFO] 2025-05-21 15:13:52 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/21 17:24:24 [INFO] 2025-05-21 17:24:24 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/21 19:04:49 [INFO] 2025-05-21 19:04:49 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/21 21:09:51 [INFO] 2025-05-21 21:09:51 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/21 22:48:09 [INFO] 2025-05-21 22:48:09 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/21 22:54:34 [INFO] 2025-05-21 22:54:34 CDT main.go:151 - Shutdown signal received
+2025/05/21 22:54:34 [INFO] 2025-05-21 22:54:34 CDT main.go:161 - Server shut down gracefully
+2025/05/21 22:54:34 [INFO] 2025-05-21 22:54:34 CDT main.go:165 - Shutdown signal received
+2025/05/21 22:54:34 [INFO] 2025-05-21 22:54:34 CDT main.go:166 - Waiting for active connections to finish...
+2025/05/21 22:54:34 [INFO] 2025-05-21 22:54:34 CDT main.go:168 - All connections closed. Total requests handled: 7
+2025/05/21 22:54:34 [INFO] 2025-05-21 22:54:34 CDT main.go:169 - Server shut down gracefully
+2025/05/21 23:00:04 [INFO] 2025-05-21 23:00:04 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-21.log
+2025/05/21 23:00:04 [INFO] 2025-05-21 23:00:04 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/21 23:00:04 [INFO] 2025-05-21 23:00:04 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/21 23:00:04 [INFO] 2025-05-21 23:00:04 CDT config.go:61 - Running in development environment
+2025/05/21 23:00:04 [INFO] 2025-05-21 23:00:04 CDT main.go:143 - Starting server on 0.0.0.0:5051
+2025/05/21 23:00:17 [ERROR] 2025-05-21 23:00:17 CDT payment.go:276 - Membership not found for formID membership-2025-05-21_12-45-03-KE8r9w: sql: Scan error on column index 13, name "interests_json": converting NULL to string is unsupported
+2025/05/21 23:00:17 [INFO] 2025-05-21 23:00:17 CDT main.go:226 - 404 not found: /api/create-order
+2025/05/21 23:00:17 [INFO] 2025-05-21 23:00:17 CDT main.go:197 - POST /api/create-order took 1.655828ms
+2025/05/21 23:02:59 [INFO] 2025-05-21 23:02:59 CDT payment.go:296 - CalculatedAmount for formID membership-2025-05-21_12-45-03-KE8r9w is 113.71
+2025/05/21 23:02:59 [INFO] 2025-05-21 23:02:59 CDT payment.go:112 - Requesting PayPal access token
+2025/05/21 23:03:00 [INFO] 2025-05-21 23:03:00 CDT payment.go:154 - Successfully obtained PayPal access token (app_id: APP-80W284485P519543T, expires in 32400 seconds)
+2025/05/21 23:03:00 [INFO] 2025-05-21 23:03:00 CDT payment.go:217 - Creating PayPal order
+2025/05/21 23:03:00 [INFO] 2025-05-21 23:03:00 CDT payment.go:239 - Successfully created PayPal order
+2025/05/21 23:03:00 [INFO] 2025-05-21 23:03:00 CDT payment.go:335 - PayPal order 6FE91776MV4163504 stored for formID membership-2025-05-21_12-45-03-KE8r9w
+2025/05/21 23:03:00 [INFO] 2025-05-21 23:03:00 CDT main.go:197 - POST /api/create-order took 1.415710369s
+2025/05/21 23:03:34 [INFO] 2025-05-21 23:03:34 CDT logger.go:122 - HTTP POST /capture-order from 127.0.0.1
+2025/05/21 23:03:34 [INFO] 2025-05-21 23:03:34 CDT payment.go:112 - Requesting PayPal access token
+2025/05/21 23:03:35 [INFO] 2025-05-21 23:03:35 CDT payment.go:154 - Successfully obtained PayPal access token (app_id: APP-80W284485P519543T, expires in 32365 seconds)
+2025/05/21 23:03:36 [INFO] 2025-05-21 23:03:36 CDT main.go:197 - POST /api/capture-order took 1.49176721s
+2025/05/21 23:03:37 [INFO] 2025-05-21 23:03:37 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/21 23:03:37 [INFO] 2025-05-21 23:03:37 CDT main.go:197 - GET /api/order-details took 1.536853ms
+2025/05/21 23:03:40 [INFO] 2025-05-21 23:03:40 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/21 23:03:40 [INFO] 2025-05-21 23:03:40 CDT main.go:197 - GET /api/order-details took 622.661µs
+2025/05/21 23:03:43 [INFO] 2025-05-21 23:03:43 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/21 23:03:43 [INFO] 2025-05-21 23:03:43 CDT main.go:197 - GET /api/order-details took 586.43µs
+2025/05/21 23:03:46 [INFO] 2025-05-21 23:03:46 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/21 23:03:46 [INFO] 2025-05-21 23:03:46 CDT main.go:197 - GET /api/order-details took 647.732µs
+2025/05/21 23:03:49 [INFO] 2025-05-21 23:03:49 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/21 23:03:49 [INFO] 2025-05-21 23:03:49 CDT main.go:197 - GET /api/order-details took 781.202µs
+2025/05/21 23:03:52 [INFO] 2025-05-21 23:03:52 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/21 23:03:52 [INFO] 2025-05-21 23:03:52 CDT main.go:197 - GET /api/order-details took 523.55µs
+2025/05/21 23:09:52 [INFO] 2025-05-21 23:09:52 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/21 23:09:52 [INFO] 2025-05-21 23:09:52 CDT main.go:197 - GET /api/order-details took 1.917116ms
+2025/05/21 23:09:55 [INFO] 2025-05-21 23:09:55 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/21 23:09:55 [INFO] 2025-05-21 23:09:55 CDT main.go:197 - GET /api/order-details took 557.299µs
+2025/05/21 23:09:58 [INFO] 2025-05-21 23:09:58 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/21 23:09:58 [INFO] 2025-05-21 23:09:58 CDT main.go:197 - GET /api/order-details took 772.622µs
+2025/05/21 23:10:01 [INFO] 2025-05-21 23:10:01 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/21 23:10:01 [INFO] 2025-05-21 23:10:01 CDT main.go:197 - GET /api/order-details took 648.437µs
+2025/05/21 23:10:04 [INFO] 2025-05-21 23:10:04 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/21 23:10:04 [INFO] 2025-05-21 23:10:04 CDT main.go:197 - GET /api/order-details took 757.749µs
+2025/05/21 23:10:07 [INFO] 2025-05-21 23:10:07 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/21 23:10:07 [INFO] 2025-05-21 23:10:07 CDT main.go:197 - GET /api/order-details took 793.694µs
+2025/05/21 23:17:52 [INFO] 2025-05-21 23:17:52 CDT main.go:151 - Shutdown signal received
+2025/05/21 23:17:52 [INFO] 2025-05-21 23:17:52 CDT main.go:161 - Server shut down gracefully
+2025/05/21 23:17:52 [INFO] 2025-05-21 23:17:52 CDT main.go:165 - Shutdown signal received
+2025/05/21 23:17:52 [INFO] 2025-05-21 23:17:52 CDT main.go:166 - Waiting for active connections to finish...
+2025/05/21 23:17:52 [INFO] 2025-05-21 23:17:52 CDT main.go:168 - All connections closed. Total requests handled: 15
+2025/05/21 23:17:52 [INFO] 2025-05-21 23:17:52 CDT main.go:169 - Server shut down gracefully
+2025/05/21 23:21:12 [INFO] 2025-05-21 23:21:12 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-21.log
+2025/05/21 23:21:12 [INFO] 2025-05-21 23:21:12 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/21 23:21:12 [INFO] 2025-05-21 23:21:12 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/21 23:21:12 [INFO] 2025-05-21 23:21:12 CDT config.go:61 - Running in development environment
+2025/05/21 23:21:12 [INFO] 2025-05-21 23:21:12 CDT main.go:143 - Starting server on 0.0.0.0:5051
+2025/05/21 23:21:18 [INFO] 2025-05-21 23:21:18 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/21 23:21:18 [INFO] 2025-05-21 23:21:18 CDT main.go:197 - GET /api/order-details took 7.335958ms
+2025/05/21 23:51:12 [INFO] 2025-05-21 23:51:12 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/22 00:51:09 [INFO] 2025-05-22 00:51:09 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/22 02:05:48 [INFO] 2025-05-22 02:05:48 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/22 02:35:48 [INFO] 2025-05-22 02:35:48 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/22 03:56:57 [INFO] 2025-05-22 03:56:57 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/22 05:57:37 [INFO] 2025-05-22 05:57:37 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/22 07:57:09 [INFO] 2025-05-22 07:57:09 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/22 09:27:12 [INFO] 2025-05-22 09:27:12 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/22 09:27:12 [INFO] 2025-05-22 09:27:12 CDT main.go:197 - GET /api/csrf-token took 8.163736ms
+2025/05/22 09:29:39 [INFO] 2025-05-22 09:29:39 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/05/22 09:29:39 [INFO] 2025-05-22 09:29:39 CDT form.go:85 - Form values received: map[csrf_token:[Cus5rM96rLlQ5HUXJ1nBLF98OkUKLcVhRy00zJZKFYU=] describe:[supporter] email:[wolf@wolfsweat.net] form_type:[membership] full_name:[Adam Thomas] hidden_field:[] interests:[assisting-teacher volunteering board-service] membership_status:[returning] school:[wilshire-soler] student_1_grade:[K] student_1_name:[Jules Verne Jenkins] student_2_grade:[2] student_2_name:[Happy Man Child] student_3_grade:[1] student_3_name:[Ingrid Michaelson] student_4_grade:[5] student_4_name:[Willis Reed] student_count:[4]]
+2025/05/22 09:29:39 [INFO] 2025-05-22 09:29:39 CDT form.go:57 - Stat update: total_submissions = 1
+2025/05/22 09:29:39 [ERROR] 2025-05-22 09:29:39 CDT logger.go:127 - HTTP 500 error for POST /submit-form from 127.0.0.1: SQL logic error: 23 values for 24 columns (1)
+2025/05/22 09:29:39 [INFO] 2025-05-22 09:29:39 CDT main.go:197 - POST /api/submit-form took 24.401132ms
+2025/05/22 09:29:47 [INFO] 2025-05-22 09:29:47 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/22 09:29:47 [INFO] 2025-05-22 09:29:47 CDT main.go:197 - GET /api/csrf-token took 459.842µs
+2025/05/22 09:30:44 [INFO] 2025-05-22 09:30:44 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/22 09:32:33 [INFO] 2025-05-22 09:32:33 CDT main.go:151 - Shutdown signal received
+2025/05/22 09:32:33 [INFO] 2025-05-22 09:32:33 CDT main.go:161 - Server shut down gracefully
+2025/05/22 09:32:33 [INFO] 2025-05-22 09:32:33 CDT main.go:165 - Shutdown signal received
+2025/05/22 09:32:33 [INFO] 2025-05-22 09:32:33 CDT main.go:166 - Waiting for active connections to finish...
+2025/05/22 09:32:33 [INFO] 2025-05-22 09:32:33 CDT main.go:168 - All connections closed. Total requests handled: 4
+2025/05/22 09:32:33 [INFO] 2025-05-22 09:32:33 CDT main.go:169 - Server shut down gracefully

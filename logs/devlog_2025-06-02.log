@@ -1,0 +1,580 @@
+2025/06/02 07:01:03 [INFO] 2025-06-02 07:01:03 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-02.log
+2025/06/02 07:01:03 [INFO] 2025-06-02 07:01:03 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/02 07:01:03 [INFO] 2025-06-02 07:01:03 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/02 07:01:03 [INFO] 2025-06-02 07:01:03 CDT config.go:61 - Running in development environment
+2025/06/02 07:01:03 [INFO] 2025-06-02 07:01:03 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/02 07:01:03 [INFO] 2025-06-02 07:01:03 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-03 02:00:00 (in 18h58m56.097302s)
+2025/06/02 07:01:03 [INFO] 2025-06-02 07:01:03 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/02 07:01:07 [INFO] 2025-06-02 07:01:07 CDT main.go:166 - Shutdown signal received
+2025/06/02 07:01:07 [INFO] 2025-06-02 07:01:07 CDT main.go:176 - Server shut down gracefully
+2025/06/02 07:01:07 [INFO] 2025-06-02 07:01:07 CDT main.go:180 - Shutdown signal received
+2025/06/02 07:01:07 [INFO] 2025-06-02 07:01:07 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/02 07:01:07 [INFO] 2025-06-02 07:01:07 CDT main.go:183 - All connections closed. Total requests handled: 0
+2025/06/02 07:01:07 [INFO] 2025-06-02 07:01:07 CDT main.go:184 - Server shut down gracefully
+2025/06/02 07:02:02 [INFO] 2025-06-02 07:02:02 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-02.log
+2025/06/02 07:02:02 [INFO] 2025-06-02 07:02:02 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/02 07:02:02 [INFO] 2025-06-02 07:02:02 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/02 07:02:02 [INFO] 2025-06-02 07:02:02 CDT config.go:61 - Running in development environment
+2025/06/02 07:02:02 [INFO] 2025-06-02 07:02:02 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/02 07:02:02 [INFO] 2025-06-02 07:02:02 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-03 02:00:00 (in 18h57m57.560679s)
+2025/06/02 07:02:02 [INFO] 2025-06-02 07:02:02 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/02 07:02:03 [INFO] 2025-06-02 07:02:03 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/02 07:02:03 [INFO] 2025-06-02 07:02:03 CDT main.go:212 - GET /api/csrf-token took 1.406565ms
+2025/06/02 07:03:04 [INFO] 2025-06-02 07:03:04 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/06/02 07:03:04 [INFO] 2025-06-02 07:03:04 CDT form.go:85 - Form values received: map[csrf_token:[6QeeGUdmIEjjH4duFj7AfKOP/bsjfCxFtf1ygTsPTiE=] email:[karenschmitt526@gmail.com] event:[spring-festival] form_type:[event] full_name:[Karen Schmitt] hidden_field:[] school:[shady-brook] student_1_grade:[3] student_1_name:[Fox Thomas] student_2_grade:[K] student_2_name:[Lawson Thomas] student_3_grade:[5] student_3_name:[Sylvia Mae Thomas] student_count:[3]]
+2025/06/02 07:03:04 [INFO] 2025-06-02 07:03:04 CDT form.go:57 - Stat update: total_submissions = 1
+2025/06/02 07:03:04 [INFO] 2025-06-02 07:03:04 CDT form.go:178 - Form event-2025-06-02_07-03-04-eOuF1A accepted and saved successfully
+2025/06/02 07:03:04 [INFO] 2025-06-02 07:03:04 CDT form.go:57 - Stat update: successful_submissions = 1
+2025/06/02 07:03:04 [INFO] 2025-06-02 07:03:04 CDT form.go:382 - Form submitted: type=event, formID=event-2025-06-02_07-03-04-eOuF1A, ip=127.0.0.1, time=2025-06-02 07:03:04
+2025/06/02 07:03:04 [INFO] 2025-06-02 07:03:04 CDT main.go:212 - POST /api/submit-form took 3.235849ms
+2025/06/02 07:03:04 [INFO] 2025-06-02 07:03:04 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/02 07:03:04 [INFO] 2025-06-02 07:03:04 CDT order.go:429 - Event order details accessed for form event-2025-06-02_07-03-04-eOuF1A
+2025/06/02 07:03:04 [INFO] 2025-06-02 07:03:04 CDT main.go:212 - GET /api/order-details took 6.806622ms
+2025/06/02 07:05:08 [INFO] 2025-06-02 07:05:08 CDT logger.go:122 - HTTP POST /save-event-payment from 127.0.0.1
+2025/06/02 07:05:08 [INFO] 2025-06-02 07:05:08 CDT payment.go:982 - Event payment data saved for event-2025-06-02_07-03-04-eOuF1A: Total=$135.13
+2025/06/02 07:05:08 [INFO] 2025-06-02 07:05:08 CDT main.go:212 - POST /api/save-event-payment took 3.974963ms
+2025/06/02 07:05:08 [INFO] 2025-06-02 07:05:08 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/02 07:05:08 [INFO] 2025-06-02 07:05:08 CDT order.go:429 - Event order details accessed for form event-2025-06-02_07-03-04-eOuF1A
+2025/06/02 07:05:08 [INFO] 2025-06-02 07:05:08 CDT main.go:212 - POST /api/order-details took 958.219µs
+2025/06/02 07:05:08 [INFO] 2025-06-02 07:05:08 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/02 07:05:08 [INFO] 2025-06-02 07:05:08 CDT order.go:429 - Event order details accessed for form event-2025-06-02_07-03-04-eOuF1A
+2025/06/02 07:05:08 [INFO] 2025-06-02 07:05:08 CDT main.go:212 - POST /api/order-details took 7.232776ms
+2025/06/02 07:07:12 [INFO] 2025-06-02 07:07:12 CDT payment.go:358 - Creating PayPal order for event-2025-06-02_07-03-04-eOuF1A (event): 135.13
+2025/06/02 07:07:12 [INFO] 2025-06-02 07:07:12 CDT payment.go:135 - Requesting new PayPal access token
+2025/06/02 07:07:13 [INFO] 2025-06-02 07:07:13 CDT payment.go:168 - Fetched and cached new PayPal access token (expires at 2025-06-02 16:06:13.133522 -0500 CDT m=+32650.716569236)
+2025/06/02 07:07:13 [INFO] 2025-06-02 07:07:13 CDT payment.go:228 - Creating PayPal order
+2025/06/02 07:07:14 [INFO] 2025-06-02 07:07:14 CDT payment.go:250 - Successfully created PayPal order
+2025/06/02 07:07:14 [INFO] 2025-06-02 07:07:14 CDT payment.go:411 - PayPal order 9MB661729B636092N created and stored for event-2025-06-02_07-03-04-eOuF1A (event)
+2025/06/02 07:07:14 [INFO] 2025-06-02 07:07:14 CDT main.go:212 - POST /api/create-order took 1.730111453s
+2025/06/02 07:07:44 [INFO] 2025-06-02 07:07:44 CDT logger.go:122 - HTTP POST /capture-order from 127.0.0.1
+2025/06/02 07:07:44 [INFO] 2025-06-02 07:07:44 CDT payment.go:107 - Using cached PayPal access token (expires at 2025-06-02 16:06:13.133522 -0500 CDT m=+32650.716569236)
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT payment.go:571 - PayPal capture confirmed successful for event-2025-06-02_07-03-04-eOuF1A (event): status=COMPLETED
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT payment.go:590 - PayPal order 9MB661729B636092N captured successfully for event-2025-06-02_07-03-04-eOuF1A (event)
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT main.go:212 - POST /api/capture-order took 1.014241716s
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT order.go:812 - Allowing access to completed payment with potentially expired token for event-2025-06-02_07-03-04-eOuF1A
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:249 - 📧 ========== MOCK EMAIL ==========
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:250 - 📬 To: karenschmitt526@gmail.com
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:251 - 📮 From: noreply@yourdomain.org
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:252 - 📄 Subject: Event Registration Confirmation - Spring Festival
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:253 - 📝 Body:
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:254 - ---
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:259 -    Dear Karen,
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:259 -    
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:259 -    Thank you for registering for Spring Festival!
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:259 -    
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:259 -    Event Details:
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:259 -    - Order ID: 
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:259 -    - School: Shady Brook
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:259 -    - Students Registered: 3
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:259 -    - Total Amount: $135.13
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:259 -    - Payment ID: 9MB661729B636092N
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:259 -    
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:259 -    View your order details: https://suzuki.nfshost.com/events/2025/spring-festival/.html
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:259 -    
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:259 -    If you have any questions, please contact us.
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:259 -    
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:259 -    Best regards,
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:259 -    The Event Team
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:262 - ---
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:263 - ✅ Mock email logged successfully
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT email.go:264 - 📧 ==============================
+2025/06/02 07:07:45 [INFO] 2025-06-02 07:07:45 CDT main.go:212 - POST /api/success took 10.089326ms
+2025/06/02 07:15:03 [INFO] 2025-06-02 07:15:03 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/02 07:15:03 [INFO] 2025-06-02 07:15:03 CDT main.go:212 - GET /api/csrf-token took 788.249µs
+2025/06/02 07:15:07 [INFO] 2025-06-02 07:15:07 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/02 07:15:07 [INFO] 2025-06-02 07:15:07 CDT main.go:212 - GET /api/csrf-token took 252.596µs
+2025/06/02 07:15:48 [INFO] 2025-06-02 07:15:48 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/06/02 07:15:48 [INFO] 2025-06-02 07:15:48 CDT form.go:85 - Form values received: map[csrf_token:[gd7lZpvQjTawKUCf6T93zsHoZ81z/9+e9gDCccHITVI=] email:[gregorysamsa2345@gmail.com] event:[spring-festival] form_type:[event] full_name:[Gregory Samsa] hidden_field:[] school:[hurst-hills-jones] student_1_grade:[5] student_1_name:[Peter Samsa] student_2_grade:[2] student_2_name:[Willy Samsa] student_count:[2]]
+2025/06/02 07:15:48 [INFO] 2025-06-02 07:15:48 CDT form.go:57 - Stat update: total_submissions = 2
+2025/06/02 07:15:48 [INFO] 2025-06-02 07:15:48 CDT form.go:178 - Form event-2025-06-02_07-15-48-sYfCqg accepted and saved successfully
+2025/06/02 07:15:48 [INFO] 2025-06-02 07:15:48 CDT form.go:57 - Stat update: successful_submissions = 2
+2025/06/02 07:15:48 [INFO] 2025-06-02 07:15:48 CDT form.go:382 - Form submitted: type=event, formID=event-2025-06-02_07-15-48-sYfCqg, ip=127.0.0.1, time=2025-06-02 07:15:48
+2025/06/02 07:15:48 [INFO] 2025-06-02 07:15:48 CDT main.go:212 - POST /api/submit-form took 3.066738ms
+2025/06/02 07:15:48 [INFO] 2025-06-02 07:15:48 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/02 07:15:48 [INFO] 2025-06-02 07:15:48 CDT order.go:429 - Event order details accessed for form event-2025-06-02_07-15-48-sYfCqg
+2025/06/02 07:15:48 [INFO] 2025-06-02 07:15:48 CDT main.go:212 - GET /api/order-details took 10.198135ms
+2025/06/02 07:18:36 [INFO] 2025-06-02 07:18:36 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/02 07:18:36 [INFO] 2025-06-02 07:18:36 CDT order.go:429 - Event order details accessed for form event-2025-06-02_07-15-48-sYfCqg
+2025/06/02 07:18:36 [INFO] 2025-06-02 07:18:36 CDT main.go:212 - GET /api/order-details took 1.456266ms
+2025/06/02 07:19:02 [INFO] 2025-06-02 07:19:02 CDT logger.go:122 - HTTP POST /save-event-payment from 127.0.0.1
+2025/06/02 07:19:02 [INFO] 2025-06-02 07:19:02 CDT payment.go:982 - Event payment data saved for event-2025-06-02_07-15-48-sYfCqg: Total=$91.27
+2025/06/02 07:19:02 [INFO] 2025-06-02 07:19:02 CDT main.go:212 - POST /api/save-event-payment took 5.177127ms
+2025/06/02 07:19:02 [INFO] 2025-06-02 07:19:02 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/02 07:19:02 [INFO] 2025-06-02 07:19:02 CDT order.go:429 - Event order details accessed for form event-2025-06-02_07-15-48-sYfCqg
+2025/06/02 07:19:02 [INFO] 2025-06-02 07:19:02 CDT main.go:212 - POST /api/order-details took 860.83µs
+2025/06/02 07:19:02 [INFO] 2025-06-02 07:19:02 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/02 07:19:02 [INFO] 2025-06-02 07:19:02 CDT order.go:429 - Event order details accessed for form event-2025-06-02_07-15-48-sYfCqg
+2025/06/02 07:19:02 [INFO] 2025-06-02 07:19:02 CDT main.go:212 - POST /api/order-details took 2.69077ms
+2025/06/02 07:19:16 [INFO] 2025-06-02 07:19:16 CDT payment.go:358 - Creating PayPal order for event-2025-06-02_07-15-48-sYfCqg (event): 91.27
+2025/06/02 07:19:16 [INFO] 2025-06-02 07:19:16 CDT payment.go:107 - Using cached PayPal access token (expires at 2025-06-02 16:06:13.133522 -0500 CDT m=+32650.716569236)
+2025/06/02 07:19:16 [INFO] 2025-06-02 07:19:16 CDT payment.go:228 - Creating PayPal order
+2025/06/02 07:19:17 [INFO] 2025-06-02 07:19:17 CDT payment.go:250 - Successfully created PayPal order
+2025/06/02 07:19:17 [INFO] 2025-06-02 07:19:17 CDT payment.go:411 - PayPal order 8YC43375NU712731G created and stored for event-2025-06-02_07-15-48-sYfCqg (event)
+2025/06/02 07:19:17 [INFO] 2025-06-02 07:19:17 CDT main.go:212 - POST /api/create-order took 1.11458952s
+2025/06/02 07:19:24 [INFO] 2025-06-02 07:19:24 CDT logger.go:122 - HTTP POST /capture-order from 127.0.0.1
+2025/06/02 07:19:24 [INFO] 2025-06-02 07:19:24 CDT payment.go:107 - Using cached PayPal access token (expires at 2025-06-02 16:06:13.133522 -0500 CDT m=+32650.716569236)
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT payment.go:571 - PayPal capture confirmed successful for event-2025-06-02_07-15-48-sYfCqg (event): status=COMPLETED
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT payment.go:590 - PayPal order 8YC43375NU712731G captured successfully for event-2025-06-02_07-15-48-sYfCqg (event)
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT main.go:212 - POST /api/capture-order took 885.36757ms
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT order.go:812 - Allowing access to completed payment with potentially expired token for event-2025-06-02_07-15-48-sYfCqg
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:249 - 📧 ========== MOCK EMAIL ==========
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:250 - 📬 To: gregorysamsa2345@gmail.com
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:251 - 📮 From: noreply@yourdomain.org
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:252 - 📄 Subject: Event Registration Confirmation - Spring Festival
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:253 - 📝 Body:
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:254 - ---
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:259 -    Dear Gregory,
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:259 -    
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:259 -    Thank you for registering for Spring Festival!
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:259 -    
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:259 -    Event Details:
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:259 -    - Order ID: 
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:259 -    - School: Hurst Hills Jones
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:259 -    - Students Registered: 2
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:259 -    - Total Amount: $91.27
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:259 -    - Payment ID: 8YC43375NU712731G
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:259 -    
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:259 -    View your order details: https://suzuki.nfshost.com/events/2025/spring-festival/.html
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:259 -    
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:259 -    If you have any questions, please contact us.
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:259 -    
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:259 -    Best regards,
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:259 -    The Event Team
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:262 - ---
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:263 - ✅ Mock email logged successfully
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT email.go:264 - 📧 ==============================
+2025/06/02 07:19:25 [INFO] 2025-06-02 07:19:25 CDT main.go:212 - POST /api/success took 14.843375ms
+2025/06/02 07:32:02 [INFO] 2025-06-02 07:32:02 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/02 08:31:58 [INFO] 2025-06-02 08:31:58 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/02 10:25:20 [INFO] 2025-06-02 10:25:20 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/02 11:01:02 [INFO] 2025-06-02 11:01:02 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/02 13:09:39 [INFO] 2025-06-02 13:09:39 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/02 15:10:50 [INFO] 2025-06-02 15:10:50 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/02 17:11:42 [INFO] 2025-06-02 17:11:42 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/02 17:36:23 [INFO] 2025-06-02 17:36:23 CDT main.go:166 - Shutdown signal received
+2025/06/02 17:36:23 [INFO] 2025-06-02 17:36:23 CDT main.go:176 - Server shut down gracefully
+2025/06/02 17:36:23 [INFO] 2025-06-02 17:36:23 CDT main.go:180 - Shutdown signal received
+2025/06/02 17:36:23 [INFO] 2025-06-02 17:36:23 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/02 17:36:23 [INFO] 2025-06-02 17:36:23 CDT main.go:183 - All connections closed. Total requests handled: 20
+2025/06/02 17:36:23 [INFO] 2025-06-02 17:36:23 CDT main.go:184 - Server shut down gracefully
+2025/06/02 21:57:37 [INFO] 2025-06-02 21:57:37 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-02.log
+2025/06/02 21:57:37 [INFO] 2025-06-02 21:57:37 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/02 21:57:37 [INFO] 2025-06-02 21:57:37 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/02 21:57:37 [INFO] 2025-06-02 21:57:37 CDT config.go:61 - Running in development environment
+2025/06/02 21:57:37 [INFO] 2025-06-02 21:57:37 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/02 21:57:37 [INFO] 2025-06-02 21:57:37 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/02 21:57:37 [INFO] 2025-06-02 21:57:37 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-03 02:00:00 (in 4h2m22.622998s)
+2025/06/02 22:27:37 [INFO] 2025-06-02 22:27:37 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/02 22:56:23 [INFO] 2025-06-02 22:56:23 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/02 22:56:23 [INFO] 2025-06-02 22:56:23 CDT main.go:212 - GET /api/csrf-token took 699.454µs
+2025/06/02 22:57:52 [INFO] 2025-06-02 22:57:52 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/06/02 22:57:52 [INFO] 2025-06-02 22:57:52 CDT form.go:85 - Form values received: map[csrf_token:[72lJj+A7S8mGTtdByH0dtEU4V8bK4yz1kjVHvvrOgk4=] email:[ripened3490@mail.co.uk] event:[spring-festival] form_type:[event] full_name:[Ripened Tomatoes] hidden_field:[] school:[lakewood] student_1_grade:[1] student_1_name:[Green Tomatoes] student_2_grade:[2] student_2_name:[Dreamy Tomatoes] student_3_grade:[4] student_3_name:[Quite the Tomatoes] student_count:[3]]
+2025/06/02 22:57:52 [INFO] 2025-06-02 22:57:52 CDT form.go:57 - Stat update: total_submissions = 1
+2025/06/02 22:57:52 [INFO] 2025-06-02 22:57:52 CDT form.go:178 - Form event-2025-06-02_22-57-52-u94lnQ accepted and saved successfully
+2025/06/02 22:57:52 [INFO] 2025-06-02 22:57:52 CDT form.go:57 - Stat update: successful_submissions = 1
+2025/06/02 22:57:52 [INFO] 2025-06-02 22:57:52 CDT form.go:382 - Form submitted: type=event, formID=event-2025-06-02_22-57-52-u94lnQ, ip=127.0.0.1, time=2025-06-02 22:57:52
+2025/06/02 22:57:52 [INFO] 2025-06-02 22:57:52 CDT main.go:212 - POST /api/submit-form took 3.118722ms
+2025/06/02 22:57:52 [INFO] 2025-06-02 22:57:52 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/02 22:57:52 [INFO] 2025-06-02 22:57:52 CDT order.go:429 - Event order details accessed for form event-2025-06-02_22-57-52-u94lnQ
+2025/06/02 22:57:52 [INFO] 2025-06-02 22:57:52 CDT main.go:212 - GET /api/order-details took 5.488779ms
+2025/06/02 22:58:32 [INFO] 2025-06-02 22:58:32 CDT logger.go:122 - HTTP POST /save-event-payment from 127.0.0.1
+2025/06/02 22:58:32 [INFO] 2025-06-02 22:58:32 CDT payment.go:891 - Generated food order ID L-90319 for event-2025-06-02_22-57-52-u94lnQ (food selections: true)
+2025/06/02 22:58:32 [INFO] 2025-06-02 22:58:32 CDT payment.go:914 - Event payment data saved for event-2025-06-02_22-57-52-u94lnQ: Total=$143.29
+2025/06/02 22:58:32 [INFO] 2025-06-02 22:58:32 CDT main.go:212 - POST /api/save-event-payment took 3.054904ms
+2025/06/02 22:58:32 [INFO] 2025-06-02 22:58:32 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/02 22:58:32 [INFO] 2025-06-02 22:58:32 CDT order.go:429 - Event order details accessed for form event-2025-06-02_22-57-52-u94lnQ
+2025/06/02 22:58:32 [INFO] 2025-06-02 22:58:32 CDT main.go:212 - POST /api/order-details took 1.031868ms
+2025/06/02 22:58:32 [INFO] 2025-06-02 22:58:32 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/02 22:58:32 [INFO] 2025-06-02 22:58:32 CDT order.go:429 - Event order details accessed for form event-2025-06-02_22-57-52-u94lnQ
+2025/06/02 22:58:32 [INFO] 2025-06-02 22:58:32 CDT main.go:212 - POST /api/order-details took 2.963258ms
+2025/06/02 23:05:08 [INFO] 2025-06-02 23:05:08 CDT payment.go:358 - Creating PayPal order for event-2025-06-02_22-57-52-u94lnQ (event): 143.29
+2025/06/02 23:05:08 [INFO] 2025-06-02 23:05:08 CDT payment.go:135 - Requesting new PayPal access token
+2025/06/02 23:05:08 [INFO] 2025-06-02 23:05:08 CDT payment.go:168 - Fetched and cached new PayPal access token (expires at 2025-06-03 08:04:08.952781 -0500 CDT m=+34863.748052627)
+2025/06/02 23:05:08 [INFO] 2025-06-02 23:05:08 CDT payment.go:228 - Creating PayPal order
+2025/06/02 23:05:10 [INFO] 2025-06-02 23:05:10 CDT payment.go:250 - Successfully created PayPal order
+2025/06/02 23:05:10 [INFO] 2025-06-02 23:05:10 CDT payment.go:411 - PayPal order 2ND77272B74628054 created and stored for event-2025-06-02_22-57-52-u94lnQ (event)
+2025/06/02 23:05:10 [INFO] 2025-06-02 23:05:10 CDT main.go:212 - POST /api/create-order took 2.093458322s
+2025/06/02 23:05:25 [INFO] 2025-06-02 23:05:25 CDT logger.go:122 - HTTP POST /capture-order from 127.0.0.1
+2025/06/02 23:05:25 [INFO] 2025-06-02 23:05:25 CDT payment.go:107 - Using cached PayPal access token (expires at 2025-06-03 08:04:08.952781 -0500 CDT m=+34863.748052627)
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT payment.go:571 - PayPal capture confirmed successful for event-2025-06-02_22-57-52-u94lnQ (event): status=COMPLETED
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT payment.go:590 - PayPal order 2ND77272B74628054 captured successfully for event-2025-06-02_22-57-52-u94lnQ (event)
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT main.go:212 - POST /api/capture-order took 1.36159529s
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT order.go:812 - Allowing access to completed payment with potentially expired token for event-2025-06-02_22-57-52-u94lnQ
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:249 - 📧 ========== MOCK EMAIL ==========
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:250 - 📬 To: ripened3490@mail.co.uk
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:251 - 📮 From: noreply@yourdomain.org
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:252 - 📄 Subject: Event Registration Confirmation - Spring Festival
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:253 - 📝 Body:
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:254 - ---
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:259 -    Dear Ripened,
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:259 -    
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:259 -    Thank you for registering for Spring Festival!
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:259 -    
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:259 -    Event Details:
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:259 -    - Order ID: 
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:259 -    - School: Lakewood
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:259 -    - Students Registered: 3
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:259 -    - Total Amount: $143.29
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:259 -    - Payment ID: 2ND77272B74628054
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:259 -    
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:259 -    View your order details: https://suzuki.nfshost.com/events/2025/spring-festival/.html
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:259 -    
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:259 -    If you have any questions, please contact us.
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:259 -    
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:259 -    Best regards,
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:259 -    The Event Team
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:262 - ---
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:263 - ✅ Mock email logged successfully
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT email.go:264 - 📧 ==============================
+2025/06/02 23:05:27 [INFO] 2025-06-02 23:05:27 CDT main.go:212 - POST /api/success took 5.770658ms
+2025/06/02 23:11:20 [INFO] 2025-06-02 23:11:20 CDT main.go:166 - Shutdown signal received
+2025/06/02 23:11:20 [INFO] 2025-06-02 23:11:20 CDT main.go:176 - Server shut down gracefully
+2025/06/02 23:11:20 [INFO] 2025-06-02 23:11:20 CDT main.go:180 - Shutdown signal received
+2025/06/02 23:11:20 [INFO] 2025-06-02 23:11:20 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/02 23:11:20 [INFO] 2025-06-02 23:11:20 CDT main.go:183 - All connections closed. Total requests handled: 9
+2025/06/02 23:11:20 [INFO] 2025-06-02 23:11:20 CDT main.go:184 - Server shut down gracefully
+2025/06/02 23:11:24 [INFO] 2025-06-02 23:11:24 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-02.log
+2025/06/02 23:11:24 [INFO] 2025-06-02 23:11:24 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/02 23:11:24 [INFO] 2025-06-02 23:11:24 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/02 23:11:24 [INFO] 2025-06-02 23:11:24 CDT config.go:61 - Running in development environment
+2025/06/02 23:11:24 [INFO] 2025-06-02 23:11:24 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/02 23:11:24 [INFO] 2025-06-02 23:11:24 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/02 23:11:24 [INFO] 2025-06-02 23:11:24 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-03 02:00:00 (in 2h48m35.439325s)
+2025/06/02 23:11:28 [INFO] 2025-06-02 23:11:28 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/02 23:11:28 [INFO] 2025-06-02 23:11:28 CDT main.go:212 - GET /api/csrf-token took 430.022µs
+2025/06/02 23:12:08 [INFO] 2025-06-02 23:12:08 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/06/02 23:12:08 [INFO] 2025-06-02 23:12:08 CDT form.go:85 - Form values received: map[csrf_token:[B8n8ooYZQ/q/0PTUOJvfblV7hYbfZZGJL3yfd5doty0=] email:[dreamyscenes@google.com] event:[spring-festival] form_type:[event] full_name:[Dreamy Scenes] hidden_field:[] school:[spring-garden] student_1_grade:[3] student_1_name:[Wilted Scenes] student_2_grade:[5] student_2_name:[Adam Scenes] student_count:[2]]
+2025/06/02 23:12:08 [INFO] 2025-06-02 23:12:08 CDT form.go:57 - Stat update: total_submissions = 1
+2025/06/02 23:12:08 [INFO] 2025-06-02 23:12:08 CDT form.go:178 - Form event-2025-06-02_23-12-08-WEveyA accepted and saved successfully
+2025/06/02 23:12:08 [INFO] 2025-06-02 23:12:08 CDT form.go:57 - Stat update: successful_submissions = 1
+2025/06/02 23:12:08 [INFO] 2025-06-02 23:12:08 CDT form.go:382 - Form submitted: type=event, formID=event-2025-06-02_23-12-08-WEveyA, ip=127.0.0.1, time=2025-06-02 23:12:08
+2025/06/02 23:12:08 [INFO] 2025-06-02 23:12:08 CDT main.go:212 - POST /api/submit-form took 2.060818ms
+2025/06/02 23:12:08 [INFO] 2025-06-02 23:12:08 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/02 23:12:08 [INFO] 2025-06-02 23:12:08 CDT order.go:429 - Event order details accessed for form event-2025-06-02_23-12-08-WEveyA
+2025/06/02 23:12:08 [INFO] 2025-06-02 23:12:08 CDT main.go:212 - GET /api/order-details took 8.2109ms
+2025/06/02 23:12:22 [INFO] 2025-06-02 23:12:22 CDT logger.go:122 - HTTP POST /save-event-payment from 127.0.0.1
+2025/06/02 23:12:22 [INFO] 2025-06-02 23:12:22 CDT payment.go:891 - Generated food order ID S-13270 for event-2025-06-02_23-12-08-WEveyA (food selections: true)
+2025/06/02 23:12:22 [INFO] 2025-06-02 23:12:22 CDT payment.go:914 - Event payment data saved for event-2025-06-02_23-12-08-WEveyA: Total=$77.00
+2025/06/02 23:12:22 [INFO] 2025-06-02 23:12:22 CDT main.go:212 - POST /api/save-event-payment took 3.452067ms
+2025/06/02 23:12:22 [INFO] 2025-06-02 23:12:22 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/02 23:12:22 [INFO] 2025-06-02 23:12:22 CDT order.go:429 - Event order details accessed for form event-2025-06-02_23-12-08-WEveyA
+2025/06/02 23:12:22 [INFO] 2025-06-02 23:12:22 CDT main.go:212 - POST /api/order-details took 621.682µs
+2025/06/02 23:12:22 [INFO] 2025-06-02 23:12:22 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/02 23:12:22 [INFO] 2025-06-02 23:12:22 CDT order.go:429 - Event order details accessed for form event-2025-06-02_23-12-08-WEveyA
+2025/06/02 23:12:22 [INFO] 2025-06-02 23:12:22 CDT main.go:212 - POST /api/order-details took 3.139927ms
+2025/06/02 23:13:02 [INFO] 2025-06-02 23:13:02 CDT payment.go:358 - Creating PayPal order for event-2025-06-02_23-12-08-WEveyA (event): 77.00
+2025/06/02 23:13:02 [INFO] 2025-06-02 23:13:02 CDT payment.go:135 - Requesting new PayPal access token
+2025/06/02 23:13:02 [INFO] 2025-06-02 23:13:02 CDT payment.go:168 - Fetched and cached new PayPal access token (expires at 2025-06-03 08:04:09.630899 -0500 CDT m=+31965.091257695)
+2025/06/02 23:13:02 [INFO] 2025-06-02 23:13:02 CDT payment.go:228 - Creating PayPal order
+2025/06/02 23:13:03 [INFO] 2025-06-02 23:13:03 CDT payment.go:250 - Successfully created PayPal order
+2025/06/02 23:13:03 [INFO] 2025-06-02 23:13:03 CDT payment.go:411 - PayPal order 4ES962985H948331J created and stored for event-2025-06-02_23-12-08-WEveyA (event)
+2025/06/02 23:13:03 [INFO] 2025-06-02 23:13:03 CDT main.go:212 - POST /api/create-order took 1.635661611s
+2025/06/02 23:13:13 [INFO] 2025-06-02 23:13:13 CDT logger.go:122 - HTTP POST /capture-order from 127.0.0.1
+2025/06/02 23:13:13 [INFO] 2025-06-02 23:13:13 CDT payment.go:107 - Using cached PayPal access token (expires at 2025-06-03 08:04:09.630899 -0500 CDT m=+31965.091257695)
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT payment.go:571 - PayPal capture confirmed successful for event-2025-06-02_23-12-08-WEveyA (event): status=COMPLETED
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT payment.go:590 - PayPal order 4ES962985H948331J captured successfully for event-2025-06-02_23-12-08-WEveyA (event)
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT main.go:212 - POST /api/capture-order took 1.009063354s
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT order.go:812 - Allowing access to completed payment with potentially expired token for event-2025-06-02_23-12-08-WEveyA
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT order.go:834 - DEBUG: About to generate static page - FoodOrderID: '', HasFoodOrders: false
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT order.go:1075 - DEBUG: generateStaticOrderPage called for form event-2025-06-02_23-12-08-WEveyA
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT order.go:1076 - DEBUG: FoodOrderID: ''
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT order.go:1077 - DEBUG: HasFoodOrders: false
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT order.go:1078 - DEBUG: Event: 'spring-festival'
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:249 - 📧 ========== MOCK EMAIL ==========
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:250 - 📬 To: dreamyscenes@google.com
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:251 - 📮 From: noreply@yourdomain.org
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:252 - 📄 Subject: Event Registration Confirmation - Spring Festival
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:253 - 📝 Body:
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:254 - ---
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:259 -    Dear Dreamy,
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:259 -    
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:259 -    Thank you for registering for Spring Festival!
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:259 -    
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:259 -    Event Details:
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:259 -    - Order ID: 
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:259 -    - School: Spring Garden
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:259 -    - Students Registered: 2
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:259 -    - Total Amount: $77.00
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:259 -    - Payment ID: 4ES962985H948331J
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:259 -    
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:259 -    View your order details: https://suzuki.nfshost.com/events/2025/spring-festival/.html
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:259 -    
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:259 -    If you have any questions, please contact us.
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:259 -    
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:259 -    Best regards,
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:259 -    The Event Team
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:262 - ---
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:263 - ✅ Mock email logged successfully
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT email.go:264 - 📧 ==============================
+2025/06/02 23:13:14 [INFO] 2025-06-02 23:13:14 CDT main.go:212 - POST /api/success took 15.57922ms
+2025/06/02 23:21:18 [INFO] 2025-06-02 23:21:18 CDT main.go:166 - Shutdown signal received
+2025/06/02 23:21:18 [INFO] 2025-06-02 23:21:18 CDT main.go:176 - Server shut down gracefully
+2025/06/02 23:21:18 [INFO] 2025-06-02 23:21:18 CDT main.go:180 - Shutdown signal received
+2025/06/02 23:21:18 [INFO] 2025-06-02 23:21:18 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/02 23:21:18 [INFO] 2025-06-02 23:21:18 CDT main.go:183 - All connections closed. Total requests handled: 9
+2025/06/02 23:21:18 [INFO] 2025-06-02 23:21:18 CDT main.go:184 - Server shut down gracefully
+2025/06/02 23:22:21 [INFO] 2025-06-02 23:22:21 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-02.log
+2025/06/02 23:22:21 [INFO] 2025-06-02 23:22:21 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/02 23:22:21 [INFO] 2025-06-02 23:22:21 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/02 23:22:21 [INFO] 2025-06-02 23:22:21 CDT config.go:61 - Running in development environment
+2025/06/02 23:22:21 [INFO] 2025-06-02 23:22:21 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/02 23:22:21 [INFO] 2025-06-02 23:22:21 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-03 02:00:00 (in 2h37m38.216997s)
+2025/06/02 23:22:21 [INFO] 2025-06-02 23:22:21 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/02 23:22:30 [INFO] 2025-06-02 23:22:30 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/02 23:22:30 [INFO] 2025-06-02 23:22:30 CDT main.go:212 - GET /api/csrf-token took 244.062µs
+2025/06/02 23:23:21 [INFO] 2025-06-02 23:23:21 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/06/02 23:23:21 [INFO] 2025-06-02 23:23:21 CDT form.go:85 - Form values received: map[csrf_token:[ARusgDn9ye1PiWwEyrQw3b8nQQpzhsJ43kpJeKTT2vI=] email:[stevefarkel@aol.com] event:[spring-festival] form_type:[event] full_name:[Steve Farkel] hidden_field:[] school:[north-euless] student_1_grade:[2] student_1_name:[Creaky Farkel] student_2_grade:[K] student_2_name:[Lily Farkel] student_count:[2]]
+2025/06/02 23:23:21 [INFO] 2025-06-02 23:23:21 CDT form.go:57 - Stat update: total_submissions = 1
+2025/06/02 23:23:21 [INFO] 2025-06-02 23:23:21 CDT form.go:178 - Form event-2025-06-02_23-23-21-q0ulzg accepted and saved successfully
+2025/06/02 23:23:21 [INFO] 2025-06-02 23:23:21 CDT form.go:57 - Stat update: successful_submissions = 1
+2025/06/02 23:23:21 [INFO] 2025-06-02 23:23:21 CDT form.go:382 - Form submitted: type=event, formID=event-2025-06-02_23-23-21-q0ulzg, ip=127.0.0.1, time=2025-06-02 23:23:21
+2025/06/02 23:23:21 [INFO] 2025-06-02 23:23:21 CDT main.go:212 - POST /api/submit-form took 2.260959ms
+2025/06/02 23:23:21 [INFO] 2025-06-02 23:23:21 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/02 23:23:21 [INFO] 2025-06-02 23:23:21 CDT order.go:429 - Event order details accessed for form event-2025-06-02_23-23-21-q0ulzg
+2025/06/02 23:23:21 [INFO] 2025-06-02 23:23:21 CDT main.go:212 - GET /api/order-details took 2.243961ms
+2025/06/02 23:23:35 [INFO] 2025-06-02 23:23:35 CDT logger.go:122 - HTTP POST /save-event-payment from 127.0.0.1
+2025/06/02 23:23:35 [INFO] 2025-06-02 23:23:35 CDT payment.go:891 - Generated food order ID N-07038 for event-2025-06-02_23-23-21-q0ulzg (food selections: true)
+2025/06/02 23:23:35 [INFO] 2025-06-02 23:23:35 CDT payment.go:914 - Event payment data saved for event-2025-06-02_23-23-21-q0ulzg: Total=$79.03
+2025/06/02 23:23:35 [INFO] 2025-06-02 23:23:35 CDT main.go:212 - POST /api/save-event-payment took 1.078676ms
+2025/06/02 23:23:35 [INFO] 2025-06-02 23:23:35 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/02 23:23:35 [INFO] 2025-06-02 23:23:35 CDT order.go:429 - Event order details accessed for form event-2025-06-02_23-23-21-q0ulzg
+2025/06/02 23:23:35 [INFO] 2025-06-02 23:23:35 CDT main.go:212 - POST /api/order-details took 891.757µs
+2025/06/02 23:23:35 [INFO] 2025-06-02 23:23:35 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/02 23:23:35 [INFO] 2025-06-02 23:23:35 CDT order.go:429 - Event order details accessed for form event-2025-06-02_23-23-21-q0ulzg
+2025/06/02 23:23:35 [INFO] 2025-06-02 23:23:35 CDT main.go:212 - POST /api/order-details took 6.632212ms
+2025/06/02 23:23:43 [INFO] 2025-06-02 23:23:43 CDT payment.go:358 - Creating PayPal order for event-2025-06-02_23-23-21-q0ulzg (event): 79.03
+2025/06/02 23:23:43 [INFO] 2025-06-02 23:23:43 CDT payment.go:135 - Requesting new PayPal access token
+2025/06/02 23:23:43 [INFO] 2025-06-02 23:23:43 CDT payment.go:168 - Fetched and cached new PayPal access token (expires at 2025-06-03 08:04:08.878215 -0500 CDT m=+31307.124278279)
+2025/06/02 23:23:43 [INFO] 2025-06-02 23:23:43 CDT payment.go:228 - Creating PayPal order
+2025/06/02 23:23:44 [INFO] 2025-06-02 23:23:44 CDT payment.go:250 - Successfully created PayPal order
+2025/06/02 23:23:44 [INFO] 2025-06-02 23:23:44 CDT payment.go:411 - PayPal order 7YY3708653802031W created and stored for event-2025-06-02_23-23-21-q0ulzg (event)
+2025/06/02 23:23:44 [INFO] 2025-06-02 23:23:44 CDT main.go:212 - POST /api/create-order took 1.324031722s
+2025/06/02 23:24:00 [INFO] 2025-06-02 23:24:00 CDT logger.go:122 - HTTP POST /capture-order from 127.0.0.1
+2025/06/02 23:24:00 [INFO] 2025-06-02 23:24:00 CDT payment.go:107 - Using cached PayPal access token (expires at 2025-06-03 08:04:08.878215 -0500 CDT m=+31307.124278279)
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT payment.go:571 - PayPal capture confirmed successful for event-2025-06-02_23-23-21-q0ulzg (event): status=COMPLETED
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT payment.go:590 - PayPal order 7YY3708653802031W captured successfully for event-2025-06-02_23-23-21-q0ulzg (event)
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT main.go:212 - POST /api/capture-order took 1.087532929s
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT order.go:812 - Allowing access to completed payment with potentially expired token for event-2025-06-02_23-23-21-q0ulzg
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT order.go:834 - DEBUG: About to generate static page - FoodOrderID: '', HasFoodOrders: false
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT order.go:1075 - DEBUG: generateStaticOrderPage called for form event-2025-06-02_23-23-21-q0ulzg
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT order.go:1076 - DEBUG: FoodOrderID: ''
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT order.go:1077 - DEBUG: HasFoodOrders: false
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT order.go:1078 - DEBUG: Event: 'spring-festival'
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:249 - 📧 ========== MOCK EMAIL ==========
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:250 - 📬 To: stevefarkel@aol.com
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:251 - 📮 From: noreply@yourdomain.org
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:252 - 📄 Subject: Event Registration Confirmation - Spring Festival
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:253 - 📝 Body:
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:254 - ---
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:259 -    Dear Steve,
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:259 -    
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:259 -    Thank you for registering for Spring Festival!
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:259 -    
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:259 -    Event Details:
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:259 -    - Order ID: 
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:259 -    - School: North Euless
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:259 -    - Students Registered: 2
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:259 -    - Total Amount: $79.03
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:259 -    - Payment ID: 7YY3708653802031W
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:259 -    
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:259 -    View your order details: https://suzuki.nfshost.com/events/2025/spring-festival/.html
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:259 -    
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:259 -    If you have any questions, please contact us.
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:259 -    
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:259 -    Best regards,
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:259 -    The Event Team
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:262 - ---
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:263 - ✅ Mock email logged successfully
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT email.go:264 - 📧 ==============================
+2025/06/02 23:24:01 [INFO] 2025-06-02 23:24:01 CDT main.go:212 - POST /api/success took 8.549522ms
+2025/06/02 23:30:12 [INFO] 2025-06-02 23:30:12 CDT main.go:166 - Shutdown signal received
+2025/06/02 23:30:12 [INFO] 2025-06-02 23:30:12 CDT main.go:176 - Server shut down gracefully
+2025/06/02 23:30:12 [INFO] 2025-06-02 23:30:12 CDT main.go:180 - Shutdown signal received
+2025/06/02 23:30:12 [INFO] 2025-06-02 23:30:12 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/02 23:30:12 [INFO] 2025-06-02 23:30:12 CDT main.go:183 - All connections closed. Total requests handled: 9
+2025/06/02 23:30:12 [INFO] 2025-06-02 23:30:12 CDT main.go:184 - Server shut down gracefully
+2025/06/02 23:30:17 [INFO] 2025-06-02 23:30:17 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-02.log
+2025/06/02 23:30:17 [INFO] 2025-06-02 23:30:17 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/02 23:30:17 [INFO] 2025-06-02 23:30:17 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/02 23:30:17 [INFO] 2025-06-02 23:30:17 CDT config.go:61 - Running in development environment
+2025/06/02 23:30:17 [INFO] 2025-06-02 23:30:17 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/02 23:30:17 [INFO] 2025-06-02 23:30:17 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-03 02:00:00 (in 2h29m42.297213s)
+2025/06/02 23:30:17 [INFO] 2025-06-02 23:30:17 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/02 23:30:23 [INFO] 2025-06-02 23:30:23 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/02 23:30:23 [INFO] 2025-06-02 23:30:23 CDT main.go:212 - GET /api/csrf-token took 238.216µs
+2025/06/02 23:31:07 [INFO] 2025-06-02 23:31:07 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/06/02 23:31:07 [INFO] 2025-06-02 23:31:07 CDT form.go:85 - Form values received: map[csrf_token:[+TisO1BR2T+Kci7ly+mMypgHTzG6cbOmjMJwngS6m1c=] email:[watkins@student.hebisd.edu] event:[spring-festival] form_type:[event] full_name:[Juju Watkins] hidden_field:[] school:[south-euless] student_1_grade:[4] student_1_name:[Peter Watkins] student_count:[1]]
+2025/06/02 23:31:07 [INFO] 2025-06-02 23:31:07 CDT form.go:57 - Stat update: total_submissions = 1
+2025/06/02 23:31:07 [INFO] 2025-06-02 23:31:07 CDT form.go:178 - Form event-2025-06-02_23-31-07-NayfgQ accepted and saved successfully
+2025/06/02 23:31:07 [INFO] 2025-06-02 23:31:07 CDT form.go:57 - Stat update: successful_submissions = 1
+2025/06/02 23:31:07 [INFO] 2025-06-02 23:31:07 CDT form.go:382 - Form submitted: type=event, formID=event-2025-06-02_23-31-07-NayfgQ, ip=127.0.0.1, time=2025-06-02 23:31:07
+2025/06/02 23:31:07 [INFO] 2025-06-02 23:31:07 CDT main.go:212 - POST /api/submit-form took 6.0906ms
+2025/06/02 23:31:07 [INFO] 2025-06-02 23:31:07 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/02 23:31:07 [INFO] 2025-06-02 23:31:07 CDT order.go:429 - Event order details accessed for form event-2025-06-02_23-31-07-NayfgQ
+2025/06/02 23:31:07 [INFO] 2025-06-02 23:31:07 CDT main.go:212 - GET /api/order-details took 2.249456ms
+2025/06/02 23:32:03 [INFO] 2025-06-02 23:32:03 CDT logger.go:122 - HTTP POST /save-event-payment from 127.0.0.1
+2025/06/02 23:32:03 [INFO] 2025-06-02 23:32:03 CDT payment.go:891 - Generated food order ID S-34383 for event-2025-06-02_23-31-07-NayfgQ (food selections: true)
+2025/06/02 23:32:03 [INFO] 2025-06-02 23:32:03 CDT payment.go:914 - Event payment data saved for event-2025-06-02_23-31-07-NayfgQ: Total=$52.51
+2025/06/02 23:32:03 [INFO] 2025-06-02 23:32:03 CDT main.go:212 - POST /api/save-event-payment took 1.685848ms
+2025/06/02 23:32:03 [INFO] 2025-06-02 23:32:03 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/02 23:32:03 [INFO] 2025-06-02 23:32:03 CDT order.go:429 - Event order details accessed for form event-2025-06-02_23-31-07-NayfgQ
+2025/06/02 23:32:03 [INFO] 2025-06-02 23:32:03 CDT main.go:212 - POST /api/order-details took 1.368366ms
+2025/06/02 23:32:03 [INFO] 2025-06-02 23:32:03 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/02 23:32:03 [INFO] 2025-06-02 23:32:03 CDT order.go:429 - Event order details accessed for form event-2025-06-02_23-31-07-NayfgQ
+2025/06/02 23:32:03 [INFO] 2025-06-02 23:32:03 CDT main.go:212 - POST /api/order-details took 3.070667ms
+2025/06/02 23:32:08 [INFO] 2025-06-02 23:32:08 CDT payment.go:358 - Creating PayPal order for event-2025-06-02_23-31-07-NayfgQ (event): 52.51
+2025/06/02 23:32:08 [INFO] 2025-06-02 23:32:08 CDT payment.go:135 - Requesting new PayPal access token
+2025/06/02 23:32:09 [INFO] 2025-06-02 23:32:09 CDT payment.go:168 - Fetched and cached new PayPal access token (expires at 2025-06-03 08:04:09.284222 -0500 CDT m=+30831.599047899)
+2025/06/02 23:32:09 [INFO] 2025-06-02 23:32:09 CDT payment.go:228 - Creating PayPal order
+2025/06/02 23:32:10 [INFO] 2025-06-02 23:32:10 CDT payment.go:250 - Successfully created PayPal order
+2025/06/02 23:32:10 [INFO] 2025-06-02 23:32:10 CDT payment.go:411 - PayPal order 0E307857E0890310U created and stored for event-2025-06-02_23-31-07-NayfgQ (event)
+2025/06/02 23:32:10 [INFO] 2025-06-02 23:32:10 CDT main.go:212 - POST /api/create-order took 1.504153789s
+2025/06/02 23:32:16 [INFO] 2025-06-02 23:32:16 CDT logger.go:122 - HTTP POST /capture-order from 127.0.0.1
+2025/06/02 23:32:16 [INFO] 2025-06-02 23:32:16 CDT payment.go:107 - Using cached PayPal access token (expires at 2025-06-03 08:04:09.284222 -0500 CDT m=+30831.599047899)
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT payment.go:571 - PayPal capture confirmed successful for event-2025-06-02_23-31-07-NayfgQ (event): status=COMPLETED
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT payment.go:590 - PayPal order 0E307857E0890310U captured successfully for event-2025-06-02_23-31-07-NayfgQ (event)
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT main.go:212 - POST /api/capture-order took 1.234377941s
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT order.go:812 - Allowing access to completed payment with potentially expired token for event-2025-06-02_23-31-07-NayfgQ
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT order.go:834 - DEBUG: About to generate static page - FoodOrderID: '', HasFoodOrders: true
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT order.go:1075 - DEBUG: generateStaticOrderPage called for form event-2025-06-02_23-31-07-NayfgQ
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT order.go:1076 - DEBUG: FoodOrderID: ''
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT order.go:1077 - DEBUG: HasFoodOrders: true
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT order.go:1078 - DEBUG: Event: 'spring-festival'
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:249 - 📧 ========== MOCK EMAIL ==========
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:250 - 📬 To: watkins@student.hebisd.edu
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:251 - 📮 From: noreply@yourdomain.org
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:252 - 📄 Subject: Event Registration Confirmation - Spring Festival
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:253 - 📝 Body:
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:254 - ---
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:259 -    Dear Juju,
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:259 -    
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:259 -    Thank you for registering for Spring Festival!
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:259 -    
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:259 -    Event Details:
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:259 -    - Order ID: 
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:259 -    - School: South Euless
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:259 -    - Students Registered: 1
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:259 -    - Total Amount: $52.51
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:259 -    - Payment ID: 0E307857E0890310U
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:259 -    
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:259 -    View your order details: https://suzuki.nfshost.com/events/2025/spring-festival/.html
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:259 -    
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:259 -    If you have any questions, please contact us.
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:259 -    
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:259 -    Best regards,
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:259 -    The Event Team
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:262 - ---
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:263 - ✅ Mock email logged successfully
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT email.go:264 - 📧 ==============================
+2025/06/02 23:32:18 [INFO] 2025-06-02 23:32:18 CDT main.go:212 - POST /api/success took 16.82433ms
+2025/06/02 23:35:13 [INFO] 2025-06-02 23:35:13 CDT main.go:166 - Shutdown signal received
+2025/06/02 23:35:13 [INFO] 2025-06-02 23:35:13 CDT main.go:176 - Server shut down gracefully
+2025/06/02 23:35:13 [INFO] 2025-06-02 23:35:13 CDT main.go:180 - Shutdown signal received
+2025/06/02 23:35:13 [INFO] 2025-06-02 23:35:13 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/02 23:35:13 [INFO] 2025-06-02 23:35:13 CDT main.go:183 - All connections closed. Total requests handled: 9
+2025/06/02 23:35:13 [INFO] 2025-06-02 23:35:13 CDT main.go:184 - Server shut down gracefully
+2025/06/02 23:35:18 [INFO] 2025-06-02 23:35:18 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-02.log
+2025/06/02 23:35:18 [INFO] 2025-06-02 23:35:18 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/02 23:35:18 [INFO] 2025-06-02 23:35:18 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/02 23:35:18 [INFO] 2025-06-02 23:35:18 CDT config.go:61 - Running in development environment
+2025/06/02 23:35:18 [INFO] 2025-06-02 23:35:18 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/02 23:35:18 [INFO] 2025-06-02 23:35:18 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/02 23:35:18 [INFO] 2025-06-02 23:35:18 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-03 02:00:00 (in 2h24m41.777641s)
+2025/06/02 23:35:22 [INFO] 2025-06-02 23:35:22 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/02 23:35:22 [INFO] 2025-06-02 23:35:22 CDT main.go:212 - GET /api/csrf-token took 317.464µs
+2025/06/02 23:35:51 [INFO] 2025-06-02 23:35:51 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/06/02 23:35:51 [INFO] 2025-06-02 23:35:51 CDT form.go:85 - Form values received: map[csrf_token:[lh9kguXW4zaUk8JOuXvFxz4fuZGTrIChEFcCc2Gxe0c=] email:[iverson@nba.legends] event:[spring-festival] form_type:[event] full_name:[Allen Iverson] hidden_field:[] school:[viridian] student_1_grade:[2] student_1_name:[Frank Iverson] student_count:[1]]
+2025/06/02 23:35:51 [INFO] 2025-06-02 23:35:51 CDT form.go:57 - Stat update: total_submissions = 1
+2025/06/02 23:35:51 [INFO] 2025-06-02 23:35:51 CDT form.go:178 - Form event-2025-06-02_23-35-51-z5t4EA accepted and saved successfully
+2025/06/02 23:35:51 [INFO] 2025-06-02 23:35:51 CDT form.go:57 - Stat update: successful_submissions = 1
+2025/06/02 23:35:51 [INFO] 2025-06-02 23:35:51 CDT form.go:382 - Form submitted: type=event, formID=event-2025-06-02_23-35-51-z5t4EA, ip=127.0.0.1, time=2025-06-02 23:35:51
+2025/06/02 23:35:51 [INFO] 2025-06-02 23:35:51 CDT main.go:212 - POST /api/submit-form took 1.799191ms
+2025/06/02 23:35:51 [INFO] 2025-06-02 23:35:51 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/02 23:35:51 [INFO] 2025-06-02 23:35:51 CDT order.go:429 - Event order details accessed for form event-2025-06-02_23-35-51-z5t4EA
+2025/06/02 23:35:51 [INFO] 2025-06-02 23:35:51 CDT main.go:212 - GET /api/order-details took 1.498435ms
+2025/06/02 23:35:57 [INFO] 2025-06-02 23:35:57 CDT logger.go:122 - HTTP POST /save-event-payment from 127.0.0.1
+2025/06/02 23:35:57 [INFO] 2025-06-02 23:35:57 CDT payment.go:891 - Generated food order ID V-52471 for event-2025-06-02_23-35-51-z5t4EA (food selections: true)
+2025/06/02 23:35:57 [INFO] 2025-06-02 23:35:57 CDT payment.go:914 - Event payment data saved for event-2025-06-02_23-35-51-z5t4EA: Total=$51.00
+2025/06/02 23:35:57 [INFO] 2025-06-02 23:35:57 CDT main.go:212 - POST /api/save-event-payment took 3.13891ms
+2025/06/02 23:35:57 [INFO] 2025-06-02 23:35:57 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/02 23:35:57 [INFO] 2025-06-02 23:35:57 CDT order.go:429 - Event order details accessed for form event-2025-06-02_23-35-51-z5t4EA
+2025/06/02 23:35:57 [INFO] 2025-06-02 23:35:57 CDT main.go:212 - POST /api/order-details took 1.109705ms
+2025/06/02 23:35:57 [INFO] 2025-06-02 23:35:57 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/02 23:35:57 [INFO] 2025-06-02 23:35:57 CDT order.go:429 - Event order details accessed for form event-2025-06-02_23-35-51-z5t4EA
+2025/06/02 23:35:57 [INFO] 2025-06-02 23:35:57 CDT main.go:212 - POST /api/order-details took 2.534309ms
+2025/06/02 23:36:01 [INFO] 2025-06-02 23:36:01 CDT payment.go:358 - Creating PayPal order for event-2025-06-02_23-35-51-z5t4EA (event): 51.00
+2025/06/02 23:36:01 [INFO] 2025-06-02 23:36:01 CDT payment.go:135 - Requesting new PayPal access token
+2025/06/02 23:36:01 [INFO] 2025-06-02 23:36:01 CDT payment.go:168 - Fetched and cached new PayPal access token (expires at 2025-06-03 08:04:09.747043 -0500 CDT m=+30531.544539219)
+2025/06/02 23:36:01 [INFO] 2025-06-02 23:36:01 CDT payment.go:228 - Creating PayPal order
+2025/06/02 23:36:02 [INFO] 2025-06-02 23:36:02 CDT payment.go:250 - Successfully created PayPal order
+2025/06/02 23:36:02 [INFO] 2025-06-02 23:36:02 CDT payment.go:411 - PayPal order 1BN29030YA208835A created and stored for event-2025-06-02_23-35-51-z5t4EA (event)
+2025/06/02 23:36:02 [INFO] 2025-06-02 23:36:02 CDT main.go:212 - POST /api/create-order took 1.494897773s
+2025/06/02 23:36:07 [INFO] 2025-06-02 23:36:07 CDT logger.go:122 - HTTP POST /capture-order from 127.0.0.1
+2025/06/02 23:36:07 [INFO] 2025-06-02 23:36:07 CDT payment.go:107 - Using cached PayPal access token (expires at 2025-06-03 08:04:09.747043 -0500 CDT m=+30531.544539219)
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT payment.go:571 - PayPal capture confirmed successful for event-2025-06-02_23-35-51-z5t4EA (event): status=COMPLETED
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT payment.go:590 - PayPal order 1BN29030YA208835A captured successfully for event-2025-06-02_23-35-51-z5t4EA (event)
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT main.go:212 - POST /api/capture-order took 976.076681ms
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT order.go:812 - Allowing access to completed payment with potentially expired token for event-2025-06-02_23-35-51-z5t4EA
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT order.go:834 - DEBUG: About to generate static page - FoodOrderID: 'V-52471', HasFoodOrders: true
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT order.go:1075 - DEBUG: generateStaticOrderPage called for form event-2025-06-02_23-35-51-z5t4EA
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT order.go:1076 - DEBUG: FoodOrderID: 'V-52471'
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT order.go:1077 - DEBUG: HasFoodOrders: true
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT order.go:1078 - DEBUG: Event: 'spring-festival'
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:249 - 📧 ========== MOCK EMAIL ==========
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:250 - 📬 To: iverson@nba.legends
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:251 - 📮 From: noreply@yourdomain.org
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:252 - 📄 Subject: Event Registration Confirmation - Spring Festival
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:253 - 📝 Body:
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:254 - ---
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:259 -    Dear Allen,
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:259 -    
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:259 -    Thank you for registering for Spring Festival!
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:259 -    
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:259 -    Event Details:
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:259 -    - Order ID: V-52471
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:259 -    - School: Viridian
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:259 -    - Students Registered: 1
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:259 -    - Total Amount: $51.00
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:259 -    - Payment ID: 1BN29030YA208835A
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:259 -    
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:259 -    View your order details: https://suzuki.nfshost.com/events/2025/spring-festival/V-52471.html
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:259 -    
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:259 -    If you have any questions, please contact us.
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:259 -    
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:259 -    Best regards,
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:259 -    The Event Team
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:262 - ---
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:263 - ✅ Mock email logged successfully
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT email.go:264 - 📧 ==============================
+2025/06/02 23:36:08 [INFO] 2025-06-02 23:36:08 CDT main.go:212 - POST /api/success took 15.195324ms
+2025/06/02 23:39:04 [INFO] 2025-06-02 23:39:04 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/06/02 23:39:04 [INFO] 2025-06-02 23:39:04 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/02 23:39:04 [INFO] 2025-06-02 23:39:04 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/02 23:39:04 [INFO] 2025-06-02 23:39:04 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/02 23:39:04 [INFO] 2025-06-02 23:39:04 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/02 23:39:04 [INFO] 2025-06-02 23:39:04 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/02 23:39:04 [INFO] 2025-06-02 23:39:04 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/02 23:39:04 [INFO] 2025-06-02 23:39:04 CDT data.go:151 - No PayPal details for membership-2025-05-20_23-39-11-AH8Ozg - payment not completed
+2025/06/02 23:39:04 [INFO] 2025-06-02 23:39:04 CDT data.go:151 - No PayPal details for membership-2025-05-21_10-07-09-yBVzJg - payment not completed
+2025/06/02 23:39:04 [INFO] 2025-06-02 23:39:04 CDT data.go:151 - No PayPal details for membership-2025-05-22_23-22-14-IBC4IA - payment not completed
+2025/06/02 23:39:04 [INFO] 2025-06-02 23:39:04 CDT data.go:151 - No PayPal details for membership-2025-05-31_13-06-31-8xrnIw - payment not completed
+2025/06/02 23:39:04 [INFO] 2025-06-02 23:39:04 CDT info.go:124 - Generated admin token for info page access
+2025/06/02 23:39:04 [INFO] 2025-06-02 23:39:04 CDT info.go:145 - Info page generated for year 2025 in 8.04447ms (memberships: 15, events: 16, fundraisers: 9)
+2025/06/02 23:39:04 [INFO] 2025-06-02 23:39:04 CDT main.go:212 - GET /info took 9.931895ms
+2025/06/03 00:05:18 [INFO] 2025-06-03 00:05:18 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/03 02:01:11 [INFO] 2025-06-03 02:01:11 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/03 03:52:22 [INFO] 2025-06-03 03:52:22 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/03 05:57:41 [INFO] 2025-06-03 05:57:41 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/03 06:57:56 [INFO] 2025-06-03 06:57:56 CDT main.go:166 - Shutdown signal received
+2025/06/03 06:57:56 [INFO] 2025-06-03 06:57:56 CDT main.go:176 - Server shut down gracefully
+2025/06/03 06:57:56 [INFO] 2025-06-03 06:57:56 CDT main.go:180 - Shutdown signal received
+2025/06/03 06:57:56 [INFO] 2025-06-03 06:57:56 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/03 06:57:56 [INFO] 2025-06-03 06:57:56 CDT main.go:183 - All connections closed. Total requests handled: 10
+2025/06/03 06:57:56 [INFO] 2025-06-03 06:57:56 CDT main.go:184 - Server shut down gracefully

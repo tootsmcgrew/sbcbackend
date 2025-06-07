@@ -1,0 +1,627 @@
+2025/06/01 14:00:03 [INFO] 2025-06-01 14:00:03 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 14:00:03 [INFO] 2025-06-01 14:00:03 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 14:00:03 [INFO] 2025-06-01 14:00:03 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 14:00:03 [INFO] 2025-06-01 14:00:03 CDT config.go:61 - Running in development environment
+2025/06/01 14:00:03 [INFO] 2025-06-01 14:00:03 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 14:00:03 [INFO] 2025-06-01 14:00:03 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 11h59m56.508602s)
+2025/06/01 14:00:03 [INFO] 2025-06-01 14:00:03 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 14:00:07 [INFO] 2025-06-01 14:00:07 CDT main.go:166 - Shutdown signal received
+2025/06/01 14:00:07 [INFO] 2025-06-01 14:00:07 CDT main.go:176 - Server shut down gracefully
+2025/06/01 14:00:07 [INFO] 2025-06-01 14:00:07 CDT main.go:180 - Shutdown signal received
+2025/06/01 14:00:07 [INFO] 2025-06-01 14:00:07 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 14:00:07 [INFO] 2025-06-01 14:00:07 CDT main.go:183 - All connections closed. Total requests handled: 0
+2025/06/01 14:00:07 [INFO] 2025-06-01 14:00:07 CDT main.go:184 - Server shut down gracefully
+2025/06/01 14:14:08 [INFO] 2025-06-01 14:14:08 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 14:14:08 [INFO] 2025-06-01 14:14:08 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 14:14:08 [INFO] 2025-06-01 14:14:08 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 14:14:08 [INFO] 2025-06-01 14:14:08 CDT config.go:61 - Running in development environment
+2025/06/01 14:14:08 [INFO] 2025-06-01 14:14:08 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 14:14:08 [INFO] 2025-06-01 14:14:08 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 14:14:08 [INFO] 2025-06-01 14:14:08 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 11h45m51.895837s)
+2025/06/01 14:14:30 [INFO] 2025-06-01 14:14:30 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/06/01 14:14:30 [WARN] 2025-06-01 14:14:30 CDT order.go:755 - Expired or invalid event access token from 127.0.0.1 for formID event-2025-05-31_21-32-08-hwjHJA
+2025/06/01 14:14:30 [INFO] 2025-06-01 14:14:30 CDT main.go:212 - POST /api/success took 624.123µs
+2025/06/01 14:15:25 [INFO] 2025-06-01 14:15:25 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/01 14:15:25 [INFO] 2025-06-01 14:15:25 CDT main.go:212 - GET /api/csrf-token took 281.283µs
+2025/06/01 14:15:50 [INFO] 2025-06-01 14:15:50 CDT main.go:166 - Shutdown signal received
+2025/06/01 14:15:50 [INFO] 2025-06-01 14:15:50 CDT main.go:176 - Server shut down gracefully
+2025/06/01 14:15:50 [INFO] 2025-06-01 14:15:50 CDT main.go:180 - Shutdown signal received
+2025/06/01 14:15:50 [INFO] 2025-06-01 14:15:50 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 14:15:50 [INFO] 2025-06-01 14:15:50 CDT main.go:183 - All connections closed. Total requests handled: 2
+2025/06/01 14:15:50 [INFO] 2025-06-01 14:15:50 CDT main.go:184 - Server shut down gracefully
+2025/06/01 14:15:54 [INFO] 2025-06-01 14:15:54 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 14:15:54 [INFO] 2025-06-01 14:15:54 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 14:15:54 [INFO] 2025-06-01 14:15:54 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 14:15:54 [INFO] 2025-06-01 14:15:54 CDT config.go:61 - Running in development environment
+2025/06/01 14:15:54 [INFO] 2025-06-01 14:15:54 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 14:15:54 [INFO] 2025-06-01 14:15:54 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 11h44m5.747385s)
+2025/06/01 14:15:54 [INFO] 2025-06-01 14:15:54 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 14:16:10 [INFO] 2025-06-01 14:16:10 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/06/01 14:16:10 [INFO] 2025-06-01 14:16:10 CDT sqlite.go:407 - Converted legacy fees array to map format
+2025/06/01 14:16:10 [INFO] 2025-06-01 14:16:10 CDT sqlite.go:407 - Converted legacy fees array to map format
+2025/06/01 14:16:10 [INFO] 2025-06-01 14:16:10 CDT sqlite.go:407 - Converted legacy fees array to map format
+2025/06/01 14:16:10 [INFO] 2025-06-01 14:16:10 CDT sqlite.go:407 - Converted legacy fees array to map format
+2025/06/01 14:16:10 [INFO] 2025-06-01 14:16:10 CDT sqlite.go:407 - Converted legacy fees array to map format
+2025/06/01 14:16:10 [INFO] 2025-06-01 14:16:10 CDT sqlite.go:407 - Converted legacy fees array to map format
+2025/06/01 14:16:10 [ERROR] 2025-06-01 14:16:10 CDT info.go:88 - Failed to load event data: failed to query events by year: SQL logic error: no such column: student_meal_provided (1)
+2025/06/01 14:16:10 [INFO] 2025-06-01 14:16:10 CDT data.go:151 - No PayPal details for membership-2025-05-20_23-39-11-AH8Ozg - payment not completed
+2025/06/01 14:16:10 [INFO] 2025-06-01 14:16:10 CDT data.go:151 - No PayPal details for membership-2025-05-21_10-07-09-yBVzJg - payment not completed
+2025/06/01 14:16:10 [INFO] 2025-06-01 14:16:10 CDT data.go:151 - No PayPal details for membership-2025-05-22_23-22-14-IBC4IA - payment not completed
+2025/06/01 14:16:10 [INFO] 2025-06-01 14:16:10 CDT data.go:151 - No PayPal details for membership-2025-05-31_13-06-31-8xrnIw - payment not completed
+2025/06/01 14:16:10 [INFO] 2025-06-01 14:16:10 CDT info.go:124 - Generated admin token for info page access
+2025/06/01 14:16:10 [INFO] 2025-06-01 14:16:10 CDT info.go:145 - Info page generated for year 2025 in 11.03003ms (memberships: 15, events: 0, fundraisers: 9)
+2025/06/01 14:16:10 [INFO] 2025-06-01 14:16:10 CDT main.go:212 - GET /info took 12.706545ms
+2025/06/01 14:17:11 [INFO] 2025-06-01 14:17:11 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/06/01 14:17:11 [INFO] 2025-06-01 14:17:11 CDT sqlite.go:407 - Converted legacy fees array to map format
+2025/06/01 14:17:11 [INFO] 2025-06-01 14:17:11 CDT sqlite.go:407 - Converted legacy fees array to map format
+2025/06/01 14:17:11 [INFO] 2025-06-01 14:17:11 CDT sqlite.go:407 - Converted legacy fees array to map format
+2025/06/01 14:17:11 [INFO] 2025-06-01 14:17:11 CDT sqlite.go:407 - Converted legacy fees array to map format
+2025/06/01 14:17:11 [INFO] 2025-06-01 14:17:11 CDT sqlite.go:407 - Converted legacy fees array to map format
+2025/06/01 14:17:11 [INFO] 2025-06-01 14:17:11 CDT sqlite.go:407 - Converted legacy fees array to map format
+2025/06/01 14:17:11 [ERROR] 2025-06-01 14:17:11 CDT info.go:88 - Failed to load event data: failed to query events by year: SQL logic error: no such column: student_meal_provided (1)
+2025/06/01 14:17:11 [INFO] 2025-06-01 14:17:11 CDT data.go:151 - No PayPal details for membership-2025-05-20_23-39-11-AH8Ozg - payment not completed
+2025/06/01 14:17:11 [INFO] 2025-06-01 14:17:11 CDT data.go:151 - No PayPal details for membership-2025-05-21_10-07-09-yBVzJg - payment not completed
+2025/06/01 14:17:11 [INFO] 2025-06-01 14:17:11 CDT data.go:151 - No PayPal details for membership-2025-05-22_23-22-14-IBC4IA - payment not completed
+2025/06/01 14:17:11 [INFO] 2025-06-01 14:17:11 CDT data.go:151 - No PayPal details for membership-2025-05-31_13-06-31-8xrnIw - payment not completed
+2025/06/01 14:17:11 [INFO] 2025-06-01 14:17:11 CDT info.go:124 - Generated admin token for info page access
+2025/06/01 14:17:11 [INFO] 2025-06-01 14:17:11 CDT info.go:145 - Info page generated for year 2025 in 3.757475ms (memberships: 15, events: 0, fundraisers: 9)
+2025/06/01 14:17:11 [INFO] 2025-06-01 14:17:11 CDT main.go:212 - GET /info took 3.998318ms
+2025/06/01 14:19:06 [INFO] 2025-06-01 14:19:06 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/01 14:19:06 [INFO] 2025-06-01 14:19:06 CDT main.go:212 - GET /api/csrf-token took 598.216µs
+2025/06/01 14:30:53 [INFO] 2025-06-01 14:30:53 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/06/01 14:30:53 [INFO] 2025-06-01 14:30:53 CDT form.go:85 - Form values received: map[csrf_token:[HNBpP7KZEL3dG4nJ8YalRyYhjLplw2n+oVGrzgvEP3o=] email:[robin@pooh.net] event:[spring-festival] form_type:[event] full_name:[Christopher Robin] hidden_field:[] school:[lakewood] student_1_grade:[2] student_1_name:[Winnie Pooh] student_2_grade:[K] student_2_name:[Roger Pooh] student_3_grade:[4] student_3_name:[Willis Pooh] student_count:[3]]
+2025/06/01 14:30:53 [INFO] 2025-06-01 14:30:53 CDT form.go:57 - Stat update: total_submissions = 1
+2025/06/01 14:30:53 [ERROR] 2025-06-01 14:30:53 CDT logger.go:127 - HTTP 500 error for POST /submit-form from 127.0.0.1: failed to insert event submission: SQL logic error: table event_submissions has no column named student_meal_provided (1)
+2025/06/01 14:30:53 [INFO] 2025-06-01 14:30:53 CDT main.go:212 - POST /api/submit-form took 1.303497ms
+2025/06/01 15:54:05 [INFO] 2025-06-01 15:54:05 CDT main.go:166 - Shutdown signal received
+2025/06/01 15:54:05 [INFO] 2025-06-01 15:54:05 CDT main.go:176 - Server shut down gracefully
+2025/06/01 15:54:05 [INFO] 2025-06-01 15:54:05 CDT main.go:180 - Shutdown signal received
+2025/06/01 15:54:05 [INFO] 2025-06-01 15:54:05 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 15:54:05 [INFO] 2025-06-01 15:54:05 CDT main.go:183 - All connections closed. Total requests handled: 4
+2025/06/01 15:54:05 [INFO] 2025-06-01 15:54:05 CDT main.go:184 - Server shut down gracefully
+2025/06/01 16:18:21 [INFO] 2025-06-01 16:18:21 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 16:18:21 [INFO] 2025-06-01 16:18:21 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 16:18:21 [INFO] 2025-06-01 16:18:21 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 16:18:21 [INFO] 2025-06-01 16:18:21 CDT config.go:61 - Running in development environment
+2025/06/01 16:18:21 [INFO] 2025-06-01 16:18:21 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 16:18:21 [INFO] 2025-06-01 16:18:21 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 16:18:21 [INFO] 2025-06-01 16:18:21 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 9h41m38.167525s)
+2025/06/01 16:19:41 [INFO] 2025-06-01 16:19:41 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/01 16:19:41 [INFO] 2025-06-01 16:19:41 CDT main.go:212 - GET /api/csrf-token took 522.651µs
+2025/06/01 16:20:39 [INFO] 2025-06-01 16:20:39 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/06/01 16:20:39 [INFO] 2025-06-01 16:20:39 CDT form.go:85 - Form values received: map[csrf_token:[7h6FsFmrPkEz96i+9PtzCa6k+BuBag6dPL2xWB5r3Z4=] email:[robin@pooh.net] event:[spring-festival] form_type:[event] full_name:[Christopher Robin] hidden_field:[] school:[shady-brook] student_1_grade:[K] student_1_name:[Winnie the Pooh] student_2_grade:[2] student_2_name:[Willis Pooh] student_3_grade:[5] student_3_name:[Peter Pooh] student_count:[3]]
+2025/06/01 16:20:39 [INFO] 2025-06-01 16:20:39 CDT form.go:57 - Stat update: total_submissions = 1
+2025/06/01 16:20:39 [INFO] 2025-06-01 16:20:39 CDT form.go:178 - Form event-2025-06-01_16-20-39-oDBLdA accepted and saved successfully
+2025/06/01 16:20:39 [INFO] 2025-06-01 16:20:39 CDT form.go:57 - Stat update: successful_submissions = 1
+2025/06/01 16:20:39 [INFO] 2025-06-01 16:20:39 CDT form.go:382 - Form submitted: type=event, formID=event-2025-06-01_16-20-39-oDBLdA, ip=127.0.0.1, time=2025-06-01 16:20:39
+2025/06/01 16:20:39 [INFO] 2025-06-01 16:20:39 CDT main.go:212 - POST /api/submit-form took 1.494446ms
+2025/06/01 16:20:39 [INFO] 2025-06-01 16:20:39 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/01 16:20:39 [ERROR] 2025-06-01 16:20:39 CDT order.go:349 - GetEventByID failed for event-2025-06-01_16-20-39-oDBLdA: SQL logic error: no such column: student_meal_provided (1)
+2025/06/01 16:20:39 [INFO] 2025-06-01 16:20:39 CDT main.go:241 - 404 not found: /api/order-details
+2025/06/01 16:20:39 [INFO] 2025-06-01 16:20:39 CDT main.go:212 - GET /api/order-details took 606.23µs
+2025/06/01 16:21:53 [INFO] 2025-06-01 16:21:53 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/01 16:21:53 [ERROR] 2025-06-01 16:21:53 CDT order.go:349 - GetEventByID failed for event-2025-06-01_16-20-39-oDBLdA: SQL logic error: no such column: student_meal_provided (1)
+2025/06/01 16:21:53 [INFO] 2025-06-01 16:21:53 CDT main.go:241 - 404 not found: /api/order-details
+2025/06/01 16:21:53 [INFO] 2025-06-01 16:21:53 CDT main.go:212 - GET /api/order-details took 11.038551ms
+2025/06/01 16:22:20 [INFO] 2025-06-01 16:22:20 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/01 16:22:20 [ERROR] 2025-06-01 16:22:20 CDT order.go:349 - GetEventByID failed for event-2025-06-01_16-20-39-oDBLdA: SQL logic error: no such column: student_meal_provided (1)
+2025/06/01 16:22:20 [INFO] 2025-06-01 16:22:20 CDT main.go:241 - 404 not found: /api/order-details
+2025/06/01 16:22:20 [INFO] 2025-06-01 16:22:20 CDT main.go:212 - GET /api/order-details took 2.606182ms
+2025/06/01 16:22:24 [INFO] 2025-06-01 16:22:24 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/01 16:22:24 [ERROR] 2025-06-01 16:22:24 CDT order.go:349 - GetEventByID failed for event-2025-06-01_16-20-39-oDBLdA: SQL logic error: no such column: student_meal_provided (1)
+2025/06/01 16:22:24 [INFO] 2025-06-01 16:22:24 CDT main.go:241 - 404 not found: /api/order-details
+2025/06/01 16:22:24 [INFO] 2025-06-01 16:22:24 CDT main.go:212 - GET /api/order-details took 533.241µs
+2025/06/01 16:22:43 [INFO] 2025-06-01 16:22:43 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/01 16:22:43 [INFO] 2025-06-01 16:22:43 CDT main.go:212 - GET /api/csrf-token took 613.013µs
+2025/06/01 16:25:15 [INFO] 2025-06-01 16:25:15 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/06/01 16:25:15 [INFO] 2025-06-01 16:25:15 CDT form.go:85 - Form values received: map[csrf_token:[/0VjSe5Da7fbUunjWsePQg/fWZrufaMX/R4aIvsAYtc=] email:[robin@pooh.net] event:[spring-festival] form_type:[event] full_name:[Christopher Robin] hidden_field:[] school:[shady-brook] student_1_grade:[K] student_1_name:[Winnie the Pooh] student_2_grade:[3] student_2_name:[Willis Pooh] student_3_grade:[5] student_3_name:[Peter Pooh] student_count:[3]]
+2025/06/01 16:25:15 [INFO] 2025-06-01 16:25:15 CDT form.go:57 - Stat update: total_submissions = 2
+2025/06/01 16:25:15 [ERROR] 2025-06-01 16:25:15 CDT logger.go:127 - HTTP 500 error for POST /submit-form from 127.0.0.1: failed to insert event submission: database is locked (5) (SQLITE_BUSY)
+2025/06/01 16:25:15 [INFO] 2025-06-01 16:25:15 CDT main.go:212 - POST /api/submit-form took 1.792444ms
+2025/06/01 16:25:31 [INFO] 2025-06-01 16:25:31 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/06/01 16:25:31 [INFO] 2025-06-01 16:25:31 CDT form.go:85 - Form values received: map[csrf_token:[/0VjSe5Da7fbUunjWsePQg/fWZrufaMX/R4aIvsAYtc=] email:[robin@pooh.net] event:[spring-festival] form_type:[event] full_name:[Christopher Robin] hidden_field:[] school:[shady-brook] student_1_grade:[K] student_1_name:[Winnie the Pooh] student_2_grade:[3] student_2_name:[Willis Pooh] student_3_grade:[5] student_3_name:[Peter Pooh] student_count:[3]]
+2025/06/01 16:25:31 [INFO] 2025-06-01 16:25:31 CDT form.go:57 - Stat update: total_submissions = 3
+2025/06/01 16:25:31 [ERROR] 2025-06-01 16:25:31 CDT logger.go:127 - HTTP 403 error for POST /submit-form from 127.0.0.1: missing or invalid CSRF token
+2025/06/01 16:25:31 [INFO] 2025-06-01 16:25:31 CDT form.go:57 - Stat update: csrf_failures = 1
+2025/06/01 16:25:31 [INFO] 2025-06-01 16:25:31 CDT main.go:212 - POST /api/submit-form took 569.189µs
+2025/06/01 16:25:43 [INFO] 2025-06-01 16:25:43 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/01 16:25:43 [INFO] 2025-06-01 16:25:43 CDT main.go:212 - GET /api/csrf-token took 206.286µs
+2025/06/01 16:26:32 [INFO] 2025-06-01 16:26:32 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/06/01 16:26:32 [INFO] 2025-06-01 16:26:32 CDT form.go:85 - Form values received: map[csrf_token:[882td30UnJeiJy0zebtyBRlnRjgDSrVo9EqIuLSEmUY=] email:[robin@pooh.net] event:[spring-festival] form_type:[event] full_name:[Christopher Robin] hidden_field:[] school:[shady-brook] student_1_grade:[K] student_1_name:[Winnie the Pooh] student_2_grade:[2] student_2_name:[Willis Pooh] student_3_grade:[5] student_3_name:[Peter Pooh] student_count:[3]]
+2025/06/01 16:26:32 [INFO] 2025-06-01 16:26:32 CDT form.go:57 - Stat update: total_submissions = 4
+2025/06/01 16:26:32 [INFO] 2025-06-01 16:26:32 CDT form.go:178 - Form event-2025-06-01_16-26-32-yOK3lg accepted and saved successfully
+2025/06/01 16:26:32 [INFO] 2025-06-01 16:26:32 CDT form.go:57 - Stat update: successful_submissions = 2
+2025/06/01 16:26:32 [INFO] 2025-06-01 16:26:32 CDT form.go:382 - Form submitted: type=event, formID=event-2025-06-01_16-26-32-yOK3lg, ip=127.0.0.1, time=2025-06-01 16:26:32
+2025/06/01 16:26:32 [INFO] 2025-06-01 16:26:32 CDT main.go:212 - POST /api/submit-form took 888.232µs
+2025/06/01 16:26:33 [INFO] 2025-06-01 16:26:33 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/01 16:26:33 [ERROR] 2025-06-01 16:26:33 CDT order.go:349 - GetEventByID failed for event-2025-06-01_16-26-32-yOK3lg: SQL logic error: no such column: student_meal_provided (1)
+2025/06/01 16:26:33 [INFO] 2025-06-01 16:26:33 CDT main.go:241 - 404 not found: /api/order-details
+2025/06/01 16:26:33 [INFO] 2025-06-01 16:26:33 CDT main.go:212 - GET /api/order-details took 581.92µs
+2025/06/01 16:29:39 [INFO] 2025-06-01 16:29:39 CDT main.go:166 - Shutdown signal received
+2025/06/01 16:29:39 [INFO] 2025-06-01 16:29:39 CDT main.go:176 - Server shut down gracefully
+2025/06/01 16:29:39 [INFO] 2025-06-01 16:29:39 CDT main.go:180 - Shutdown signal received
+2025/06/01 16:29:39 [INFO] 2025-06-01 16:29:39 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 16:29:39 [INFO] 2025-06-01 16:29:39 CDT main.go:183 - All connections closed. Total requests handled: 12
+2025/06/01 16:29:39 [INFO] 2025-06-01 16:29:39 CDT main.go:184 - Server shut down gracefully
+2025/06/01 16:29:44 [INFO] 2025-06-01 16:29:44 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 16:29:44 [INFO] 2025-06-01 16:29:44 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 16:29:44 [INFO] 2025-06-01 16:29:44 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 16:29:44 [INFO] 2025-06-01 16:29:44 CDT config.go:61 - Running in development environment
+2025/06/01 16:29:44 [INFO] 2025-06-01 16:29:44 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 16:29:44 [INFO] 2025-06-01 16:29:44 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 16:29:44 [INFO] 2025-06-01 16:29:44 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 9h30m15.831086s)
+2025/06/01 16:29:48 [INFO] 2025-06-01 16:29:48 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/01 16:29:48 [ERROR] 2025-06-01 16:29:48 CDT order.go:349 - GetEventByID failed for event-2025-06-01_16-26-32-yOK3lg: SQL logic error: no such column: student_meal_provided (1)
+2025/06/01 16:29:48 [INFO] 2025-06-01 16:29:48 CDT main.go:241 - 404 not found: /api/order-details
+2025/06/01 16:29:48 [INFO] 2025-06-01 16:29:48 CDT main.go:212 - GET /api/order-details took 968.718µs
+2025/06/01 16:36:24 [INFO] 2025-06-01 16:36:24 CDT main.go:166 - Shutdown signal received
+2025/06/01 16:36:24 [INFO] 2025-06-01 16:36:24 CDT main.go:176 - Server shut down gracefully
+2025/06/01 16:36:24 [INFO] 2025-06-01 16:36:24 CDT main.go:180 - Shutdown signal received
+2025/06/01 16:36:24 [INFO] 2025-06-01 16:36:24 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 16:36:24 [INFO] 2025-06-01 16:36:24 CDT main.go:183 - All connections closed. Total requests handled: 1
+2025/06/01 16:36:24 [INFO] 2025-06-01 16:36:24 CDT main.go:184 - Server shut down gracefully
+2025/06/01 16:36:29 [INFO] 2025-06-01 16:36:29 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 16:36:29 [INFO] 2025-06-01 16:36:29 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 16:36:29 [INFO] 2025-06-01 16:36:29 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 16:36:29 [INFO] 2025-06-01 16:36:29 CDT config.go:61 - Running in development environment
+2025/06/01 16:36:29 [INFO] 2025-06-01 16:36:29 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 16:36:29 [INFO] 2025-06-01 16:36:29 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 16:36:29 [INFO] 2025-06-01 16:36:29 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 9h23m30.791747s)
+2025/06/01 16:36:33 [INFO] 2025-06-01 16:36:33 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/01 16:36:33 [ERROR] 2025-06-01 16:36:33 CDT order.go:349 - GetEventByID failed for event-2025-06-01_16-26-32-yOK3lg: SQL logic error: no such column: student_meal_provided (1)
+2025/06/01 16:36:33 [INFO] 2025-06-01 16:36:33 CDT main.go:241 - 404 not found: /api/order-details
+2025/06/01 16:36:33 [INFO] 2025-06-01 16:36:33 CDT main.go:212 - GET /api/order-details took 470.063µs
+2025/06/01 16:42:01 [INFO] 2025-06-01 16:42:01 CDT main.go:166 - Shutdown signal received
+2025/06/01 16:42:01 [INFO] 2025-06-01 16:42:01 CDT main.go:176 - Server shut down gracefully
+2025/06/01 16:42:01 [INFO] 2025-06-01 16:42:01 CDT main.go:180 - Shutdown signal received
+2025/06/01 16:42:01 [INFO] 2025-06-01 16:42:01 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 16:42:01 [INFO] 2025-06-01 16:42:01 CDT main.go:183 - All connections closed. Total requests handled: 1
+2025/06/01 16:42:01 [INFO] 2025-06-01 16:42:01 CDT main.go:184 - Server shut down gracefully
+2025/06/01 16:51:55 [INFO] 2025-06-01 16:51:55 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 16:51:55 [INFO] 2025-06-01 16:51:55 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 16:51:55 [INFO] 2025-06-01 16:51:55 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 16:51:55 [INFO] 2025-06-01 16:51:55 CDT config.go:61 - Running in development environment
+2025/06/01 16:51:55 [INFO] 2025-06-01 16:51:55 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 16:51:55 [INFO] 2025-06-01 16:51:55 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 16:51:55 [INFO] 2025-06-01 16:51:55 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 9h8m4.073644s)
+2025/06/01 17:03:19 [INFO] 2025-06-01 17:03:19 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/01 17:03:19 [WARN] 2025-06-01 17:03:19 CDT order.go:203 - Expired or invalid access token from 127.0.0.1 for formID event-2025-06-01_16-26-32-yOK3lg
+2025/06/01 17:03:19 [INFO] 2025-06-01 17:03:19 CDT main.go:212 - GET /api/order-details took 5.673824ms
+2025/06/01 17:03:34 [INFO] 2025-06-01 17:03:34 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/01 17:03:34 [INFO] 2025-06-01 17:03:34 CDT main.go:212 - GET /api/csrf-token took 1.538635ms
+2025/06/01 17:07:33 [INFO] 2025-06-01 17:07:33 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/06/01 17:07:33 [INFO] 2025-06-01 17:07:33 CDT form.go:85 - Form values received: map[csrf_token:[zH9+Mo5Xrnlbnw/REdSWoaDs9zcQbs2UPhKvYSDWEyo=] email:[robin@pooh.net] event:[spring-festival] form_type:[event] full_name:[Christopher Robin] hidden_field:[] school:[lakewood] student_1_grade:[K] student_1_name:[Winnie the Pooh] student_2_grade:[3] student_2_name:[Willis Pooh] student_3_grade:[5] student_3_name:[Peter Pooh] student_count:[3]]
+2025/06/01 17:07:33 [INFO] 2025-06-01 17:07:33 CDT form.go:57 - Stat update: total_submissions = 1
+2025/06/01 17:07:33 [INFO] 2025-06-01 17:07:33 CDT form.go:178 - Form event-2025-06-01_17-07-33-fa5SJQ accepted and saved successfully
+2025/06/01 17:07:33 [INFO] 2025-06-01 17:07:33 CDT form.go:57 - Stat update: successful_submissions = 1
+2025/06/01 17:07:33 [INFO] 2025-06-01 17:07:33 CDT form.go:382 - Form submitted: type=event, formID=event-2025-06-01_17-07-33-fa5SJQ, ip=127.0.0.1, time=2025-06-01 17:07:33
+2025/06/01 17:07:33 [INFO] 2025-06-01 17:07:33 CDT main.go:212 - POST /api/submit-form took 16.18493ms
+2025/06/01 17:07:34 [INFO] 2025-06-01 17:07:34 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/01 17:07:34 [INFO] 2025-06-01 17:07:34 CDT order.go:405 - Event order details accessed for form event-2025-06-01_17-07-33-fa5SJQ
+2025/06/01 17:07:34 [INFO] 2025-06-01 17:07:34 CDT main.go:212 - GET /api/order-details took 19.569657ms
+2025/06/01 17:21:55 [INFO] 2025-06-01 17:21:55 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/01 17:24:35 [INFO] 2025-06-01 17:24:35 CDT main.go:166 - Shutdown signal received
+2025/06/01 17:24:35 [INFO] 2025-06-01 17:24:35 CDT main.go:176 - Server shut down gracefully
+2025/06/01 17:24:35 [INFO] 2025-06-01 17:24:35 CDT main.go:180 - Shutdown signal received
+2025/06/01 17:24:35 [INFO] 2025-06-01 17:24:35 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 17:24:35 [INFO] 2025-06-01 17:24:35 CDT main.go:183 - All connections closed. Total requests handled: 4
+2025/06/01 17:24:35 [INFO] 2025-06-01 17:24:35 CDT main.go:184 - Server shut down gracefully
+2025/06/01 17:24:39 [INFO] 2025-06-01 17:24:39 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 17:24:39 [INFO] 2025-06-01 17:24:39 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 17:24:39 [INFO] 2025-06-01 17:24:39 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 17:24:39 [INFO] 2025-06-01 17:24:39 CDT config.go:61 - Running in development environment
+2025/06/01 17:24:39 [INFO] 2025-06-01 17:24:39 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 17:24:39 [INFO] 2025-06-01 17:24:39 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 8h35m20.346281s)
+2025/06/01 17:24:39 [INFO] 2025-06-01 17:24:39 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 17:24:42 [INFO] 2025-06-01 17:24:42 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/01 17:24:42 [INFO] 2025-06-01 17:24:42 CDT order.go:407 - Event order details accessed for form event-2025-06-01_17-07-33-fa5SJQ
+2025/06/01 17:24:42 [INFO] 2025-06-01 17:24:42 CDT main.go:212 - GET /api/order-details took 4.78417ms
+2025/06/01 17:26:25 [INFO] 2025-06-01 17:26:25 CDT main.go:166 - Shutdown signal received
+2025/06/01 17:26:25 [INFO] 2025-06-01 17:26:25 CDT main.go:176 - Server shut down gracefully
+2025/06/01 17:26:25 [INFO] 2025-06-01 17:26:25 CDT main.go:180 - Shutdown signal received
+2025/06/01 17:26:25 [INFO] 2025-06-01 17:26:25 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 17:26:25 [INFO] 2025-06-01 17:26:25 CDT main.go:183 - All connections closed. Total requests handled: 1
+2025/06/01 17:26:25 [INFO] 2025-06-01 17:26:25 CDT main.go:184 - Server shut down gracefully
+2025/06/01 17:26:29 [INFO] 2025-06-01 17:26:29 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 17:26:29 [INFO] 2025-06-01 17:26:29 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 17:26:29 [INFO] 2025-06-01 17:26:29 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 17:26:29 [INFO] 2025-06-01 17:26:29 CDT config.go:61 - Running in development environment
+2025/06/01 17:26:29 [INFO] 2025-06-01 17:26:29 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 17:26:29 [INFO] 2025-06-01 17:26:29 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 8h33m30.675987s)
+2025/06/01 17:26:29 [INFO] 2025-06-01 17:26:29 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 17:26:31 [INFO] 2025-06-01 17:26:31 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/01 17:26:31 [INFO] 2025-06-01 17:26:31 CDT order.go:413 - Event order details accessed for form event-2025-06-01_17-07-33-fa5SJQ
+2025/06/01 17:26:31 [INFO] 2025-06-01 17:26:31 CDT main.go:212 - GET /api/order-details took 3.55952ms
+2025/06/01 17:33:55 [INFO] 2025-06-01 17:33:55 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/01 17:33:55 [INFO] 2025-06-01 17:33:55 CDT order.go:413 - Event order details accessed for form event-2025-06-01_17-07-33-fa5SJQ
+2025/06/01 17:33:55 [INFO] 2025-06-01 17:33:55 CDT main.go:212 - GET /api/order-details took 2.551805ms
+2025/06/01 17:36:45 [INFO] 2025-06-01 17:36:45 CDT main.go:166 - Shutdown signal received
+2025/06/01 17:36:45 [INFO] 2025-06-01 17:36:45 CDT main.go:176 - Server shut down gracefully
+2025/06/01 17:36:45 [INFO] 2025-06-01 17:36:45 CDT main.go:180 - Shutdown signal received
+2025/06/01 17:36:45 [INFO] 2025-06-01 17:36:45 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 17:36:45 [INFO] 2025-06-01 17:36:45 CDT main.go:183 - All connections closed. Total requests handled: 2
+2025/06/01 17:36:45 [INFO] 2025-06-01 17:36:45 CDT main.go:184 - Server shut down gracefully
+2025/06/01 17:36:49 [INFO] 2025-06-01 17:36:49 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 17:36:49 [INFO] 2025-06-01 17:36:49 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 17:36:49 [INFO] 2025-06-01 17:36:49 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 17:36:49 [INFO] 2025-06-01 17:36:49 CDT config.go:61 - Running in development environment
+2025/06/01 17:36:49 [INFO] 2025-06-01 17:36:49 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 17:36:49 [INFO] 2025-06-01 17:36:49 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 17:36:49 [INFO] 2025-06-01 17:36:49 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 8h23m10.258874s)
+2025/06/01 17:36:50 [INFO] 2025-06-01 17:36:50 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/01 17:36:50 [INFO] 2025-06-01 17:36:50 CDT order.go:413 - Event order details accessed for form event-2025-06-01_17-07-33-fa5SJQ
+2025/06/01 17:36:50 [INFO] 2025-06-01 17:36:50 CDT main.go:212 - GET /api/order-details took 6.886084ms
+2025/06/01 17:37:50 [INFO] 2025-06-01 17:37:50 CDT main.go:166 - Shutdown signal received
+2025/06/01 17:37:50 [INFO] 2025-06-01 17:37:50 CDT main.go:176 - Server shut down gracefully
+2025/06/01 17:37:50 [INFO] 2025-06-01 17:37:50 CDT main.go:180 - Shutdown signal received
+2025/06/01 17:37:50 [INFO] 2025-06-01 17:37:50 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 17:37:50 [INFO] 2025-06-01 17:37:50 CDT main.go:183 - All connections closed. Total requests handled: 1
+2025/06/01 17:37:50 [INFO] 2025-06-01 17:37:50 CDT main.go:184 - Server shut down gracefully
+2025/06/01 17:37:53 [INFO] 2025-06-01 17:37:53 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 17:37:53 [INFO] 2025-06-01 17:37:53 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 17:37:53 [INFO] 2025-06-01 17:37:53 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 17:37:53 [INFO] 2025-06-01 17:37:53 CDT config.go:61 - Running in development environment
+2025/06/01 17:37:53 [INFO] 2025-06-01 17:37:53 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 17:37:53 [INFO] 2025-06-01 17:37:53 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 8h22m6.70404s)
+2025/06/01 17:37:53 [INFO] 2025-06-01 17:37:53 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 17:37:55 [INFO] 2025-06-01 17:37:55 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/01 17:37:55 [WARN] 2025-06-01 17:37:55 CDT order.go:211 - Expired or invalid access token from 127.0.0.1 for formID event-2025-06-01_17-07-33-fa5SJQ
+2025/06/01 17:37:55 [INFO] 2025-06-01 17:37:55 CDT main.go:212 - GET /api/order-details took 662.954µs
+2025/06/01 18:07:53 [INFO] 2025-06-01 18:07:53 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/01 20:08:53 [INFO] 2025-06-01 20:08:53 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/01 20:49:12 [INFO] 2025-06-01 20:49:12 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/01 20:49:12 [INFO] 2025-06-01 20:49:12 CDT main.go:212 - GET /api/csrf-token took 1.462058ms
+2025/06/01 20:50:03 [INFO] 2025-06-01 20:50:03 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/06/01 20:50:03 [INFO] 2025-06-01 20:50:03 CDT form.go:85 - Form values received: map[csrf_token:[FShY0fGnciGbrRDtXx7UBXaAAIQ8/uuqqo8ANU20rXE=] email:[peter@rabbits.net] event:[spring-festival] form_type:[event] full_name:[Peter Rabbit] hidden_field:[] school:[hurst-hills-fish] student_1_grade:[1] student_1_name:[Adam Rabbit] student_2_grade:[4] student_2_name:[Roger Rabbit] student_count:[2]]
+2025/06/01 20:50:03 [INFO] 2025-06-01 20:50:03 CDT form.go:57 - Stat update: total_submissions = 1
+2025/06/01 20:50:03 [INFO] 2025-06-01 20:50:03 CDT form.go:178 - Form event-2025-06-01_20-50-03-NZK7tA accepted and saved successfully
+2025/06/01 20:50:03 [INFO] 2025-06-01 20:50:03 CDT form.go:57 - Stat update: successful_submissions = 1
+2025/06/01 20:50:03 [INFO] 2025-06-01 20:50:03 CDT form.go:382 - Form submitted: type=event, formID=event-2025-06-01_20-50-03-NZK7tA, ip=127.0.0.1, time=2025-06-01 20:50:03
+2025/06/01 20:50:03 [INFO] 2025-06-01 20:50:03 CDT main.go:212 - POST /api/submit-form took 15.222229ms
+2025/06/01 20:50:03 [INFO] 2025-06-01 20:50:03 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/01 20:50:03 [INFO] 2025-06-01 20:50:03 CDT order.go:413 - Event order details accessed for form event-2025-06-01_20-50-03-NZK7tA
+2025/06/01 20:50:03 [INFO] 2025-06-01 20:50:03 CDT main.go:212 - GET /api/order-details took 48.751674ms
+2025/06/01 20:50:31 [INFO] 2025-06-01 20:50:31 CDT logger.go:122 - HTTP POST /save-event-payment from 127.0.0.1
+2025/06/01 20:50:31 [INFO] 2025-06-01 20:50:31 CDT payment.go:933 - Event payment data saved for event-2025-06-01_20-50-03-NZK7tA: Total=$92.29
+2025/06/01 20:50:31 [INFO] 2025-06-01 20:50:31 CDT main.go:212 - POST /api/save-event-payment took 2.504318ms
+2025/06/01 20:50:31 [INFO] 2025-06-01 20:50:31 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/01 20:50:31 [INFO] 2025-06-01 20:50:31 CDT order.go:413 - Event order details accessed for form event-2025-06-01_20-50-03-NZK7tA
+2025/06/01 20:50:31 [INFO] 2025-06-01 20:50:31 CDT main.go:212 - POST /api/order-details took 1.137822ms
+2025/06/01 20:50:31 [INFO] 2025-06-01 20:50:31 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/01 20:50:31 [INFO] 2025-06-01 20:50:31 CDT order.go:413 - Event order details accessed for form event-2025-06-01_20-50-03-NZK7tA
+2025/06/01 20:50:31 [ERROR] 2025-06-01 20:50:31 CDT order.go:420 - Failed to render event order summary template: template: event_order_summary.html.tmpl:97:69: executing "event_order_summary.html.tmpl" at <.ProcessingFee>: wrong type for value; expected float64; got string
+2025/06/01 20:50:31 [INFO] 2025-06-01 20:50:31 CDT main.go:212 - POST /api/order-details took 5.008222ms
+2025/06/01 20:58:45 [INFO] 2025-06-01 20:58:45 CDT main.go:166 - Shutdown signal received
+2025/06/01 20:58:45 [INFO] 2025-06-01 20:58:45 CDT main.go:176 - Server shut down gracefully
+2025/06/01 20:58:45 [INFO] 2025-06-01 20:58:45 CDT main.go:180 - Shutdown signal received
+2025/06/01 20:58:45 [INFO] 2025-06-01 20:58:45 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 20:58:45 [INFO] 2025-06-01 20:58:45 CDT main.go:183 - All connections closed. Total requests handled: 7
+2025/06/01 20:58:45 [INFO] 2025-06-01 20:58:45 CDT main.go:184 - Server shut down gracefully
+2025/06/01 20:58:50 [INFO] 2025-06-01 20:58:50 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 20:58:50 [INFO] 2025-06-01 20:58:50 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 20:58:50 [INFO] 2025-06-01 20:58:50 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 20:58:50 [INFO] 2025-06-01 20:58:50 CDT config.go:61 - Running in development environment
+2025/06/01 20:58:50 [INFO] 2025-06-01 20:58:50 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 20:58:50 [INFO] 2025-06-01 20:58:50 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 5h1m9.65164s)
+2025/06/01 20:58:50 [INFO] 2025-06-01 20:58:50 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 20:58:54 [INFO] 2025-06-01 20:58:54 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/01 20:58:54 [INFO] 2025-06-01 20:58:54 CDT order.go:413 - Event order details accessed for form event-2025-06-01_20-50-03-NZK7tA
+2025/06/01 20:58:54 [INFO] 2025-06-01 20:58:54 CDT main.go:212 - POST /api/order-details took 3.123936ms
+2025/06/01 21:03:38 [INFO] 2025-06-01 21:03:38 CDT main.go:166 - Shutdown signal received
+2025/06/01 21:03:38 [INFO] 2025-06-01 21:03:38 CDT main.go:176 - Server shut down gracefully
+2025/06/01 21:03:38 [INFO] 2025-06-01 21:03:38 CDT main.go:180 - Shutdown signal received
+2025/06/01 21:03:38 [INFO] 2025-06-01 21:03:38 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 21:03:38 [INFO] 2025-06-01 21:03:38 CDT main.go:183 - All connections closed. Total requests handled: 1
+2025/06/01 21:03:38 [INFO] 2025-06-01 21:03:38 CDT main.go:184 - Server shut down gracefully
+2025/06/01 21:05:45 [INFO] 2025-06-01 21:05:45 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 21:05:45 [INFO] 2025-06-01 21:05:45 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 21:05:45 [INFO] 2025-06-01 21:05:45 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 21:05:45 [INFO] 2025-06-01 21:05:45 CDT config.go:61 - Running in development environment
+2025/06/01 21:05:45 [INFO] 2025-06-01 21:05:45 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 21:05:45 [INFO] 2025-06-01 21:05:45 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 4h54m14.387803s)
+2025/06/01 21:05:45 [INFO] 2025-06-01 21:05:45 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 21:05:51 [INFO] 2025-06-01 21:05:51 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/01 21:05:51 [INFO] 2025-06-01 21:05:51 CDT order.go:429 - Event order details accessed for form event-2025-06-01_20-50-03-NZK7tA
+2025/06/01 21:05:51 [INFO] 2025-06-01 21:05:51 CDT main.go:212 - POST /api/order-details took 2.583774ms
+2025/06/01 21:06:18 [INFO] 2025-06-01 21:06:18 CDT payment.go:358 - Creating PayPal order for event-2025-06-01_20-50-03-NZK7tA (event): 92.29
+2025/06/01 21:06:18 [INFO] 2025-06-01 21:06:18 CDT payment.go:135 - Requesting new PayPal access token
+2025/06/01 21:06:19 [INFO] 2025-06-01 21:06:19 CDT payment.go:168 - Fetched and cached new PayPal access token (expires at 2025-06-02 06:05:19.428667 -0500 CDT m=+32373.837582772)
+2025/06/01 21:06:19 [INFO] 2025-06-01 21:06:19 CDT payment.go:228 - Creating PayPal order
+2025/06/01 21:06:20 [INFO] 2025-06-01 21:06:20 CDT payment.go:250 - Successfully created PayPal order
+2025/06/01 21:06:20 [INFO] 2025-06-01 21:06:20 CDT payment.go:411 - PayPal order 97D84789690340715 created and stored for event-2025-06-01_20-50-03-NZK7tA (event)
+2025/06/01 21:06:20 [INFO] 2025-06-01 21:06:20 CDT main.go:212 - POST /api/create-order took 1.363651975s
+2025/06/01 21:06:42 [INFO] 2025-06-01 21:06:42 CDT logger.go:122 - HTTP POST /capture-order from 127.0.0.1
+2025/06/01 21:06:42 [INFO] 2025-06-01 21:06:42 CDT payment.go:107 - Using cached PayPal access token (expires at 2025-06-02 06:05:19.428667 -0500 CDT m=+32373.837582772)
+2025/06/01 21:06:43 [INFO] 2025-06-01 21:06:43 CDT payment.go:571 - PayPal capture confirmed successful for event-2025-06-01_20-50-03-NZK7tA (event): status=COMPLETED
+2025/06/01 21:06:43 [INFO] 2025-06-01 21:06:43 CDT payment.go:590 - PayPal order 97D84789690340715 captured successfully for event-2025-06-01_20-50-03-NZK7tA (event)
+2025/06/01 21:06:43 [INFO] 2025-06-01 21:06:43 CDT main.go:212 - POST /api/capture-order took 994.605224ms
+2025/06/01 21:06:44 [INFO] 2025-06-01 21:06:44 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/06/01 21:06:44 [WARN] 2025-06-01 21:06:44 CDT order.go:779 - Expired or invalid event access token from 127.0.0.1 for formID event-2025-06-01_20-50-03-NZK7tA
+2025/06/01 21:06:44 [INFO] 2025-06-01 21:06:44 CDT main.go:212 - POST /api/success took 318.048µs
+2025/06/01 21:26:14 [INFO] 2025-06-01 21:26:14 CDT main.go:166 - Shutdown signal received
+2025/06/01 21:26:14 [INFO] 2025-06-01 21:26:14 CDT main.go:176 - Server shut down gracefully
+2025/06/01 21:26:14 [INFO] 2025-06-01 21:26:14 CDT main.go:180 - Shutdown signal received
+2025/06/01 21:26:14 [INFO] 2025-06-01 21:26:14 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 21:26:14 [INFO] 2025-06-01 21:26:14 CDT main.go:183 - All connections closed. Total requests handled: 4
+2025/06/01 21:26:14 [INFO] 2025-06-01 21:26:14 CDT main.go:184 - Server shut down gracefully
+2025/06/01 21:26:18 [INFO] 2025-06-01 21:26:18 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 21:26:18 [INFO] 2025-06-01 21:26:18 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 21:26:18 [INFO] 2025-06-01 21:26:18 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 21:26:18 [INFO] 2025-06-01 21:26:18 CDT config.go:61 - Running in development environment
+2025/06/01 21:26:18 [INFO] 2025-06-01 21:26:18 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 21:26:18 [INFO] 2025-06-01 21:26:18 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 4h33m41.32567s)
+2025/06/01 21:26:18 [INFO] 2025-06-01 21:26:18 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 21:26:25 [INFO] 2025-06-01 21:26:25 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/06/01 21:26:25 [WARN] 2025-06-01 21:26:25 CDT order.go:780 - Expired or invalid event access token from 127.0.0.1 for formID event-2025-06-01_20-50-03-NZK7tA
+2025/06/01 21:26:25 [INFO] 2025-06-01 21:26:25 CDT main.go:212 - POST /api/success took 533.591µs
+2025/06/01 21:29:11 [INFO] 2025-06-01 21:29:11 CDT main.go:166 - Shutdown signal received
+2025/06/01 21:29:11 [INFO] 2025-06-01 21:29:11 CDT main.go:176 - Server shut down gracefully
+2025/06/01 21:29:11 [INFO] 2025-06-01 21:29:11 CDT main.go:180 - Shutdown signal received
+2025/06/01 21:29:11 [INFO] 2025-06-01 21:29:11 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 21:29:11 [INFO] 2025-06-01 21:29:11 CDT main.go:183 - All connections closed. Total requests handled: 1
+2025/06/01 21:29:11 [INFO] 2025-06-01 21:29:11 CDT main.go:184 - Server shut down gracefully
+2025/06/01 21:29:15 [INFO] 2025-06-01 21:29:15 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 21:29:15 [INFO] 2025-06-01 21:29:15 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 21:29:15 [INFO] 2025-06-01 21:29:15 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 21:29:15 [INFO] 2025-06-01 21:29:15 CDT config.go:61 - Running in development environment
+2025/06/01 21:29:15 [INFO] 2025-06-01 21:29:15 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 21:29:15 [INFO] 2025-06-01 21:29:15 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 4h30m44.248721s)
+2025/06/01 21:29:15 [INFO] 2025-06-01 21:29:15 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 21:29:20 [INFO] 2025-06-01 21:29:20 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/06/01 21:29:20 [WARN] 2025-06-01 21:29:20 CDT order.go:780 - Expired or invalid event access token from 127.0.0.1 for formID event-2025-06-01_20-50-03-NZK7tA
+2025/06/01 21:29:20 [INFO] 2025-06-01 21:29:20 CDT main.go:212 - POST /api/success took 609.262µs
+2025/06/01 21:31:55 [INFO] 2025-06-01 21:31:55 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/06/01 21:31:55 [WARN] 2025-06-01 21:31:55 CDT order.go:780 - Expired or invalid event access token from 127.0.0.1 for formID event-2025-06-01_20-50-03-NZK7tA
+2025/06/01 21:31:55 [INFO] 2025-06-01 21:31:55 CDT main.go:212 - POST /api/success took 2.891216ms
+2025/06/01 21:32:15 [INFO] 2025-06-01 21:32:15 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/01 21:32:15 [INFO] 2025-06-01 21:32:15 CDT main.go:212 - GET /api/csrf-token took 501.813µs
+2025/06/01 21:33:05 [INFO] 2025-06-01 21:33:05 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/01 21:33:05 [INFO] 2025-06-01 21:33:05 CDT main.go:212 - GET /api/csrf-token took 1.780157ms
+2025/06/01 21:34:34 [INFO] 2025-06-01 21:34:34 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/06/01 21:34:34 [INFO] 2025-06-01 21:34:34 CDT form.go:85 - Form values received: map[csrf_token:[M3TcryFEGTGDKI6+WoMdwhbifHeJefaK5BCfZ/gTA8M=] email:[wolfsweat@icloud.com] event:[spring-festival] form_type:[event] full_name:[Fern Phineas] hidden_field:[] school:[north-euless] student_1_grade:[K] student_1_name:[Tim Phineas] student_2_grade:[2] student_2_name:[Tom Phineas] student_3_grade:[2] student_3_name:[Roger Phineas] student_4_grade:[5] student_4_name:[William Phineas] student_count:[4]]
+2025/06/01 21:34:34 [INFO] 2025-06-01 21:34:34 CDT form.go:57 - Stat update: total_submissions = 1
+2025/06/01 21:34:34 [INFO] 2025-06-01 21:34:34 CDT form.go:178 - Form event-2025-06-01_21-34-34-x8Gdrg accepted and saved successfully
+2025/06/01 21:34:34 [INFO] 2025-06-01 21:34:34 CDT form.go:57 - Stat update: successful_submissions = 1
+2025/06/01 21:34:34 [INFO] 2025-06-01 21:34:34 CDT form.go:382 - Form submitted: type=event, formID=event-2025-06-01_21-34-34-x8Gdrg, ip=127.0.0.1, time=2025-06-01 21:34:34
+2025/06/01 21:34:34 [INFO] 2025-06-01 21:34:34 CDT main.go:212 - POST /api/submit-form took 4.06171ms
+2025/06/01 21:34:35 [INFO] 2025-06-01 21:34:35 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/01 21:34:35 [INFO] 2025-06-01 21:34:35 CDT order.go:429 - Event order details accessed for form event-2025-06-01_21-34-34-x8Gdrg
+2025/06/01 21:34:35 [INFO] 2025-06-01 21:34:35 CDT main.go:212 - GET /api/order-details took 3.742208ms
+2025/06/01 21:38:56 [INFO] 2025-06-01 21:38:56 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/01 21:38:56 [INFO] 2025-06-01 21:38:56 CDT order.go:429 - Event order details accessed for form event-2025-06-01_21-34-34-x8Gdrg
+2025/06/01 21:38:56 [INFO] 2025-06-01 21:38:56 CDT main.go:212 - GET /api/order-details took 1.860913ms
+2025/06/01 21:39:51 [INFO] 2025-06-01 21:39:51 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/06/01 21:39:51 [INFO] 2025-06-01 21:39:51 CDT order.go:429 - Event order details accessed for form event-2025-06-01_21-34-34-x8Gdrg
+2025/06/01 21:39:51 [INFO] 2025-06-01 21:39:51 CDT main.go:212 - GET /api/order-details took 2.543386ms
+2025/06/01 21:40:26 [INFO] 2025-06-01 21:40:26 CDT logger.go:122 - HTTP POST /save-event-payment from 127.0.0.1
+2025/06/01 21:40:26 [INFO] 2025-06-01 21:40:26 CDT payment.go:933 - Event payment data saved for event-2025-06-01_21-34-34-x8Gdrg: Total=$180.01
+2025/06/01 21:40:26 [INFO] 2025-06-01 21:40:26 CDT main.go:212 - POST /api/save-event-payment took 1.429858ms
+2025/06/01 21:40:26 [INFO] 2025-06-01 21:40:26 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/01 21:40:26 [INFO] 2025-06-01 21:40:26 CDT order.go:429 - Event order details accessed for form event-2025-06-01_21-34-34-x8Gdrg
+2025/06/01 21:40:26 [INFO] 2025-06-01 21:40:26 CDT main.go:212 - POST /api/order-details took 612.22µs
+2025/06/01 21:40:26 [INFO] 2025-06-01 21:40:26 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/01 21:40:26 [INFO] 2025-06-01 21:40:26 CDT order.go:429 - Event order details accessed for form event-2025-06-01_21-34-34-x8Gdrg
+2025/06/01 21:40:26 [INFO] 2025-06-01 21:40:26 CDT main.go:212 - POST /api/order-details took 3.384928ms
+2025/06/01 21:41:31 [INFO] 2025-06-01 21:41:31 CDT main.go:166 - Shutdown signal received
+2025/06/01 21:41:31 [INFO] 2025-06-01 21:41:31 CDT main.go:176 - Server shut down gracefully
+2025/06/01 21:41:31 [INFO] 2025-06-01 21:41:31 CDT main.go:180 - Shutdown signal received
+2025/06/01 21:41:31 [INFO] 2025-06-01 21:41:31 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 21:41:31 [INFO] 2025-06-01 21:41:31 CDT main.go:183 - All connections closed. Total requests handled: 11
+2025/06/01 21:41:31 [INFO] 2025-06-01 21:41:31 CDT main.go:184 - Server shut down gracefully
+2025/06/01 21:41:35 [INFO] 2025-06-01 21:41:35 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 21:41:35 [INFO] 2025-06-01 21:41:35 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 21:41:35 [INFO] 2025-06-01 21:41:35 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 21:41:35 [INFO] 2025-06-01 21:41:35 CDT config.go:61 - Running in development environment
+2025/06/01 21:41:35 [INFO] 2025-06-01 21:41:35 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 21:41:35 [INFO] 2025-06-01 21:41:35 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 21:41:35 [INFO] 2025-06-01 21:41:35 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 4h18m24.751007s)
+2025/06/01 21:41:39 [INFO] 2025-06-01 21:41:39 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/01 21:41:39 [INFO] 2025-06-01 21:41:39 CDT order.go:429 - Event order details accessed for form event-2025-06-01_21-34-34-x8Gdrg
+2025/06/01 21:41:39 [INFO] 2025-06-01 21:41:39 CDT main.go:212 - POST /api/order-details took 3.304432ms
+2025/06/01 21:45:49 [INFO] 2025-06-01 21:45:49 CDT main.go:166 - Shutdown signal received
+2025/06/01 21:45:49 [INFO] 2025-06-01 21:45:49 CDT main.go:176 - Server shut down gracefully
+2025/06/01 21:45:49 [INFO] 2025-06-01 21:45:49 CDT main.go:180 - Shutdown signal received
+2025/06/01 21:45:49 [INFO] 2025-06-01 21:45:49 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 21:45:49 [INFO] 2025-06-01 21:45:49 CDT main.go:183 - All connections closed. Total requests handled: 1
+2025/06/01 21:45:49 [INFO] 2025-06-01 21:45:49 CDT main.go:184 - Server shut down gracefully
+2025/06/01 21:45:53 [INFO] 2025-06-01 21:45:53 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 21:45:53 [INFO] 2025-06-01 21:45:53 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 21:45:53 [INFO] 2025-06-01 21:45:53 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 21:45:53 [INFO] 2025-06-01 21:45:53 CDT config.go:61 - Running in development environment
+2025/06/01 21:45:53 [INFO] 2025-06-01 21:45:53 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 21:45:53 [INFO] 2025-06-01 21:45:53 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 4h14m6.517598s)
+2025/06/01 21:45:53 [INFO] 2025-06-01 21:45:53 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 21:45:58 [INFO] 2025-06-01 21:45:58 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/01 21:45:58 [INFO] 2025-06-01 21:45:58 CDT order.go:429 - Event order details accessed for form event-2025-06-01_21-34-34-x8Gdrg
+2025/06/01 21:45:58 [INFO] 2025-06-01 21:45:58 CDT main.go:212 - POST /api/order-details took 3.086594ms
+2025/06/01 21:49:43 [INFO] 2025-06-01 21:49:43 CDT main.go:166 - Shutdown signal received
+2025/06/01 21:49:43 [INFO] 2025-06-01 21:49:43 CDT main.go:176 - Server shut down gracefully
+2025/06/01 21:49:43 [INFO] 2025-06-01 21:49:43 CDT main.go:180 - Shutdown signal received
+2025/06/01 21:49:43 [INFO] 2025-06-01 21:49:43 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 21:49:43 [INFO] 2025-06-01 21:49:43 CDT main.go:183 - All connections closed. Total requests handled: 1
+2025/06/01 21:49:43 [INFO] 2025-06-01 21:49:43 CDT main.go:184 - Server shut down gracefully
+2025/06/01 21:49:50 [INFO] 2025-06-01 21:49:50 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 21:49:50 [INFO] 2025-06-01 21:49:50 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 21:49:50 [INFO] 2025-06-01 21:49:50 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 21:49:50 [INFO] 2025-06-01 21:49:50 CDT config.go:61 - Running in development environment
+2025/06/01 21:49:50 [INFO] 2025-06-01 21:49:50 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 21:49:50 [INFO] 2025-06-01 21:49:50 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 21:49:50 [INFO] 2025-06-01 21:49:50 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 4h10m9.808165s)
+2025/06/01 21:53:18 [INFO] 2025-06-01 21:53:18 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/01 21:53:18 [INFO] 2025-06-01 21:53:18 CDT order.go:429 - Event order details accessed for form event-2025-06-01_21-34-34-x8Gdrg
+2025/06/01 21:53:18 [INFO] 2025-06-01 21:53:18 CDT main.go:212 - POST /api/order-details took 3.038079ms
+2025/06/01 21:56:19 [INFO] 2025-06-01 21:56:19 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/01 21:56:19 [INFO] 2025-06-01 21:56:19 CDT order.go:429 - Event order details accessed for form event-2025-06-01_21-34-34-x8Gdrg
+2025/06/01 21:56:19 [INFO] 2025-06-01 21:56:19 CDT main.go:212 - POST /api/order-details took 1.71402ms
+2025/06/01 21:57:08 [INFO] 2025-06-01 21:57:08 CDT main.go:166 - Shutdown signal received
+2025/06/01 21:57:08 [INFO] 2025-06-01 21:57:08 CDT main.go:176 - Server shut down gracefully
+2025/06/01 21:57:08 [INFO] 2025-06-01 21:57:08 CDT main.go:180 - Shutdown signal received
+2025/06/01 21:57:08 [INFO] 2025-06-01 21:57:08 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 21:57:08 [INFO] 2025-06-01 21:57:08 CDT main.go:183 - All connections closed. Total requests handled: 2
+2025/06/01 21:57:08 [INFO] 2025-06-01 21:57:08 CDT main.go:184 - Server shut down gracefully
+2025/06/01 21:57:12 [INFO] 2025-06-01 21:57:12 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 21:57:12 [INFO] 2025-06-01 21:57:12 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 21:57:12 [INFO] 2025-06-01 21:57:12 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 21:57:12 [INFO] 2025-06-01 21:57:12 CDT config.go:61 - Running in development environment
+2025/06/01 21:57:12 [INFO] 2025-06-01 21:57:12 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 21:57:12 [INFO] 2025-06-01 21:57:12 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 21:57:12 [INFO] 2025-06-01 21:57:12 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 4h2m47.711847s)
+2025/06/01 21:57:16 [INFO] 2025-06-01 21:57:16 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/01 21:57:16 [INFO] 2025-06-01 21:57:16 CDT order.go:429 - Event order details accessed for form event-2025-06-01_21-34-34-x8Gdrg
+2025/06/01 21:57:16 [INFO] 2025-06-01 21:57:16 CDT main.go:212 - POST /api/order-details took 5.271494ms
+2025/06/01 21:59:23 [INFO] 2025-06-01 21:59:23 CDT main.go:166 - Shutdown signal received
+2025/06/01 21:59:23 [INFO] 2025-06-01 21:59:23 CDT main.go:176 - Server shut down gracefully
+2025/06/01 21:59:23 [INFO] 2025-06-01 21:59:23 CDT main.go:180 - Shutdown signal received
+2025/06/01 21:59:23 [INFO] 2025-06-01 21:59:23 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 21:59:23 [INFO] 2025-06-01 21:59:23 CDT main.go:183 - All connections closed. Total requests handled: 1
+2025/06/01 21:59:23 [INFO] 2025-06-01 21:59:23 CDT main.go:184 - Server shut down gracefully
+2025/06/01 21:59:25 [INFO] 2025-06-01 21:59:25 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 21:59:25 [INFO] 2025-06-01 21:59:25 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 21:59:25 [INFO] 2025-06-01 21:59:25 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 21:59:25 [INFO] 2025-06-01 21:59:25 CDT config.go:61 - Running in development environment
+2025/06/01 21:59:25 [INFO] 2025-06-01 21:59:25 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 21:59:25 [INFO] 2025-06-01 21:59:25 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 4h0m34.326007s)
+2025/06/01 21:59:25 [INFO] 2025-06-01 21:59:25 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 21:59:29 [INFO] 2025-06-01 21:59:29 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/01 21:59:29 [INFO] 2025-06-01 21:59:29 CDT order.go:429 - Event order details accessed for form event-2025-06-01_21-34-34-x8Gdrg
+2025/06/01 21:59:29 [INFO] 2025-06-01 21:59:29 CDT main.go:212 - POST /api/order-details took 3.325046ms
+2025/06/01 22:00:35 [INFO] 2025-06-01 22:00:35 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/01 22:00:35 [INFO] 2025-06-01 22:00:35 CDT order.go:429 - Event order details accessed for form event-2025-06-01_21-34-34-x8Gdrg
+2025/06/01 22:00:35 [INFO] 2025-06-01 22:00:35 CDT main.go:212 - POST /api/order-details took 2.25037ms
+2025/06/01 22:01:09 [INFO] 2025-06-01 22:01:09 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/01 22:01:09 [INFO] 2025-06-01 22:01:09 CDT order.go:429 - Event order details accessed for form event-2025-06-01_21-34-34-x8Gdrg
+2025/06/01 22:01:09 [INFO] 2025-06-01 22:01:09 CDT main.go:212 - POST /api/order-details took 2.505852ms
+2025/06/01 22:02:30 [INFO] 2025-06-01 22:02:30 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/01 22:02:30 [INFO] 2025-06-01 22:02:30 CDT order.go:429 - Event order details accessed for form event-2025-06-01_21-34-34-x8Gdrg
+2025/06/01 22:02:30 [INFO] 2025-06-01 22:02:30 CDT main.go:212 - POST /api/order-details took 1.269304ms
+2025/06/01 22:03:02 [INFO] 2025-06-01 22:03:02 CDT payment.go:358 - Creating PayPal order for event-2025-06-01_21-34-34-x8Gdrg (event): 180.01
+2025/06/01 22:03:02 [INFO] 2025-06-01 22:03:02 CDT payment.go:135 - Requesting new PayPal access token
+2025/06/01 22:03:03 [INFO] 2025-06-01 22:03:03 CDT payment.go:168 - Fetched and cached new PayPal access token (expires at 2025-06-02 07:02:03.191002 -0500 CDT m=+32557.532681416)
+2025/06/01 22:03:03 [INFO] 2025-06-01 22:03:03 CDT payment.go:228 - Creating PayPal order
+2025/06/01 22:03:04 [INFO] 2025-06-01 22:03:04 CDT payment.go:250 - Successfully created PayPal order
+2025/06/01 22:03:04 [INFO] 2025-06-01 22:03:04 CDT payment.go:411 - PayPal order 8AF67190YU764242K created and stored for event-2025-06-01_21-34-34-x8Gdrg (event)
+2025/06/01 22:03:04 [INFO] 2025-06-01 22:03:04 CDT main.go:212 - POST /api/create-order took 1.296124618s
+2025/06/01 22:03:17 [INFO] 2025-06-01 22:03:17 CDT logger.go:122 - HTTP POST /capture-order from 127.0.0.1
+2025/06/01 22:03:17 [INFO] 2025-06-01 22:03:17 CDT payment.go:107 - Using cached PayPal access token (expires at 2025-06-02 07:02:03.191002 -0500 CDT m=+32557.532681416)
+2025/06/01 22:03:18 [INFO] 2025-06-01 22:03:18 CDT payment.go:571 - PayPal capture confirmed successful for event-2025-06-01_21-34-34-x8Gdrg (event): status=COMPLETED
+2025/06/01 22:03:18 [INFO] 2025-06-01 22:03:18 CDT payment.go:590 - PayPal order 8AF67190YU764242K captured successfully for event-2025-06-01_21-34-34-x8Gdrg (event)
+2025/06/01 22:03:18 [INFO] 2025-06-01 22:03:18 CDT main.go:212 - POST /api/capture-order took 974.769694ms
+2025/06/01 22:03:18 [INFO] 2025-06-01 22:03:18 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/06/01 22:03:18 [WARN] 2025-06-01 22:03:18 CDT order.go:780 - Expired or invalid event access token from 127.0.0.1 for formID event-2025-06-01_21-34-34-x8Gdrg
+2025/06/01 22:03:18 [INFO] 2025-06-01 22:03:18 CDT main.go:212 - POST /api/success took 403.514µs
+2025/06/01 22:17:00 [INFO] 2025-06-01 22:17:00 CDT main.go:166 - Shutdown signal received
+2025/06/01 22:17:00 [INFO] 2025-06-01 22:17:00 CDT main.go:176 - Server shut down gracefully
+2025/06/01 22:17:00 [INFO] 2025-06-01 22:17:00 CDT main.go:180 - Shutdown signal received
+2025/06/01 22:17:00 [INFO] 2025-06-01 22:17:00 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 22:17:00 [INFO] 2025-06-01 22:17:00 CDT main.go:183 - All connections closed. Total requests handled: 7
+2025/06/01 22:17:00 [INFO] 2025-06-01 22:17:00 CDT main.go:184 - Server shut down gracefully
+2025/06/01 22:21:29 [INFO] 2025-06-01 22:21:29 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 22:21:29 [INFO] 2025-06-01 22:21:29 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 22:21:29 [INFO] 2025-06-01 22:21:29 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 22:21:29 [INFO] 2025-06-01 22:21:29 CDT config.go:61 - Running in development environment
+2025/06/01 22:21:29 [INFO] 2025-06-01 22:21:29 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 22:21:29 [INFO] 2025-06-01 22:21:29 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 3h38m30.188133s)
+2025/06/01 22:21:29 [INFO] 2025-06-01 22:21:29 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 22:21:36 [INFO] 2025-06-01 22:21:36 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/06/01 22:21:36 [WARN] 2025-06-01 22:21:36 CDT order.go:789 - Invalid or mismatched token for formID event-2025-06-01_21-34-34-x8Gdrg from 127.0.0.1
+2025/06/01 22:21:36 [INFO] 2025-06-01 22:21:36 CDT main.go:212 - POST /api/success took 2.404822ms
+2025/06/01 22:22:22 [INFO] 2025-06-01 22:22:22 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/06/01 22:22:22 [WARN] 2025-06-01 22:22:22 CDT order.go:789 - Invalid or mismatched token for formID event-2025-06-01_21-34-34-x8Gdrg from 127.0.0.1
+2025/06/01 22:22:22 [INFO] 2025-06-01 22:22:22 CDT main.go:212 - POST /api/success took 4.419567ms
+2025/06/01 22:22:43 [INFO] 2025-06-01 22:22:43 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/06/01 22:22:43 [WARN] 2025-06-01 22:22:43 CDT order.go:789 - Invalid or mismatched token for formID event-2025-06-01_21-34-34-x8Gdrg from 127.0.0.1
+2025/06/01 22:22:43 [INFO] 2025-06-01 22:22:43 CDT main.go:212 - POST /api/success took 1.718553ms
+2025/06/01 22:30:18 [INFO] 2025-06-01 22:30:18 CDT main.go:166 - Shutdown signal received
+2025/06/01 22:30:18 [INFO] 2025-06-01 22:30:18 CDT main.go:176 - Server shut down gracefully
+2025/06/01 22:30:18 [INFO] 2025-06-01 22:30:18 CDT main.go:180 - Shutdown signal received
+2025/06/01 22:30:18 [INFO] 2025-06-01 22:30:18 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 22:30:18 [INFO] 2025-06-01 22:30:18 CDT main.go:183 - All connections closed. Total requests handled: 3
+2025/06/01 22:30:18 [INFO] 2025-06-01 22:30:18 CDT main.go:184 - Server shut down gracefully
+2025/06/01 22:35:43 [INFO] 2025-06-01 22:35:43 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 22:35:43 [INFO] 2025-06-01 22:35:43 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 22:35:43 [INFO] 2025-06-01 22:35:43 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 22:35:43 [INFO] 2025-06-01 22:35:43 CDT config.go:61 - Running in development environment
+2025/06/01 22:35:43 [INFO] 2025-06-01 22:35:43 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 22:35:43 [INFO] 2025-06-01 22:35:43 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 22:35:43 [INFO] 2025-06-01 22:35:43 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 3h24m16.543413s)
+2025/06/01 22:35:51 [INFO] 2025-06-01 22:35:51 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/06/01 22:35:51 [INFO] 2025-06-01 22:35:51 CDT order.go:787 - DEBUG: Checking token for formID event-2025-06-01_21-34-34-x8Gdrg
+2025/06/01 22:35:51 [INFO] 2025-06-01 22:35:51 CDT order.go:788 - DEBUG: Token received: MTc0ODgzMTY3NDp0cWtkQVNiazl3eTd4djJuWEJRM0dLTWhLWTNaM1hjeA==
+2025/06/01 22:35:51 [INFO] 2025-06-01 22:35:51 CDT order.go:789 - DEBUG: PayPal status from DB: COMPLETED
+2025/06/01 22:35:51 [ERROR] 2025-06-01 22:35:51 CDT order.go:796 - DEBUG: GetTokenInfo returned nil for token
+2025/06/01 22:35:51 [WARN] 2025-06-01 22:35:51 CDT order.go:802 - Invalid or mismatched token for formID event-2025-06-01_21-34-34-x8Gdrg from 127.0.0.1 (tokenInfo=<nil>)
+2025/06/01 22:35:51 [INFO] 2025-06-01 22:35:51 CDT main.go:212 - POST /api/success took 2.205519ms
+2025/06/01 22:39:01 [INFO] 2025-06-01 22:39:01 CDT main.go:166 - Shutdown signal received
+2025/06/01 22:39:01 [INFO] 2025-06-01 22:39:01 CDT main.go:176 - Server shut down gracefully
+2025/06/01 22:39:01 [INFO] 2025-06-01 22:39:01 CDT main.go:180 - Shutdown signal received
+2025/06/01 22:39:01 [INFO] 2025-06-01 22:39:01 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 22:39:01 [INFO] 2025-06-01 22:39:01 CDT main.go:183 - All connections closed. Total requests handled: 1
+2025/06/01 22:39:01 [INFO] 2025-06-01 22:39:01 CDT main.go:184 - Server shut down gracefully
+2025/06/01 22:39:05 [INFO] 2025-06-01 22:39:05 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 22:39:05 [INFO] 2025-06-01 22:39:05 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 22:39:05 [INFO] 2025-06-01 22:39:05 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 22:39:05 [INFO] 2025-06-01 22:39:05 CDT config.go:61 - Running in development environment
+2025/06/01 22:39:05 [INFO] 2025-06-01 22:39:05 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 22:39:05 [INFO] 2025-06-01 22:39:05 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 22:39:05 [INFO] 2025-06-01 22:39:05 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 3h20m54.475485s)
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT order.go:792 - Using database token validation for completed payment event-2025-06-01_21-34-34-x8Gdrg (server restart recovery)
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:249 - 📧 ========== MOCK EMAIL ==========
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:250 - 📬 To: wolfsweat@icloud.com
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:251 - 📮 From: noreply@yourdomain.org
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:252 - 📄 Subject: Event Registration Confirmation - Spring Festival
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:253 - 📝 Body:
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:254 - ---
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:259 -    Dear Fern,
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:259 -    
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:259 -    Thank you for registering for Spring Festival!
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:259 -    
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:259 -    Event Details:
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:259 -    - Order ID: 
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:259 -    - School: North Euless
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:259 -    - Students Registered: 4
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:259 -    - Total Amount: $180.01
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:259 -    - Payment ID: 8AF67190YU764242K
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:259 -    
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:259 -    View your order details: https://suzuki.nfshost.com/events/2025/spring-festival/.html
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:259 -    
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:259 -    If you have any questions, please contact us.
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:259 -    
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:259 -    Best regards,
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:259 -    The Event Team
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:262 - ---
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:263 - ✅ Mock email logged successfully
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT email.go:264 - 📧 ==============================
+2025/06/01 22:39:18 [INFO] 2025-06-01 22:39:18 CDT main.go:212 - POST /api/success took 7.239536ms
+2025/06/01 22:48:36 [INFO] 2025-06-01 22:48:36 CDT main.go:166 - Shutdown signal received
+2025/06/01 22:48:36 [INFO] 2025-06-01 22:48:36 CDT main.go:176 - Server shut down gracefully
+2025/06/01 22:48:36 [INFO] 2025-06-01 22:48:36 CDT main.go:180 - Shutdown signal received
+2025/06/01 22:48:36 [INFO] 2025-06-01 22:48:36 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 22:48:36 [INFO] 2025-06-01 22:48:36 CDT main.go:183 - All connections closed. Total requests handled: 1
+2025/06/01 22:48:36 [INFO] 2025-06-01 22:48:36 CDT main.go:184 - Server shut down gracefully
+2025/06/01 22:48:41 [INFO] 2025-06-01 22:48:41 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 22:48:41 [INFO] 2025-06-01 22:48:41 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 22:48:41 [INFO] 2025-06-01 22:48:41 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 22:48:41 [INFO] 2025-06-01 22:48:41 CDT config.go:61 - Running in development environment
+2025/06/01 22:48:41 [INFO] 2025-06-01 22:48:41 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 22:48:41 [INFO] 2025-06-01 22:48:41 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 3h11m18.205281s)
+2025/06/01 22:48:41 [INFO] 2025-06-01 22:48:41 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 22:48:49 [INFO] 2025-06-01 22:48:49 CDT main.go:166 - Shutdown signal received
+2025/06/01 22:48:49 [INFO] 2025-06-01 22:48:49 CDT main.go:176 - Server shut down gracefully
+2025/06/01 22:48:49 [INFO] 2025-06-01 22:48:49 CDT main.go:180 - Shutdown signal received
+2025/06/01 22:48:49 [INFO] 2025-06-01 22:48:49 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 22:48:49 [INFO] 2025-06-01 22:48:49 CDT main.go:183 - All connections closed. Total requests handled: 0
+2025/06/01 22:48:49 [INFO] 2025-06-01 22:48:49 CDT main.go:184 - Server shut down gracefully
+2025/06/01 22:50:32 [INFO] 2025-06-01 22:50:32 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-01.log
+2025/06/01 22:50:32 [INFO] 2025-06-01 22:50:32 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/01 22:50:32 [INFO] 2025-06-01 22:50:32 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/01 22:50:32 [INFO] 2025-06-01 22:50:32 CDT config.go:61 - Running in development environment
+2025/06/01 22:50:32 [INFO] 2025-06-01 22:50:32 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/01 22:50:32 [INFO] 2025-06-01 22:50:32 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-02 02:00:00 (in 3h9m27.245959s)
+2025/06/01 22:50:32 [INFO] 2025-06-01 22:50:32 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/01 22:50:35 [INFO] 2025-06-01 22:50:35 CDT main.go:166 - Shutdown signal received
+2025/06/01 22:50:35 [INFO] 2025-06-01 22:50:35 CDT main.go:176 - Server shut down gracefully
+2025/06/01 22:50:35 [INFO] 2025-06-01 22:50:35 CDT main.go:180 - Shutdown signal received
+2025/06/01 22:50:35 [INFO] 2025-06-01 22:50:35 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/01 22:50:35 [INFO] 2025-06-01 22:50:35 CDT main.go:183 - All connections closed. Total requests handled: 0
+2025/06/01 22:50:35 [INFO] 2025-06-01 22:50:35 CDT main.go:184 - Server shut down gracefully

@@ -1,0 +1,46 @@
+2025/05/26 11:22:46 [INFO] 2025-05-26 11:22:46 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-26.log
+2025/05/26 11:22:46 [INFO] 2025-05-26 11:22:46 CDT main.go:53 - Environment and paths loaded. Logger ready.
+2025/05/26 11:22:46 [INFO] 2025-05-26 11:22:46 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/26 11:22:46 [INFO] 2025-05-26 11:22:46 CDT config.go:61 - Running in development environment
+2025/05/26 11:22:46 [INFO] 2025-05-26 11:22:46 CDT main.go:154 - Starting server on 0.0.0.0:5051
+2025/05/26 11:22:59 [INFO] 2025-05-26 11:22:59 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/26 11:22:59 [INFO] 2025-05-26 11:22:59 CDT main.go:208 - GET /api/csrf-token took 250.899µs
+2025/05/26 12:32:37 [INFO] 2025-05-26 12:32:37 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/26 14:53:55 [INFO] 2025-05-26 14:53:55 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/26 15:23:54 [INFO] 2025-05-26 15:23:54 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/26 15:53:55 [INFO] 2025-05-26 15:53:55 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/26 16:11:57 [INFO] 2025-05-26 16:11:57 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/26 16:11:57 [INFO] 2025-05-26 16:11:57 CDT main.go:208 - GET /api/csrf-token took 2.337415ms
+2025/05/26 16:12:35 [INFO] 2025-05-26 16:12:35 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/26 16:12:35 [INFO] 2025-05-26 16:12:35 CDT main.go:208 - GET /api/csrf-token took 4.836966ms
+2025/05/26 16:13:31 [INFO] 2025-05-26 16:13:31 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/26 16:13:31 [INFO] 2025-05-26 16:13:31 CDT main.go:208 - GET /api/csrf-token took 303.956µs
+2025/05/26 16:13:41 [INFO] 2025-05-26 16:13:41 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/26 16:13:41 [INFO] 2025-05-26 16:13:41 CDT main.go:208 - GET /api/csrf-token took 197.436µs
+2025/05/26 16:14:14 [INFO] 2025-05-26 16:14:14 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/26 16:14:14 [INFO] 2025-05-26 16:14:14 CDT main.go:208 - GET /api/csrf-token took 493.27µs
+2025/05/26 16:23:55 [INFO] 2025-05-26 16:23:55 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/26 16:53:55 [INFO] 2025-05-26 16:53:55 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/26 17:21:46 [INFO] 2025-05-26 17:21:46 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/26 17:21:46 [INFO] 2025-05-26 17:21:46 CDT main.go:208 - GET /api/csrf-token took 884.086µs
+2025/05/26 17:23:55 [INFO] 2025-05-26 17:23:55 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/26 19:48:37 [INFO] 2025-05-26 19:48:37 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/26 21:23:27 [INFO] 2025-05-26 21:23:27 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/26 23:45:18 [INFO] 2025-05-26 23:45:18 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/27 02:01:49 [INFO] 2025-05-27 02:01:49 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/27 05:22:01 [INFO] 2025-05-27 05:22:01 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/27 06:04:06 [INFO] 2025-05-27 06:04:06 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/27 06:04:06 [INFO] 2025-05-27 06:04:06 CDT main.go:208 - GET /api/csrf-token took 1.248835ms
+2025/05/27 06:04:13 [INFO] 2025-05-27 06:04:13 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/27 06:04:13 [INFO] 2025-05-27 06:04:13 CDT main.go:208 - GET /api/csrf-token took 3.89025ms
+2025/05/27 06:19:40 [INFO] 2025-05-27 06:19:40 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/27 06:49:40 [INFO] 2025-05-27 06:49:40 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/27 07:14:23 [INFO] 2025-05-27 07:14:23 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/27 07:14:23 [INFO] 2025-05-27 07:14:23 CDT main.go:208 - GET /api/csrf-token took 843.006µs
+2025/05/27 07:19:40 [INFO] 2025-05-27 07:19:40 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/27 08:35:06 [INFO] 2025-05-27 08:35:06 CDT main.go:162 - Shutdown signal received
+2025/05/27 08:35:06 [INFO] 2025-05-27 08:35:06 CDT main.go:172 - Server shut down gracefully
+2025/05/27 08:35:06 [INFO] 2025-05-27 08:35:06 CDT main.go:176 - Shutdown signal received
+2025/05/27 08:35:06 [INFO] 2025-05-27 08:35:06 CDT main.go:177 - Waiting for active connections to finish...
+2025/05/27 08:35:06 [INFO] 2025-05-27 08:35:06 CDT main.go:179 - All connections closed. Total requests handled: 10
+2025/05/27 08:35:06 [INFO] 2025-05-27 08:35:06 CDT main.go:180 - Server shut down gracefully

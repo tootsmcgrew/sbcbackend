@@ -1,0 +1,109 @@
+{{define "order_summary.html.tmpl"}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout - {{.FullName}}</title>
+  <link rel="stylesheet" href="/static/css/payment.css">
+</head>
+<body>
+  <!-- Add this hidden input to store the formID for JavaScript -->
+  <input type="hidden" id="form-id" value="{{.FormID}}">
+  <div class="container">
+    <h1>Order Summary</h1>
+
+    <table class="summary-table">
+      <tr>
+        <th>Membership</th>
+        <td>
+          {{if .Membership}}{{.Membership}}{{else}}N/A{{end}}
+          {{if .MembershipStatus}} ({{capitalize .MembershipStatus}}){{end}}
+        </td>
+      </tr>
+      <tr>
+        <th>Name</th>
+        <td>{{.FullName}}</td>
+      </tr>
+      <tr>
+        <th>Email</th>
+        <td>{{.Email}}</td>
+      </tr>
+      {{if .Addons}}
+      <tr>
+        <th>Extras</th>
+        <td>
+          <ul>
+            {{range .Addons}}
+            <li>{{.}}</li>
+            {{end}}
+          </ul>
+        </td>
+      </tr>
+      {{end}}
+      {{if .Fees}}
+      <tr>
+        <th>Other Fees</th>
+        <td>
+          <ul>
+            {{range $k, $v := .Fees}}
+            <li>{{$k}}{{if gt $v 1}} × {{$v}}{{end}}</li>
+            {{end}}
+          </ul>
+        </td>
+      </tr>
+      {{end}}
+      {{if .Donation}}
+      <tr>
+        <th>Extra Donation</th>
+        <td>${{printf "%.2f" .Donation}}</td>
+      </tr>
+      {{end}}
+      <tr>
+        <th>Cover PayPal Fees</th>
+        <td>{{if .CoverFees}}Yes{{else}}No{{end}}</td>
+      </tr>
+      <tr>
+        <th>Submitted</th>
+        <td>
+          {{if .SubmittedAt}}{{formatDateTime .SubmittedAt}}{{else}}N/A{{end}}
+        </td>
+      </tr>
+      <tr>
+        <th>For Students</th>
+        <td>
+          {{if .Students}}
+          <ol>
+            {{range .Students}}
+              <li>{{.Name}}{{if .Grade}} (Grade {{.Grade}}){{end}}</li>
+            {{end}}
+          </ol>
+          {{else}}None listed{{end}}
+        </td>
+      </tr>
+      <tr>
+        <th>School</th>
+        <td>{{.School}}</td>
+      </tr>
+      {{if .Describe}}
+      <tr>
+        <th>Your Role/Describe</th>
+        <td>{{.Describe}}</td>
+      </tr>
+      {{end}}
+    </table>
+
+    <div class="grand-total center" style="margin-bottom:2em;">
+      Total Amount: ${{printf "%.2f" .CalculatedAmount}}
+    </div>
+  
+    <div id="paypal-button-container"></div>
+    <div class="center">
+      <a class="btn" href="/">Cancel and return Home</a>
+    </div>
+  </div>  
+  <script src="/static/js/payment.js"></script>
+  <!-- PayPal SDK -->
+  <script src="https://www.sandbox.paypal.com/sdk/js?client-id=AVBD9yQpv7y0liIHQLb9Y0UReYn9jhyAThREXKjiePLbDh-2cY9l_yoXaoXuHbUKmkKj6FooWeiuo0LC&currency=USD&disable-funding=paylater&buyer-country=US"></script>
+</body>
+</html>
+{{end}}

@@ -1,0 +1,128 @@
+2025/06/06 13:31:10 [INFO] 2025-06-06 13:31:10 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-06.log
+2025/06/06 13:31:10 [INFO] 2025-06-06 13:31:10 CDT main.go:59 - Environment and paths loaded. Logger ready.
+2025/06/06 13:31:10 [INFO] 2025-06-06 13:31:10 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/06 13:31:10 [INFO] 2025-06-06 13:31:10 CDT config.go:61 - Running in development environment
+2025/06/06 13:31:10 [INFO] 2025-06-06 13:31:10 CDT main.go:90 - Loading unified inventory from: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/06 13:31:10 [INFO] 2025-06-06 13:31:10 CDT inventory.go:61 - Loading inventory from unified file: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/06 13:31:10 [INFO] 2025-06-06 13:31:10 CDT inventory.go:77 - Successfully loaded unified inventory: 3 memberships, 4 products, 3 fees, 2 events
+2025/06/06 13:31:10 [INFO] 2025-06-06 13:31:10 CDT main.go:121 - Inventory service initialized with 87.938µs cache
+2025/06/06 13:31:10 [INFO] 2025-06-06 13:31:10 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/06 13:31:10 [INFO] 2025-06-06 13:31:10 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-07 02:00:00 (in 12h28m49.892483s)
+2025/06/06 13:31:10 [INFO] 2025-06-06 13:31:10 CDT main.go:217 - Starting server on 0.0.0.0:5051
+2025/06/06 13:32:26 [INFO] 2025-06-06 13:32:26 CDT main.go:225 - Shutdown signal received
+2025/06/06 13:32:26 [INFO] 2025-06-06 13:32:26 CDT main.go:235 - Server shut down gracefully
+2025/06/06 13:32:26 [INFO] 2025-06-06 13:32:26 CDT main.go:239 - Shutdown signal received
+2025/06/06 13:32:26 [INFO] 2025-06-06 13:32:26 CDT main.go:240 - Waiting for active connections to finish...
+2025/06/06 13:32:26 [INFO] 2025-06-06 13:32:26 CDT main.go:242 - All connections closed. Total requests handled: 0
+2025/06/06 13:32:26 [INFO] 2025-06-06 13:32:26 CDT main.go:243 - Server shut down gracefully
+2025/06/06 14:02:29 [INFO] 2025-06-06 14:02:29 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-06.log
+2025/06/06 14:02:29 [INFO] 2025-06-06 14:02:29 CDT main.go:59 - Environment and paths loaded. Logger ready.
+2025/06/06 14:02:29 [INFO] 2025-06-06 14:02:29 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/06 14:02:29 [INFO] 2025-06-06 14:02:29 CDT config.go:61 - Running in development environment
+2025/06/06 14:02:29 [INFO] 2025-06-06 14:02:29 CDT main.go:90 - Loading unified inventory from: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/06 14:02:29 [INFO] 2025-06-06 14:02:29 CDT inventory.go:61 - Loading inventory from unified file: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/06 14:02:29 [INFO] 2025-06-06 14:02:29 CDT inventory.go:77 - Successfully loaded unified inventory: 3 memberships, 4 products, 3 fees, 2 events
+2025/06/06 14:02:29 [INFO] 2025-06-06 14:02:29 CDT main.go:121 - Inventory service initialized with 49.726µs cache
+2025/06/06 14:02:29 [INFO] 2025-06-06 14:02:29 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/06 14:02:29 [INFO] 2025-06-06 14:02:29 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-07 02:00:00 (in 11h57m30.272854s)
+2025/06/06 14:02:29 [INFO] 2025-06-06 14:02:29 CDT main.go:217 - Starting server on 0.0.0.0:5051
+2025/06/06 15:22:54 [INFO] 2025-06-06 15:22:54 CDT main.go:225 - Shutdown signal received
+2025/06/06 15:22:54 [INFO] 2025-06-06 15:22:54 CDT main.go:235 - Server shut down gracefully
+2025/06/06 15:22:54 [INFO] 2025-06-06 15:22:54 CDT main.go:239 - Shutdown signal received
+2025/06/06 15:22:54 [INFO] 2025-06-06 15:22:54 CDT main.go:240 - Waiting for active connections to finish...
+2025/06/06 15:22:54 [INFO] 2025-06-06 15:22:54 CDT main.go:242 - All connections closed. Total requests handled: 0
+2025/06/06 15:22:54 [INFO] 2025-06-06 15:22:54 CDT main.go:243 - Server shut down gracefully
+2025/06/06 16:58:04 [INFO] 2025-06-06 16:58:04 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-06.log
+2025/06/06 16:58:04 [INFO] 2025-06-06 16:58:04 CDT main.go:59 - Environment and paths loaded. Logger ready.
+2025/06/06 16:58:04 [INFO] 2025-06-06 16:58:04 CDT database.go:216 - Database connection established successfully (attempt 1)
+2025/06/06 16:58:04 [INFO] 2025-06-06 16:58:04 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/06 16:58:04 [INFO] 2025-06-06 16:58:04 CDT config.go:61 - Running in development environment
+2025/06/06 16:58:04 [INFO] 2025-06-06 16:58:04 CDT main.go:90 - Loading unified inventory from: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/06 16:58:04 [INFO] 2025-06-06 16:58:04 CDT inventory.go:61 - Loading inventory from unified file: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/06 16:58:04 [INFO] 2025-06-06 16:58:04 CDT inventory.go:77 - Successfully loaded unified inventory: 3 memberships, 4 products, 3 fees, 2 events
+2025/06/06 16:58:04 [INFO] 2025-06-06 16:58:04 CDT main.go:121 - Inventory service initialized with 51.572µs cache
+2025/06/06 16:58:04 [INFO] 2025-06-06 16:58:04 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/06 16:58:04 [INFO] 2025-06-06 16:58:04 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-07 02:00:00 (in 9h1m55.078707s)
+2025/06/06 16:58:04 [INFO] 2025-06-06 16:58:04 CDT main.go:217 - Starting server on 0.0.0.0:5051
+2025/06/06 16:58:17 [INFO] 2025-06-06 16:58:17 CDT main.go:225 - Shutdown signal received
+2025/06/06 16:58:17 [INFO] 2025-06-06 16:58:17 CDT main.go:235 - Server shut down gracefully
+2025/06/06 16:58:17 [INFO] 2025-06-06 16:58:17 CDT main.go:239 - Shutdown signal received
+2025/06/06 16:58:17 [INFO] 2025-06-06 16:58:17 CDT main.go:240 - Waiting for active connections to finish...
+2025/06/06 16:58:17 [INFO] 2025-06-06 16:58:17 CDT main.go:242 - All connections closed. Total requests handled: 0
+2025/06/06 16:58:17 [INFO] 2025-06-06 16:58:17 CDT main.go:243 - Server shut down gracefully
+2025/06/06 17:00:24 [INFO] 2025-06-06 17:00:24 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-06.log
+2025/06/06 17:00:24 [INFO] 2025-06-06 17:00:24 CDT main.go:59 - Environment and paths loaded. Logger ready.
+2025/06/06 17:00:24 [INFO] 2025-06-06 17:00:24 CDT database.go:216 - Database connection established successfully (attempt 1)
+2025/06/06 17:00:24 [INFO] 2025-06-06 17:00:24 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/06 17:00:24 [INFO] 2025-06-06 17:00:24 CDT config.go:61 - Running in development environment
+2025/06/06 17:00:24 [INFO] 2025-06-06 17:00:24 CDT main.go:90 - Loading unified inventory from: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/06 17:00:24 [INFO] 2025-06-06 17:00:24 CDT inventory.go:61 - Loading inventory from unified file: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/06 17:00:24 [INFO] 2025-06-06 17:00:24 CDT inventory.go:77 - Successfully loaded unified inventory: 3 memberships, 4 products, 3 fees, 2 events
+2025/06/06 17:00:24 [INFO] 2025-06-06 17:00:24 CDT main.go:121 - Inventory service initialized with 124.01µs cache
+2025/06/06 17:00:24 [INFO] 2025-06-06 17:00:24 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/06 17:00:24 [INFO] 2025-06-06 17:00:24 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-07 02:00:00 (in 8h59m35.925271s)
+2025/06/06 17:00:24 [INFO] 2025-06-06 17:00:24 CDT main.go:217 - Starting server on 0.0.0.0:5051
+2025/06/06 17:00:32 [INFO] 2025-06-06 17:00:32 CDT main.go:225 - Shutdown signal received
+2025/06/06 17:00:32 [INFO] 2025-06-06 17:00:32 CDT main.go:235 - Server shut down gracefully
+2025/06/06 17:00:32 [INFO] 2025-06-06 17:00:32 CDT main.go:239 - Shutdown signal received
+2025/06/06 17:00:32 [INFO] 2025-06-06 17:00:32 CDT main.go:240 - Waiting for active connections to finish...
+2025/06/06 17:00:32 [INFO] 2025-06-06 17:00:32 CDT main.go:242 - All connections closed. Total requests handled: 0
+2025/06/06 17:00:32 [INFO] 2025-06-06 17:00:32 CDT main.go:243 - Server shut down gracefully
+2025/06/06 21:01:26 [INFO] 2025-06-06 21:01:26 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-06.log
+2025/06/06 21:01:26 [INFO] 2025-06-06 21:01:26 CDT main.go:59 - Environment and paths loaded. Logger ready.
+2025/06/06 21:01:26 [INFO] 2025-06-06 21:01:26 CDT database.go:216 - Database connection established successfully (attempt 1)
+2025/06/06 21:01:26 [INFO] 2025-06-06 21:01:26 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/06 21:01:26 [INFO] 2025-06-06 21:01:26 CDT config.go:61 - Running in development environment
+2025/06/06 21:01:26 [INFO] 2025-06-06 21:01:26 CDT main.go:90 - Loading unified inventory from: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/06 21:01:26 [INFO] 2025-06-06 21:01:26 CDT inventory.go:61 - Loading inventory from unified file: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/06 21:01:26 [INFO] 2025-06-06 21:01:26 CDT inventory.go:77 - Successfully loaded unified inventory: 3 memberships, 4 products, 3 fees, 2 events
+2025/06/06 21:01:26 [INFO] 2025-06-06 21:01:26 CDT main.go:121 - Inventory service initialized with 58.31µs cache
+2025/06/06 21:01:26 [INFO] 2025-06-06 21:01:26 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/06 21:01:26 [INFO] 2025-06-06 21:01:26 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-07 02:00:00 (in 4h58m33.054497s)
+2025/06/06 21:01:26 [INFO] 2025-06-06 21:01:26 CDT main.go:217 - Starting server on 0.0.0.0:5051
+2025/06/06 21:03:24 [INFO] 2025-06-06 21:03:24 CDT main.go:225 - Shutdown signal received
+2025/06/06 21:03:24 [INFO] 2025-06-06 21:03:24 CDT main.go:235 - Server shut down gracefully
+2025/06/06 21:03:24 [INFO] 2025-06-06 21:03:24 CDT main.go:239 - Shutdown signal received
+2025/06/06 21:03:24 [INFO] 2025-06-06 21:03:24 CDT main.go:240 - Waiting for active connections to finish...
+2025/06/06 21:03:24 [INFO] 2025-06-06 21:03:24 CDT main.go:242 - All connections closed. Total requests handled: 0
+2025/06/06 21:03:24 [INFO] 2025-06-06 21:03:24 CDT main.go:243 - Server shut down gracefully
+2025/06/06 21:35:45 [INFO] 2025-06-06 21:35:45 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-06.log
+2025/06/06 21:35:45 [INFO] 2025-06-06 21:35:45 CDT main.go:59 - Environment and paths loaded. Logger ready.
+2025/06/06 21:35:45 [INFO] 2025-06-06 21:35:45 CDT database.go:216 - Database connection established successfully (attempt 1)
+2025/06/06 21:35:45 [INFO] 2025-06-06 21:35:45 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/06 21:35:45 [INFO] 2025-06-06 21:35:45 CDT config.go:61 - Running in development environment
+2025/06/06 21:35:45 [INFO] 2025-06-06 21:35:45 CDT main.go:90 - Loading unified inventory from: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/06 21:35:45 [INFO] 2025-06-06 21:35:45 CDT inventory.go:61 - Loading inventory from unified file: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/06 21:35:45 [INFO] 2025-06-06 21:35:45 CDT inventory.go:77 - Successfully loaded unified inventory: 3 memberships, 4 products, 3 fees, 2 events
+2025/06/06 21:35:45 [INFO] 2025-06-06 21:35:45 CDT main.go:121 - Inventory service initialized with 62.871µs cache
+2025/06/06 21:35:45 [INFO] 2025-06-06 21:35:45 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/06 21:35:45 [INFO] 2025-06-06 21:35:45 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-07 02:00:00 (in 4h24m14.140798s)
+2025/06/06 21:35:45 [INFO] 2025-06-06 21:35:45 CDT main.go:217 - Starting server on 0.0.0.0:5051
+2025/06/06 21:35:52 [INFO] 2025-06-06 21:35:52 CDT main.go:225 - Shutdown signal received
+2025/06/06 21:35:52 [INFO] 2025-06-06 21:35:52 CDT main.go:235 - Server shut down gracefully
+2025/06/06 21:35:52 [INFO] 2025-06-06 21:35:52 CDT main.go:239 - Shutdown signal received
+2025/06/06 21:35:52 [INFO] 2025-06-06 21:35:52 CDT main.go:240 - Waiting for active connections to finish...
+2025/06/06 21:35:52 [INFO] 2025-06-06 21:35:52 CDT main.go:242 - All connections closed. Total requests handled: 0
+2025/06/06 21:35:52 [INFO] 2025-06-06 21:35:52 CDT main.go:243 - Server shut down gracefully
+2025/06/06 21:36:02 [INFO] 2025-06-06 21:36:02 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-06.log
+2025/06/06 21:36:02 [INFO] 2025-06-06 21:36:02 CDT main.go:59 - Environment and paths loaded. Logger ready.
+2025/06/06 21:36:02 [INFO] 2025-06-06 21:36:02 CDT database.go:216 - Database connection established successfully (attempt 1)
+2025/06/06 21:36:02 [INFO] 2025-06-06 21:36:02 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/06 21:36:02 [INFO] 2025-06-06 21:36:02 CDT config.go:61 - Running in development environment
+2025/06/06 21:36:02 [INFO] 2025-06-06 21:36:02 CDT main.go:90 - Loading unified inventory from: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/06 21:36:02 [INFO] 2025-06-06 21:36:02 CDT inventory.go:61 - Loading inventory from unified file: /Users/adam/Sites/hebstrings.org/static/inventory.json
+2025/06/06 21:36:02 [INFO] 2025-06-06 21:36:02 CDT inventory.go:77 - Successfully loaded unified inventory: 3 memberships, 4 products, 3 fees, 2 events
+2025/06/06 21:36:02 [INFO] 2025-06-06 21:36:02 CDT main.go:121 - Inventory service initialized with 53.025µs cache
+2025/06/06 21:36:02 [INFO] 2025-06-06 21:36:02 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/06 21:36:02 [INFO] 2025-06-06 21:36:02 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-07 02:00:00 (in 4h23m57.251464s)
+2025/06/06 21:36:02 [INFO] 2025-06-06 21:36:02 CDT main.go:217 - Starting server on 0.0.0.0:5051
+2025/06/06 22:06:02 [INFO] 2025-06-06 22:06:02 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/06 22:36:02 [INFO] 2025-06-06 22:36:02 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/06 23:03:44 [INFO] 2025-06-06 23:03:44 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/06/06 23:03:44 [ERROR] 2025-06-06 23:03:44 CDT logger.go:127 - HTTP 500 error for GET /info from 127.0.0.1: failed to scan membership rows: failed to scan membership: context canceled
+2025/06/06 23:03:44 [INFO] 2025-06-06 23:03:44 CDT main.go:271 - GET /info took 38.10786ms
+2025/06/06 23:04:06 [INFO] 2025-06-06 23:04:06 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/06/06 23:04:06 [INFO] 2025-06-06 23:04:06 CDT database.go:613 - Converted legacy fees array to map format
+2025/06/06 23:04:06 [ERROR] 2025-06-06 23:04:06 CDT logger.go:127 - HTTP 500 error for GET /info from 127.0.0.1: error iterating membership rows: context canceled
+2025/06/06 23:04:06 [INFO] 2025-06-06 23:04:06 CDT main.go:271 - GET /info took 10.363741ms
+2025/06/06 23:06:02 [INFO] 2025-06-06 23:06:02 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)

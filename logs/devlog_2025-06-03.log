@@ -1,0 +1,449 @@
+2025/06/03 07:05:53 [INFO] 2025-06-03 07:05:53 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-03.log
+2025/06/03 07:05:53 [INFO] 2025-06-03 07:05:53 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/03 07:05:53 [INFO] 2025-06-03 07:05:53 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/03 07:05:53 [INFO] 2025-06-03 07:05:53 CDT config.go:61 - Running in development environment
+2025/06/03 07:05:53 [INFO] 2025-06-03 07:05:53 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/03 07:05:53 [INFO] 2025-06-03 07:05:53 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/03 07:05:53 [INFO] 2025-06-03 07:05:53 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-04 02:00:00 (in 18h54m6.281542s)
+2025/06/03 07:06:06 [INFO] 2025-06-03 07:06:06 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/06/03 07:06:06 [INFO] 2025-06-03 07:06:06 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:06:06 [INFO] 2025-06-03 07:06:06 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:06:06 [INFO] 2025-06-03 07:06:06 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:06:06 [INFO] 2025-06-03 07:06:06 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:06:06 [INFO] 2025-06-03 07:06:06 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:06:06 [INFO] 2025-06-03 07:06:06 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:06:06 [INFO] 2025-06-03 07:06:06 CDT data.go:151 - No PayPal details for membership-2025-05-20_23-39-11-AH8Ozg - payment not completed
+2025/06/03 07:06:06 [INFO] 2025-06-03 07:06:06 CDT data.go:151 - No PayPal details for membership-2025-05-21_10-07-09-yBVzJg - payment not completed
+2025/06/03 07:06:06 [INFO] 2025-06-03 07:06:06 CDT data.go:151 - No PayPal details for membership-2025-05-22_23-22-14-IBC4IA - payment not completed
+2025/06/03 07:06:06 [INFO] 2025-06-03 07:06:06 CDT data.go:151 - No PayPal details for membership-2025-05-31_13-06-31-8xrnIw - payment not completed
+2025/06/03 07:06:06 [INFO] 2025-06-03 07:06:06 CDT info.go:124 - Generated admin token for info page access
+2025/06/03 07:06:06 [INFO] 2025-06-03 07:06:06 CDT info.go:145 - Info page generated for year 2025 in 12.41776ms (memberships: 15, events: 16, fundraisers: 9)
+2025/06/03 07:06:06 [INFO] 2025-06-03 07:06:06 CDT main.go:212 - GET /info took 15.541269ms
+2025/06/03 07:07:42 [INFO] 2025-06-03 07:07:42 CDT main.go:166 - Shutdown signal received
+2025/06/03 07:07:42 [INFO] 2025-06-03 07:07:42 CDT main.go:176 - Server shut down gracefully
+2025/06/03 07:07:42 [INFO] 2025-06-03 07:07:42 CDT main.go:180 - Shutdown signal received
+2025/06/03 07:07:42 [INFO] 2025-06-03 07:07:42 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/03 07:07:42 [INFO] 2025-06-03 07:07:42 CDT main.go:183 - All connections closed. Total requests handled: 1
+2025/06/03 07:07:42 [INFO] 2025-06-03 07:07:42 CDT main.go:184 - Server shut down gracefully
+2025/06/03 07:07:45 [INFO] 2025-06-03 07:07:45 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-03.log
+2025/06/03 07:07:45 [INFO] 2025-06-03 07:07:45 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/03 07:07:45 [INFO] 2025-06-03 07:07:45 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/03 07:07:45 [INFO] 2025-06-03 07:07:45 CDT config.go:61 - Running in development environment
+2025/06/03 07:07:45 [INFO] 2025-06-03 07:07:45 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/03 07:07:45 [INFO] 2025-06-03 07:07:45 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-04 02:00:00 (in 18h52m14.76813s)
+2025/06/03 07:07:45 [INFO] 2025-06-03 07:07:45 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/03 07:07:53 [INFO] 2025-06-03 07:07:53 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/06/03 07:07:53 [INFO] 2025-06-03 07:07:53 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:07:53 [INFO] 2025-06-03 07:07:53 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:07:53 [INFO] 2025-06-03 07:07:53 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:07:53 [INFO] 2025-06-03 07:07:53 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:07:53 [INFO] 2025-06-03 07:07:53 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:07:53 [INFO] 2025-06-03 07:07:53 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:07:53 [INFO] 2025-06-03 07:07:53 CDT data.go:151 - No PayPal details for membership-2025-05-20_23-39-11-AH8Ozg - payment not completed
+2025/06/03 07:07:53 [INFO] 2025-06-03 07:07:53 CDT data.go:151 - No PayPal details for membership-2025-05-21_10-07-09-yBVzJg - payment not completed
+2025/06/03 07:07:53 [INFO] 2025-06-03 07:07:53 CDT data.go:151 - No PayPal details for membership-2025-05-22_23-22-14-IBC4IA - payment not completed
+2025/06/03 07:07:53 [INFO] 2025-06-03 07:07:53 CDT data.go:151 - No PayPal details for membership-2025-05-31_13-06-31-8xrnIw - payment not completed
+2025/06/03 07:07:53 [INFO] 2025-06-03 07:07:53 CDT info.go:124 - Generated admin token for info page access
+2025/06/03 07:07:53 [INFO] 2025-06-03 07:07:53 CDT info.go:145 - Info page generated for year 2025 in 7.472017ms (memberships: 15, events: 16, fundraisers: 9)
+2025/06/03 07:07:53 [INFO] 2025-06-03 07:07:53 CDT main.go:212 - GET /info took 9.931548ms
+2025/06/03 07:18:12 [INFO] 2025-06-03 07:18:12 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/06/03 07:18:12 [INFO] 2025-06-03 07:18:12 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:18:12 [INFO] 2025-06-03 07:18:12 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:18:12 [INFO] 2025-06-03 07:18:12 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:18:12 [INFO] 2025-06-03 07:18:12 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:18:12 [INFO] 2025-06-03 07:18:12 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:18:12 [INFO] 2025-06-03 07:18:12 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:18:12 [INFO] 2025-06-03 07:18:12 CDT data.go:151 - No PayPal details for membership-2025-05-20_23-39-11-AH8Ozg - payment not completed
+2025/06/03 07:18:12 [INFO] 2025-06-03 07:18:12 CDT data.go:151 - No PayPal details for membership-2025-05-21_10-07-09-yBVzJg - payment not completed
+2025/06/03 07:18:12 [INFO] 2025-06-03 07:18:12 CDT data.go:151 - No PayPal details for membership-2025-05-22_23-22-14-IBC4IA - payment not completed
+2025/06/03 07:18:12 [INFO] 2025-06-03 07:18:12 CDT data.go:151 - No PayPal details for membership-2025-05-31_13-06-31-8xrnIw - payment not completed
+2025/06/03 07:18:12 [INFO] 2025-06-03 07:18:12 CDT info.go:124 - Generated admin token for info page access
+2025/06/03 07:18:12 [INFO] 2025-06-03 07:18:12 CDT info.go:145 - Info page generated for year 2025 in 3.625098ms (memberships: 15, events: 16, fundraisers: 9)
+2025/06/03 07:18:12 [INFO] 2025-06-03 07:18:12 CDT main.go:212 - GET /info took 9.476489ms
+2025/06/03 07:22:31 [INFO] 2025-06-03 07:22:31 CDT main.go:166 - Shutdown signal received
+2025/06/03 07:22:31 [INFO] 2025-06-03 07:22:31 CDT main.go:176 - Server shut down gracefully
+2025/06/03 07:22:31 [INFO] 2025-06-03 07:22:31 CDT main.go:180 - Shutdown signal received
+2025/06/03 07:22:31 [INFO] 2025-06-03 07:22:31 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/03 07:22:31 [INFO] 2025-06-03 07:22:31 CDT main.go:183 - All connections closed. Total requests handled: 2
+2025/06/03 07:22:31 [INFO] 2025-06-03 07:22:31 CDT main.go:184 - Server shut down gracefully
+2025/06/03 07:22:34 [INFO] 2025-06-03 07:22:34 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-03.log
+2025/06/03 07:22:34 [INFO] 2025-06-03 07:22:34 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/03 07:22:34 [INFO] 2025-06-03 07:22:34 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/03 07:22:34 [INFO] 2025-06-03 07:22:34 CDT config.go:61 - Running in development environment
+2025/06/03 07:22:34 [INFO] 2025-06-03 07:22:34 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/03 07:22:34 [INFO] 2025-06-03 07:22:34 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-04 02:00:00 (in 18h37m25.288529s)
+2025/06/03 07:22:34 [INFO] 2025-06-03 07:22:34 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/03 07:22:43 [INFO] 2025-06-03 07:22:43 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/06/03 07:22:43 [INFO] 2025-06-03 07:22:43 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:22:43 [INFO] 2025-06-03 07:22:43 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:22:43 [INFO] 2025-06-03 07:22:43 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:22:43 [INFO] 2025-06-03 07:22:43 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:22:43 [INFO] 2025-06-03 07:22:43 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:22:43 [INFO] 2025-06-03 07:22:43 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:22:43 [INFO] 2025-06-03 07:22:43 CDT data.go:151 - No PayPal details for membership-2025-05-20_23-39-11-AH8Ozg - payment not completed
+2025/06/03 07:22:43 [INFO] 2025-06-03 07:22:43 CDT data.go:151 - No PayPal details for membership-2025-05-21_10-07-09-yBVzJg - payment not completed
+2025/06/03 07:22:43 [INFO] 2025-06-03 07:22:43 CDT data.go:151 - No PayPal details for membership-2025-05-22_23-22-14-IBC4IA - payment not completed
+2025/06/03 07:22:43 [INFO] 2025-06-03 07:22:43 CDT data.go:151 - No PayPal details for membership-2025-05-31_13-06-31-8xrnIw - payment not completed
+2025/06/03 07:22:43 [INFO] 2025-06-03 07:22:43 CDT info.go:124 - Generated admin token for info page access
+2025/06/03 07:22:43 [INFO] 2025-06-03 07:22:43 CDT info.go:145 - Info page generated for year 2025 in 7.869229ms (memberships: 15, events: 16, fundraisers: 9)
+2025/06/03 07:22:43 [INFO] 2025-06-03 07:22:43 CDT main.go:212 - GET /info took 10.342155ms
+2025/06/03 07:36:22 [INFO] 2025-06-03 07:36:22 CDT main.go:166 - Shutdown signal received
+2025/06/03 07:36:22 [INFO] 2025-06-03 07:36:22 CDT main.go:176 - Server shut down gracefully
+2025/06/03 07:36:22 [INFO] 2025-06-03 07:36:22 CDT main.go:180 - Shutdown signal received
+2025/06/03 07:36:22 [INFO] 2025-06-03 07:36:22 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/03 07:36:22 [INFO] 2025-06-03 07:36:22 CDT main.go:183 - All connections closed. Total requests handled: 1
+2025/06/03 07:36:22 [INFO] 2025-06-03 07:36:22 CDT main.go:184 - Server shut down gracefully
+2025/06/03 07:36:26 [INFO] 2025-06-03 07:36:26 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-03.log
+2025/06/03 07:36:26 [INFO] 2025-06-03 07:36:26 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/03 07:36:26 [INFO] 2025-06-03 07:36:26 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/03 07:36:26 [INFO] 2025-06-03 07:36:26 CDT config.go:61 - Running in development environment
+2025/06/03 07:36:26 [INFO] 2025-06-03 07:36:26 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/03 07:36:26 [INFO] 2025-06-03 07:36:26 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/03 07:36:26 [INFO] 2025-06-03 07:36:26 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-04 02:00:00 (in 18h23m33.541946s)
+2025/06/03 07:36:33 [INFO] 2025-06-03 07:36:33 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/06/03 07:36:33 [INFO] 2025-06-03 07:36:33 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:36:33 [INFO] 2025-06-03 07:36:33 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:36:33 [INFO] 2025-06-03 07:36:33 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:36:33 [INFO] 2025-06-03 07:36:33 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:36:33 [INFO] 2025-06-03 07:36:33 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:36:33 [INFO] 2025-06-03 07:36:33 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 07:36:33 [INFO] 2025-06-03 07:36:33 CDT data.go:151 - No PayPal details for membership-2025-05-20_23-39-11-AH8Ozg - payment not completed
+2025/06/03 07:36:33 [INFO] 2025-06-03 07:36:33 CDT data.go:151 - No PayPal details for membership-2025-05-21_10-07-09-yBVzJg - payment not completed
+2025/06/03 07:36:33 [INFO] 2025-06-03 07:36:33 CDT data.go:151 - No PayPal details for membership-2025-05-22_23-22-14-IBC4IA - payment not completed
+2025/06/03 07:36:33 [INFO] 2025-06-03 07:36:33 CDT data.go:151 - No PayPal details for membership-2025-05-31_13-06-31-8xrnIw - payment not completed
+2025/06/03 07:36:33 [INFO] 2025-06-03 07:36:33 CDT info.go:124 - Generated admin token for info page access
+2025/06/03 07:36:33 [INFO] 2025-06-03 07:36:33 CDT info.go:145 - Info page generated for year 2025 in 6.86834ms (memberships: 15, events: 16, fundraisers: 9)
+2025/06/03 07:36:33 [INFO] 2025-06-03 07:36:33 CDT main.go:212 - GET /info took 9.988322ms
+2025/06/03 08:06:26 [INFO] 2025-06-03 08:06:26 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/03 08:36:26 [INFO] 2025-06-03 08:36:26 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/03 10:54:55 [INFO] 2025-06-03 10:54:55 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/03 12:40:06 [INFO] 2025-06-03 12:40:06 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/03 14:39:38 [INFO] 2025-06-03 14:39:38 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/03 15:09:38 [INFO] 2025-06-03 15:09:38 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/03 17:02:59 [INFO] 2025-06-03 17:02:59 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/03 19:05:05 [INFO] 2025-06-03 19:05:05 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/03 20:38:24 [INFO] 2025-06-03 20:38:24 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/03 21:08:24 [INFO] 2025-06-03 21:08:24 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/03 21:10:15 [INFO] 2025-06-03 21:10:15 CDT main.go:166 - Shutdown signal received
+2025/06/03 21:10:15 [INFO] 2025-06-03 21:10:15 CDT main.go:176 - Server shut down gracefully
+2025/06/03 21:10:15 [INFO] 2025-06-03 21:10:15 CDT main.go:180 - Shutdown signal received
+2025/06/03 21:10:15 [INFO] 2025-06-03 21:10:15 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/03 21:10:15 [INFO] 2025-06-03 21:10:15 CDT main.go:183 - All connections closed. Total requests handled: 1
+2025/06/03 21:10:15 [INFO] 2025-06-03 21:10:15 CDT main.go:184 - Server shut down gracefully
+2025/06/03 21:10:20 [INFO] 2025-06-03 21:10:20 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-03.log
+2025/06/03 21:10:20 [INFO] 2025-06-03 21:10:20 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/03 21:10:20 [INFO] 2025-06-03 21:10:20 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/03 21:10:20 [INFO] 2025-06-03 21:10:20 CDT config.go:61 - Running in development environment
+2025/06/03 21:10:20 [INFO] 2025-06-03 21:10:20 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/03 21:10:20 [INFO] 2025-06-03 21:10:20 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-04 02:00:00 (in 4h49m39.811012s)
+2025/06/03 21:10:20 [INFO] 2025-06-03 21:10:20 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/03 21:10:27 [INFO] 2025-06-03 21:10:27 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/06/03 21:10:27 [INFO] 2025-06-03 21:10:27 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:10:27 [INFO] 2025-06-03 21:10:27 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:10:27 [INFO] 2025-06-03 21:10:27 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:10:27 [INFO] 2025-06-03 21:10:27 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:10:27 [INFO] 2025-06-03 21:10:27 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:10:27 [INFO] 2025-06-03 21:10:27 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:10:27 [INFO] 2025-06-03 21:10:27 CDT data.go:151 - No PayPal details for membership-2025-05-20_23-39-11-AH8Ozg - payment not completed
+2025/06/03 21:10:27 [INFO] 2025-06-03 21:10:27 CDT data.go:151 - No PayPal details for membership-2025-05-21_10-07-09-yBVzJg - payment not completed
+2025/06/03 21:10:27 [INFO] 2025-06-03 21:10:27 CDT data.go:151 - No PayPal details for membership-2025-05-22_23-22-14-IBC4IA - payment not completed
+2025/06/03 21:10:27 [INFO] 2025-06-03 21:10:27 CDT data.go:151 - No PayPal details for membership-2025-05-31_13-06-31-8xrnIw - payment not completed
+2025/06/03 21:10:27 [INFO] 2025-06-03 21:10:27 CDT info.go:124 - Generated admin token for info page access
+2025/06/03 21:10:27 [INFO] 2025-06-03 21:10:27 CDT info.go:145 - Info page generated for year 2025 in 8.350376ms (memberships: 15, events: 16, fundraisers: 9)
+2025/06/03 21:10:27 [INFO] 2025-06-03 21:10:27 CDT main.go:212 - GET /info took 11.098012ms
+2025/06/03 21:12:10 [INFO] 2025-06-03 21:12:10 CDT main.go:166 - Shutdown signal received
+2025/06/03 21:12:10 [INFO] 2025-06-03 21:12:10 CDT main.go:176 - Server shut down gracefully
+2025/06/03 21:12:10 [INFO] 2025-06-03 21:12:10 CDT main.go:180 - Shutdown signal received
+2025/06/03 21:12:10 [INFO] 2025-06-03 21:12:10 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/03 21:12:10 [INFO] 2025-06-03 21:12:10 CDT main.go:183 - All connections closed. Total requests handled: 1
+2025/06/03 21:12:10 [INFO] 2025-06-03 21:12:10 CDT main.go:184 - Server shut down gracefully
+2025/06/03 21:12:15 [INFO] 2025-06-03 21:12:15 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-03.log
+2025/06/03 21:12:15 [INFO] 2025-06-03 21:12:15 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/03 21:12:15 [INFO] 2025-06-03 21:12:15 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/03 21:12:15 [INFO] 2025-06-03 21:12:15 CDT config.go:61 - Running in development environment
+2025/06/03 21:12:15 [INFO] 2025-06-03 21:12:15 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/03 21:12:15 [INFO] 2025-06-03 21:12:15 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-04 02:00:00 (in 4h47m44.567937s)
+2025/06/03 21:12:15 [INFO] 2025-06-03 21:12:15 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/03 21:12:21 [INFO] 2025-06-03 21:12:21 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/06/03 21:12:21 [INFO] 2025-06-03 21:12:21 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:12:21 [INFO] 2025-06-03 21:12:21 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:12:21 [INFO] 2025-06-03 21:12:21 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:12:21 [INFO] 2025-06-03 21:12:21 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:12:21 [INFO] 2025-06-03 21:12:21 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:12:21 [INFO] 2025-06-03 21:12:21 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:12:21 [INFO] 2025-06-03 21:12:21 CDT data.go:151 - No PayPal details for membership-2025-05-20_23-39-11-AH8Ozg - payment not completed
+2025/06/03 21:12:21 [INFO] 2025-06-03 21:12:21 CDT data.go:151 - No PayPal details for membership-2025-05-21_10-07-09-yBVzJg - payment not completed
+2025/06/03 21:12:21 [INFO] 2025-06-03 21:12:21 CDT data.go:151 - No PayPal details for membership-2025-05-22_23-22-14-IBC4IA - payment not completed
+2025/06/03 21:12:21 [INFO] 2025-06-03 21:12:21 CDT data.go:151 - No PayPal details for membership-2025-05-31_13-06-31-8xrnIw - payment not completed
+2025/06/03 21:12:21 [INFO] 2025-06-03 21:12:21 CDT info.go:124 - Generated admin token for info page access
+2025/06/03 21:12:21 [INFO] 2025-06-03 21:12:21 CDT info.go:145 - Info page generated for year 2025 in 9.977464ms (memberships: 15, events: 16, fundraisers: 9)
+2025/06/03 21:12:21 [INFO] 2025-06-03 21:12:21 CDT main.go:212 - GET /info took 12.460873ms
+2025/06/03 21:14:50 [INFO] 2025-06-03 21:14:50 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/06/03 21:14:50 [INFO] 2025-06-03 21:14:50 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:14:50 [INFO] 2025-06-03 21:14:50 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:14:50 [INFO] 2025-06-03 21:14:50 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:14:50 [INFO] 2025-06-03 21:14:50 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:14:50 [INFO] 2025-06-03 21:14:50 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:14:50 [INFO] 2025-06-03 21:14:50 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:14:50 [INFO] 2025-06-03 21:14:50 CDT data.go:151 - No PayPal details for membership-2025-05-20_23-39-11-AH8Ozg - payment not completed
+2025/06/03 21:14:50 [INFO] 2025-06-03 21:14:50 CDT data.go:151 - No PayPal details for membership-2025-05-21_10-07-09-yBVzJg - payment not completed
+2025/06/03 21:14:50 [INFO] 2025-06-03 21:14:50 CDT data.go:151 - No PayPal details for membership-2025-05-22_23-22-14-IBC4IA - payment not completed
+2025/06/03 21:14:50 [INFO] 2025-06-03 21:14:50 CDT data.go:151 - No PayPal details for membership-2025-05-31_13-06-31-8xrnIw - payment not completed
+2025/06/03 21:14:50 [INFO] 2025-06-03 21:14:50 CDT info.go:124 - Generated admin token for info page access
+2025/06/03 21:14:50 [INFO] 2025-06-03 21:14:50 CDT info.go:145 - Info page generated for year 2025 in 2.524668ms (memberships: 15, events: 16, fundraisers: 9)
+2025/06/03 21:14:50 [INFO] 2025-06-03 21:14:50 CDT main.go:212 - GET /info took 6.530852ms
+2025/06/03 21:23:52 [INFO] 2025-06-03 21:23:52 CDT main.go:166 - Shutdown signal received
+2025/06/03 21:23:52 [INFO] 2025-06-03 21:23:52 CDT main.go:176 - Server shut down gracefully
+2025/06/03 21:23:52 [INFO] 2025-06-03 21:23:52 CDT main.go:180 - Shutdown signal received
+2025/06/03 21:23:52 [INFO] 2025-06-03 21:23:52 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/03 21:23:52 [INFO] 2025-06-03 21:23:52 CDT main.go:183 - All connections closed. Total requests handled: 2
+2025/06/03 21:23:52 [INFO] 2025-06-03 21:23:52 CDT main.go:184 - Server shut down gracefully
+2025/06/03 21:30:10 [INFO] 2025-06-03 21:30:10 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-03.log
+2025/06/03 21:30:10 [INFO] 2025-06-03 21:30:10 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/03 21:30:10 [INFO] 2025-06-03 21:30:10 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/03 21:30:10 [INFO] 2025-06-03 21:30:10 CDT config.go:61 - Running in development environment
+2025/06/03 21:30:10 [INFO] 2025-06-03 21:30:10 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/03 21:30:10 [INFO] 2025-06-03 21:30:10 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-04 02:00:00 (in 4h29m49.707783s)
+2025/06/03 21:30:10 [INFO] 2025-06-03 21:30:10 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/03 21:30:19 [INFO] 2025-06-03 21:30:19 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/06/03 21:30:19 [INFO] 2025-06-03 21:30:19 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:30:19 [INFO] 2025-06-03 21:30:19 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:30:19 [INFO] 2025-06-03 21:30:19 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:30:19 [INFO] 2025-06-03 21:30:19 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:30:19 [INFO] 2025-06-03 21:30:19 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:30:19 [INFO] 2025-06-03 21:30:19 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:30:19 [INFO] 2025-06-03 21:30:19 CDT data.go:151 - No PayPal details for membership-2025-05-20_23-39-11-AH8Ozg - payment not completed
+2025/06/03 21:30:19 [INFO] 2025-06-03 21:30:19 CDT data.go:151 - No PayPal details for membership-2025-05-21_10-07-09-yBVzJg - payment not completed
+2025/06/03 21:30:19 [INFO] 2025-06-03 21:30:19 CDT data.go:151 - No PayPal details for membership-2025-05-22_23-22-14-IBC4IA - payment not completed
+2025/06/03 21:30:19 [INFO] 2025-06-03 21:30:19 CDT data.go:151 - No PayPal details for membership-2025-05-31_13-06-31-8xrnIw - payment not completed
+2025/06/03 21:30:19 [INFO] 2025-06-03 21:30:19 CDT info.go:124 - Generated admin token for info page access
+2025/06/03 21:30:19 [INFO] 2025-06-03 21:30:19 CDT info.go:145 - Info page generated for year 2025 in 10.446752ms (memberships: 15, events: 16, fundraisers: 9)
+2025/06/03 21:30:19 [INFO] 2025-06-03 21:30:19 CDT main.go:212 - GET /info took 15.060531ms
+2025/06/03 21:38:00 [INFO] 2025-06-03 21:38:00 CDT main.go:166 - Shutdown signal received
+2025/06/03 21:38:00 [INFO] 2025-06-03 21:38:00 CDT main.go:176 - Server shut down gracefully
+2025/06/03 21:38:00 [INFO] 2025-06-03 21:38:00 CDT main.go:180 - Shutdown signal received
+2025/06/03 21:38:00 [INFO] 2025-06-03 21:38:00 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/03 21:38:00 [INFO] 2025-06-03 21:38:00 CDT main.go:183 - All connections closed. Total requests handled: 1
+2025/06/03 21:38:00 [INFO] 2025-06-03 21:38:00 CDT main.go:184 - Server shut down gracefully
+2025/06/03 21:38:05 [INFO] 2025-06-03 21:38:05 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-03.log
+2025/06/03 21:38:05 [INFO] 2025-06-03 21:38:05 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/03 21:38:05 [INFO] 2025-06-03 21:38:05 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/03 21:38:05 [INFO] 2025-06-03 21:38:05 CDT config.go:61 - Running in development environment
+2025/06/03 21:38:05 [INFO] 2025-06-03 21:38:05 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/03 21:38:05 [INFO] 2025-06-03 21:38:05 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-04 02:00:00 (in 4h21m54.295817s)
+2025/06/03 21:38:05 [INFO] 2025-06-03 21:38:05 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/03 21:38:16 [INFO] 2025-06-03 21:38:16 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/06/03 21:38:16 [INFO] 2025-06-03 21:38:16 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:38:16 [INFO] 2025-06-03 21:38:16 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:38:16 [INFO] 2025-06-03 21:38:16 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:38:16 [INFO] 2025-06-03 21:38:16 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:38:16 [INFO] 2025-06-03 21:38:16 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:38:16 [INFO] 2025-06-03 21:38:16 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:38:16 [INFO] 2025-06-03 21:38:16 CDT data.go:151 - No PayPal details for membership-2025-05-20_23-39-11-AH8Ozg - payment not completed
+2025/06/03 21:38:16 [INFO] 2025-06-03 21:38:16 CDT data.go:151 - No PayPal details for membership-2025-05-21_10-07-09-yBVzJg - payment not completed
+2025/06/03 21:38:16 [INFO] 2025-06-03 21:38:16 CDT data.go:151 - No PayPal details for membership-2025-05-22_23-22-14-IBC4IA - payment not completed
+2025/06/03 21:38:16 [INFO] 2025-06-03 21:38:16 CDT data.go:151 - No PayPal details for membership-2025-05-31_13-06-31-8xrnIw - payment not completed
+2025/06/03 21:38:16 [INFO] 2025-06-03 21:38:16 CDT info.go:124 - Generated admin token for info page access
+2025/06/03 21:38:16 [INFO] 2025-06-03 21:38:16 CDT info.go:145 - Info page generated for year 2025 in 8.307597ms (memberships: 15, events: 16, fundraisers: 9)
+2025/06/03 21:38:16 [INFO] 2025-06-03 21:38:16 CDT main.go:212 - GET /info took 11.785042ms
+2025/06/03 21:42:08 [INFO] 2025-06-03 21:42:08 CDT main.go:166 - Shutdown signal received
+2025/06/03 21:42:08 [INFO] 2025-06-03 21:42:08 CDT main.go:176 - Server shut down gracefully
+2025/06/03 21:42:08 [INFO] 2025-06-03 21:42:08 CDT main.go:180 - Shutdown signal received
+2025/06/03 21:42:08 [INFO] 2025-06-03 21:42:08 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/03 21:42:08 [INFO] 2025-06-03 21:42:08 CDT main.go:183 - All connections closed. Total requests handled: 1
+2025/06/03 21:42:08 [INFO] 2025-06-03 21:42:08 CDT main.go:184 - Server shut down gracefully
+2025/06/03 21:42:13 [INFO] 2025-06-03 21:42:13 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-03.log
+2025/06/03 21:42:13 [INFO] 2025-06-03 21:42:13 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/03 21:42:13 [INFO] 2025-06-03 21:42:13 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/03 21:42:13 [INFO] 2025-06-03 21:42:13 CDT config.go:61 - Running in development environment
+2025/06/03 21:42:13 [INFO] 2025-06-03 21:42:13 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/03 21:42:13 [INFO] 2025-06-03 21:42:13 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-04 02:00:00 (in 4h17m46.887242s)
+2025/06/03 21:42:13 [INFO] 2025-06-03 21:42:13 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/03 21:42:19 [INFO] 2025-06-03 21:42:19 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/06/03 21:42:19 [INFO] 2025-06-03 21:42:19 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:42:19 [INFO] 2025-06-03 21:42:19 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:42:19 [INFO] 2025-06-03 21:42:19 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:42:19 [INFO] 2025-06-03 21:42:19 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:42:19 [INFO] 2025-06-03 21:42:19 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:42:19 [INFO] 2025-06-03 21:42:19 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:42:19 [INFO] 2025-06-03 21:42:19 CDT data.go:151 - No PayPal details for membership-2025-05-20_23-39-11-AH8Ozg - payment not completed
+2025/06/03 21:42:19 [INFO] 2025-06-03 21:42:19 CDT data.go:151 - No PayPal details for membership-2025-05-21_10-07-09-yBVzJg - payment not completed
+2025/06/03 21:42:19 [INFO] 2025-06-03 21:42:19 CDT data.go:151 - No PayPal details for membership-2025-05-22_23-22-14-IBC4IA - payment not completed
+2025/06/03 21:42:19 [INFO] 2025-06-03 21:42:19 CDT data.go:151 - No PayPal details for membership-2025-05-31_13-06-31-8xrnIw - payment not completed
+2025/06/03 21:42:19 [INFO] 2025-06-03 21:42:19 CDT info.go:124 - Generated admin token for info page access
+2025/06/03 21:42:19 [INFO] 2025-06-03 21:42:19 CDT info.go:145 - Info page generated for year 2025 in 9.503181ms (memberships: 15, events: 16, fundraisers: 9)
+2025/06/03 21:42:19 [INFO] 2025-06-03 21:42:19 CDT main.go:212 - GET /info took 12.143441ms
+2025/06/03 21:42:56 [INFO] 2025-06-03 21:42:56 CDT main.go:166 - Shutdown signal received
+2025/06/03 21:42:56 [INFO] 2025-06-03 21:42:56 CDT main.go:176 - Server shut down gracefully
+2025/06/03 21:42:56 [INFO] 2025-06-03 21:42:56 CDT main.go:180 - Shutdown signal received
+2025/06/03 21:42:56 [INFO] 2025-06-03 21:42:56 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/03 21:42:56 [INFO] 2025-06-03 21:42:56 CDT main.go:183 - All connections closed. Total requests handled: 1
+2025/06/03 21:42:56 [INFO] 2025-06-03 21:42:56 CDT main.go:184 - Server shut down gracefully
+2025/06/03 21:42:58 [INFO] 2025-06-03 21:42:58 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-03.log
+2025/06/03 21:42:58 [INFO] 2025-06-03 21:42:58 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/03 21:42:58 [INFO] 2025-06-03 21:42:58 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/03 21:42:58 [INFO] 2025-06-03 21:42:58 CDT config.go:61 - Running in development environment
+2025/06/03 21:42:58 [INFO] 2025-06-03 21:42:58 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/03 21:42:58 [INFO] 2025-06-03 21:42:58 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-04 02:00:00 (in 4h17m1.360047s)
+2025/06/03 21:42:58 [INFO] 2025-06-03 21:42:58 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/03 21:43:06 [INFO] 2025-06-03 21:43:06 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/06/03 21:43:06 [INFO] 2025-06-03 21:43:06 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:43:06 [INFO] 2025-06-03 21:43:06 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:43:06 [INFO] 2025-06-03 21:43:06 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:43:06 [INFO] 2025-06-03 21:43:06 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:43:06 [INFO] 2025-06-03 21:43:06 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:43:06 [INFO] 2025-06-03 21:43:06 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:43:06 [INFO] 2025-06-03 21:43:06 CDT data.go:151 - No PayPal details for membership-2025-05-20_23-39-11-AH8Ozg - payment not completed
+2025/06/03 21:43:06 [INFO] 2025-06-03 21:43:06 CDT data.go:151 - No PayPal details for membership-2025-05-21_10-07-09-yBVzJg - payment not completed
+2025/06/03 21:43:06 [INFO] 2025-06-03 21:43:06 CDT data.go:151 - No PayPal details for membership-2025-05-22_23-22-14-IBC4IA - payment not completed
+2025/06/03 21:43:06 [INFO] 2025-06-03 21:43:06 CDT data.go:151 - No PayPal details for membership-2025-05-31_13-06-31-8xrnIw - payment not completed
+2025/06/03 21:43:06 [INFO] 2025-06-03 21:43:06 CDT info.go:124 - Generated admin token for info page access
+2025/06/03 21:43:06 [INFO] 2025-06-03 21:43:06 CDT info.go:145 - Info page generated for year 2025 in 10.737901ms (memberships: 15, events: 16, fundraisers: 9)
+2025/06/03 21:43:06 [INFO] 2025-06-03 21:43:06 CDT main.go:212 - GET /info took 13.331835ms
+2025/06/03 21:46:15 [INFO] 2025-06-03 21:46:15 CDT main.go:166 - Shutdown signal received
+2025/06/03 21:46:15 [INFO] 2025-06-03 21:46:15 CDT main.go:176 - Server shut down gracefully
+2025/06/03 21:46:15 [INFO] 2025-06-03 21:46:15 CDT main.go:180 - Shutdown signal received
+2025/06/03 21:46:15 [INFO] 2025-06-03 21:46:15 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/03 21:46:15 [INFO] 2025-06-03 21:46:15 CDT main.go:183 - All connections closed. Total requests handled: 1
+2025/06/03 21:46:15 [INFO] 2025-06-03 21:46:15 CDT main.go:184 - Server shut down gracefully
+2025/06/03 21:46:17 [INFO] 2025-06-03 21:46:17 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-03.log
+2025/06/03 21:46:17 [INFO] 2025-06-03 21:46:17 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/03 21:46:17 [INFO] 2025-06-03 21:46:17 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/03 21:46:17 [INFO] 2025-06-03 21:46:17 CDT config.go:61 - Running in development environment
+2025/06/03 21:46:17 [INFO] 2025-06-03 21:46:17 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/03 21:46:17 [INFO] 2025-06-03 21:46:17 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/03 21:46:17 [INFO] 2025-06-03 21:46:17 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-04 02:00:00 (in 4h13m42.051509s)
+2025/06/03 21:46:26 [INFO] 2025-06-03 21:46:26 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/06/03 21:46:26 [INFO] 2025-06-03 21:46:26 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:46:26 [INFO] 2025-06-03 21:46:26 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:46:26 [INFO] 2025-06-03 21:46:26 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:46:26 [INFO] 2025-06-03 21:46:26 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:46:26 [INFO] 2025-06-03 21:46:26 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:46:26 [INFO] 2025-06-03 21:46:26 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:46:26 [INFO] 2025-06-03 21:46:26 CDT data.go:151 - No PayPal details for membership-2025-05-20_23-39-11-AH8Ozg - payment not completed
+2025/06/03 21:46:26 [INFO] 2025-06-03 21:46:26 CDT data.go:151 - No PayPal details for membership-2025-05-21_10-07-09-yBVzJg - payment not completed
+2025/06/03 21:46:26 [INFO] 2025-06-03 21:46:26 CDT data.go:151 - No PayPal details for membership-2025-05-22_23-22-14-IBC4IA - payment not completed
+2025/06/03 21:46:26 [INFO] 2025-06-03 21:46:26 CDT data.go:151 - No PayPal details for membership-2025-05-31_13-06-31-8xrnIw - payment not completed
+2025/06/03 21:46:26 [INFO] 2025-06-03 21:46:26 CDT info.go:124 - Generated admin token for info page access
+2025/06/03 21:46:26 [INFO] 2025-06-03 21:46:26 CDT info.go:145 - Info page generated for year 2025 in 7.309363ms (memberships: 15, events: 16, fundraisers: 9)
+2025/06/03 21:46:26 [ERROR] 2025-06-03 21:46:26 CDT info.go:151 - Failed to render info template: template: info.tmpl:296:60: executing "info.tmpl" at <.foodOrderID>: can't evaluate field foodOrderID in type data.EventSubmission
+2025/06/03 21:46:26 [INFO] 2025-06-03 21:46:26 CDT main.go:212 - GET /info took 9.649835ms
+2025/06/03 21:47:44 [INFO] 2025-06-03 21:47:44 CDT main.go:166 - Shutdown signal received
+2025/06/03 21:47:44 [INFO] 2025-06-03 21:47:44 CDT main.go:176 - Server shut down gracefully
+2025/06/03 21:47:44 [INFO] 2025-06-03 21:47:44 CDT main.go:180 - Shutdown signal received
+2025/06/03 21:47:44 [INFO] 2025-06-03 21:47:44 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/03 21:47:44 [INFO] 2025-06-03 21:47:44 CDT main.go:183 - All connections closed. Total requests handled: 1
+2025/06/03 21:47:44 [INFO] 2025-06-03 21:47:44 CDT main.go:184 - Server shut down gracefully
+2025/06/03 21:47:48 [INFO] 2025-06-03 21:47:48 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-03.log
+2025/06/03 21:47:48 [INFO] 2025-06-03 21:47:48 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/03 21:47:48 [INFO] 2025-06-03 21:47:48 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/03 21:47:48 [INFO] 2025-06-03 21:47:48 CDT config.go:61 - Running in development environment
+2025/06/03 21:47:48 [INFO] 2025-06-03 21:47:48 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/03 21:47:48 [INFO] 2025-06-03 21:47:48 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-04 02:00:00 (in 4h12m11.782002s)
+2025/06/03 21:47:48 [INFO] 2025-06-03 21:47:48 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/03 21:47:54 [INFO] 2025-06-03 21:47:54 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/06/03 21:47:54 [INFO] 2025-06-03 21:47:54 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:47:54 [INFO] 2025-06-03 21:47:54 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:47:54 [INFO] 2025-06-03 21:47:54 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:47:54 [INFO] 2025-06-03 21:47:54 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:47:54 [INFO] 2025-06-03 21:47:54 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:47:54 [INFO] 2025-06-03 21:47:54 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 21:47:54 [INFO] 2025-06-03 21:47:54 CDT data.go:151 - No PayPal details for membership-2025-05-20_23-39-11-AH8Ozg - payment not completed
+2025/06/03 21:47:54 [INFO] 2025-06-03 21:47:54 CDT data.go:151 - No PayPal details for membership-2025-05-21_10-07-09-yBVzJg - payment not completed
+2025/06/03 21:47:54 [INFO] 2025-06-03 21:47:54 CDT data.go:151 - No PayPal details for membership-2025-05-22_23-22-14-IBC4IA - payment not completed
+2025/06/03 21:47:54 [INFO] 2025-06-03 21:47:54 CDT data.go:151 - No PayPal details for membership-2025-05-31_13-06-31-8xrnIw - payment not completed
+2025/06/03 21:47:54 [INFO] 2025-06-03 21:47:54 CDT info.go:124 - Generated admin token for info page access
+2025/06/03 21:47:54 [INFO] 2025-06-03 21:47:54 CDT info.go:145 - Info page generated for year 2025 in 6.657761ms (memberships: 15, events: 16, fundraisers: 9)
+2025/06/03 21:47:54 [INFO] 2025-06-03 21:47:54 CDT main.go:212 - GET /info took 9.151127ms
+2025/06/03 22:08:11 [INFO] 2025-06-03 22:08:11 CDT main.go:166 - Shutdown signal received
+2025/06/03 22:08:11 [INFO] 2025-06-03 22:08:11 CDT main.go:176 - Server shut down gracefully
+2025/06/03 22:08:11 [INFO] 2025-06-03 22:08:11 CDT main.go:180 - Shutdown signal received
+2025/06/03 22:08:11 [INFO] 2025-06-03 22:08:11 CDT main.go:181 - Waiting for active connections to finish...
+2025/06/03 22:08:11 [INFO] 2025-06-03 22:08:11 CDT main.go:183 - All connections closed. Total requests handled: 1
+2025/06/03 22:08:11 [INFO] 2025-06-03 22:08:11 CDT main.go:184 - Server shut down gracefully
+2025/06/03 22:08:15 [INFO] 2025-06-03 22:08:15 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-06-03.log
+2025/06/03 22:08:15 [INFO] 2025-06-03 22:08:15 CDT main.go:55 - Environment and paths loaded. Logger ready.
+2025/06/03 22:08:15 [INFO] 2025-06-03 22:08:15 CDT config.go:205 - Using PayPal Sandbox environment
+2025/06/03 22:08:15 [INFO] 2025-06-03 22:08:15 CDT config.go:61 - Running in development environment
+2025/06/03 22:08:15 [INFO] 2025-06-03 22:08:15 CDT cleanup.go:19 - Cleanup routine started - will run daily at 2:00 AM
+2025/06/03 22:08:15 [INFO] 2025-06-03 22:08:15 CDT cleanup.go:32 - Next cleanup scheduled for 2025-06-04 02:00:00 (in 3h51m44.632877s)
+2025/06/03 22:08:15 [INFO] 2025-06-03 22:08:15 CDT main.go:158 - Starting server on 0.0.0.0:5051
+2025/06/03 22:08:22 [INFO] 2025-06-03 22:08:22 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/06/03 22:08:22 [INFO] 2025-06-03 22:08:22 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 22:08:22 [INFO] 2025-06-03 22:08:22 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 22:08:22 [INFO] 2025-06-03 22:08:22 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 22:08:22 [INFO] 2025-06-03 22:08:22 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 22:08:22 [INFO] 2025-06-03 22:08:22 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 22:08:22 [INFO] 2025-06-03 22:08:22 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 22:08:22 [INFO] 2025-06-03 22:08:22 CDT data.go:151 - No PayPal details for membership-2025-05-20_23-39-11-AH8Ozg - payment not completed
+2025/06/03 22:08:22 [INFO] 2025-06-03 22:08:22 CDT data.go:151 - No PayPal details for membership-2025-05-21_10-07-09-yBVzJg - payment not completed
+2025/06/03 22:08:22 [INFO] 2025-06-03 22:08:22 CDT data.go:151 - No PayPal details for membership-2025-05-22_23-22-14-IBC4IA - payment not completed
+2025/06/03 22:08:22 [INFO] 2025-06-03 22:08:22 CDT data.go:151 - No PayPal details for membership-2025-05-31_13-06-31-8xrnIw - payment not completed
+2025/06/03 22:08:22 [INFO] 2025-06-03 22:08:22 CDT info.go:124 - Generated admin token for info page access
+2025/06/03 22:08:22 [INFO] 2025-06-03 22:08:22 CDT info.go:145 - Info page generated for year 2025 in 9.249777ms (memberships: 15, events: 16, fundraisers: 9)
+2025/06/03 22:08:22 [INFO] 2025-06-03 22:08:22 CDT main.go:212 - GET /info took 11.813824ms
+2025/06/03 22:13:49 [INFO] 2025-06-03 22:13:49 CDT logger.go:122 - HTTP GET /info from 127.0.0.1
+2025/06/03 22:13:49 [INFO] 2025-06-03 22:13:49 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 22:13:49 [INFO] 2025-06-03 22:13:49 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 22:13:49 [INFO] 2025-06-03 22:13:49 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 22:13:49 [INFO] 2025-06-03 22:13:49 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 22:13:49 [INFO] 2025-06-03 22:13:49 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 22:13:49 [INFO] 2025-06-03 22:13:49 CDT sqlite.go:503 - Converted legacy fees array to map format
+2025/06/03 22:13:49 [INFO] 2025-06-03 22:13:49 CDT data.go:151 - No PayPal details for membership-2025-05-20_23-39-11-AH8Ozg - payment not completed
+2025/06/03 22:13:49 [INFO] 2025-06-03 22:13:49 CDT data.go:151 - No PayPal details for membership-2025-05-21_10-07-09-yBVzJg - payment not completed
+2025/06/03 22:13:49 [INFO] 2025-06-03 22:13:49 CDT data.go:151 - No PayPal details for membership-2025-05-22_23-22-14-IBC4IA - payment not completed
+2025/06/03 22:13:49 [INFO] 2025-06-03 22:13:49 CDT data.go:151 - No PayPal details for membership-2025-05-31_13-06-31-8xrnIw - payment not completed
+2025/06/03 22:13:49 [INFO] 2025-06-03 22:13:49 CDT info.go:124 - Generated admin token for info page access
+2025/06/03 22:13:49 [INFO] 2025-06-03 22:13:49 CDT info.go:145 - Info page generated for year 2025 in 7.040064ms (memberships: 15, events: 16, fundraisers: 9)
+2025/06/03 22:13:49 [INFO] 2025-06-03 22:13:49 CDT main.go:212 - GET /info took 10.406338ms
+2025/06/03 22:15:55 [INFO] 2025-06-03 22:15:55 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/03 22:15:55 [INFO] 2025-06-03 22:15:55 CDT main.go:212 - GET /api/csrf-token took 409.419µs
+2025/06/03 22:20:48 [INFO] 2025-06-03 22:20:48 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/03 22:20:48 [INFO] 2025-06-03 22:20:48 CDT main.go:212 - GET /api/csrf-token took 873.589µs
+2025/06/03 22:22:35 [INFO] 2025-06-03 22:22:35 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/03 22:22:35 [INFO] 2025-06-03 22:22:35 CDT main.go:212 - GET /api/csrf-token took 7.80101ms
+2025/06/03 22:30:23 [INFO] 2025-06-03 22:30:23 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/03 22:30:23 [INFO] 2025-06-03 22:30:23 CDT main.go:212 - GET /api/csrf-token took 1.407925ms
+2025/06/03 22:38:15 [INFO] 2025-06-03 22:38:15 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/03 22:39:57 [INFO] 2025-06-03 22:39:57 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/06/03 22:39:57 [INFO] 2025-06-03 22:39:57 CDT main.go:212 - GET /api/csrf-token took 219.513µs
+2025/06/03 22:42:37 [INFO] 2025-06-03 22:42:37 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/06/03 22:42:37 [INFO] 2025-06-03 22:42:37 CDT form.go:85 - Form values received: map[csrf_token:[AjXZvpjOAY2PoNkcrmPrjUGbNRZKTSD56AqVdNHxoXc=] describe:[supporter] donor_status:[first-time] email:[chance@gmail.com] form_type:[fundraiser] full_name:[Chance Encounter] hidden_field:[] school:[unknown] student_1_amount:[25] student_1_grade:[4] student_1_name:[Frank Encounters] student_count:[1]]
+2025/06/03 22:42:37 [INFO] 2025-06-03 22:42:37 CDT form.go:57 - Stat update: total_submissions = 1
+2025/06/03 22:42:37 [INFO] 2025-06-03 22:42:37 CDT data.go:355 - Fundraiser payment data processed for fundraiser-2025-06-03_22-42-37-MxQfAw: Total=25.00, Final=25.00
+2025/06/03 22:42:37 [INFO] 2025-06-03 22:42:37 CDT form.go:677 - Fundraiser form fundraiser-2025-06-03_22-42-37-MxQfAw processed successfully for chance@gmail.com (Total: $25.00)
+2025/06/03 22:42:37 [INFO] 2025-06-03 22:42:37 CDT form.go:178 - Form fundraiser-2025-06-03_22-42-37-MxQfAw accepted and saved successfully
+2025/06/03 22:42:37 [INFO] 2025-06-03 22:42:37 CDT form.go:57 - Stat update: successful_submissions = 1
+2025/06/03 22:42:37 [INFO] 2025-06-03 22:42:37 CDT form.go:382 - Form submitted: type=fundraiser, formID=fundraiser-2025-06-03_22-42-37-MxQfAw, ip=127.0.0.1, time=2025-06-03 22:42:37
+2025/06/03 22:42:37 [INFO] 2025-06-03 22:42:37 CDT main.go:212 - POST /api/submit-form took 7.780021ms
+2025/06/03 22:42:39 [INFO] 2025-06-03 22:42:39 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/03 22:42:39 [INFO] 2025-06-03 22:42:39 CDT order.go:502 - Fundraiser order details accessed for form fundraiser-2025-06-03_22-42-37-MxQfAw
+2025/06/03 22:42:39 [INFO] 2025-06-03 22:42:39 CDT main.go:212 - POST /api/order-details took 6.103426ms
+2025/06/03 22:54:46 [INFO] 2025-06-03 22:54:46 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/03 22:54:46 [INFO] 2025-06-03 22:54:46 CDT order.go:502 - Fundraiser order details accessed for form fundraiser-2025-06-03_22-42-37-MxQfAw
+2025/06/03 22:54:46 [INFO] 2025-06-03 22:54:46 CDT main.go:212 - POST /api/order-details took 940.428µs
+2025/06/03 22:58:58 [INFO] 2025-06-03 22:58:58 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/03 22:58:58 [INFO] 2025-06-03 22:58:58 CDT order.go:502 - Fundraiser order details accessed for form fundraiser-2025-06-03_22-42-37-MxQfAw
+2025/06/03 22:58:58 [INFO] 2025-06-03 22:58:58 CDT main.go:212 - POST /api/order-details took 993.721µs
+2025/06/03 23:00:21 [INFO] 2025-06-03 23:00:21 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/06/03 23:00:21 [INFO] 2025-06-03 23:00:21 CDT order.go:502 - Fundraiser order details accessed for form fundraiser-2025-06-03_22-42-37-MxQfAw
+2025/06/03 23:00:21 [INFO] 2025-06-03 23:00:21 CDT main.go:212 - POST /api/order-details took 890.94µs
+2025/06/03 23:01:27 [INFO] 2025-06-03 23:01:27 CDT payment.go:358 - Creating PayPal order for fundraiser-2025-06-03_22-42-37-MxQfAw (fundraiser): 25.00
+2025/06/03 23:01:27 [INFO] 2025-06-03 23:01:27 CDT payment.go:135 - Requesting new PayPal access token
+2025/06/03 23:01:28 [INFO] 2025-06-03 23:01:28 CDT payment.go:168 - Fetched and cached new PayPal access token (expires at 2025-06-04 08:00:28.246849 -0500 CDT m=+35532.805565621)
+2025/06/03 23:01:28 [INFO] 2025-06-03 23:01:28 CDT payment.go:228 - Creating PayPal order
+2025/06/03 23:01:29 [INFO] 2025-06-03 23:01:29 CDT payment.go:250 - Successfully created PayPal order
+2025/06/03 23:01:29 [INFO] 2025-06-03 23:01:29 CDT payment.go:411 - PayPal order 1F387095V8175884T created and stored for fundraiser-2025-06-03_22-42-37-MxQfAw (fundraiser)
+2025/06/03 23:01:29 [INFO] 2025-06-03 23:01:29 CDT main.go:212 - POST /api/create-order took 1.795858996s
+2025/06/03 23:01:45 [INFO] 2025-06-03 23:01:45 CDT logger.go:122 - HTTP POST /capture-order from 127.0.0.1
+2025/06/03 23:01:45 [INFO] 2025-06-03 23:01:45 CDT payment.go:107 - Using cached PayPal access token (expires at 2025-06-04 08:00:28.246849 -0500 CDT m=+35532.805565621)
+2025/06/03 23:01:47 [INFO] 2025-06-03 23:01:47 CDT payment.go:571 - PayPal capture confirmed successful for fundraiser-2025-06-03_22-42-37-MxQfAw (fundraiser): status=COMPLETED
+2025/06/03 23:01:47 [INFO] 2025-06-03 23:01:47 CDT payment.go:590 - PayPal order 1F387095V8175884T captured successfully for fundraiser-2025-06-03_22-42-37-MxQfAw (fundraiser)
+2025/06/03 23:01:47 [INFO] 2025-06-03 23:01:47 CDT main.go:212 - POST /api/capture-order took 1.20772517s
+2025/06/03 23:01:47 [INFO] 2025-06-03 23:01:47 CDT logger.go:122 - HTTP POST /success from 127.0.0.1
+2025/06/03 23:01:47 [WARN] 2025-06-03 23:01:47 CDT order.go:974 - Expired or invalid fundraiser access token from 127.0.0.1 for formID fundraiser-2025-06-03_22-42-37-MxQfAw
+2025/06/03 23:01:47 [INFO] 2025-06-03 23:01:47 CDT main.go:212 - POST /api/success took 2.350085ms
+2025/06/03 23:08:15 [INFO] 2025-06-03 23:08:15 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/04 00:38:55 [INFO] 2025-06-04 00:38:55 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/04 02:34:03 [INFO] 2025-06-04 02:34:03 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/06/04 05:02:26 [INFO] 2025-06-04 05:02:26 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)

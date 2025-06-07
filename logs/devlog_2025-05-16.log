@@ -1,0 +1,87 @@
+2025/05/16 13:55:31 [INFO] 2025-05-16 13:55:31 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-16.log
+2025/05/16 13:55:31 [INFO] 2025-05-16 13:55:31 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/16 13:55:31 [INFO] 2025-05-16 13:55:31 CDT config.go:186 - Using PayPal Sandbox environment
+2025/05/16 13:55:31 [INFO] 2025-05-16 13:55:31 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/16 13:55:31 [INFO] 2025-05-16 13:55:31 CDT config.go:58 - Running in development environment
+2025/05/16 13:55:31 [INFO] 2025-05-16 13:55:31 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/16 13:55:31 [INFO] 2025-05-16 13:55:31 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 13:55:31 [ERROR] 2025-05-16 13:55:31 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 13:55:55 [INFO] 2025-05-16 13:55:55 CDT main.go:144 - Shutdown signal received
+2025/05/16 13:55:55 [INFO] 2025-05-16 13:55:55 CDT main.go:154 - Server shut down gracefully
+2025/05/16 13:55:55 [INFO] 2025-05-16 13:55:55 CDT main.go:158 - Shutdown signal received
+2025/05/16 13:55:55 [INFO] 2025-05-16 13:55:55 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/16 13:55:55 [INFO] 2025-05-16 13:55:55 CDT main.go:161 - All connections closed. Total requests handled: 0
+2025/05/16 13:55:55 [INFO] 2025-05-16 13:55:55 CDT main.go:162 - Server shut down gracefully
+2025/05/16 13:58:02 [INFO] 2025-05-16 13:58:02 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-16.log
+2025/05/16 13:58:02 [INFO] 2025-05-16 13:58:02 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/16 13:58:02 [INFO] 2025-05-16 13:58:02 CDT config.go:186 - Using PayPal Sandbox environment
+2025/05/16 13:58:02 [INFO] 2025-05-16 13:58:02 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/16 13:58:02 [INFO] 2025-05-16 13:58:02 CDT config.go:58 - Running in development environment
+2025/05/16 13:58:02 [INFO] 2025-05-16 13:58:02 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/16 13:58:02 [INFO] 2025-05-16 13:58:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 13:58:02 [ERROR] 2025-05-16 13:58:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 13:59:02 [INFO] 2025-05-16 13:59:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 13:59:02 [ERROR] 2025-05-16 13:59:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:00:02 [INFO] 2025-05-16 14:00:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:00:02 [ERROR] 2025-05-16 14:00:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:01:02 [INFO] 2025-05-16 14:01:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:01:02 [ERROR] 2025-05-16 14:01:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:02:02 [INFO] 2025-05-16 14:02:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:02:02 [ERROR] 2025-05-16 14:02:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:03:02 [INFO] 2025-05-16 14:03:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:03:02 [ERROR] 2025-05-16 14:03:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:04:02 [INFO] 2025-05-16 14:04:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:04:02 [ERROR] 2025-05-16 14:04:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:04:16 [INFO] 2025-05-16 14:04:16 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/16 14:04:16 [INFO] 2025-05-16 14:04:16 CDT main.go:190 - GET /api/csrf-token took 377.078µs
+2025/05/16 14:05:02 [INFO] 2025-05-16 14:05:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:05:02 [ERROR] 2025-05-16 14:05:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:06:02 [INFO] 2025-05-16 14:06:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:06:02 [ERROR] 2025-05-16 14:06:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:07:02 [INFO] 2025-05-16 14:07:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:07:02 [ERROR] 2025-05-16 14:07:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:08:02 [INFO] 2025-05-16 14:08:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:08:02 [ERROR] 2025-05-16 14:08:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:09:02 [INFO] 2025-05-16 14:09:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:09:02 [ERROR] 2025-05-16 14:09:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:10:02 [INFO] 2025-05-16 14:10:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:10:02 [ERROR] 2025-05-16 14:10:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:11:02 [INFO] 2025-05-16 14:11:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:11:02 [ERROR] 2025-05-16 14:11:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:12:02 [INFO] 2025-05-16 14:12:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:12:02 [ERROR] 2025-05-16 14:12:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:13:02 [INFO] 2025-05-16 14:13:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:13:02 [ERROR] 2025-05-16 14:13:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:14:02 [INFO] 2025-05-16 14:14:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:14:02 [ERROR] 2025-05-16 14:14:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:15:02 [INFO] 2025-05-16 14:15:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:15:02 [ERROR] 2025-05-16 14:15:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:16:02 [INFO] 2025-05-16 14:16:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:16:02 [ERROR] 2025-05-16 14:16:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:17:02 [INFO] 2025-05-16 14:17:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:17:02 [ERROR] 2025-05-16 14:17:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:18:02 [INFO] 2025-05-16 14:18:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:18:02 [ERROR] 2025-05-16 14:18:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:19:02 [INFO] 2025-05-16 14:19:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:19:02 [ERROR] 2025-05-16 14:19:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:20:02 [INFO] 2025-05-16 14:20:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:20:02 [ERROR] 2025-05-16 14:20:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:21:02 [INFO] 2025-05-16 14:21:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:21:02 [ERROR] 2025-05-16 14:21:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:22:02 [INFO] 2025-05-16 14:22:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:22:02 [ERROR] 2025-05-16 14:22:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:23:02 [INFO] 2025-05-16 14:23:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:23:02 [ERROR] 2025-05-16 14:23:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:23:40 [INFO] 2025-05-16 14:23:40 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/05/16 14:23:40 [INFO] 2025-05-16 14:23:40 CDT form.go:84 - Form values received: map[additional_meal:[3] csrf_token:[LqLIFxJlnzoMZDJdNbSunzLNGAAH39W6qYhGfqHbKP0=] email:[ursula@example.com] event:[spring-festival] festival_lunch:[2] form_type:[event] full_name:[Ursula Le Guin] school:[middle-earth] student_meal_provided:[2]]
+2025/05/16 14:23:40 [INFO] 2025-05-16 14:23:40 CDT form.go:56 - Stat update: total_submissions = 1
+2025/05/16 14:23:40 [ERROR] 2025-05-16 14:23:40 CDT logger.go:127 - HTTP 400 error for POST /submit-form from 127.0.0.1: field 'student_count' is required
+2025/05/16 14:23:40 [INFO] 2025-05-16 14:23:40 CDT main.go:190 - POST /api/submit-form took 822.146µs
+2025/05/16 14:24:02 [INFO] 2025-05-16 14:24:02 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/16 14:24:02 [ERROR] 2025-05-16 14:24:02 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/16 14:24:51 [INFO] 2025-05-16 14:24:51 CDT main.go:144 - Shutdown signal received
+2025/05/16 14:24:51 [INFO] 2025-05-16 14:24:51 CDT main.go:154 - Server shut down gracefully
+2025/05/16 14:24:51 [INFO] 2025-05-16 14:24:51 CDT main.go:158 - Shutdown signal received
+2025/05/16 14:24:51 [INFO] 2025-05-16 14:24:51 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/16 14:24:51 [INFO] 2025-05-16 14:24:51 CDT main.go:161 - All connections closed. Total requests handled: 2
+2025/05/16 14:24:51 [INFO] 2025-05-16 14:24:51 CDT main.go:162 - Server shut down gracefully

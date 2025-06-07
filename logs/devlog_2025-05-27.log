@@ -1,0 +1,102 @@
+2025/05/27 22:58:35 [INFO] 2025-05-27 22:58:35 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-27.log
+2025/05/27 22:58:35 [INFO] 2025-05-27 22:58:35 CDT main.go:53 - Environment and paths loaded. Logger ready.
+2025/05/27 22:58:35 [INFO] 2025-05-27 22:58:35 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/27 22:58:35 [INFO] 2025-05-27 22:58:35 CDT config.go:61 - Running in development environment
+2025/05/27 22:58:35 [INFO] 2025-05-27 22:58:35 CDT main.go:154 - Starting server on 0.0.0.0:5051
+2025/05/27 22:58:49 [INFO] 2025-05-27 22:58:49 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/27 22:58:49 [INFO] 2025-05-27 22:58:49 CDT main.go:208 - GET /api/csrf-token took 2.547912ms
+2025/05/27 23:01:15 [INFO] 2025-05-27 23:01:15 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/05/27 23:01:15 [INFO] 2025-05-27 23:01:15 CDT form.go:85 - Form values received: map[cover_fees:[on] csrf_token:[aVqa3tq3Bc/NhX585Qw6Bt3/evtNcIkfiP8Ygpj1NdA=] describe:[supporter] donor_status:[first-time] email:[ralph@thesimpsons.net] form_type:[fundraiser] full_name:[Ralph Wiggum] hidden_field:[] school:[viridian] student_1_amount:[45] student_1_grade:[3] student_1_name:[John Thune] student_2_amount:[12] student_2_grade:[5] student_2_name:[Abbie Jenkins] student_count:[2]]
+2025/05/27 23:01:15 [INFO] 2025-05-27 23:01:15 CDT form.go:57 - Stat update: total_submissions = 1
+2025/05/27 23:01:15 [INFO] 2025-05-27 23:01:15 CDT data.go:347 - Fundraiser payment data processed for fundraiser-2025-05-27_23-01-15-MzMs7w: Total=57.00, Final=58.63
+2025/05/27 23:01:15 [INFO] 2025-05-27 23:01:15 CDT form.go:604 - Fundraiser form fundraiser-2025-05-27_23-01-15-MzMs7w processed successfully for ralph@thesimpsons.net (Total: $58.63)
+2025/05/27 23:01:15 [INFO] 2025-05-27 23:01:15 CDT form.go:178 - Form fundraiser-2025-05-27_23-01-15-MzMs7w accepted and saved successfully
+2025/05/27 23:01:15 [INFO] 2025-05-27 23:01:15 CDT form.go:57 - Stat update: successful_submissions = 1
+2025/05/27 23:01:15 [INFO] 2025-05-27 23:01:15 CDT form.go:326 - Form submitted: type=fundraiser, formID=fundraiser-2025-05-27_23-01-15-MzMs7w, ip=127.0.0.1, time=2025-05-27 23:01:15
+2025/05/27 23:01:15 [INFO] 2025-05-27 23:01:15 CDT main.go:208 - POST /api/submit-form took 2.133221ms
+2025/05/27 23:05:40 [INFO] 2025-05-27 23:05:40 CDT main.go:162 - Shutdown signal received
+2025/05/27 23:05:40 [INFO] 2025-05-27 23:05:40 CDT main.go:172 - Server shut down gracefully
+2025/05/27 23:05:40 [INFO] 2025-05-27 23:05:40 CDT main.go:176 - Shutdown signal received
+2025/05/27 23:05:40 [INFO] 2025-05-27 23:05:40 CDT main.go:177 - Waiting for active connections to finish...
+2025/05/27 23:05:40 [INFO] 2025-05-27 23:05:40 CDT main.go:179 - All connections closed. Total requests handled: 2
+2025/05/27 23:05:40 [INFO] 2025-05-27 23:05:40 CDT main.go:180 - Server shut down gracefully
+2025/05/27 23:05:46 [INFO] 2025-05-27 23:05:46 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-27.log
+2025/05/27 23:05:46 [INFO] 2025-05-27 23:05:46 CDT main.go:53 - Environment and paths loaded. Logger ready.
+2025/05/27 23:05:46 [INFO] 2025-05-27 23:05:46 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/27 23:05:46 [INFO] 2025-05-27 23:05:46 CDT config.go:61 - Running in development environment
+2025/05/27 23:05:46 [INFO] 2025-05-27 23:05:46 CDT main.go:154 - Starting server on 0.0.0.0:5051
+2025/05/27 23:05:56 [INFO] 2025-05-27 23:05:56 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/27 23:05:56 [INFO] 2025-05-27 23:05:56 CDT main.go:208 - GET /api/csrf-token took 435.733µs
+2025/05/27 23:06:59 [INFO] 2025-05-27 23:06:59 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/05/27 23:06:59 [INFO] 2025-05-27 23:06:59 CDT form.go:85 - Form values received: map[cover_fees:[on] csrf_token:[VyDjPYhd20vt8OC6cTQY+UigEz6A+MGufBGNKeraquQ=] describe:[family] donor_status:[returning] email:[adam@clarkfam.net] form_type:[fundraiser] full_name:[Adam Clark] hidden_field:[] school:[wilshire-fish] student_1_amount:[25] student_1_grade:[3] student_1_name:[Fox Clark] student_2_amount:[13] student_2_grade:[5] student_2_name:[SM Clark] student_3_amount:[67] student_3_grade:[K] student_3_name:[LW Clark] student_count:[3]]
+2025/05/27 23:06:59 [INFO] 2025-05-27 23:06:59 CDT form.go:57 - Stat update: total_submissions = 1
+2025/05/27 23:06:59 [INFO] 2025-05-27 23:06:59 CDT data.go:347 - Fundraiser payment data processed for fundraiser-2025-05-27_23-06-59-UigJVA: Total=105.00, Final=107.59
+2025/05/27 23:06:59 [INFO] 2025-05-27 23:06:59 CDT form.go:604 - Fundraiser form fundraiser-2025-05-27_23-06-59-UigJVA processed successfully for adam@clarkfam.net (Total: $107.59)
+2025/05/27 23:06:59 [INFO] 2025-05-27 23:06:59 CDT form.go:178 - Form fundraiser-2025-05-27_23-06-59-UigJVA accepted and saved successfully
+2025/05/27 23:06:59 [INFO] 2025-05-27 23:06:59 CDT form.go:57 - Stat update: successful_submissions = 1
+2025/05/27 23:06:59 [INFO] 2025-05-27 23:06:59 CDT form.go:326 - Form submitted: type=fundraiser, formID=fundraiser-2025-05-27_23-06-59-UigJVA, ip=127.0.0.1, time=2025-05-27 23:06:59
+2025/05/27 23:06:59 [INFO] 2025-05-27 23:06:59 CDT main.go:208 - POST /api/submit-form took 3.74131ms
+2025/05/27 23:06:59 [INFO] 2025-05-27 23:06:59 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/27 23:06:59 [WARN] 2025-05-27 23:06:59 CDT payment.go:820 - Order details accessed without token from 127.0.0.1
+2025/05/27 23:06:59 [INFO] 2025-05-27 23:06:59 CDT main.go:208 - GET /api/order-details took 341.125µs
+2025/05/27 23:11:16 [INFO] 2025-05-27 23:11:16 CDT main.go:162 - Shutdown signal received
+2025/05/27 23:11:16 [INFO] 2025-05-27 23:11:16 CDT main.go:172 - Server shut down gracefully
+2025/05/27 23:11:16 [INFO] 2025-05-27 23:11:16 CDT main.go:176 - Shutdown signal received
+2025/05/27 23:11:16 [INFO] 2025-05-27 23:11:16 CDT main.go:177 - Waiting for active connections to finish...
+2025/05/27 23:11:16 [INFO] 2025-05-27 23:11:16 CDT main.go:179 - All connections closed. Total requests handled: 3
+2025/05/27 23:11:16 [INFO] 2025-05-27 23:11:16 CDT main.go:180 - Server shut down gracefully
+2025/05/27 23:13:25 [INFO] 2025-05-27 23:13:25 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-27.log
+2025/05/27 23:13:25 [INFO] 2025-05-27 23:13:25 CDT main.go:53 - Environment and paths loaded. Logger ready.
+2025/05/27 23:13:25 [INFO] 2025-05-27 23:13:25 CDT config.go:205 - Using PayPal Sandbox environment
+2025/05/27 23:13:25 [INFO] 2025-05-27 23:13:25 CDT config.go:61 - Running in development environment
+2025/05/27 23:13:25 [INFO] 2025-05-27 23:13:25 CDT main.go:154 - Starting server on 0.0.0.0:5051
+2025/05/27 23:13:45 [INFO] 2025-05-27 23:13:45 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/27 23:13:45 [INFO] 2025-05-27 23:13:45 CDT main.go:208 - GET /api/csrf-token took 325.534µs
+2025/05/27 23:15:05 [INFO] 2025-05-27 23:15:05 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/05/27 23:15:05 [INFO] 2025-05-27 23:15:05 CDT form.go:85 - Form values received: map[cover_fees:[on] csrf_token:[/tQsn7fyXM3nAEZULiWDfzq8wfuYXQJbGYadc66nw1s=] describe:[at-home-teacher] donor_status:[first-time] email:[superman@heroes.net] form_type:[fundraiser] full_name:[Superman Ginger] hidden_field:[] school:[wilshire-soler] student_1_amount:[34] student_1_grade:[5] student_1_name:[SM Hero] student_2_amount:[19] student_2_grade:[3] student_2_name:[Fox Heroes] student_3_amount:[65] student_3_grade:[K] student_3_name:[LW HEROES] student_count:[3]]
+2025/05/27 23:15:05 [INFO] 2025-05-27 23:15:05 CDT form.go:57 - Stat update: total_submissions = 1
+2025/05/27 23:15:05 [INFO] 2025-05-27 23:15:05 CDT data.go:347 - Fundraiser payment data processed for fundraiser-2025-05-27_23-15-05-3YYzDg: Total=118.00, Final=120.85
+2025/05/27 23:15:05 [INFO] 2025-05-27 23:15:05 CDT form.go:658 - Fundraiser form fundraiser-2025-05-27_23-15-05-3YYzDg processed successfully for superman@heroes.net (Total: $120.85)
+2025/05/27 23:15:05 [INFO] 2025-05-27 23:15:05 CDT form.go:178 - Form fundraiser-2025-05-27_23-15-05-3YYzDg accepted and saved successfully
+2025/05/27 23:15:05 [INFO] 2025-05-27 23:15:05 CDT form.go:57 - Stat update: successful_submissions = 1
+2025/05/27 23:15:05 [INFO] 2025-05-27 23:15:05 CDT form.go:380 - Form submitted: type=fundraiser, formID=fundraiser-2025-05-27_23-15-05-3YYzDg, ip=127.0.0.1, time=2025-05-27 23:15:05
+2025/05/27 23:15:05 [INFO] 2025-05-27 23:15:05 CDT main.go:208 - POST /api/submit-form took 5.053652ms
+2025/05/27 23:15:10 [INFO] 2025-05-27 23:15:10 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/27 23:15:10 [INFO] 2025-05-27 23:15:10 CDT main.go:208 - GET /api/csrf-token took 878.265µs
+2025/05/27 23:19:18 [INFO] 2025-05-27 23:19:18 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/05/27 23:19:18 [INFO] 2025-05-27 23:19:18 CDT form.go:85 - Form values received: map[cover_fees:[on] csrf_token:[1cabHBKcL80nZ7iL9QxiaWyvTvZ63dnmm+ElHjy4GC8=] describe:[at-home-teacher] donor_status:[first-time] email:[superman@heroes.net] form_type:[fundraiser] full_name:[Superman Ginger] hidden_field:[] school:[wilshire-soler] student_1_amount:[34] student_1_grade:[5] student_1_name:[SM Hero] student_2_amount:[19] student_2_grade:[3] student_2_name:[Fox Heroes] student_3_amount:[65] student_3_grade:[K] student_3_name:[LW HEROES] student_count:[3]]
+2025/05/27 23:19:18 [INFO] 2025-05-27 23:19:18 CDT form.go:57 - Stat update: total_submissions = 2
+2025/05/27 23:19:18 [INFO] 2025-05-27 23:19:18 CDT data.go:347 - Fundraiser payment data processed for fundraiser-2025-05-27_23-19-18-7P55Ow: Total=118.00, Final=120.85
+2025/05/27 23:19:18 [INFO] 2025-05-27 23:19:18 CDT form.go:658 - Fundraiser form fundraiser-2025-05-27_23-19-18-7P55Ow processed successfully for superman@heroes.net (Total: $120.85)
+2025/05/27 23:19:18 [INFO] 2025-05-27 23:19:18 CDT form.go:178 - Form fundraiser-2025-05-27_23-19-18-7P55Ow accepted and saved successfully
+2025/05/27 23:19:18 [INFO] 2025-05-27 23:19:18 CDT form.go:57 - Stat update: successful_submissions = 2
+2025/05/27 23:19:18 [INFO] 2025-05-27 23:19:18 CDT form.go:380 - Form submitted: type=fundraiser, formID=fundraiser-2025-05-27_23-19-18-7P55Ow, ip=127.0.0.1, time=2025-05-27 23:19:18
+2025/05/27 23:19:18 [INFO] 2025-05-27 23:19:18 CDT main.go:208 - POST /api/submit-form took 3.560679ms
+2025/05/27 23:19:20 [INFO] 2025-05-27 23:19:20 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/27 23:19:20 [INFO] 2025-05-27 23:19:20 CDT main.go:208 - GET /api/csrf-token took 167.316µs
+2025/05/27 23:19:24 [INFO] 2025-05-27 23:19:24 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/27 23:19:24 [INFO] 2025-05-27 23:19:24 CDT main.go:208 - GET /api/csrf-token took 181.434µs
+2025/05/27 23:21:01 [INFO] 2025-05-27 23:21:01 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/05/27 23:21:01 [INFO] 2025-05-27 23:21:01 CDT form.go:85 - Form values received: map[cover_fees:[on] csrf_token:[UEgrCp84791lS+3i7zwq6MH1NjVx/TkAwTuMTwoBtgg=] describe:[at-home-teacher] donor_status:[first-time] email:[wilton@gmail.com] form_type:[fundraiser] full_name:[Wilton Reeds] hidden_field:[] school:[north-euless] student_1_amount:[34] student_1_grade:[4] student_1_name:[Jonas Reeds] student_2_amount:[23] student_2_grade:[1] student_2_name:[Ralph Reeds] student_3_amount:[63] student_3_grade:[6] student_3_name:[Swipe Reeds] student_count:[3]]
+2025/05/27 23:21:01 [INFO] 2025-05-27 23:21:01 CDT form.go:57 - Stat update: total_submissions = 3
+2025/05/27 23:21:01 [INFO] 2025-05-27 23:21:01 CDT data.go:347 - Fundraiser payment data processed for fundraiser-2025-05-27_23-21-01-b8T5kA: Total=120.00, Final=122.89
+2025/05/27 23:21:01 [INFO] 2025-05-27 23:21:01 CDT form.go:658 - Fundraiser form fundraiser-2025-05-27_23-21-01-b8T5kA processed successfully for wilton@gmail.com (Total: $122.89)
+2025/05/27 23:21:01 [INFO] 2025-05-27 23:21:01 CDT form.go:178 - Form fundraiser-2025-05-27_23-21-01-b8T5kA accepted and saved successfully
+2025/05/27 23:21:01 [INFO] 2025-05-27 23:21:01 CDT form.go:57 - Stat update: successful_submissions = 3
+2025/05/27 23:21:01 [INFO] 2025-05-27 23:21:01 CDT form.go:380 - Form submitted: type=fundraiser, formID=fundraiser-2025-05-27_23-21-01-b8T5kA, ip=127.0.0.1, time=2025-05-27 23:21:01
+2025/05/27 23:21:01 [INFO] 2025-05-27 23:21:01 CDT main.go:208 - POST /api/submit-form took 2.659097ms
+2025/05/27 23:21:02 [INFO] 2025-05-27 23:21:02 CDT logger.go:122 - HTTP POST /order-details from 127.0.0.1
+2025/05/27 23:21:02 [INFO] 2025-05-27 23:21:02 CDT payment.go:1015 - Fundraiser order details accessed for form fundraiser-2025-05-27_23-21-01-b8T5kA
+2025/05/27 23:21:02 [INFO] 2025-05-27 23:21:02 CDT main.go:208 - POST /api/order-details took 6.710764ms
+2025/05/27 23:23:12 [INFO] 2025-05-27 23:23:12 CDT main.go:208 - POST /api/create-order took 500.305µs
+2025/05/28 01:18:03 [INFO] 2025-05-28 01:18:03 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/28 02:59:41 [INFO] 2025-05-28 02:59:41 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/28 04:58:47 [INFO] 2025-05-28 04:58:47 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/28 05:56:01 [INFO] 2025-05-28 05:56:01 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/28 06:26:05 [INFO] 2025-05-28 06:26:05 CDT security.go:281 - Token cleanup ran (CSRF and access tokens)
+2025/05/28 06:35:40 [INFO] 2025-05-28 06:35:40 CDT main.go:162 - Shutdown signal received
+2025/05/28 06:35:40 [INFO] 2025-05-28 06:35:40 CDT main.go:172 - Server shut down gracefully
+2025/05/28 06:35:40 [INFO] 2025-05-28 06:35:40 CDT main.go:176 - Shutdown signal received
+2025/05/28 06:35:40 [INFO] 2025-05-28 06:35:40 CDT main.go:177 - Waiting for active connections to finish...
+2025/05/28 06:35:40 [INFO] 2025-05-28 06:35:40 CDT main.go:179 - All connections closed. Total requests handled: 9
+2025/05/28 06:35:40 [INFO] 2025-05-28 06:35:40 CDT main.go:180 - Server shut down gracefully

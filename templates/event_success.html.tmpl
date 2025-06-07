@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{.Event}} Confirmation</title>
+  <link rel="stylesheet" href="/static/css/simple.css">
+  <link rel="stylesheet" href="/static/css/success.css">
+</head>
+<body>
+  {{if .IsAdminView}}
+  <div class="admin-header">
+    ADMIN VIEW - {{.FormID}}
+  </div>
+  {{end}}
+
+  <div class="header">
+    <img src="/static/images/logolong.webp" alt="HEB Suzuki Strings Logo">
+    <h1>{{.Event}} Registration Confirmed</h1>
+    <p>Thank you, {{.FirstName}}!</p>
+    <div class="receipt-id">Order ID: {{.FormattedID}}</div>
+    <div class="status-badge status-{{lower .PayPalStatus}}">{{.PayPalStatus}}</div>
+  </div>
+
+  <div class="section">
+    <h2>Registration Details</h2>
+    <div class="details-grid">
+      <div class="detail-group">
+        <h3>Contact Information</h3>
+        <div class="detail-item">
+          <span class="detail-label">Name:</span>
+          <span class="detail-value">{{.FullName}}</span>
+        </div>
+        <div class="detail-item">
+          <span class="detail-label">Email:</span>
+          <span class="detail-value">{{.Email}}</span>
+        </div>
+        <div class="detail-item">
+          <span class="detail-label">School:</span>
+          <span class="detail-value">{{.School}}</span>
+        </div>
+        {{if .FoodOrderID}}
+        <div class="detail-item">
+          <span class="detail-label">Order ID:</span>
+          <span class="detail-value"><strong>{{.FoodOrderID}}</strong></span>
+        </div>
+        {{end}}
+      </div>
+
+      <div class="detail-group">
+        <h3>Payment Information</h3>
+        <div class="detail-item">
+          <span class="detail-label">Total Amount:</span>
+          <span class="detail-value amount">{{formatCurrency .CalculatedAmount}}</span>
+        </div>
+        {{if .CoverFees}}
+        <div class="detail-item">
+          <span class="detail-label">Processing Fee:</span>
+          <span class="detail-value">{{formatCurrency .ProcessingFee}}</span>
+        </div>
+        {{end}}
+        {{if .PayPalOrderID}}
+        <div class="detail-item">
+          <span class="detail-label">PayPal Order:</span>
+          <span class="detail-value">{{.PayPalOrderID}}</span>
+        </div>
+        {{end}}
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Registered Students ({{.StudentCount}})</h2>
+    <div class="details-grid">
+      <div class="detail-group">
+        {{range .Students}}
+        <div class="detail-item">
+          <span class="detail-label">{{.Name}}:</span>
+          <span class="detail-value">Grade {{.Grade}}</span>
+        </div>
+        {{end}}
+      </div>
+    </div>
+  </div>
+
+  {{if .EventItemsDisplay}}
+  <div class="section">
+    <h2>Selected Options</h2>
+    
+    {{/* Group items by type */}}
+    {{$hasPerStudentItems := false}}
+    {{$hasSharedItems := false}}
+    
+    {{range .EventItemsDisplay}}
+      {{if .IsShared}}
+        {{$hasSharedItems = true}}
+      {{else}}
+        {{$hasPerStudentItems = true}}
+      {{end}}
+    {{end}}
+    
+    <div class="details-grid">
+      {{if $hasPerStudentItems}}
+      <div class="detail-group">
+        <h3>Per-Student Options</h3>
+        {{range .EventItemsDisplay}}
+          {{if not .IsShared}}
+          <div class="detail-item">
+            <span class="detail-label">{{.StudentName}} - {{.ItemLabel}}:</span>
+            <span class="detail-value">{{formatCurrency .TotalPrice}}</span>
+          </div>
+          {{end}}
+        {{end}}
+      </div>
+      {{end}}
+      
+      {{if $hasSharedItems}}
+      <div class="detail-group">
+        <h3>Additional Options</h3>
+        {{range .EventItemsDisplay}}
+          {{if .IsShared}}
+          <div class="detail-item">
+            <span class="detail-label">{{.ItemLabel}} {{if gt .Quantity 1}}(×{{.Quantity}}){{end}}:</span>
+            <span class="detail-value">{{formatCurrency .TotalPrice}}</span>
+          </div>
+          {{end}}
+        {{end}}
+      </div>
+      {{end}}
+    </div>
+  </div>
+  {{end}}
+
+  {{if .SubmittedAt}}
+  <div class="section">
+    <h2>Timeline</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <span class="timeline-label">Registration Completed:</span>
+        <span class="timeline-time">{{formatDateTime .SubmittedAt}}</span>
+      </div>
+    </div>
+  </div>
+  {{end}}
+
+  {{if and .OrderPageURL .IsCompleted}}
+  <div class="email-sent">
+    <strong>📄 Order Details:</strong> A permanent link to your order details has been created. You can access it anytime at:
+    <br><a href="{{.OrderPageURL}}" target="_blank">{{.OrderPageURL}}</a>
+  </div>
+  {{end}}
+
+  {{if .IsCompleted}}
+  <div class="email-sent">
+    <strong>📧 Confirmation Email:</strong> A confirmation email has been sent to {{.Email}} with your registration details.
+  </div>
+  {{else}}
+  <div class="email-pending">
+    <strong>⏳ Processing:</strong> Your registration is being processed. You will receive a confirmation email once payment is complete.
+  </div>
+  {{end}}
+
+  <div class="actions">
+    <button class="btn" onclick="window.print()" id="print-receipt">🖨️ Print Receipt</button>
+    <a href="/" class="btn">🏠 Return Home</a>
+  </div>
+
+  <div class="info-block">
+    <p><strong>Questions?</strong> Contact us at <a href="mailto:info@hebstrings.org">info@hebstrings.org</a></p>
+    <p>This confirmation shows your completed registration for {{.Event}} {{.Year}}.</p>
+  </div>
+</body>
+</html>

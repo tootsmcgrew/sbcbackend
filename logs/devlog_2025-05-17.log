@@ -1,0 +1,1105 @@
+2025/05/17 09:51:05 [INFO] 2025-05-17 09:51:05 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-17.log
+2025/05/17 09:51:05 [INFO] 2025-05-17 09:51:05 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/17 09:51:05 [INFO] 2025-05-17 09:51:05 CDT config.go:186 - Using PayPal Sandbox environment
+2025/05/17 09:51:05 [INFO] 2025-05-17 09:51:05 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/17 09:51:05 [INFO] 2025-05-17 09:51:05 CDT config.go:58 - Running in development environment
+2025/05/17 09:51:05 [INFO] 2025-05-17 09:51:05 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/17 09:51:05 [INFO] 2025-05-17 09:51:05 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 09:51:05 [ERROR] 2025-05-17 09:51:05 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 09:52:05 [INFO] 2025-05-17 09:52:05 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 09:52:05 [ERROR] 2025-05-17 09:52:05 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 09:53:05 [INFO] 2025-05-17 09:53:05 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 09:53:05 [ERROR] 2025-05-17 09:53:05 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 09:54:05 [INFO] 2025-05-17 09:54:05 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 09:54:05 [ERROR] 2025-05-17 09:54:05 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 09:55:05 [INFO] 2025-05-17 09:55:05 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 09:55:05 [ERROR] 2025-05-17 09:55:05 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 09:56:05 [INFO] 2025-05-17 09:56:05 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 09:56:05 [ERROR] 2025-05-17 09:56:05 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 09:57:05 [INFO] 2025-05-17 09:57:05 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 09:57:05 [ERROR] 2025-05-17 09:57:05 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 09:58:05 [INFO] 2025-05-17 09:58:05 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 09:58:05 [ERROR] 2025-05-17 09:58:05 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 09:59:05 [INFO] 2025-05-17 09:59:05 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 09:59:05 [ERROR] 2025-05-17 09:59:05 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 10:00:05 [INFO] 2025-05-17 10:00:05 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 10:00:05 [ERROR] 2025-05-17 10:00:05 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 10:01:05 [INFO] 2025-05-17 10:01:05 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 10:01:05 [ERROR] 2025-05-17 10:01:05 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 10:02:05 [INFO] 2025-05-17 10:02:05 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 10:02:05 [ERROR] 2025-05-17 10:02:05 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 10:03:05 [INFO] 2025-05-17 10:03:05 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 10:03:05 [ERROR] 2025-05-17 10:03:05 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 10:04:05 [INFO] 2025-05-17 10:04:05 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 10:04:05 [ERROR] 2025-05-17 10:04:05 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 10:05:05 [INFO] 2025-05-17 10:05:05 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 10:05:05 [ERROR] 2025-05-17 10:05:05 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 10:06:05 [INFO] 2025-05-17 10:06:05 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 10:06:05 [ERROR] 2025-05-17 10:06:05 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 10:06:27 [INFO] 2025-05-17 10:06:27 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/17 10:06:27 [INFO] 2025-05-17 10:06:27 CDT main.go:190 - GET /api/csrf-token took 3.371969ms
+2025/05/17 10:07:05 [INFO] 2025-05-17 10:07:05 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 10:07:05 [ERROR] 2025-05-17 10:07:05 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 10:38:01 [INFO] 2025-05-17 10:38:01 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 10:38:01 [ERROR] 2025-05-17 10:38:01 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 10:56:24 [INFO] 2025-05-17 10:56:24 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 10:56:24 [ERROR] 2025-05-17 10:56:24 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 10:57:24 [INFO] 2025-05-17 10:57:24 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 10:57:24 [ERROR] 2025-05-17 10:57:24 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 10:58:24 [INFO] 2025-05-17 10:58:24 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 10:58:24 [ERROR] 2025-05-17 10:58:24 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 10:59:24 [INFO] 2025-05-17 10:59:24 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 10:59:24 [ERROR] 2025-05-17 10:59:24 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 11:00:24 [INFO] 2025-05-17 11:00:24 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 11:00:24 [ERROR] 2025-05-17 11:00:24 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 11:18:13 [INFO] 2025-05-17 11:18:13 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 11:18:13 [ERROR] 2025-05-17 11:18:13 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 11:19:13 [INFO] 2025-05-17 11:19:13 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 11:19:13 [ERROR] 2025-05-17 11:19:13 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 11:20:13 [INFO] 2025-05-17 11:20:13 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 11:20:13 [ERROR] 2025-05-17 11:20:13 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 11:21:13 [INFO] 2025-05-17 11:21:13 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 11:21:13 [ERROR] 2025-05-17 11:21:13 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 11:22:13 [INFO] 2025-05-17 11:22:13 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 11:22:13 [ERROR] 2025-05-17 11:22:13 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 11:23:13 [INFO] 2025-05-17 11:23:13 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 11:23:13 [ERROR] 2025-05-17 11:23:13 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 11:40:49 [INFO] 2025-05-17 11:40:49 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 11:40:49 [ERROR] 2025-05-17 11:40:49 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 11:41:49 [INFO] 2025-05-17 11:41:49 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/17 11:41:49 [INFO] 2025-05-17 11:41:49 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 11:41:49 [ERROR] 2025-05-17 11:41:49 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 11:42:49 [INFO] 2025-05-17 11:42:49 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 11:42:49 [ERROR] 2025-05-17 11:42:49 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 11:43:49 [INFO] 2025-05-17 11:43:49 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 11:43:49 [ERROR] 2025-05-17 11:43:49 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 11:44:49 [INFO] 2025-05-17 11:44:49 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 11:44:49 [ERROR] 2025-05-17 11:44:49 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 12:00:36 [INFO] 2025-05-17 12:00:36 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 12:00:36 [ERROR] 2025-05-17 12:00:36 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 12:01:36 [INFO] 2025-05-17 12:01:36 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 12:01:36 [ERROR] 2025-05-17 12:01:36 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 12:02:36 [INFO] 2025-05-17 12:02:36 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 12:02:36 [ERROR] 2025-05-17 12:02:36 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 12:03:36 [INFO] 2025-05-17 12:03:36 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 12:03:36 [ERROR] 2025-05-17 12:03:36 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 12:04:36 [INFO] 2025-05-17 12:04:36 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 12:04:36 [ERROR] 2025-05-17 12:04:36 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 12:08:27 [INFO] 2025-05-17 12:08:27 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 12:08:27 [ERROR] 2025-05-17 12:08:27 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 12:24:39 [INFO] 2025-05-17 12:24:39 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 12:24:39 [ERROR] 2025-05-17 12:24:39 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 12:25:39 [INFO] 2025-05-17 12:25:39 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 12:25:39 [ERROR] 2025-05-17 12:25:39 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 12:26:39 [INFO] 2025-05-17 12:26:39 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 12:26:39 [ERROR] 2025-05-17 12:26:39 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 12:27:39 [INFO] 2025-05-17 12:27:39 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 12:27:39 [ERROR] 2025-05-17 12:27:39 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 12:28:39 [INFO] 2025-05-17 12:28:39 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 12:28:39 [ERROR] 2025-05-17 12:28:39 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 12:45:21 [INFO] 2025-05-17 12:45:21 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 12:45:21 [ERROR] 2025-05-17 12:45:21 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:12:26 [INFO] 2025-05-17 13:12:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:12:26 [ERROR] 2025-05-17 13:12:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:13:26 [INFO] 2025-05-17 13:13:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:13:26 [ERROR] 2025-05-17 13:13:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:14:17 [INFO] 2025-05-17 13:14:17 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/17 13:14:17 [INFO] 2025-05-17 13:14:17 CDT main.go:190 - GET /api/csrf-token took 8.47632ms
+2025/05/17 13:14:26 [INFO] 2025-05-17 13:14:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:14:26 [ERROR] 2025-05-17 13:14:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:15:26 [INFO] 2025-05-17 13:15:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:15:26 [ERROR] 2025-05-17 13:15:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:16:26 [INFO] 2025-05-17 13:16:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:16:26 [ERROR] 2025-05-17 13:16:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:17:26 [INFO] 2025-05-17 13:17:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:17:26 [ERROR] 2025-05-17 13:17:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:18:26 [INFO] 2025-05-17 13:18:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:18:26 [ERROR] 2025-05-17 13:18:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:19:26 [INFO] 2025-05-17 13:19:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:19:26 [ERROR] 2025-05-17 13:19:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:20:26 [INFO] 2025-05-17 13:20:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:20:26 [ERROR] 2025-05-17 13:20:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:21:26 [INFO] 2025-05-17 13:21:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:21:26 [ERROR] 2025-05-17 13:21:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:22:26 [INFO] 2025-05-17 13:22:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:22:26 [ERROR] 2025-05-17 13:22:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:23:26 [INFO] 2025-05-17 13:23:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:23:26 [ERROR] 2025-05-17 13:23:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:24:26 [INFO] 2025-05-17 13:24:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:24:26 [ERROR] 2025-05-17 13:24:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:25:26 [INFO] 2025-05-17 13:25:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:25:26 [ERROR] 2025-05-17 13:25:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:26:26 [INFO] 2025-05-17 13:26:26 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/17 13:26:26 [INFO] 2025-05-17 13:26:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:26:26 [ERROR] 2025-05-17 13:26:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:27:26 [INFO] 2025-05-17 13:27:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:27:26 [ERROR] 2025-05-17 13:27:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:28:26 [INFO] 2025-05-17 13:28:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:28:26 [ERROR] 2025-05-17 13:28:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:29:26 [INFO] 2025-05-17 13:29:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:29:26 [ERROR] 2025-05-17 13:29:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:29:30 [INFO] 2025-05-17 13:29:30 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/17 13:29:30 [INFO] 2025-05-17 13:29:30 CDT main.go:190 - GET /api/csrf-token took 662.272µs
+2025/05/17 13:30:26 [INFO] 2025-05-17 13:30:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:30:26 [ERROR] 2025-05-17 13:30:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:31:26 [INFO] 2025-05-17 13:31:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:31:26 [ERROR] 2025-05-17 13:31:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:32:26 [INFO] 2025-05-17 13:32:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:32:26 [ERROR] 2025-05-17 13:32:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:33:26 [INFO] 2025-05-17 13:33:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:33:26 [ERROR] 2025-05-17 13:33:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:34:26 [INFO] 2025-05-17 13:34:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:34:26 [ERROR] 2025-05-17 13:34:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:35:26 [INFO] 2025-05-17 13:35:26 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/17 13:35:26 [INFO] 2025-05-17 13:35:26 CDT main.go:190 - GET /api/csrf-token took 219.658µs
+2025/05/17 13:35:26 [INFO] 2025-05-17 13:35:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:35:26 [ERROR] 2025-05-17 13:35:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:36:26 [INFO] 2025-05-17 13:36:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:36:26 [ERROR] 2025-05-17 13:36:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:37:26 [INFO] 2025-05-17 13:37:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:37:26 [ERROR] 2025-05-17 13:37:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:37:40 [INFO] 2025-05-17 13:37:40 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/17 13:37:40 [INFO] 2025-05-17 13:37:40 CDT main.go:190 - GET /api/csrf-token took 227.34µs
+2025/05/17 13:38:26 [INFO] 2025-05-17 13:38:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:38:26 [ERROR] 2025-05-17 13:38:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:39:15 [INFO] 2025-05-17 13:39:15 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/17 13:39:15 [INFO] 2025-05-17 13:39:15 CDT main.go:190 - GET /api/csrf-token took 342.363µs
+2025/05/17 13:39:26 [INFO] 2025-05-17 13:39:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:39:26 [ERROR] 2025-05-17 13:39:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:39:44 [INFO] 2025-05-17 13:39:44 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/17 13:39:44 [INFO] 2025-05-17 13:39:44 CDT main.go:190 - GET /api/csrf-token took 340.342µs
+2025/05/17 13:40:26 [INFO] 2025-05-17 13:40:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:40:26 [ERROR] 2025-05-17 13:40:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:41:26 [INFO] 2025-05-17 13:41:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:41:26 [ERROR] 2025-05-17 13:41:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:42:26 [INFO] 2025-05-17 13:42:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:42:26 [ERROR] 2025-05-17 13:42:26 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:42:47 [INFO] 2025-05-17 13:42:47 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/17 13:42:47 [INFO] 2025-05-17 13:42:47 CDT main.go:190 - GET /api/csrf-token took 539.8µs
+2025/05/17 13:43:27 [INFO] 2025-05-17 13:43:27 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:43:27 [ERROR] 2025-05-17 13:43:27 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:44:27 [INFO] 2025-05-17 13:44:27 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:44:27 [ERROR] 2025-05-17 13:44:27 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:45:27 [INFO] 2025-05-17 13:45:27 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:45:27 [ERROR] 2025-05-17 13:45:27 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:46:27 [INFO] 2025-05-17 13:46:27 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:46:27 [ERROR] 2025-05-17 13:46:27 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:47:27 [INFO] 2025-05-17 13:47:27 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:47:27 [ERROR] 2025-05-17 13:47:27 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:47:48 [INFO] 2025-05-17 13:47:48 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/17 13:47:48 [INFO] 2025-05-17 13:47:48 CDT main.go:190 - GET /api/csrf-token took 164.517µs
+2025/05/17 13:48:06 [INFO] 2025-05-17 13:48:06 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/17 13:48:06 [INFO] 2025-05-17 13:48:06 CDT main.go:190 - GET /api/csrf-token took 202.288µs
+2025/05/17 13:48:27 [INFO] 2025-05-17 13:48:27 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:48:27 [ERROR] 2025-05-17 13:48:27 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:49:27 [INFO] 2025-05-17 13:49:27 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:49:27 [ERROR] 2025-05-17 13:49:27 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:50:10 [INFO] 2025-05-17 13:50:10 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/17 13:50:10 [INFO] 2025-05-17 13:50:10 CDT main.go:190 - GET /api/csrf-token took 167.494µs
+2025/05/17 13:50:27 [INFO] 2025-05-17 13:50:27 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:50:27 [ERROR] 2025-05-17 13:50:27 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:51:27 [INFO] 2025-05-17 13:51:27 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:51:27 [ERROR] 2025-05-17 13:51:27 CDT membership_aggregator.go:30 - Event aggregation failed: open booster/data/events/2025: no such file or directory
+2025/05/17 13:51:36 [INFO] 2025-05-17 13:51:36 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/05/17 13:51:36 [INFO] 2025-05-17 13:51:36 CDT form.go:84 - Form values received: map[additional_meal:[2] csrf_token:[XG0FWfGMpoFFYQxySsavM9RpHURL0EiI8N+zaCzFVHw=] email:[morgan@genius.net] event:[spring-festival] festival_lunch:[1] form_type:[event] full_name:[Morgan Mark Schmitt] hidden_field:[] school:[lakewood] show_food_options:[on] student_1_grade:[2] student_1_name:[Hubie Brown] student_2_grade:[4] student_2_name:[Larry Brown] student_count:[2] student_meal_provided:[3]]
+2025/05/17 13:51:36 [INFO] 2025-05-17 13:51:36 CDT form.go:56 - Stat update: total_submissions = 1
+2025/05/17 13:51:36 [INFO] 2025-05-17 13:51:36 CDT data.go:131 - Form saved successfully: booster/data/events/2025/event-2025-05-17_13-51-36-eDZE2w.json
+2025/05/17 13:51:36 [INFO] 2025-05-17 13:51:36 CDT form.go:156 - Form event-2025-05-17_13-51-36-eDZE2w accepted and saved successfully
+2025/05/17 13:51:36 [INFO] 2025-05-17 13:51:36 CDT form.go:56 - Stat update: successful_submissions = 1
+2025/05/17 13:51:36 [INFO] 2025-05-17 13:51:36 CDT form.go:283 - Form submitted: type=event, formID=event-2025-05-17_13-51-36-eDZE2w, ip=127.0.0.1, time=2025-05-17 13:51:36
+2025/05/17 13:51:36 [INFO] 2025-05-17 13:51:36 CDT main.go:190 - POST /api/submit-form took 14.12771ms
+2025/05/17 13:52:27 [INFO] 2025-05-17 13:52:27 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:52:27 [INFO] 2025-05-17 13:52:27 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 13:52:27 [INFO] 2025-05-17 13:52:27 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 13:53:27 [INFO] 2025-05-17 13:53:27 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:53:27 [WARN] 2025-05-17 13:53:27 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 13:53:27 [INFO] 2025-05-17 13:53:27 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 13:53:27 [INFO] 2025-05-17 13:53:27 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 13:54:27 [INFO] 2025-05-17 13:54:27 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:54:27 [WARN] 2025-05-17 13:54:27 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 13:54:27 [INFO] 2025-05-17 13:54:27 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 13:54:27 [INFO] 2025-05-17 13:54:27 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 13:54:43 [INFO] 2025-05-17 13:54:43 CDT main.go:144 - Shutdown signal received
+2025/05/17 13:54:43 [INFO] 2025-05-17 13:54:43 CDT main.go:154 - Server shut down gracefully
+2025/05/17 13:54:43 [INFO] 2025-05-17 13:54:43 CDT main.go:158 - Shutdown signal received
+2025/05/17 13:54:43 [INFO] 2025-05-17 13:54:43 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/17 13:54:43 [INFO] 2025-05-17 13:54:43 CDT main.go:161 - All connections closed. Total requests handled: 12
+2025/05/17 13:54:43 [INFO] 2025-05-17 13:54:43 CDT main.go:162 - Server shut down gracefully
+2025/05/17 13:54:50 [INFO] 2025-05-17 13:54:50 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-17.log
+2025/05/17 13:54:50 [INFO] 2025-05-17 13:54:50 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/17 13:54:50 [INFO] 2025-05-17 13:54:50 CDT config.go:186 - Using PayPal Sandbox environment
+2025/05/17 13:54:50 [INFO] 2025-05-17 13:54:50 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/17 13:54:50 [INFO] 2025-05-17 13:54:50 CDT config.go:58 - Running in development environment
+2025/05/17 13:54:50 [INFO] 2025-05-17 13:54:50 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/17 13:54:50 [INFO] 2025-05-17 13:54:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:54:50 [WARN] 2025-05-17 13:54:50 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 13:54:50 [INFO] 2025-05-17 13:54:50 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 13:54:50 [INFO] 2025-05-17 13:54:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 13:55:07 [INFO] 2025-05-17 13:55:07 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/17 13:55:07 [INFO] 2025-05-17 13:55:07 CDT main.go:190 - GET /api/csrf-token took 7.584338ms
+2025/05/17 13:55:50 [INFO] 2025-05-17 13:55:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:55:50 [WARN] 2025-05-17 13:55:50 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 13:55:50 [INFO] 2025-05-17 13:55:50 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 13:55:50 [INFO] 2025-05-17 13:55:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 13:56:50 [INFO] 2025-05-17 13:56:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:56:50 [WARN] 2025-05-17 13:56:50 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 13:56:50 [INFO] 2025-05-17 13:56:50 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 13:56:50 [INFO] 2025-05-17 13:56:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 13:57:42 [INFO] 2025-05-17 13:57:42 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/05/17 13:57:42 [INFO] 2025-05-17 13:57:42 CDT form.go:84 - Form values received: map[additional_meal:[3] csrf_token:[DsVEmY2onHD2NO4mXG65UuSpagzseqYZrfqFc9EjtHQ=] email:[alpha@omega.net] event:[spring-festival] festival_lunch:[3] form_type:[event] full_name:[Alpha Omega] hidden_field:[] school:[hurst-hills-jones] show_food_options:[on] student_1_grade:[6] student_1_name:[Jesus of Nazareth] student_count:[1] student_meal_provided:[1]]
+2025/05/17 13:57:42 [INFO] 2025-05-17 13:57:42 CDT form.go:56 - Stat update: total_submissions = 1
+2025/05/17 13:57:42 [INFO] 2025-05-17 13:57:42 CDT data.go:131 - Form saved successfully: booster/data/events/2025/event-2025-05-17_13-57-42-DaeO1Q.json
+2025/05/17 13:57:42 [INFO] 2025-05-17 13:57:42 CDT form.go:156 - Form event-2025-05-17_13-57-42-DaeO1Q accepted and saved successfully
+2025/05/17 13:57:42 [INFO] 2025-05-17 13:57:42 CDT form.go:56 - Stat update: successful_submissions = 1
+2025/05/17 13:57:42 [INFO] 2025-05-17 13:57:42 CDT form.go:285 - Form submitted: type=event, formID=event-2025-05-17_13-57-42-DaeO1Q, ip=127.0.0.1, time=2025-05-17 13:57:42
+2025/05/17 13:57:42 [INFO] 2025-05-17 13:57:42 CDT main.go:190 - POST /api/submit-form took 3.893464ms
+2025/05/17 13:57:42 [INFO] 2025-05-17 13:57:42 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/17 13:57:42 [ERROR] 2025-05-17 13:57:42 CDT payment.go:977 - Missing formID or token in request
+2025/05/17 13:57:42 [INFO] 2025-05-17 13:57:42 CDT main.go:190 - GET /api/order-details took 255.813µs
+2025/05/17 13:57:50 [INFO] 2025-05-17 13:57:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:57:50 [WARN] 2025-05-17 13:57:50 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 13:57:50 [INFO] 2025-05-17 13:57:50 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 13:57:50 [INFO] 2025-05-17 13:57:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 13:58:50 [INFO] 2025-05-17 13:58:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:58:50 [WARN] 2025-05-17 13:58:50 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 13:58:50 [INFO] 2025-05-17 13:58:50 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 13:58:50 [INFO] 2025-05-17 13:58:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 13:59:50 [INFO] 2025-05-17 13:59:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 13:59:50 [WARN] 2025-05-17 13:59:50 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 13:59:50 [INFO] 2025-05-17 13:59:50 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 13:59:50 [INFO] 2025-05-17 13:59:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 14:00:50 [INFO] 2025-05-17 14:00:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 14:00:50 [WARN] 2025-05-17 14:00:50 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:00:50 [INFO] 2025-05-17 14:00:50 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:00:50 [INFO] 2025-05-17 14:00:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 14:01:50 [INFO] 2025-05-17 14:01:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 14:01:50 [WARN] 2025-05-17 14:01:50 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:01:50 [INFO] 2025-05-17 14:01:50 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:01:50 [INFO] 2025-05-17 14:01:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 14:02:50 [INFO] 2025-05-17 14:02:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 14:02:50 [WARN] 2025-05-17 14:02:50 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:02:50 [INFO] 2025-05-17 14:02:50 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:02:50 [INFO] 2025-05-17 14:02:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 14:03:50 [INFO] 2025-05-17 14:03:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 14:03:50 [WARN] 2025-05-17 14:03:50 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:03:50 [INFO] 2025-05-17 14:03:50 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:03:50 [INFO] 2025-05-17 14:03:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 14:04:50 [INFO] 2025-05-17 14:04:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 14:04:50 [WARN] 2025-05-17 14:04:50 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:04:50 [INFO] 2025-05-17 14:04:50 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:04:50 [INFO] 2025-05-17 14:04:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 14:05:50 [INFO] 2025-05-17 14:05:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 14:05:50 [WARN] 2025-05-17 14:05:50 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:05:50 [INFO] 2025-05-17 14:05:50 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:05:50 [INFO] 2025-05-17 14:05:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 14:06:50 [INFO] 2025-05-17 14:06:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 14:06:50 [WARN] 2025-05-17 14:06:50 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:06:50 [INFO] 2025-05-17 14:06:50 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:06:50 [INFO] 2025-05-17 14:06:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 14:07:50 [INFO] 2025-05-17 14:07:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 14:07:50 [WARN] 2025-05-17 14:07:50 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:07:50 [INFO] 2025-05-17 14:07:50 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:07:50 [INFO] 2025-05-17 14:07:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 14:08:50 [INFO] 2025-05-17 14:08:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 14:08:50 [WARN] 2025-05-17 14:08:50 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:08:50 [INFO] 2025-05-17 14:08:50 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:08:50 [INFO] 2025-05-17 14:08:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 14:09:50 [INFO] 2025-05-17 14:09:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 14:09:50 [WARN] 2025-05-17 14:09:50 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:09:50 [INFO] 2025-05-17 14:09:50 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:09:50 [INFO] 2025-05-17 14:09:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 14:10:50 [INFO] 2025-05-17 14:10:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 14:10:50 [WARN] 2025-05-17 14:10:50 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:10:50 [INFO] 2025-05-17 14:10:50 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:10:50 [INFO] 2025-05-17 14:10:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 14:11:50 [INFO] 2025-05-17 14:11:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 14:11:50 [WARN] 2025-05-17 14:11:50 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:11:50 [INFO] 2025-05-17 14:11:50 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:11:50 [INFO] 2025-05-17 14:11:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 14:12:50 [INFO] 2025-05-17 14:12:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 14:12:50 [WARN] 2025-05-17 14:12:50 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:12:50 [INFO] 2025-05-17 14:12:50 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:12:50 [INFO] 2025-05-17 14:12:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 14:13:50 [INFO] 2025-05-17 14:13:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 14:13:50 [WARN] 2025-05-17 14:13:50 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:13:50 [INFO] 2025-05-17 14:13:50 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:13:50 [INFO] 2025-05-17 14:13:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 14:14:50 [INFO] 2025-05-17 14:14:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 14:14:50 [WARN] 2025-05-17 14:14:50 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:14:50 [INFO] 2025-05-17 14:14:50 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 14:14:50 [INFO] 2025-05-17 14:14:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 14:15:47 [INFO] 2025-05-17 14:15:47 CDT main.go:144 - Shutdown signal received
+2025/05/17 14:15:47 [INFO] 2025-05-17 14:15:47 CDT main.go:154 - Server shut down gracefully
+2025/05/17 14:15:47 [INFO] 2025-05-17 14:15:47 CDT main.go:158 - Shutdown signal received
+2025/05/17 14:15:47 [INFO] 2025-05-17 14:15:47 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/17 14:15:47 [INFO] 2025-05-17 14:15:47 CDT main.go:161 - All connections closed. Total requests handled: 3
+2025/05/17 14:15:47 [INFO] 2025-05-17 14:15:47 CDT main.go:162 - Server shut down gracefully
+2025/05/17 15:04:56 [INFO] 2025-05-17 15:04:56 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-17.log
+2025/05/17 15:04:56 [INFO] 2025-05-17 15:04:56 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/17 15:04:56 [INFO] 2025-05-17 15:04:56 CDT config.go:186 - Using PayPal Sandbox environment
+2025/05/17 15:04:56 [INFO] 2025-05-17 15:04:56 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/17 15:04:56 [INFO] 2025-05-17 15:04:56 CDT config.go:58 - Running in development environment
+2025/05/17 15:04:56 [INFO] 2025-05-17 15:04:56 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/17 15:04:56 [INFO] 2025-05-17 15:04:56 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:04:56 [WARN] 2025-05-17 15:04:56 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 15:04:56 [INFO] 2025-05-17 15:04:56 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:04:56 [INFO] 2025-05-17 15:04:56 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:05:56 [INFO] 2025-05-17 15:05:56 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:05:56 [WARN] 2025-05-17 15:05:56 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:05:56 [WARN] 2025-05-17 15:05:56 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 15:05:56 [INFO] 2025-05-17 15:05:56 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:05:56 [INFO] 2025-05-17 15:05:56 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:06:56 [INFO] 2025-05-17 15:06:56 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:06:56 [WARN] 2025-05-17 15:06:56 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:06:56 [WARN] 2025-05-17 15:06:56 CDT membership_aggregator.go:141 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 15:06:56 [INFO] 2025-05-17 15:06:56 CDT membership_aggregator.go:187 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:06:56 [INFO] 2025-05-17 15:06:56 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:07:40 [INFO] 2025-05-17 15:07:40 CDT main.go:144 - Shutdown signal received
+2025/05/17 15:07:40 [INFO] 2025-05-17 15:07:40 CDT main.go:154 - Server shut down gracefully
+2025/05/17 15:07:40 [INFO] 2025-05-17 15:07:40 CDT main.go:158 - Shutdown signal received
+2025/05/17 15:07:40 [INFO] 2025-05-17 15:07:40 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/17 15:07:40 [INFO] 2025-05-17 15:07:40 CDT main.go:161 - All connections closed. Total requests handled: 0
+2025/05/17 15:07:40 [INFO] 2025-05-17 15:07:40 CDT main.go:162 - Server shut down gracefully
+2025/05/17 15:07:43 [INFO] 2025-05-17 15:07:43 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-17.log
+2025/05/17 15:07:43 [INFO] 2025-05-17 15:07:43 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/17 15:07:43 [INFO] 2025-05-17 15:07:43 CDT config.go:186 - Using PayPal Sandbox environment
+2025/05/17 15:07:43 [INFO] 2025-05-17 15:07:43 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/17 15:07:43 [INFO] 2025-05-17 15:07:43 CDT config.go:58 - Running in development environment
+2025/05/17 15:07:43 [INFO] 2025-05-17 15:07:43 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/17 15:07:43 [INFO] 2025-05-17 15:07:43 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:07:43 [WARN] 2025-05-17 15:07:43 CDT membership_aggregator.go:145 - Skipping malformed event JSON: booster/data/events/2025/eventtype_spring-festival.json
+2025/05/17 15:07:43 [INFO] 2025-05-17 15:07:43 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:07:43 [INFO] 2025-05-17 15:07:43 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:08:08 [INFO] 2025-05-17 15:08:08 CDT main.go:144 - Shutdown signal received
+2025/05/17 15:08:08 [INFO] 2025-05-17 15:08:08 CDT main.go:154 - Server shut down gracefully
+2025/05/17 15:08:08 [INFO] 2025-05-17 15:08:08 CDT main.go:158 - Shutdown signal received
+2025/05/17 15:08:08 [INFO] 2025-05-17 15:08:08 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/17 15:08:08 [INFO] 2025-05-17 15:08:08 CDT main.go:161 - All connections closed. Total requests handled: 0
+2025/05/17 15:08:08 [INFO] 2025-05-17 15:08:08 CDT main.go:162 - Server shut down gracefully
+2025/05/17 15:08:10 [INFO] 2025-05-17 15:08:10 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-17.log
+2025/05/17 15:08:10 [INFO] 2025-05-17 15:08:10 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/17 15:08:10 [INFO] 2025-05-17 15:08:10 CDT config.go:186 - Using PayPal Sandbox environment
+2025/05/17 15:08:10 [INFO] 2025-05-17 15:08:10 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/17 15:08:10 [INFO] 2025-05-17 15:08:10 CDT config.go:58 - Running in development environment
+2025/05/17 15:08:10 [INFO] 2025-05-17 15:08:10 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/17 15:08:10 [INFO] 2025-05-17 15:08:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:08:10 [INFO] 2025-05-17 15:08:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:08:10 [INFO] 2025-05-17 15:08:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:09:10 [INFO] 2025-05-17 15:09:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:09:10 [INFO] 2025-05-17 15:09:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:09:10 [INFO] 2025-05-17 15:09:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:09:14 [INFO] 2025-05-17 15:09:14 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/17 15:09:14 [ERROR] 2025-05-17 15:09:14 CDT payment.go:983 - Order details not found for event-2025-05-17_13-57-42-DaeO1Q: payment details not found for formID: event-2025-05-17_13-57-42-DaeO1Q
+2025/05/17 15:09:14 [INFO] 2025-05-17 15:09:14 CDT main.go:219 - 404 not found: /api/order-details
+2025/05/17 15:09:14 [INFO] 2025-05-17 15:09:14 CDT main.go:190 - GET /api/order-details took 487.207µs
+2025/05/17 15:10:10 [INFO] 2025-05-17 15:10:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:10:10 [INFO] 2025-05-17 15:10:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:10:10 [INFO] 2025-05-17 15:10:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:10:14 [INFO] 2025-05-17 15:10:14 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/17 15:10:14 [ERROR] 2025-05-17 15:10:14 CDT payment.go:983 - Order details not found for event-2025-05-17_13-57-42-DaeO1Q: payment details not found for formID: event-2025-05-17_13-57-42-DaeO1Q
+2025/05/17 15:10:14 [INFO] 2025-05-17 15:10:14 CDT main.go:219 - 404 not found: /api/order-details
+2025/05/17 15:10:14 [INFO] 2025-05-17 15:10:14 CDT main.go:190 - GET /api/order-details took 322.209µs
+2025/05/17 15:11:10 [INFO] 2025-05-17 15:11:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:11:10 [INFO] 2025-05-17 15:11:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:11:10 [INFO] 2025-05-17 15:11:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:12:10 [INFO] 2025-05-17 15:12:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:12:10 [INFO] 2025-05-17 15:12:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:12:10 [INFO] 2025-05-17 15:12:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:13:10 [INFO] 2025-05-17 15:13:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:13:10 [INFO] 2025-05-17 15:13:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:13:10 [INFO] 2025-05-17 15:13:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:14:10 [INFO] 2025-05-17 15:14:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:14:10 [INFO] 2025-05-17 15:14:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:14:10 [INFO] 2025-05-17 15:14:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:14:24 [INFO] 2025-05-17 15:14:24 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/17 15:14:24 [ERROR] 2025-05-17 15:14:24 CDT payment.go:983 - Order details not found for event-2025-05-17_13-57-42-DaeO1Q: payment details not found for formID: event-2025-05-17_13-57-42-DaeO1Q
+2025/05/17 15:14:24 [INFO] 2025-05-17 15:14:24 CDT main.go:219 - 404 not found: /api/order-details
+2025/05/17 15:14:24 [INFO] 2025-05-17 15:14:24 CDT main.go:190 - GET /api/order-details took 544.373µs
+2025/05/17 15:14:30 [INFO] 2025-05-17 15:14:30 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/17 15:14:30 [ERROR] 2025-05-17 15:14:30 CDT payment.go:983 - Order details not found for event-2025-05-17_13-57-42-DaeO1Q: payment details not found for formID: event-2025-05-17_13-57-42-DaeO1Q
+2025/05/17 15:14:30 [INFO] 2025-05-17 15:14:30 CDT main.go:219 - 404 not found: /api/order-details
+2025/05/17 15:14:30 [INFO] 2025-05-17 15:14:30 CDT main.go:190 - GET /api/order-details took 287.287µs
+2025/05/17 15:15:10 [INFO] 2025-05-17 15:15:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:15:10 [INFO] 2025-05-17 15:15:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:15:10 [INFO] 2025-05-17 15:15:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:16:10 [INFO] 2025-05-17 15:16:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:16:10 [INFO] 2025-05-17 15:16:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:16:10 [INFO] 2025-05-17 15:16:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:17:10 [INFO] 2025-05-17 15:17:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:17:10 [INFO] 2025-05-17 15:17:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:17:10 [INFO] 2025-05-17 15:17:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:18:10 [INFO] 2025-05-17 15:18:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:18:10 [INFO] 2025-05-17 15:18:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:18:10 [INFO] 2025-05-17 15:18:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:19:10 [INFO] 2025-05-17 15:19:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:19:10 [INFO] 2025-05-17 15:19:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:19:10 [INFO] 2025-05-17 15:19:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:20:04 [INFO] 2025-05-17 15:20:04 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/17 15:20:04 [ERROR] 2025-05-17 15:20:04 CDT payment.go:983 - Order details not found for event-2025-05-17_13-57-42-DaeO1Q: payment details not found for formID: event-2025-05-17_13-57-42-DaeO1Q
+2025/05/17 15:20:04 [INFO] 2025-05-17 15:20:04 CDT main.go:219 - 404 not found: /api/order-details
+2025/05/17 15:20:04 [INFO] 2025-05-17 15:20:04 CDT main.go:190 - GET /api/order-details took 287.602µs
+2025/05/17 15:20:10 [INFO] 2025-05-17 15:20:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:20:10 [INFO] 2025-05-17 15:20:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:20:10 [INFO] 2025-05-17 15:20:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:21:10 [INFO] 2025-05-17 15:21:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:21:10 [INFO] 2025-05-17 15:21:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:21:10 [INFO] 2025-05-17 15:21:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:22:10 [INFO] 2025-05-17 15:22:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:22:10 [INFO] 2025-05-17 15:22:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:22:10 [INFO] 2025-05-17 15:22:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:23:10 [INFO] 2025-05-17 15:23:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:23:10 [INFO] 2025-05-17 15:23:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:23:10 [INFO] 2025-05-17 15:23:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:24:10 [INFO] 2025-05-17 15:24:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:24:10 [INFO] 2025-05-17 15:24:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:24:10 [INFO] 2025-05-17 15:24:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:25:10 [INFO] 2025-05-17 15:25:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:25:10 [INFO] 2025-05-17 15:25:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:25:10 [INFO] 2025-05-17 15:25:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:26:10 [INFO] 2025-05-17 15:26:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:26:10 [INFO] 2025-05-17 15:26:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:26:10 [INFO] 2025-05-17 15:26:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:27:10 [INFO] 2025-05-17 15:27:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:27:10 [INFO] 2025-05-17 15:27:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:27:10 [INFO] 2025-05-17 15:27:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:28:10 [INFO] 2025-05-17 15:28:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:28:10 [INFO] 2025-05-17 15:28:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:28:10 [INFO] 2025-05-17 15:28:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:29:10 [INFO] 2025-05-17 15:29:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:29:10 [INFO] 2025-05-17 15:29:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:29:10 [INFO] 2025-05-17 15:29:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:30:10 [INFO] 2025-05-17 15:30:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:30:10 [INFO] 2025-05-17 15:30:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:30:10 [INFO] 2025-05-17 15:30:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:31:10 [INFO] 2025-05-17 15:31:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:31:10 [INFO] 2025-05-17 15:31:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:31:10 [INFO] 2025-05-17 15:31:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:32:10 [INFO] 2025-05-17 15:32:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:32:10 [INFO] 2025-05-17 15:32:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:32:10 [INFO] 2025-05-17 15:32:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:33:10 [INFO] 2025-05-17 15:33:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:33:10 [INFO] 2025-05-17 15:33:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:33:10 [INFO] 2025-05-17 15:33:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:34:10 [INFO] 2025-05-17 15:34:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:34:10 [INFO] 2025-05-17 15:34:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:34:10 [INFO] 2025-05-17 15:34:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:35:10 [INFO] 2025-05-17 15:35:10 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:35:10 [INFO] 2025-05-17 15:35:10 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:35:10 [INFO] 2025-05-17 15:35:10 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:35:40 [INFO] 2025-05-17 15:35:40 CDT main.go:144 - Shutdown signal received
+2025/05/17 15:35:40 [INFO] 2025-05-17 15:35:40 CDT main.go:154 - Server shut down gracefully
+2025/05/17 15:35:40 [INFO] 2025-05-17 15:35:40 CDT main.go:158 - Shutdown signal received
+2025/05/17 15:35:40 [INFO] 2025-05-17 15:35:40 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/17 15:35:40 [INFO] 2025-05-17 15:35:40 CDT main.go:161 - All connections closed. Total requests handled: 5
+2025/05/17 15:35:40 [INFO] 2025-05-17 15:35:40 CDT main.go:162 - Server shut down gracefully
+2025/05/17 15:35:45 [INFO] 2025-05-17 15:35:45 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-17.log
+2025/05/17 15:35:45 [INFO] 2025-05-17 15:35:45 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/17 15:35:45 [INFO] 2025-05-17 15:35:45 CDT config.go:186 - Using PayPal Sandbox environment
+2025/05/17 15:35:45 [INFO] 2025-05-17 15:35:45 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/17 15:35:45 [INFO] 2025-05-17 15:35:45 CDT config.go:58 - Running in development environment
+2025/05/17 15:35:45 [INFO] 2025-05-17 15:35:45 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/17 15:35:45 [INFO] 2025-05-17 15:35:45 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:35:45 [INFO] 2025-05-17 15:35:45 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:35:45 [INFO] 2025-05-17 15:35:45 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:35:54 [INFO] 2025-05-17 15:35:54 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/17 15:35:54 [ERROR] 2025-05-17 15:35:54 CDT payment.go:983 - Order details not found for event-2025-05-17_13-57-42-DaeO1Q: invalid pending payment for formID event-2025-05-17_13-57-42-DaeO1Q: missing membership
+2025/05/17 15:35:54 [INFO] 2025-05-17 15:35:54 CDT main.go:219 - 404 not found: /api/order-details
+2025/05/17 15:35:54 [INFO] 2025-05-17 15:35:54 CDT main.go:190 - GET /api/order-details took 1.33001ms
+2025/05/17 15:36:01 [INFO] 2025-05-17 15:36:01 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/17 15:36:01 [ERROR] 2025-05-17 15:36:01 CDT payment.go:983 - Order details not found for event-2025-05-17_13-57-42-DaeO1Q: invalid pending payment for formID event-2025-05-17_13-57-42-DaeO1Q: missing membership
+2025/05/17 15:36:01 [INFO] 2025-05-17 15:36:01 CDT main.go:219 - 404 not found: /api/order-details
+2025/05/17 15:36:01 [INFO] 2025-05-17 15:36:01 CDT main.go:190 - GET /api/order-details took 445.868µs
+2025/05/17 15:36:45 [INFO] 2025-05-17 15:36:45 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:36:45 [INFO] 2025-05-17 15:36:45 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:36:45 [INFO] 2025-05-17 15:36:45 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:37:45 [INFO] 2025-05-17 15:37:45 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:37:45 [INFO] 2025-05-17 15:37:45 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:37:45 [INFO] 2025-05-17 15:37:45 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:38:08 [INFO] 2025-05-17 15:38:08 CDT main.go:144 - Shutdown signal received
+2025/05/17 15:38:08 [INFO] 2025-05-17 15:38:08 CDT main.go:154 - Server shut down gracefully
+2025/05/17 15:38:08 [INFO] 2025-05-17 15:38:08 CDT main.go:158 - Shutdown signal received
+2025/05/17 15:38:08 [INFO] 2025-05-17 15:38:08 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/17 15:38:08 [INFO] 2025-05-17 15:38:08 CDT main.go:161 - All connections closed. Total requests handled: 2
+2025/05/17 15:38:08 [INFO] 2025-05-17 15:38:08 CDT main.go:162 - Server shut down gracefully
+2025/05/17 15:38:11 [INFO] 2025-05-17 15:38:11 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-17.log
+2025/05/17 15:38:11 [INFO] 2025-05-17 15:38:11 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/17 15:38:11 [INFO] 2025-05-17 15:38:11 CDT config.go:186 - Using PayPal Sandbox environment
+2025/05/17 15:38:11 [INFO] 2025-05-17 15:38:11 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/17 15:38:11 [INFO] 2025-05-17 15:38:11 CDT config.go:58 - Running in development environment
+2025/05/17 15:38:11 [INFO] 2025-05-17 15:38:11 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/17 15:38:11 [INFO] 2025-05-17 15:38:11 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:38:11 [INFO] 2025-05-17 15:38:11 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:38:11 [INFO] 2025-05-17 15:38:11 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:38:19 [INFO] 2025-05-17 15:38:19 CDT logger.go:122 - HTTP GET /order-details from 127.0.0.1
+2025/05/17 15:38:19 [ERROR] 2025-05-17 15:38:19 CDT payment.go:983 - Order details not found for event-2025-05-17_13-57-42-DaeO1Q: invalid pending payment for formID event-2025-05-17_13-57-42-DaeO1Q: invalid amount: 0.00
+2025/05/17 15:38:19 [INFO] 2025-05-17 15:38:19 CDT main.go:219 - 404 not found: /api/order-details
+2025/05/17 15:38:19 [INFO] 2025-05-17 15:38:19 CDT main.go:190 - GET /api/order-details took 2.90911ms
+2025/05/17 15:39:11 [INFO] 2025-05-17 15:39:11 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:39:11 [INFO] 2025-05-17 15:39:11 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:39:11 [INFO] 2025-05-17 15:39:11 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:40:11 [INFO] 2025-05-17 15:40:11 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:40:11 [INFO] 2025-05-17 15:40:11 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:40:11 [INFO] 2025-05-17 15:40:11 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:41:11 [INFO] 2025-05-17 15:41:11 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:41:11 [INFO] 2025-05-17 15:41:11 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:41:11 [INFO] 2025-05-17 15:41:11 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:42:11 [INFO] 2025-05-17 15:42:11 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:42:11 [INFO] 2025-05-17 15:42:11 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:42:11 [INFO] 2025-05-17 15:42:11 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:43:11 [INFO] 2025-05-17 15:43:11 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:43:11 [INFO] 2025-05-17 15:43:11 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:43:11 [INFO] 2025-05-17 15:43:11 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 15:44:11 [INFO] 2025-05-17 15:44:11 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 15:44:11 [INFO] 2025-05-17 15:44:11 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 15:44:11 [INFO] 2025-05-17 15:44:11 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 16:19:53 [INFO] 2025-05-17 16:19:53 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 16:19:53 [INFO] 2025-05-17 16:19:53 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 16:19:53 [INFO] 2025-05-17 16:19:53 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 16:20:53 [INFO] 2025-05-17 16:20:53 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 16:20:53 [INFO] 2025-05-17 16:20:53 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 16:20:53 [INFO] 2025-05-17 16:20:53 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 16:21:53 [INFO] 2025-05-17 16:21:53 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 16:21:53 [INFO] 2025-05-17 16:21:53 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 16:21:53 [INFO] 2025-05-17 16:21:53 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 16:22:53 [INFO] 2025-05-17 16:22:53 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 16:22:53 [INFO] 2025-05-17 16:22:53 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 16:22:53 [INFO] 2025-05-17 16:22:53 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 16:23:53 [INFO] 2025-05-17 16:23:53 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 16:23:53 [INFO] 2025-05-17 16:23:53 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 16:23:53 [INFO] 2025-05-17 16:23:53 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 16:24:53 [INFO] 2025-05-17 16:24:53 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 16:24:53 [INFO] 2025-05-17 16:24:53 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 16:24:53 [INFO] 2025-05-17 16:24:53 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 16:25:53 [INFO] 2025-05-17 16:25:53 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 16:25:53 [INFO] 2025-05-17 16:25:53 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 16:25:53 [INFO] 2025-05-17 16:25:53 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 16:26:53 [INFO] 2025-05-17 16:26:53 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 16:26:53 [INFO] 2025-05-17 16:26:53 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 16:26:53 [INFO] 2025-05-17 16:26:53 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 16:27:53 [INFO] 2025-05-17 16:27:53 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 16:27:53 [INFO] 2025-05-17 16:27:53 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 16:27:53 [INFO] 2025-05-17 16:27:53 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 16:44:53 [INFO] 2025-05-17 16:44:53 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 16:44:53 [INFO] 2025-05-17 16:44:53 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 16:44:53 [INFO] 2025-05-17 16:44:53 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 17:02:52 [INFO] 2025-05-17 17:02:52 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 17:02:52 [INFO] 2025-05-17 17:02:52 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 17:02:52 [INFO] 2025-05-17 17:02:52 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 17:03:52 [INFO] 2025-05-17 17:03:52 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 17:03:52 [INFO] 2025-05-17 17:03:52 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 17:03:52 [INFO] 2025-05-17 17:03:52 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 17:04:52 [INFO] 2025-05-17 17:04:52 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 17:04:52 [INFO] 2025-05-17 17:04:52 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 17:04:52 [INFO] 2025-05-17 17:04:52 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 17:05:52 [INFO] 2025-05-17 17:05:52 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 17:05:52 [INFO] 2025-05-17 17:05:52 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 17:05:52 [INFO] 2025-05-17 17:05:52 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 17:06:52 [INFO] 2025-05-17 17:06:52 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 17:06:52 [INFO] 2025-05-17 17:06:52 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 17:06:52 [INFO] 2025-05-17 17:06:52 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 17:24:01 [INFO] 2025-05-17 17:24:01 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 17:24:01 [INFO] 2025-05-17 17:24:01 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 17:24:01 [INFO] 2025-05-17 17:24:01 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 17:25:01 [INFO] 2025-05-17 17:25:01 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 17:25:01 [INFO] 2025-05-17 17:25:01 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 17:25:01 [INFO] 2025-05-17 17:25:01 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 17:26:01 [INFO] 2025-05-17 17:26:01 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 17:26:01 [INFO] 2025-05-17 17:26:01 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 17:26:01 [INFO] 2025-05-17 17:26:01 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 17:27:01 [INFO] 2025-05-17 17:27:01 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 17:27:01 [INFO] 2025-05-17 17:27:01 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 17:27:01 [INFO] 2025-05-17 17:27:01 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 17:28:01 [INFO] 2025-05-17 17:28:01 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 17:28:01 [INFO] 2025-05-17 17:28:01 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 17:28:01 [INFO] 2025-05-17 17:28:01 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 17:29:01 [INFO] 2025-05-17 17:29:01 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 17:29:01 [INFO] 2025-05-17 17:29:01 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 17:29:01 [INFO] 2025-05-17 17:29:01 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 17:31:04 [INFO] 2025-05-17 17:31:04 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 17:31:04 [INFO] 2025-05-17 17:31:04 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 17:31:04 [INFO] 2025-05-17 17:31:04 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 17:32:04 [INFO] 2025-05-17 17:32:04 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 17:32:04 [INFO] 2025-05-17 17:32:04 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 17:32:04 [INFO] 2025-05-17 17:32:04 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 17:34:39 [INFO] 2025-05-17 17:34:39 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/17 17:34:39 [INFO] 2025-05-17 17:34:39 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 17:34:39 [INFO] 2025-05-17 17:34:39 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 17:34:39 [INFO] 2025-05-17 17:34:39 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 18:03:08 [INFO] 2025-05-17 18:03:08 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 18:03:08 [INFO] 2025-05-17 18:03:08 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 18:03:08 [INFO] 2025-05-17 18:03:08 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 18:04:08 [INFO] 2025-05-17 18:04:08 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 18:04:08 [INFO] 2025-05-17 18:04:08 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 18:04:08 [INFO] 2025-05-17 18:04:08 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 18:05:08 [INFO] 2025-05-17 18:05:08 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 18:05:08 [INFO] 2025-05-17 18:05:08 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 18:05:08 [INFO] 2025-05-17 18:05:08 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 18:06:08 [INFO] 2025-05-17 18:06:08 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 18:06:08 [INFO] 2025-05-17 18:06:08 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 18:06:08 [INFO] 2025-05-17 18:06:08 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 18:07:08 [INFO] 2025-05-17 18:07:08 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 18:07:08 [INFO] 2025-05-17 18:07:08 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 18:07:08 [INFO] 2025-05-17 18:07:08 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 18:08:08 [INFO] 2025-05-17 18:08:08 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 18:08:08 [INFO] 2025-05-17 18:08:08 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 18:08:08 [INFO] 2025-05-17 18:08:08 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 18:24:59 [INFO] 2025-05-17 18:24:59 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 18:24:59 [INFO] 2025-05-17 18:24:59 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 18:24:59 [INFO] 2025-05-17 18:24:59 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 18:25:59 [INFO] 2025-05-17 18:25:59 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 18:25:59 [INFO] 2025-05-17 18:25:59 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 18:25:59 [INFO] 2025-05-17 18:25:59 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 18:26:59 [INFO] 2025-05-17 18:26:59 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 18:26:59 [INFO] 2025-05-17 18:26:59 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 18:26:59 [INFO] 2025-05-17 18:26:59 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 18:27:59 [INFO] 2025-05-17 18:27:59 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 18:27:59 [INFO] 2025-05-17 18:27:59 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 18:27:59 [INFO] 2025-05-17 18:27:59 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 18:28:59 [INFO] 2025-05-17 18:28:59 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 18:28:59 [INFO] 2025-05-17 18:28:59 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 18:28:59 [INFO] 2025-05-17 18:28:59 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 18:46:25 [INFO] 2025-05-17 18:46:25 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 18:46:25 [INFO] 2025-05-17 18:46:25 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 18:46:25 [INFO] 2025-05-17 18:46:25 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 18:47:25 [INFO] 2025-05-17 18:47:25 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 18:47:25 [INFO] 2025-05-17 18:47:25 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 18:47:25 [INFO] 2025-05-17 18:47:25 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 18:48:25 [INFO] 2025-05-17 18:48:25 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 18:48:25 [INFO] 2025-05-17 18:48:25 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 18:48:25 [INFO] 2025-05-17 18:48:25 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 18:49:25 [INFO] 2025-05-17 18:49:25 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 18:49:25 [INFO] 2025-05-17 18:49:25 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 18:49:25 [INFO] 2025-05-17 18:49:25 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 18:50:25 [INFO] 2025-05-17 18:50:25 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 18:50:25 [INFO] 2025-05-17 18:50:25 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 18:50:25 [INFO] 2025-05-17 18:50:25 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 19:00:14 [INFO] 2025-05-17 19:00:14 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 19:00:14 [INFO] 2025-05-17 19:00:14 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 19:00:14 [INFO] 2025-05-17 19:00:14 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 19:18:57 [INFO] 2025-05-17 19:18:57 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 19:18:57 [INFO] 2025-05-17 19:18:57 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 19:18:57 [INFO] 2025-05-17 19:18:57 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 19:19:56 [INFO] 2025-05-17 19:19:56 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 19:19:56 [INFO] 2025-05-17 19:19:56 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 19:19:56 [INFO] 2025-05-17 19:19:56 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 19:20:56 [INFO] 2025-05-17 19:20:56 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 19:20:56 [INFO] 2025-05-17 19:20:56 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 19:20:56 [INFO] 2025-05-17 19:20:56 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 19:21:56 [INFO] 2025-05-17 19:21:56 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 19:21:56 [INFO] 2025-05-17 19:21:56 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 19:21:56 [INFO] 2025-05-17 19:21:56 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 19:33:08 [INFO] 2025-05-17 19:33:08 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 19:33:08 [INFO] 2025-05-17 19:33:08 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 19:33:08 [INFO] 2025-05-17 19:33:08 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 19:34:08 [INFO] 2025-05-17 19:34:08 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 19:34:08 [INFO] 2025-05-17 19:34:08 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 19:34:08 [INFO] 2025-05-17 19:34:08 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 19:35:08 [INFO] 2025-05-17 19:35:08 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 19:35:08 [INFO] 2025-05-17 19:35:08 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 19:35:08 [INFO] 2025-05-17 19:35:08 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 19:51:37 [INFO] 2025-05-17 19:51:37 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 19:51:37 [INFO] 2025-05-17 19:51:37 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 19:51:37 [INFO] 2025-05-17 19:51:37 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 19:52:37 [INFO] 2025-05-17 19:52:37 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 19:52:37 [INFO] 2025-05-17 19:52:37 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 19:52:37 [INFO] 2025-05-17 19:52:37 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 19:53:37 [INFO] 2025-05-17 19:53:37 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 19:53:37 [INFO] 2025-05-17 19:53:37 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 19:53:37 [INFO] 2025-05-17 19:53:37 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 19:54:37 [INFO] 2025-05-17 19:54:37 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 19:54:37 [INFO] 2025-05-17 19:54:37 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 19:54:37 [INFO] 2025-05-17 19:54:37 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 19:55:37 [INFO] 2025-05-17 19:55:37 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 19:55:37 [INFO] 2025-05-17 19:55:37 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 19:55:37 [INFO] 2025-05-17 19:55:37 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 20:13:12 [INFO] 2025-05-17 20:13:12 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/17 20:13:12 [INFO] 2025-05-17 20:13:12 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 20:13:12 [INFO] 2025-05-17 20:13:12 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 20:13:12 [INFO] 2025-05-17 20:13:12 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 20:14:12 [INFO] 2025-05-17 20:14:12 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 20:14:12 [INFO] 2025-05-17 20:14:12 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 20:14:12 [INFO] 2025-05-17 20:14:12 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 20:15:12 [INFO] 2025-05-17 20:15:12 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 20:15:12 [INFO] 2025-05-17 20:15:12 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 20:15:12 [INFO] 2025-05-17 20:15:12 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 20:16:12 [INFO] 2025-05-17 20:16:12 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 20:16:12 [INFO] 2025-05-17 20:16:12 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 20:16:12 [INFO] 2025-05-17 20:16:12 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 20:17:12 [INFO] 2025-05-17 20:17:12 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 20:17:12 [INFO] 2025-05-17 20:17:12 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 20:17:12 [INFO] 2025-05-17 20:17:12 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 20:33:50 [INFO] 2025-05-17 20:33:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 20:33:50 [INFO] 2025-05-17 20:33:50 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 20:33:50 [INFO] 2025-05-17 20:33:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 20:34:50 [INFO] 2025-05-17 20:34:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 20:34:50 [INFO] 2025-05-17 20:34:50 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 20:34:50 [INFO] 2025-05-17 20:34:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 20:35:50 [INFO] 2025-05-17 20:35:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 20:35:50 [INFO] 2025-05-17 20:35:50 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 20:35:50 [INFO] 2025-05-17 20:35:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 20:36:50 [INFO] 2025-05-17 20:36:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 20:36:50 [INFO] 2025-05-17 20:36:50 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 20:36:50 [INFO] 2025-05-17 20:36:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 20:37:50 [INFO] 2025-05-17 20:37:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 20:37:50 [INFO] 2025-05-17 20:37:50 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 20:37:50 [INFO] 2025-05-17 20:37:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 20:38:50 [INFO] 2025-05-17 20:38:50 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 20:38:50 [INFO] 2025-05-17 20:38:50 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 20:38:50 [INFO] 2025-05-17 20:38:50 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 20:57:35 [INFO] 2025-05-17 20:57:35 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 20:57:35 [INFO] 2025-05-17 20:57:35 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 20:57:35 [INFO] 2025-05-17 20:57:35 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 20:58:35 [INFO] 2025-05-17 20:58:35 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 20:58:35 [INFO] 2025-05-17 20:58:35 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 20:58:35 [INFO] 2025-05-17 20:58:35 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 20:59:35 [INFO] 2025-05-17 20:59:35 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 20:59:35 [INFO] 2025-05-17 20:59:35 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 20:59:35 [INFO] 2025-05-17 20:59:35 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 21:00:35 [INFO] 2025-05-17 21:00:35 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 21:00:35 [INFO] 2025-05-17 21:00:35 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 21:00:35 [INFO] 2025-05-17 21:00:35 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 21:01:35 [INFO] 2025-05-17 21:01:35 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 21:01:35 [INFO] 2025-05-17 21:01:35 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 21:01:35 [INFO] 2025-05-17 21:01:35 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 21:20:09 [INFO] 2025-05-17 21:20:09 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 21:20:09 [INFO] 2025-05-17 21:20:09 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 21:20:09 [INFO] 2025-05-17 21:20:09 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 21:21:09 [INFO] 2025-05-17 21:21:09 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 21:21:09 [INFO] 2025-05-17 21:21:09 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 21:21:09 [INFO] 2025-05-17 21:21:09 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 21:22:09 [INFO] 2025-05-17 21:22:09 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 21:22:09 [INFO] 2025-05-17 21:22:09 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 21:22:09 [INFO] 2025-05-17 21:22:09 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 21:23:09 [INFO] 2025-05-17 21:23:09 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 21:23:09 [INFO] 2025-05-17 21:23:09 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 21:23:09 [INFO] 2025-05-17 21:23:09 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 21:24:09 [INFO] 2025-05-17 21:24:09 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 21:24:09 [INFO] 2025-05-17 21:24:09 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 21:24:09 [INFO] 2025-05-17 21:24:09 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 21:32:26 [INFO] 2025-05-17 21:32:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 21:32:26 [INFO] 2025-05-17 21:32:26 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 21:32:26 [INFO] 2025-05-17 21:32:26 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 21:33:26 [INFO] 2025-05-17 21:33:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 21:33:26 [INFO] 2025-05-17 21:33:26 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 21:33:26 [INFO] 2025-05-17 21:33:26 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 21:34:26 [INFO] 2025-05-17 21:34:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 21:34:26 [INFO] 2025-05-17 21:34:26 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 21:34:26 [INFO] 2025-05-17 21:34:26 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 21:35:26 [INFO] 2025-05-17 21:35:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 21:35:26 [INFO] 2025-05-17 21:35:26 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 21:35:26 [INFO] 2025-05-17 21:35:26 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 21:36:26 [INFO] 2025-05-17 21:36:26 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 21:36:26 [INFO] 2025-05-17 21:36:26 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 21:36:26 [INFO] 2025-05-17 21:36:26 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 21:52:49 [INFO] 2025-05-17 21:52:49 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 21:52:49 [INFO] 2025-05-17 21:52:49 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 21:52:49 [INFO] 2025-05-17 21:52:49 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 21:53:48 [INFO] 2025-05-17 21:53:48 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 21:53:48 [INFO] 2025-05-17 21:53:48 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 21:53:48 [INFO] 2025-05-17 21:53:48 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 21:54:48 [INFO] 2025-05-17 21:54:48 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 21:54:48 [INFO] 2025-05-17 21:54:48 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 21:54:48 [INFO] 2025-05-17 21:54:48 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 21:55:48 [INFO] 2025-05-17 21:55:48 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 21:55:48 [INFO] 2025-05-17 21:55:48 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 21:55:48 [INFO] 2025-05-17 21:55:48 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 21:56:48 [INFO] 2025-05-17 21:56:48 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/17 21:56:48 [INFO] 2025-05-17 21:56:48 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 21:56:48 [INFO] 2025-05-17 21:56:48 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 21:56:48 [INFO] 2025-05-17 21:56:48 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 21:57:48 [INFO] 2025-05-17 21:57:48 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 21:57:48 [INFO] 2025-05-17 21:57:48 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 21:57:48 [INFO] 2025-05-17 21:57:48 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 22:00:43 [INFO] 2025-05-17 22:00:43 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 22:00:43 [INFO] 2025-05-17 22:00:43 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 22:00:43 [INFO] 2025-05-17 22:00:43 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 22:06:30 [INFO] 2025-05-17 22:06:30 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 22:06:30 [INFO] 2025-05-17 22:06:30 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 22:06:30 [INFO] 2025-05-17 22:06:30 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 22:07:30 [INFO] 2025-05-17 22:07:30 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 22:07:30 [INFO] 2025-05-17 22:07:30 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 22:07:30 [INFO] 2025-05-17 22:07:30 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 22:08:30 [INFO] 2025-05-17 22:08:30 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 22:08:30 [INFO] 2025-05-17 22:08:30 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 22:08:30 [INFO] 2025-05-17 22:08:30 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 22:09:29 [INFO] 2025-05-17 22:09:29 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 22:09:29 [INFO] 2025-05-17 22:09:29 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 22:09:29 [INFO] 2025-05-17 22:09:29 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 22:10:29 [INFO] 2025-05-17 22:10:29 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 22:10:29 [INFO] 2025-05-17 22:10:29 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 22:10:29 [INFO] 2025-05-17 22:10:29 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 22:11:29 [INFO] 2025-05-17 22:11:29 CDT membership_aggregator.go:26 - Membership aggregation completed
+2025/05/17 22:11:29 [INFO] 2025-05-17 22:11:29 CDT membership_aggregator.go:191 - Wrote event aggregate: booster/data/events/2025/event_spring-festival.json
+2025/05/17 22:11:29 [INFO] 2025-05-17 22:11:29 CDT membership_aggregator.go:32 - Event aggregation completed
+2025/05/17 22:12:03 [INFO] 2025-05-17 22:12:03 CDT main.go:144 - Shutdown signal received
+2025/05/17 22:12:03 [INFO] 2025-05-17 22:12:03 CDT main.go:154 - Server shut down gracefully
+2025/05/17 22:12:03 [INFO] 2025-05-17 22:12:03 CDT main.go:158 - Shutdown signal received
+2025/05/17 22:12:03 [INFO] 2025-05-17 22:12:03 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/17 22:12:03 [INFO] 2025-05-17 22:12:03 CDT main.go:161 - All connections closed. Total requests handled: 1
+2025/05/17 22:12:03 [INFO] 2025-05-17 22:12:03 CDT main.go:162 - Server shut down gracefully
+2025/05/17 22:14:58 [INFO] 2025-05-17 22:14:58 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-17.log
+2025/05/17 22:14:58 [INFO] 2025-05-17 22:14:58 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/17 22:14:58 [INFO] 2025-05-17 22:14:58 CDT config.go:186 - Using PayPal Sandbox environment
+2025/05/17 22:14:58 [INFO] 2025-05-17 22:14:58 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/17 22:14:58 [INFO] 2025-05-17 22:14:58 CDT config.go:58 - Running in development environment
+2025/05/17 22:14:58 [INFO] 2025-05-17 22:14:58 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/17 22:14:58 [INFO] 2025-05-17 22:14:58 CDT membership_aggregator.go:201 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival.json
+2025/05/17 22:15:58 [INFO] 2025-05-17 22:15:58 CDT membership_aggregator.go:201 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival.json
+2025/05/17 22:16:58 [INFO] 2025-05-17 22:16:58 CDT membership_aggregator.go:201 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival.json
+2025/05/17 22:17:58 [INFO] 2025-05-17 22:17:58 CDT membership_aggregator.go:201 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival.json
+2025/05/17 22:18:02 [INFO] 2025-05-17 22:18:02 CDT main.go:144 - Shutdown signal received
+2025/05/17 22:18:02 [INFO] 2025-05-17 22:18:02 CDT main.go:154 - Server shut down gracefully
+2025/05/17 22:18:02 [INFO] 2025-05-17 22:18:02 CDT main.go:158 - Shutdown signal received
+2025/05/17 22:18:02 [INFO] 2025-05-17 22:18:02 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/17 22:18:02 [INFO] 2025-05-17 22:18:02 CDT main.go:161 - All connections closed. Total requests handled: 0
+2025/05/17 22:18:02 [INFO] 2025-05-17 22:18:02 CDT main.go:162 - Server shut down gracefully
+2025/05/17 22:18:06 [INFO] 2025-05-17 22:18:06 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-17.log
+2025/05/17 22:18:06 [INFO] 2025-05-17 22:18:06 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/17 22:18:06 [INFO] 2025-05-17 22:18:06 CDT config.go:186 - Using PayPal Sandbox environment
+2025/05/17 22:18:06 [INFO] 2025-05-17 22:18:06 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/17 22:18:06 [INFO] 2025-05-17 22:18:06 CDT config.go:58 - Running in development environment
+2025/05/17 22:18:06 [INFO] 2025-05-17 22:18:06 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/17 22:18:06 [INFO] 2025-05-17 22:18:06 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival.json
+2025/05/17 22:18:21 [INFO] 2025-05-17 22:18:21 CDT main.go:144 - Shutdown signal received
+2025/05/17 22:18:21 [INFO] 2025-05-17 22:18:21 CDT main.go:154 - Server shut down gracefully
+2025/05/17 22:18:21 [INFO] 2025-05-17 22:18:21 CDT main.go:158 - Shutdown signal received
+2025/05/17 22:18:21 [INFO] 2025-05-17 22:18:21 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/17 22:18:21 [INFO] 2025-05-17 22:18:21 CDT main.go:161 - All connections closed. Total requests handled: 0
+2025/05/17 22:18:21 [INFO] 2025-05-17 22:18:21 CDT main.go:162 - Server shut down gracefully
+2025/05/17 22:18:31 [INFO] 2025-05-17 22:18:31 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-17.log
+2025/05/17 22:18:31 [INFO] 2025-05-17 22:18:31 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/17 22:18:31 [INFO] 2025-05-17 22:18:31 CDT config.go:186 - Using PayPal Sandbox environment
+2025/05/17 22:18:31 [INFO] 2025-05-17 22:18:31 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/17 22:18:31 [INFO] 2025-05-17 22:18:31 CDT config.go:58 - Running in development environment
+2025/05/17 22:18:31 [INFO] 2025-05-17 22:18:31 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/17 22:18:31 [INFO] 2025-05-17 22:18:31 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival.json
+2025/05/17 22:19:31 [INFO] 2025-05-17 22:19:31 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival.json
+2025/05/17 22:20:31 [INFO] 2025-05-17 22:20:31 CDT main.go:144 - Shutdown signal received
+2025/05/17 22:20:31 [INFO] 2025-05-17 22:20:31 CDT main.go:154 - Server shut down gracefully
+2025/05/17 22:20:31 [INFO] 2025-05-17 22:20:31 CDT main.go:158 - Shutdown signal received
+2025/05/17 22:20:31 [INFO] 2025-05-17 22:20:31 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/17 22:20:31 [INFO] 2025-05-17 22:20:31 CDT main.go:161 - All connections closed. Total requests handled: 0
+2025/05/17 22:20:31 [INFO] 2025-05-17 22:20:31 CDT main.go:162 - Server shut down gracefully
+2025/05/17 22:20:34 [INFO] 2025-05-17 22:20:34 CDT logger.go:85 - Logger initialized, writing to logs/devlog_2025-05-17.log
+2025/05/17 22:20:34 [INFO] 2025-05-17 22:20:34 CDT main.go:51 - Environment and paths loaded. Logger ready.
+2025/05/17 22:20:34 [INFO] 2025-05-17 22:20:34 CDT config.go:186 - Using PayPal Sandbox environment
+2025/05/17 22:20:34 [INFO] 2025-05-17 22:20:34 CDT main.go:62 - Pending payments preloaded successfully.
+2025/05/17 22:20:34 [INFO] 2025-05-17 22:20:34 CDT config.go:58 - Running in development environment
+2025/05/17 22:20:34 [INFO] 2025-05-17 22:20:34 CDT main.go:136 - Starting server on 0.0.0.0:5051
+2025/05/17 22:20:34 [INFO] 2025-05-17 22:20:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:21:34 [INFO] 2025-05-17 22:21:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:22:34 [INFO] 2025-05-17 22:22:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:23:34 [INFO] 2025-05-17 22:23:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:24:34 [INFO] 2025-05-17 22:24:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:25:34 [INFO] 2025-05-17 22:25:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:26:34 [INFO] 2025-05-17 22:26:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:27:34 [INFO] 2025-05-17 22:27:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:28:34 [INFO] 2025-05-17 22:28:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:29:34 [INFO] 2025-05-17 22:29:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:30:34 [INFO] 2025-05-17 22:30:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:31:34 [INFO] 2025-05-17 22:31:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:32:34 [INFO] 2025-05-17 22:32:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:33:34 [INFO] 2025-05-17 22:33:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:34:34 [INFO] 2025-05-17 22:34:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:35:34 [INFO] 2025-05-17 22:35:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:36:34 [INFO] 2025-05-17 22:36:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:37:24 [INFO] 2025-05-17 22:37:24 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/17 22:37:24 [INFO] 2025-05-17 22:37:24 CDT main.go:190 - GET /api/csrf-token took 1.589769ms
+2025/05/17 22:37:26 [INFO] 2025-05-17 22:37:26 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/17 22:37:26 [INFO] 2025-05-17 22:37:26 CDT main.go:190 - GET /api/csrf-token took 385.631µs
+2025/05/17 22:37:34 [INFO] 2025-05-17 22:37:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:38:34 [INFO] 2025-05-17 22:38:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:39:34 [INFO] 2025-05-17 22:39:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:40:34 [INFO] 2025-05-17 22:40:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:41:34 [INFO] 2025-05-17 22:41:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:42:34 [INFO] 2025-05-17 22:42:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:42:44 [INFO] 2025-05-17 22:42:44 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/17 22:42:44 [INFO] 2025-05-17 22:42:44 CDT main.go:190 - GET /api/csrf-token took 176.409µs
+2025/05/17 22:43:34 [INFO] 2025-05-17 22:43:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:44:34 [INFO] 2025-05-17 22:44:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:45:34 [INFO] 2025-05-17 22:45:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:45:59 [INFO] 2025-05-17 22:45:59 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/17 22:45:59 [INFO] 2025-05-17 22:45:59 CDT main.go:190 - GET /api/csrf-token took 191.71µs
+2025/05/17 22:46:34 [INFO] 2025-05-17 22:46:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:46:44 [INFO] 2025-05-17 22:46:44 CDT logger.go:122 - HTTP POST /submit-form from 127.0.0.1
+2025/05/17 22:46:44 [INFO] 2025-05-17 22:46:44 CDT form.go:84 - Form values received: map[csrf_token:[wrhEO+PhRCakU3AZ5DmXEq7PJP+AvcyHV6VOPCASY94=] describe:[at-home-teacher] email:[crookshanks@google.net] form_type:[membership] full_name:[Crookshanks McGrew] hidden_field:[] interests:[board-service] membership_status:[returning] school:[north-euless] student_1_grade:[1] student_1_name:[Roger McGrew] student_count:[1]]
+2025/05/17 22:46:44 [INFO] 2025-05-17 22:46:44 CDT form.go:56 - Stat update: total_submissions = 1
+2025/05/17 22:46:44 [INFO] 2025-05-17 22:46:44 CDT data.go:137 - Form saved successfully: booster/data/memberships/2025/membership-2025-05-17_22-46-44-_tDUTw.json
+2025/05/17 22:46:44 [INFO] 2025-05-17 22:46:44 CDT form.go:156 - Form membership-2025-05-17_22-46-44-_tDUTw accepted and saved successfully
+2025/05/17 22:46:44 [INFO] 2025-05-17 22:46:44 CDT form.go:56 - Stat update: successful_submissions = 1
+2025/05/17 22:46:44 [INFO] 2025-05-17 22:46:44 CDT form.go:285 - Form submitted: type=membership, formID=membership-2025-05-17_22-46-44-_tDUTw, ip=127.0.0.1, time=2025-05-17 22:46:44
+2025/05/17 22:46:44 [INFO] 2025-05-17 22:46:44 CDT main.go:190 - POST /api/submit-form took 1.88835ms
+2025/05/17 22:47:34 [INFO] 2025-05-17 22:47:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:48:34 [INFO] 2025-05-17 22:48:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:49:34 [INFO] 2025-05-17 22:49:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:50:34 [INFO] 2025-05-17 22:50:34 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/17 22:50:34 [INFO] 2025-05-17 22:50:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:51:34 [INFO] 2025-05-17 22:51:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:52:34 [INFO] 2025-05-17 22:52:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:53:34 [INFO] 2025-05-17 22:53:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:54:34 [INFO] 2025-05-17 22:54:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:55:34 [INFO] 2025-05-17 22:55:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:56:34 [INFO] 2025-05-17 22:56:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:57:34 [INFO] 2025-05-17 22:57:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:58:34 [INFO] 2025-05-17 22:58:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 22:59:34 [INFO] 2025-05-17 22:59:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 23:00:34 [INFO] 2025-05-17 23:00:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 23:01:37 [INFO] 2025-05-17 23:01:37 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/17 23:32:59 [INFO] 2025-05-17 23:32:59 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 00:03:26 [INFO] 2025-05-18 00:03:26 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 00:04:26 [INFO] 2025-05-18 00:04:26 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 00:05:26 [INFO] 2025-05-18 00:05:26 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 00:06:26 [INFO] 2025-05-18 00:06:26 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 00:07:26 [INFO] 2025-05-18 00:07:26 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 00:15:37 [INFO] 2025-05-18 00:15:37 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 00:16:37 [INFO] 2025-05-18 00:16:37 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 00:17:37 [INFO] 2025-05-18 00:17:37 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 00:18:37 [INFO] 2025-05-18 00:18:37 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 00:19:37 [INFO] 2025-05-18 00:19:37 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 00:20:37 [INFO] 2025-05-18 00:20:37 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 00:38:09 [INFO] 2025-05-18 00:38:09 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 00:39:09 [INFO] 2025-05-18 00:39:09 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 00:40:09 [INFO] 2025-05-18 00:40:09 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 00:41:09 [INFO] 2025-05-18 00:41:09 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 00:42:09 [INFO] 2025-05-18 00:42:09 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 01:00:32 [INFO] 2025-05-18 01:00:32 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 01:01:32 [INFO] 2025-05-18 01:01:32 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/18 01:01:32 [INFO] 2025-05-18 01:01:32 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 01:02:32 [INFO] 2025-05-18 01:02:32 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 01:03:32 [INFO] 2025-05-18 01:03:32 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 01:04:32 [INFO] 2025-05-18 01:04:32 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 01:05:32 [INFO] 2025-05-18 01:05:32 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 01:23:25 [INFO] 2025-05-18 01:23:25 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 01:24:25 [INFO] 2025-05-18 01:24:25 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 01:25:25 [INFO] 2025-05-18 01:25:25 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 01:26:25 [INFO] 2025-05-18 01:26:25 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 01:27:25 [INFO] 2025-05-18 01:27:25 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 01:43:39 [INFO] 2025-05-18 01:43:39 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 01:44:39 [INFO] 2025-05-18 01:44:39 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 01:45:39 [INFO] 2025-05-18 01:45:39 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 01:46:39 [INFO] 2025-05-18 01:46:39 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 01:47:39 [INFO] 2025-05-18 01:47:39 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 02:04:29 [INFO] 2025-05-18 02:04:29 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 02:05:29 [INFO] 2025-05-18 02:05:29 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 02:06:29 [INFO] 2025-05-18 02:06:29 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 02:07:29 [INFO] 2025-05-18 02:07:29 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 02:08:29 [INFO] 2025-05-18 02:08:29 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 02:27:13 [INFO] 2025-05-18 02:27:13 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 02:28:13 [INFO] 2025-05-18 02:28:13 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 02:29:13 [INFO] 2025-05-18 02:29:13 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 02:30:13 [INFO] 2025-05-18 02:30:13 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 02:31:13 [INFO] 2025-05-18 02:31:13 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 02:32:13 [INFO] 2025-05-18 02:32:13 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 02:48:54 [INFO] 2025-05-18 02:48:54 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 02:49:54 [INFO] 2025-05-18 02:49:54 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 02:50:54 [INFO] 2025-05-18 02:50:54 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 02:51:54 [INFO] 2025-05-18 02:51:54 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 02:52:54 [INFO] 2025-05-18 02:52:54 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/18 02:52:54 [INFO] 2025-05-18 02:52:54 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 03:04:30 [INFO] 2025-05-18 03:04:30 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 03:05:30 [INFO] 2025-05-18 03:05:30 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 03:06:30 [INFO] 2025-05-18 03:06:30 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 03:07:30 [INFO] 2025-05-18 03:07:30 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 03:08:30 [INFO] 2025-05-18 03:08:30 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 03:26:58 [INFO] 2025-05-18 03:26:58 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 03:27:58 [INFO] 2025-05-18 03:27:58 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 03:28:58 [INFO] 2025-05-18 03:28:58 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 03:29:58 [INFO] 2025-05-18 03:29:58 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 03:30:58 [INFO] 2025-05-18 03:30:58 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 03:47:34 [INFO] 2025-05-18 03:47:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 03:48:34 [INFO] 2025-05-18 03:48:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 03:49:34 [INFO] 2025-05-18 03:49:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 03:50:34 [INFO] 2025-05-18 03:50:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 03:51:34 [INFO] 2025-05-18 03:51:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 04:05:35 [INFO] 2025-05-18 04:05:35 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 04:06:35 [INFO] 2025-05-18 04:06:35 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 04:07:35 [INFO] 2025-05-18 04:07:35 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 04:08:35 [INFO] 2025-05-18 04:08:35 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 04:09:35 [INFO] 2025-05-18 04:09:35 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 04:10:35 [INFO] 2025-05-18 04:10:35 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 04:27:24 [INFO] 2025-05-18 04:27:24 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 04:28:24 [INFO] 2025-05-18 04:28:24 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 04:29:24 [INFO] 2025-05-18 04:29:24 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 04:30:24 [INFO] 2025-05-18 04:30:24 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 04:31:24 [INFO] 2025-05-18 04:31:24 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 04:48:01 [INFO] 2025-05-18 04:48:01 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 04:49:01 [INFO] 2025-05-18 04:49:01 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 04:50:01 [INFO] 2025-05-18 04:50:01 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 04:51:01 [INFO] 2025-05-18 04:51:01 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/18 04:51:01 [INFO] 2025-05-18 04:51:01 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 04:52:01 [INFO] 2025-05-18 04:52:01 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 05:06:54 [INFO] 2025-05-18 05:06:54 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 05:07:54 [INFO] 2025-05-18 05:07:54 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 05:08:54 [INFO] 2025-05-18 05:08:54 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 05:09:54 [INFO] 2025-05-18 05:09:54 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 05:10:54 [INFO] 2025-05-18 05:10:54 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 05:16:36 [INFO] 2025-05-18 05:16:36 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 05:17:36 [INFO] 2025-05-18 05:17:36 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 05:18:36 [INFO] 2025-05-18 05:18:36 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 05:19:36 [INFO] 2025-05-18 05:19:36 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 05:20:36 [INFO] 2025-05-18 05:20:36 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 05:21:36 [INFO] 2025-05-18 05:21:36 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 05:39:17 [INFO] 2025-05-18 05:39:17 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 05:40:17 [INFO] 2025-05-18 05:40:17 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 05:41:17 [INFO] 2025-05-18 05:41:17 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 05:42:17 [INFO] 2025-05-18 05:42:17 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 05:43:17 [INFO] 2025-05-18 05:43:17 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:00:13 [INFO] 2025-05-18 06:00:13 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:01:13 [INFO] 2025-05-18 06:01:13 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:02:13 [INFO] 2025-05-18 06:02:13 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:03:13 [INFO] 2025-05-18 06:03:13 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:04:13 [INFO] 2025-05-18 06:04:13 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:07:38 [INFO] 2025-05-18 06:07:38 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:15:34 [INFO] 2025-05-18 06:15:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:16:34 [INFO] 2025-05-18 06:16:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:17:34 [INFO] 2025-05-18 06:17:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:18:34 [INFO] 2025-05-18 06:18:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:19:34 [INFO] 2025-05-18 06:19:34 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:22:43 [INFO] 2025-05-18 06:22:43 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:39:26 [INFO] 2025-05-18 06:39:26 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/18 06:39:26 [INFO] 2025-05-18 06:39:26 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:40:26 [INFO] 2025-05-18 06:40:26 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:41:26 [INFO] 2025-05-18 06:41:26 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:42:26 [INFO] 2025-05-18 06:42:26 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:43:26 [INFO] 2025-05-18 06:43:26 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:44:26 [INFO] 2025-05-18 06:44:26 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:45:26 [INFO] 2025-05-18 06:45:26 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:46:26 [INFO] 2025-05-18 06:46:26 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:47:26 [INFO] 2025-05-18 06:47:26 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:48:26 [INFO] 2025-05-18 06:48:26 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:49:26 [INFO] 2025-05-18 06:49:26 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:50:26 [INFO] 2025-05-18 06:50:26 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:51:26 [INFO] 2025-05-18 06:51:26 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:52:26 [INFO] 2025-05-18 06:52:26 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:53:26 [INFO] 2025-05-18 06:53:26 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:54:27 [INFO] 2025-05-18 06:54:27 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:54:47 [INFO] 2025-05-18 06:54:47 CDT logger.go:122 - HTTP GET /csrf-token from 127.0.0.1
+2025/05/18 06:54:47 [INFO] 2025-05-18 06:54:47 CDT main.go:190 - GET /api/csrf-token took 2.471881ms
+2025/05/18 06:55:27 [INFO] 2025-05-18 06:55:27 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:56:27 [INFO] 2025-05-18 06:56:27 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:57:27 [INFO] 2025-05-18 06:57:27 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:58:27 [INFO] 2025-05-18 06:58:27 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 06:59:27 [INFO] 2025-05-18 06:59:27 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 07:00:27 [INFO] 2025-05-18 07:00:27 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 07:01:27 [INFO] 2025-05-18 07:01:27 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 07:02:27 [INFO] 2025-05-18 07:02:27 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 07:03:27 [INFO] 2025-05-18 07:03:27 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 07:04:27 [INFO] 2025-05-18 07:04:27 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 07:05:27 [INFO] 2025-05-18 07:05:27 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 07:06:27 [INFO] 2025-05-18 07:06:27 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 07:07:27 [INFO] 2025-05-18 07:07:27 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 07:08:27 [INFO] 2025-05-18 07:08:27 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 07:09:27 [INFO] 2025-05-18 07:09:27 CDT security.go:99 - CSRF token cleanup ran (hourly log)
+2025/05/18 07:09:27 [INFO] 2025-05-18 07:09:27 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 07:10:27 [INFO] 2025-05-18 07:10:27 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 07:11:27 [INFO] 2025-05-18 07:11:27 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 07:12:27 [INFO] 2025-05-18 07:12:27 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 07:13:27 [INFO] 2025-05-18 07:13:27 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 07:14:27 [INFO] 2025-05-18 07:14:27 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 07:15:27 [INFO] 2025-05-18 07:15:27 CDT membership_aggregator.go:202 - Aggregated 1 event files: booster/data/events/2025/event_spring-festival_2025.json
+2025/05/18 07:16:16 [INFO] 2025-05-18 07:16:16 CDT main.go:144 - Shutdown signal received
+2025/05/18 07:16:16 [INFO] 2025-05-18 07:16:16 CDT main.go:154 - Server shut down gracefully
+2025/05/18 07:16:16 [INFO] 2025-05-18 07:16:16 CDT main.go:158 - Shutdown signal received
+2025/05/18 07:16:16 [INFO] 2025-05-18 07:16:16 CDT main.go:159 - Waiting for active connections to finish...
+2025/05/18 07:16:16 [INFO] 2025-05-18 07:16:16 CDT main.go:161 - All connections closed. Total requests handled: 6
+2025/05/18 07:16:16 [INFO] 2025-05-18 07:16:16 CDT main.go:162 - Server shut down gracefully
